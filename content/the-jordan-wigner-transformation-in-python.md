@@ -16,14 +16,14 @@ as an IPython notebook.*
 Hamiltonians on one dimensional chains provide a good sanity check when
 trying out new numerical methods. The Jordan-Wigner transform is an easy
 way to obtain the eigenvalues of systems of fermions. For an
-annihiliation operator <span class="math">\\(a\_j\\)</span>, the
-transform is defined as <span class="math">\\(a\_j = -
-(\\otimes\_{k=1}\^{j-1} \\sigma\_z)\\otimes \\sigma\_j\\)</span>, where
-<span class="math">\\(\\sigma\_z\\)</span> is the Pauli operator along
-the <span class="math">\\(z\\)</span> axis, and <span
-class="math">\\(\\sigma\_j\\)</span> is the operator <span
-class="math">\\(|0\\rangle\\langle 1|\\)</span> acting on site <span
-class="math">\\(j\\)</span>.
+annihiliation operator <span class="math">\(a_j\)</span>, the
+transform is defined as <span class="math">\(a_j = -
+(\otimes_{k=1}^{j-1} \sigma_z)\otimes \sigma_j\)</span>, where
+<span class="math">\(\sigma_z\)</span> is the Pauli operator along
+the <span class="math">\(z\)</span> axis, and <span
+class="math">\(\sigma_j\)</span> is the operator <span
+class="math">\(|0\rangle\langle 1|\)</span> acting on site <span
+class="math">\(j\)</span>.
 
 The series of Kronecker products would be an ideal application of a nest
 function, but Python does not have such a function built in. Instead, we
@@ -188,13 +188,13 @@ In [3]:
 Next we define a Hamiltonian of interest, namely spinless fermions on an
 open chain:
 
-<span class="math">\\(H=\\sum\_{\<rs\>}\\left(c\_{r}\^{\\dagger}
-c\_{s}+c\_{s}\^{\\dagger} c\_{r}-\\gamma(c\_{r}\^{\\dagger}
-c\_{s}\^{\\dagger}+c\_{s}c\_{r}
-)\\right)-2\\lambda\\sum\_{r}c\_{r}\^{\\dagger}c\_{r},\\)</span>
+<span class="math">\(H=\sum_{\<rs\>}\left(c_{r}^{\dagger}
+c_{s}+c_{s}^{\dagger} c_{r}-\gamma(c_{r}^{\dagger}
+c_{s}^{\dagger}+c_{s}c_{r}
+)\right)-2\lambda\sum_{r}c_{r}^{\dagger}c_{r},\)</span>
 
-where <span class="math">\\(r\\)</span> and <span
-class="math">\\(s\\)</span> indicate neighbors on the chain. The Python
+where <span class="math">\(r\)</span> and <span
+class="math">\(s\)</span> indicate neighbors on the chain. The Python
 definition of this Hamiltonian is
 
 </div>

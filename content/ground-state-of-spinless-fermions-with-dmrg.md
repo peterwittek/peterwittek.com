@@ -9,22 +9,20 @@ We want to find the ground state energy of a free spinless fermionic
 system, described by the following Hamiltonian ([Corboz et al.,
 2009](#corboz2009simulation)):
 
-\\[ H\_{\\mathrm{free}}=\\sum\_{}\\left[c\_{r}\^{\\dagger}
-c\_{s}+c\_{s}\^{\\dagger} c\_{r}-\\gamma(c\_{r}\^{\\dagger}
-c\_{s}\^{\\dagger}+c\_{s}c\_{r}
-)\\right]-2\\lambda\\sum\_{r}c\_{r}\^{\\dagger}c\_{r}, \\]  
-where \<rs\> goes through nearest neighbour pairs in a two-dimensional
+$$H_{\mathrm{free}}=\sum_{}\left[c_{r}^{\dagger}
+c_{s}+c_{s}^{\dagger} c_{r}-\gamma(c_{r}^{\dagger}
+c_{s}^{\dagger}+c_{s}c_{r})\right]-2\lambda\sum_{r}c_{r}^{\dagger}c_{r},$$
+where $<rs>$ goes through nearest neighbour pairs in a two-dimensional
 lattice. The fermionic operators are subject to the following
 constraints:  
-\\[\\{c\_r, c\_s\^\\dagger\\}=\\delta\_{rs}I\_r,\\]
+$$\{c_r, c_s^\dagger\}=\delta_{rs}I_r,$$
 
-\\[\\{c\_r\^\\dagger, c\_s\^\\dagger\\}=0,\\]
+$$\{c_r^\dagger, c_s^\dagger\}=0,$$
 
-\\[\\{c\_r, c\_s\\}=0.\\]
+$$\{c_r, c_s\}=0.$$
 
 To calculate the ground state energy, we use the density matrix
-renormalization group technique, which is included in ALPS ([Bauer et
-al., 2011](#bauer2011alps)). The documentation of the package is sparse,
+renormalization group technique, which is included in ALPS ([Bauer et al., 2011](#bauer2011alps)). The documentation of the package is sparse,
 and it is often hard to figure out how to do even such a simple task.
 Error messages from the console are not particularly helpful either.
 
@@ -32,11 +30,11 @@ Some templates for Hamiltonians are included in the /usr/xml/models.xml
 file. There is a model for spinless fermions, but with fourth-order
 terms:
 
-\\[ H\_{\\mathrm{free}}=\\sum\_{}\\left(-t[c\_{r}\^{\\dagger}
-c\_{s}+c\_{s}\^{\\dagger}c\_r]+V n\_i
-n\_j\\right)-\\mu\\sum\_{r}c\_{r}\^{\\dagger}c\_{r},\\]  
-where \$\$t\$\$, \$\$V\$\$, and \$\$\\mu\$\$ are parameters, and
-\$\$n\_i\$\$ is the number operator. Setting \$\$\\gamma\$\$ to zero in
+$$H_{\mathrm{free}}=\sum_{}\left(-t[c_{r}^{\dagger}
+c_{s}+c_{s}^{\dagger}c_r]+V n_i
+n_j\right)-\mu\sum_{r}c_{r}^{\dagger}c_{r},$$  
+where $t$, $V$, and $\mu$ are parameters, and
+$n_i$ is the number operator. Setting $\gamma$ to zero in
 the original Hamiltonian, we can calculate the ground state. The
 following Python code generates the problem and prints the ground state
 energy and the truncation error:

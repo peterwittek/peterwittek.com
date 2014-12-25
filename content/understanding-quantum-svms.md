@@ -27,175 +27,163 @@ Least Squares Support Vector Machines
 
 A support vector machine (SVM) is a supervised learning algorithm which
 learns a given independent and identically distributed training example
-set  
-\\[\\{(\\mathbf{x}\_1,y\_1),\\ldots,(\\mathbf{x}\_M,y\_M)\\},\\]  
-where \$\$\\mathbf{x}\_i\\in \\mathbf{R}\^N\$\$ are the data points,
-and \$\$y\\in\\{-1,1\\}\$\$ are binary classes to which a data point
-belongs. Here \$\$N\$\$ is the number of features that represent a
-single data instance, and \$\$M\$\$ is the number of training instances.
+set $\{(\mathbf{x}_1,y_1),\ldots,(\mathbf{x}_M,y_M)\}$, where $\mathbf{x}_i\in \mathbf{R}^N$ are the data points,
+and $y\in\{-1,1\}$ are binary classes to which a data point
+belongs. Here $N$ is the number of features that represent a
+single data instance, and $M$ is the number of training instances.
 
 In its simplest, linear form, a support vector machine is a hyperplane
 that separates a set of positive examples from a set of negative
 examples with maximum margin. The formula for the output of a linear
-support vector machine is
-\$\$y\_i:=\\textrm{sgn}(\\mathbf{u}\^T\\mathbf{x}\_i+b)\$\$, where
-\$\$\\mathbf{x}\_i\$\$ is the \$\$i\$\$th training example, \$\$y\_i\$\$
-is the output of the support vector machine for the \$\$i\$\$th training
-example, \$\$\\mathbf{u}\$\$ is the normal vector to the hyperplane, and
-parameter \$\$b\$\$ helps determine the offset of the hyperplane the
+support vector machine is $y_i:=\textrm{sgn}(\mathbf{u}^T\mathbf{x}_i+b)$, where
+$\mathbf{x}_i$ is the $i$th training example, $y_i$
+is the output of the support vector machine for the $i$th training
+example, $\mathbf{u}$ is the normal vector to the hyperplane, and
+parameter $b$ helps determine the offset of the hyperplane the
 origin. The margin is defined by the distance of the hyperplane to the
 nearest of the positive and negative examples. Support vectors are the
 training data that lie on the margin.
 
 SVMs allow a nonlinear kernel mapping that maps the training examples
 from an input space into a feature space. This is important for problems
-that are not linearly separable. SVMs with a \$\$\\phi\$\$ embedding
+that are not linearly separable. SVMs with a $\phi$ embedding
 function require the solution of the following optimization problem:  
-\\[\\text{Minimize} \\quad
-\\frac{1}{2}\\mathbf{u}\^T\\mathbf{u}+C\\sum\_{i=1}\^M \\xi\_i\\]  
+$$\text{Minimize} \quad
+\frac{1}{2}\mathbf{u}^T\mathbf{u}+C\sum_{i=1}^M \xi_i$$
 subject to  
-\\[y\_i(\\mathbf{u}\^T\\phi(\\mathbf{x}\_i)+b)\\geq 1-\\xi\_i, \\quad
-\\xi\_i\\geq 0, \\quad i=1,\\ldots,N.\\]  
-Here \$\$\\xi\_i\$\$ stands for the classification error: this
+$$y_i(\mathbf{u}^T\phi(\mathbf{x}_i)+b)\geq 1-\xi_i, \quad
+\xi_i\geq 0, \quad i=1,\ldots,N.$$
+
+Here $\xi_i$ stands for the classification error: this
 formulation is a soft-margin classifier, allowing classes to mingle. The
-\$\$C\$\$ cost parameter acts as a form of regularization: if the cost
+$C$ cost parameter acts as a form of regularization: if the cost
 of misclassification is higher, a more accurate model is sought with
 increased complexity, i.e., with higher number of support vectors. The
 decision function becomes
-\$\$f(\\mathbf{x})=\\text{sgn}(\\mathbf{u}\^T\\phi(\\mathbf{x})+b).\$\$
+$$f(\mathbf{x})=\text{sgn}(\mathbf{u}^T\phi(\mathbf{x})+b).$$
 
 In most practical applications, we solve the dual formulation of the
 optimization problem. To obtain the dual problem, we introduce
 Lagrangian multipliers to accommodate the constraints in the
-minimalization problem. The partial derivatives in \$\$\\mathbf{u}\$\$,
-\$\$b\$\$, and \$\$\\xi\$\$ define a saddle point of Lagrangian, with
+minimalization problem. The partial derivatives in $\mathbf{u}$,
+$b$, and $\xi$ define a saddle point of Lagrangian, with
 which the dual formulation becomes the following quadratic programming
 problem:
 
-\\[\\text{Maximize}\\quad
-\\sum\_{i=1}\^M\\alpha\_i-\\frac{1}{2}\\sum\_{i=1}\^M\\sum\_{j=1}\^M\\alpha\_i
-y\_i \\alpha\_j y\_j K(\\mathbf{x}\_i,\\mathbf{x}\_j)\\]  
+$$\text{Maximize}\quad
+\sum_{i=1}^M\alpha_i-\frac{1}{2}\sum_{i=1}^M\sum_{j=1}^M\alpha_i
+y_i \alpha_j y_j K(\mathbf{x}_i,\mathbf{x}_j)$$
 subject to  
-\\[\\sum\_{i=1}\^M \\alpha\_i y\_i=0, \\quad \\alpha\_i\\in [0,C],
-\\quad i=1,\\ldots, M.\\]
+$$\sum_{i=1}^M \alpha_i y_i=0, \quad \alpha_i\in [0,C],
+\quad i=1,\ldots, M.$$
 
-The function \$\$K(\\mathbf{x}\_i,\\mathbf{x}\_j)\$\$ is the kernel
+The function $K(\mathbf{x}_i,\mathbf{x}_j)$ is the kernel
 function, the dot product of the embedding space. The kernel function
 bypasses calculating the embedding itself, we use it directly to find
 the optimum and subsequently to classify new instances. The decision
 function for a binary decision problem becomes
-\$\$f(\\mathbf{x})=\\text{sgn}\\left(\\sum\_{i=1}\^M \\alpha\_i y\_i
-K(\\mathbf{x}\_i,\\mathbf{x})+b\\right).\$\$ On classical hardware, the
-quadratic problem is solved by sequential minimum optimization.
+$$f(\mathbf{x})=\text{sgn}\left(\sum_{i=1}^M \alpha_i y_i
+K(\mathbf{x}_i,\mathbf{x})+b\right).$$ 
+On classical hardware, the quadratic problem is solved by sequential minimum optimization.
 
 Least squares SVMs modify the goal function of the primal problem by
-using the \$\$l\_2\$\$ norm in the regularization term ([Suykens and Vandewalle, 1999](#suykens1999least)):
+using the $l_2$ norm in the regularization term ([Suykens and Vandewalle, 1999](#suykens1999least)):
 
-\\[\\text{Minimize} \\quad
-\\frac{1}{2}\\mathbf{u}\^T\\mathbf{u}+\\frac{\\gamma}{2}\\sum\_{i=1}\^M
-e\_i\^2\\]  
+$$\text{Minimize} \quad
+\frac{1}{2}\mathbf{u}^T\mathbf{u}+\frac{\gamma}{2}\sum_{i=1}^M
+e_i^2$$
 subject to the *equality* constraints  
-\\[y\_i(\\mathbf{u}\^T\\phi(\\mathbf{x}\_i)+b)=1-e\_i,\\quad
-i=1,\\ldots, N.\\]  
-The parameter \$\$\\gamma\$\$ plays the same role as the cost parameter
-\$\$C.\$\$ Seeking the saddle point of the corresponding Langrangian, we
+$$y_i(\mathbf{u}^T\phi(\mathbf{x}_i)+b)=1-e_i,\quad
+i=1,\ldots, N.$$
+The parameter $\gamma$ plays the same role as the cost parameter
+$C$. Seeking the saddle point of the corresponding Langrangian, we
 obtain the following least-squares problem:  
-\\[\\left(\\begin{array}{cc}0 & 1\^T \\\\ 1 & K+\\gamma\^{-1}I
-\\end{array}\\right)\\left(\\begin{array}{c} b \\\\ \\mathbf{\\alpha}
-\\end{array}\\right) = \\left(\\begin{array}{c} 0 \\\\ \\mathbf{y}
-\\end{array}\\right)\\qquad (1)\\],  
-where \$\$K\_{ij}=K(\\mathbf{x\_i}, \\mathbf{x\_j}).\$\$ The least
-squares SVM trades off zero \$\$\\alpha\_i\$\$-s for nonzero error terms
-\$\$e\_i\$\$-s, leading to increased model complexity.
+$$\left(\begin{array}{cc}0 & 1^T \\ 1 & K+\gamma^{-1}I
+\end{array}\right)\left(\begin{array}{c} b \\ \mathbf{\alpha}
+\end{array}\right) = \left(\begin{array}{c} 0 \\ \mathbf{y}
+\end{array}\right)\qquad (1)$$,  
+where $K_{ij}=K(\mathbf{x_i}, \mathbf{x_j}).$ The least
+squares SVM trades off zero $\alpha_i$-s for nonzero error terms
+$e_i$-s, leading to increased model complexity.
 
 Given a linear or polynomial kernel, the calculation of entry in the
-kernel matrix takes \$\$O(N)\$\$ time, thus calculating the whole kernel
-matrix has \$\$O(M\^2 N)\$\$ time complexity. Solving the quadratic dual
-problem or the least squares formulation has \$\$O(M\^3)\$\$ complexity.
+kernel matrix takes $O(N)$ time, thus calculating the whole kernel
+matrix has $O(M^2 N)$ time complexity. Solving the quadratic dual
+problem or the least squares formulation has $O(M^3)$ complexity.
 Combining the two steps, the classical SVM algorithm has at least
-\$\$O(M\^2(M+N))\$\$ complexity. The quantum formulation yields an
+$O(M^2(M+N))$ complexity. The quantum formulation yields an
 exponential speedup in these two steps, leading to an overall complexity
-of \$\$O(\\log(MN)).\$\$
+of $O(\log(MN))$.
 
 Calculating the Kernel Matrix
 =============================
 
 In the quantum algorithm, the training instances are presented as
-quantum states \$\$|\\mathbf{x}\_i \\rangle\$\$. We do not require the
+quantum states $|\mathbf{x}_i \rangle$. We do not require the
 training instances to be normalized, but the normalization must be given
 separately. To reconstruct a state from quantum random access memory
 (QRAM, [Giovannetti et al., 2008](#giovannetti2008quantum)), we need to
-query the QRAM \$\$O(\\log N)\$\$ times.
+query the QRAM $O(\log N)$ times.
 
 To evaluate the dot product of two training instances, we need to do the
 following ([Lloyd et al., 2013](#lloyd2013quantum)):
 
--   Generate two states, \$\$|\\psi\\rangle\$\$ and
-    \$\$|\\phi\\rangle\$\$, with an ancilla variable;
--   Estimate the parameter
-    \$\$Z=|\\mathbf{x}\_i|\^2+|\\mathbf{x}\_j|\^2\$\$ -- the sum of the
-    squared norms of the two instances;
--   Perform a projective measurement on the ancilla alone, comparing the
-    two states.
+* Generate two states, $|\psi\rangle$ and $|\phi\rangle$, with an ancilla variable;
+* Estimate the parameter $Z=|\mathbf{x}_i|^2+|\mathbf{x}_j|^2$ -- the sum of the squared norms of the two instances;
+* Perform a projective measurement on the ancilla alone, comparing the two states.
 
-\$\$Z\$\$ times the probability of the success of the measurement yields
+$Z$ times the probability of the success of the measurement yields
 the square of the Euclidean distance between the two training instances:
-\$\$|\\mathbf{x}\_i-\\mathbf{x}\_j|\^2\$\$. We calculate the dot product
-in the linear kernel as
-\$\$\\mathbf{x}\_i\^T\\mathbf{x}\_j=\\frac{Z-|\\mathbf{x}\_i-\\mathbf{x}\_j|\^2}{2}\$\$.
+$|\mathbf{x}_i-\mathbf{x}_j|^2$. We calculate the dot product
+in the linear kernel as $\mathbf{x}_i^T\mathbf{x}_j=\frac{Z-|\mathbf{x}_i-\mathbf{x}_j|^2}{2}$.
 
-The state
-\$\$|\\psi\\rangle=\\frac{1}{\\sqrt{2}}(|0\\rangle|\\mathbf{x}\_i\\rangle +
-|1\\rangle|\\mathbf{x}\_j\\rangle)\$\$ is easy to construct by querying
+The state $|\psi\rangle=\frac{1}{\sqrt{2}}(|0\rangle|\mathbf{x}_i\rangle +
+|1\rangle|\mathbf{x}_j\rangle)$ is easy to construct by querying
 the QRAM. We estimate the other state,
-\$\$|\\phi\\rangle=\\frac{1}{Z}(|\\mathbf{x}\_i| |0\\rangle -
-|\\mathbf{x}\_j| |1\\rangle)\$\$, and the parameter, \$\$Z\$\$,
-together. We evolve the state
-\$\$\\frac{1}{\\sqrt{2}}(|0\\rangle-|1\\rangle)\\otimes{}|0\\rangle\$\$
-with the Hamiltonian \$\$H=(|\\mathbf{x}\_i|
-|0\\rangle\\langle{}0|+|\\mathbf{x}\_j|
-|1\\rangle\\langle{}1|)\\otimes\\sigma\_x.\$\$ The resulting state is  
-\\[\\frac{1}{\\sqrt{2}}(\\cos(|\\mathbf{x}\_i|t)|0\\rangle -
-\\cos(|\\mathbf{x}\_j|t)|1\\rangle)\\otimes|0\\rangle-\\frac{i}{\\sqrt{2}}(\\sin(|\\mathbf{x}\_i|t)|0\\rangle -
-\\sin(|\\mathbf{x}\_j|t)|1\\rangle)\\otimes|1\\rangle.\\]
+$|\phi\rangle=\frac{1}{Z}(|\mathbf{x}_i| |0\rangle -
+|\mathbf{x}_j| |1\rangle)$, and the parameter, $Z$,
+together. We evolve the state $\frac{1}{\sqrt{2}}(|0\rangle-|1\rangle)\otimes{}|0\rangle$ with the Hamiltonian $H=(|\mathbf{x}_i||0\rangle\langle{}0|+|\mathbf{x}_j|
+|1\rangle\langle{}1|)\otimes\sigma_x$. The resulting state is  
+$$\frac{1}{\sqrt{2}}(\cos(|\mathbf{x}_i|t)|0\rangle -
+\cos(|\mathbf{x}_j|t)|1\rangle)\otimes|0\rangle-\frac{i}{\sqrt{2}}(\sin(|\mathbf{x}_i|t)|0\rangle -
+\sin(|\mathbf{x}_j|t)|1\rangle)\otimes|1\rangle.$$
 
-By an appropriate choice of \$\$t\$\$ (\$\$|\\mathbf{x}\_i|t\$\$,
-\$\$|\\mathbf{x}\_j|t\\ll1\$\$), and by measuring the ancilla bit, we
-get the state \$\$\\phi\$\$ with probability
-\$\$\\frac{1}{2}Z\^2t\^2\$\$, which in turns allows the estimation of
-\$\$Z\$\$. If the desired accuracy of the estimation is
-\$\$\\epsilon\$\$, then the complexity of constructing
-\$\$|\\phi\\rangle\$\$ and \$\$Z\$\$ is \$\$O(\\epsilon\^{-1}).\$\$
+By an appropriate choice of $t$ ($|\mathbf{x}_i|t$,
+$|\mathbf{x}_j|t\ll1$), and by measuring the ancilla bit, we
+get the state $\phi$ with probability
+$\frac{1}{2}Z^2t^2$, which in turns allows the estimation of
+$Z$. If the desired accuracy of the estimation is
+$ \epsilon$ , then the complexity of constructing
+$ |\phi\rangle$ and $Z$ is $O(\epsilon^{-1}).$ 
 
-If we have \$\$|\\psi\\rangle\$\$ and \$\$|\\phi\\rangle\$\$, we perform
+If we have $|\psi\rangle$ and $|\phi\rangle$ , we perform
 a swap test on the ancilla alone. A swap test is a sequence of a Fredkin
 gate (CSWAP gate) and an Hadamard gate which checks the equivalence of
-two states \$\$|f\\rangle\$\$ and \$\$|f'\\rangle\$\$. With an ancilla
-state \$\$|a\\rangle\$\$, the schematic diagram is as follows:
+two states $|f\rangle$ and $|f'\rangle$ . With an ancilla
+state $|a\rangle$ , the schematic diagram is as follows:
 
-[caption id="attachment\_782" align="aligncenter" width="294"]![A swap
+[caption id="attachment_782" align="aligncenter" width="294"]![A swap
 test](http://peterwittek.com/wp-content/uploads/2013/08/swap_test.png) A
 swap test[/caption]
 
-The first transformation swaps \$\$|f\\rangle\$\$ and
-\$\$|f'\\rangle\$\$ if the ancilla bit is \$\$|1\\rangle\$\$. The
+The first transformation swaps $|f\rangle$ and
+$ |f'\rangle$ if the ancilla bit is $|1\rangle$ . The
 Hadamard transformation is a one-qubit rotation mapping the qubit states
-\$\$|0\\rangle\$\$ and \$\$|1\\rangle\$\$ to two superposition states.
-With [basic
-algebraic](https://en.wikipedia.org/wiki/Quantum_digital_signature#Public_Key_should_be_the_same_for_every_recipient_.28Swap_Test.29)
-manipulation, we conclude that if \$\$|f\\rangle\$\$ and
-\$\$|f'\\rangle\$\$ are equal, then the measurement in the end will
+$ |0\rangle$ and $|1\rangle$ to two superposition states.
+With [basic algebraic](https://en.wikipedia.org/wiki/Quantum_digital_signature#Public_Key_should_be_the_same_for_every_recipient_.28Swap_Test.29)
+manipulation, we conclude that if $|f\rangle$ and
+$ |f'\rangle$ are equal, then the measurement in the end will
 always give us zero.
 
 With the QRAM accesses and the estimations, the overall complexity of
-evaluating a single dot product \$\$\\mathbf{x}\_i\^T\\mathbf{x}\_j\$\$
-is \$\$O(\\epsilon\^{-1}\\log N).\$\$
+evaluating a single dot product $\mathbf{x}_i^T\mathbf{x}_j$ 
+is $O(\epsilon^{-1}\log N).$ 
 
 Obtaining the Optimum of the Least Squares Dual Formulation
 ===========================================================
 
 If you only calculate the kernel matrix by quantum means, you have a
-complexity of \$\$O(M\^2 (M + \\epsilon\^{-1}\\log N))\$\$. There is
+complexity of $O(M^2 (M + \epsilon^{-1}\log N))$ . There is
 more to gain, exponential speedup in the number of training examples is
 also possible.
 
@@ -206,50 +194,50 @@ The algorithm hinges on three ideas:
 -   Non-sparse density matrices reveal the eigenstructure exponentially
     faster than in classical algorithms ([Lloyd et al.,     2009](#lloyd2013quantum2));
 
-To solve the linear equation (1), we need to invert
-\$\$F=\\left(\\begin{array}{cc}0 & 1\^T \\\\ 1 & K+\\gamma\^{-1}I
-\\end{array}\\right)\$\$. The matrix inversion algorithm needs to
-simulate the matrix exponential of \$\$F\$\$. We split \$\$F\$\$ as
-\$\$F=J+K\_{\\gamma}\$\$, where \$\$J=\\left(\\begin{array}{cc} 0 &
-1\^T\\\\1 & 0\\end{array}\\right)\$\$ -- the adjacency matrix of a star
-graph, and \$\$K\_{\\gamma}=\\left(\\begin{array}{cc} 0 & 0\\\\0 &
-K+\\gamma\^{-1}I\\end{array}\\right).\$\$ We normalize \$\$F\$\$ with
-its trace:
-\$\$\\hat{F}=\\frac{F}{\\textrm{tr}F}=\\frac{F}{\\textrm{tr}K\_{\\gamma}}.\$\$
-By using the [Lie product formula](https://en.wikipedia.org/wiki/Lie_product_formula "Lie product formula"),
-or, more precisely, the[Baker-Campbell-Hausdorff formula](https://en.wikipedia.org/wiki/Baker%E2%80%93Campbell%E2%80%93Hausdorff_formula "Baker-Campbell-Hausdorff formula"),
+To solve the linear equation (1), we need to invert 
+$$F=\left(\begin{array}{cc}0 & 1^T \\ 1 & K+\gamma^{-1}I
+\end{array}\right).$$
+The matrix inversion algorithm needs to simulate the matrix exponential of $F$. We split $F$ as $ F=J+K_{\gamma}$, where 
+$$J=\left(\begin{array}{cc} 0 &
+1^T\\1 & 0\end{array}\right)$$
+is the adjacency matrix of a star graph, and 
+$$K_{\gamma}=\left(\begin{array}{cc} 0 & 0\\0 &
+K+\gamma^{-1}I\end{array}\right).$$ 
+We normalize $F$ with its trace:
+$\hat{F}=\frac{F}{\textrm{tr}F}=\frac{F}{\textrm{tr}K_{\gamma}}$.
+By using the [Lie product formula](https://en.wikipedia.org/wiki/Lie_product_formula "Lie product formula"), or, more precisely, the [Baker-Campbell-Hausdorff formula](https://en.wikipedia.org/wiki/Baker%E2%80%93Campbell%E2%80%93Hausdorff_formula "Baker-Campbell-Hausdorff formula"),
 we get the exponential by  
+$$e^{-i\hat{F}\Delta{}t}=e^{\frac{-iJ\Delta{}t}{\textrm{tr}K_{\gamma}}}e^{\frac{-i\gamma^{-1}I\Delta{}t}{\textrm{tr}K_{\gamma}}}e^{\frac{-iK\Delta{}t}{\textrm{tr}K_{\gamma}}}+O(\Delta{}t^2).\qquad
+(2)$$
 
-\\[e\^{-i\\hat{F}\\Delta{}t}=e\^{\\frac{-iJ\\Delta{}t}{\\textrm{tr}K\_{\\gamma}}}e\^{\\frac{-i\\gamma\^{-1}I\\Delta{}t}{\\textrm{tr}K\_{\\gamma}}}e\^{\\frac{-iK\\Delta{}t}{\\textrm{tr}K\_{\\gamma}}}+O(\\Delta{}t\^2).\\qquad
-(2)\\]
-
-To obtain the exponentials, the sparse matrices \$\$J\$\$ and the
+To obtain the exponentials, the sparse matrices $J$ and the
 constant multiply of the identity matrix are easy to simulate ([Berry et al., 2007](#berry2007efficient)).
 
-On the other hand, the kernel matrix \$\$K\$\$ is not sparse. This is
+On the other hand, the kernel matrix $K$ is not sparse. This is
 where quantum self analysis helps: given multiple copies of a density
-matrix \$\$\\rho\$\$, it is possible to perform \$\$e\^{-i\\rho{}t}\$\$
+matrix $\rho$, it is possible to perform $e^{-i\rho{}t}$
 ([Lloyd et al., 2013](#lloyd2013quantum2)). It is self analysis because
 a state plays an active role in its measurement, by exponentiation it
 functions as a Hamiltonian. With the quantum calculation of the dot
 product and access to the QRAM, we obtain the normalized kernel matrix
-\$\$\\hat{K} =
-\\frac{K}{\\textrm{tr}K}=\\frac{1}{\\textrm{tr}K}\\sum\_{i,j=1}\^M\\langle{}\\mathbf{x}\_i|\\mathbf{x}\_j\\rangle|\\mathbf{x}\_i||\\mathbf{x}\_j||i\\rangle\\langle{}j|.\$\$
-\$\$\\hat{K}\$\$ is a normalized Hermitian matrix, which makes it a
+$$\hat{K} =
+\frac{K}{\textrm{tr}K}=\frac{1}{\textrm{tr}K}\sum_{i,j=1}^M\langle{}\mathbf{x}_i|\mathbf{x}_j\rangle|\mathbf{x}_i||\mathbf{x}_j||i\rangle\langle{}j|.$$
+
+$\hat{K}$ is a normalized Hermitian matrix, which makes it a
 prime candidate for quantum self analysis. The exponentiation is done in
-\$\$O(log N)\$\$ steps. We obtain \$\$e\^{-i\\hat{K}\\Delta{}t}\$\$ by
-\$\$e\^{-i\\mathcal{L}\_{\\hat{K}}\\Delta{}t}\\approx{}I-i\\Delta{}t[\\hat{K},.]+O(\\Delta{}t\^2),\$\$
-where \$\$\\mathcal{L}\_{\\hat{K}}=[K,.].\$\$
+$O(log N)$ steps. We obtain $e^{-i\hat{K}\Delta{}t}$ by
+$$e^{-i\mathcal{L}_{\hat{K}}\Delta{}t}\approx{}I-i\Delta{}t[\hat{K},.]+O(\Delta{}t^2),$$
+where $\mathcal{L}_{\hat{K}}=[K,.]$.
 
 We use (2) to perform quantum phase estimation to get the eigenvalues
-and eigenvectors. If the desired accuracy is \$\$\\epsilon\$\$, we need
-\$\$n=O(\\epsilon\^{-3})\$\$ copies of the state. Then we express the
-\$\$\\mathbf{y}\$\$ in (1) in the eigenbasis, and invert the eigenvalues
-to obtain the solution \$\$|b, \\mathbf{\\alpha}\\rangle\$\$ of the
+and eigenvectors. If the desired accuracy is $\epsilon$, we need
+$n=O(\epsilon^{-3})$ copies of the state. Then we express the
+$\mathbf{y}$ in (1) in the eigenbasis, and invert the eigenvalues
+to obtain the solution $|b, \mathbf{\alpha}\rangle$ of the
 linear equation ([Harrow et al., 2009](#harrow2009quantum)).
 
 With this inversion algorithm, the overall time complexity of training
-the support vector parameters is \$\$O(\\log(NM))\$\$.
+the support vector parameters is $O(\log(NM))$.
 
 Limitations and Open Questions
 ==============================
@@ -270,14 +258,14 @@ restriction is the linear or polynomial kernel. The other constraint is
 the matrix inversion, although the generic method extends to
 non-Hermitian matrices, so this problem is easier to sort out.
 
-\$\$O(\\log(MN))\$\$ states are required to perform classification,
+$O(\log(MN))$ states are required to perform classification,
 which is both good and bad. It is good because it compresses the kernel
 exponentially. It is bad because the trained model is not sparse. A
 pivotal point in the success of SVMs is [structural risk minimization](https://en.wikipedia.org/wiki/Structural_risk_minimization "Structural risk minimization"):
 the learned model should not overfit the data, otherwise its
 generalization performance will be poor. The quantum SVM massively
 overfits the data, every single data instance will become a support
-vector. None of the \$\$\\alpha\_i\$\$-s will be zero. It would be
+vector. None of the $\alpha_i$-s will be zero. It would be
 interesting to see how this translates to actual classification
 performance on real-world data sets.
 

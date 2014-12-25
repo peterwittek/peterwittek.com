@@ -31,9 +31,9 @@ result.*
 
 This is a crucial distinction that I was not aware of. So in the case of
 process tomography, we have an explicit, classical description of the
-estimated transformation \$\$\\hat{U}\$\$ that we can use on an
+estimated transformation $\hat{U}$ that we can use on an
 arbitrary number of states in the future. In classical learning, this is
-a pure case of induction: based on some finite \$\$N\$\$ training
+a pure case of induction: based on some finite $N$ training
 instances, we infer a function, which we deploy on other data instances
 not present in the training set.
 
@@ -44,18 +44,18 @@ strategy is that we perform an optimal POVM measurement, so we actually
 learn classical information about the unitary, but not as much as in the
 case of process tomography.
 
-In classical regression, we have \$\$N\$\$ training instances, each with
-a real-valued label: \$\$(\\mathbf{x}\_1, y\_1),\\ldots,
-(\\mathbf{x}\_N, y\_N)\$\$. In the quantum learning scenario, we have
-\$\$N\$\$ disposal of a black box. If we want to match this in the
-classical case, we would need the original function \$\$f\$\$ that
-generates the training instances: \$\$(\\mathbf{x}\_1,
-f(\\mathbf{x}\_1)),\\ldots, (\\mathbf{x}\_N, f(\\mathbf{x}\_N))\$\$. It
+In classical regression, we have $N$ training instances, each with
+a real-valued label: $\{(\mathbf{x}_1, y_1),\ldots,
+(\mathbf{x}_N, y_N)\}$. In the quantum learning scenario, we have
+$N$ disposal of a black box. If we want to match this in the
+classical case, we would need the original function $f$ that
+generates the training instances: $\{(\mathbf{x}_1,
+f(\mathbf{x}_1)),\ldots, (\mathbf{x}_N, f(\mathbf{x}_N))\}$. It
 would not make much difference to classical learning algorithms. In the
 quantum case, there is an optimal input state that reveals the most
 about the unitary in question (provided some symmetry, as pointed out by
 the referee). Furthermore, this optimal input state should be used in
-parallel, that is, applying the \$\$N\$\$-times tensor product of the
+parallel, that is, applying the $N$-times tensor product of the
 unitary on the state ([Bisio et al., 2010](#bisio2010optimal)).
 Apparently, this theoretical result may not translate well to an
 implementation: a sequential approach is more feasible. In this case,

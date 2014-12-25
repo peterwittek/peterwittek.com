@@ -29,25 +29,25 @@ polynomial optimization problem of noncommuting variables, which in turn
 is approximated by a hierarchy of semidefinite programming (SDP)
 relaxations [2]. The probabilities are described by projection operators
 over normalized states -- we label the projectors by <span
-class="math">\\(E\_i\\)</span>. They pairwise belong to measurements
-<span class="math">\\(M\_k\\)</span>, where <span
-class="math">\\(M\_1\\)</span> and <span class="math">\\(M\_2\\)</span>
-are on one site of the system, and <span class="math">\\(M\_3\\)</span>
-and <span class="math">\\(M\_4\\)</span> are on the other site. Hence,
-for instance, <span class="math">\\(E\_1, E\_2\\in M\_1\\)</span>, <span
-class="math">\\(E\_3, E\_4\\in M\_2\\)</span>, and so on. The
+class="math">\(E_i\)</span>. They pairwise belong to measurements
+<span class="math">\(M_k\)</span>, where <span
+class="math">\(M_1\)</span> and <span class="math">\(M_2\)</span>
+are on one site of the system, and <span class="math">\(M_3\)</span>
+and <span class="math">\(M_4\)</span> are on the other site. Hence,
+for instance, <span class="math">\(E_1, E_2\in M_1\)</span>, <span
+class="math">\(E_3, E_4\in M_2\)</span>, and so on. The
 optimization problem becomes
 
-\$\$\\max\_{E,\\phi} \\langle \\phi, \\sum\_{ij} c\_{ij} E\_i E\_j\\phi
-\\rangle\$\$
+$\max_{E,\phi} \langle \phi, \sum_{ij} c_{ij} E_i E_j\phi
+\rangle$
 
 subject to
 
-\$\$\\begin{split}\\|\\phi\\| & =1,\\\\ E\_i\^\\dagger & = E\_i & \\quad
-\\forall i,\\\\ E\_i E\_j & = \\delta\_{ij}E\_i & \\quad E\_i,E\_j \\in
-M\_k, \\forall k,\\\\ \\sum\_i E\_i & = 1 & \\quad \\forall M\_k,\\\  
-\\lbrack E\_i,E\_j\\rbrack & = 0 &\\quad \\forall E\_i \\in M\_1\\cup
-M\_2, E\_j\\in M\_3\\cup M\_4.\\end{split}\$\$
+$\begin{split}\|\phi\| & =1,\\ E_i^\dagger & = E_i & \quad
+\forall i,\\ E_i E_j & = \delta_{ij}E_i & \quad E_i,E_j \in
+M_k, \forall k,\\ \sum_i E_i & = 1 & \quad \forall M_k,\\  
+\lbrack E_i,E_j\rbrack & = 0 &\quad \forall E_i \in M_1\cup
+M_2, E_j\in M_3\cup M_4.\end{split}$
 
 We use the latest git version of
 [Ncpol2sdpa](http://peterwittek.github.io/ncpol2sdpa/) to translate the
@@ -102,7 +102,7 @@ In [1]:
 
 We cast the problem in the form of expectation values to get the
 familiar value of the maximum violation, <span
-class="math">\\(2\\sqrt{2}\\)</span>. This requires defining a helper
+class="math">\(2\sqrt{2}\)</span>. This requires defining a helper
 function to generate the expectation values given the projectors and the
 outcomes:
 
@@ -157,8 +157,8 @@ In [2]:
 
 <div class="text_cell_render border-box-sizing rendered_html">
 
-The total number of variables is 8 (<span class="math">\\(2\^2
-2\^2\\)</span>). We generate the necessary number of Hermitian variables
+The total number of variables is 8 (<span class="math">\(2^2
+2^2\)</span>). We generate the necessary number of Hermitian variables
 and divide them into the appropriate measurements:
 
 </div>

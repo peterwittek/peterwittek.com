@@ -7,18 +7,18 @@ Slug: ground-state-energy-problem
 
 We are interested in finding the ground state energy of the following
 Hamiltonian ([Corboz et al., 2009](#corboz2009simulation)):  
-\\[ H\_{\\mathrm{free}}=\\sum\_{}\\left[c\_{r}\^{\\dagger}
-c\_{s}+c\_{s}\^{\\dagger} c\_{r}-\\gamma(c\_{r}\^{\\dagger}
-c\_{s}\^{\\dagger}+c\_{s}c\_{r}
-)\\right]-2\\lambda\\sum\_{r}c\_{r}\^{\\dagger}c\_{r}, \\]  
+$$H_{\mathrm{free}}=\sum_{}\left[c_{r}^{\dagger}
+c_{s}+c_{s}^{\dagger} c_{r}-\gamma(c_{r}^{\dagger}
+c_{s}^{\dagger}+c_{s}c_{r}
+)\right]-2\lambda\sum_{r}c_{r}^{\dagger}c_{r},$$  
 where \<rs\> goes through nearest neighbour pairs in a two-dimensional
 lattice. The fermionic operators are subject to the following
 constraints:  
-\\[\\{c\_{r}, c\_{s}\^{\\dagger}\\}=\\delta\_{rs}I\_{r},\\]
+$$\{c_{r}, c_{s}^{\dagger}\}=\delta_{rs}I_{r},$$
 
-\\[\\{c\_{r}, c\_{s}\\}=0,\\]
+$$\{c_{r}, c_{s}\}=0,$$
 
-\\[\\{c\_{r}\^\\dagger, c\_{s}\^\\dagger\\}=0.\\]
+$$\{c_{r}^\dagger, c_{s}^\dagger\}=0.$$
 
 We fix γ=1 and λ=2. Treating the problem as an instance of
 noncommutative polynomial optimization, we convert it to a semidefinite
@@ -189,7 +189,7 @@ of Amazon Web Services, which has 244 GByte of main memory. This
 instance type has the largest amount of memory among cloud instances.
 The computational time and memory use grow exponentially.
 
-![picos\_timing](http://peterwittek.com/wp-content/uploads/2013/06/picos_timing.png)
+![picos_timing](http://peterwittek.com/wp-content/uploads/2013/06/picos_timing.png)
 
 For lattice dimension 5×5, the memory use was so excessive the operating
 system killed the process.

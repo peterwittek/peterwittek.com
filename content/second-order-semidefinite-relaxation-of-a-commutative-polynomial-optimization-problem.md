@@ -7,13 +7,13 @@ Slug: second-order-semidefinite-relaxation-of-a-commutative-polynomial-optimizat
 
 Consider the following polynomial optimization problem:
 
-\\[ \\min\_{x\\in \\mathbb{R}\^2}2x\_1x\_2\\]
+$$\min_{x\in \mathbb{R}^2}2x_1x_2$$
 
 such that
 
-\\[ -x\_2\^2+x\_2+0.5\\geq 0\\]
+$$-x_2^2+x_2+0.5\geq 0$$
 
-\\[x\_1\^2-x\_1=0.\\]
+$$x_1^2-x_1=0.$$
 
 This is the commutative toy example in [Pironio et al., 2010](#pironio2010convergent), which extends the semidefinite
 relaxations of constrained polynomial optimization problems
@@ -36,29 +36,29 @@ second deals with the equality by adding a localizing matrix.
 Equality constraint eliminated manually
 =======================================
 
-The monomial basis for a second-order relaxation would be \$\$\\{1,
-x\_1, x\_2, x\_1\^2, x\_1x\_2, x\_2\^2\\}\$\$, but \$\$x\_1\$\$ is an
+The monomial basis for a second-order relaxation would be $\{1,
+x_1, x_2, x_1^2, x_1x_2, x_2^2\}$, but $x_1$ is an
 idempotent variable, so the corresponding relaxation variables reduce to
-\$\$\\{y\_0, y\_1, y\_2, y\_{12}, y\_{22}\\}\$\$. The relaxation is
+$\{y_0, y_1, y_2, y_{12}, y_{22}\}$. The relaxation is
 written as
 
-\\[ \\min\_{y}2y\_{12}\\]
+$$\min_{y}2y_{12}$$
 
 such that  
-\\[\\left[ \\begin{array}{c|cc|cc}1 & y\_{1} & y\_{2} & y\_{12} &
-y\_{22}\\\\\\hline{}y\_{1} & y\_{1} & y\_{12} & y\_{12} &
-y\_{122}\\\\y\_{2} & y\_{12} & y\_{22} & y\_{122} &
-y\_{222}\\\\\\hline{}y\_{12} & y\_{12} & y\_{122} & y\_{122} &
-y\_{1222}\\\\y\_{22} & y\_{122} & y\_{222} & y\_{1222} &
-y\_{2222}\\end{array} \\right] \\succeq{}0\\]
+$$\left[ \begin{array}{c|cc|cc}1 & y_{1} & y_{2} & y_{12} &
+y_{22}\\\hline{}y_{1} & y_{1} & y_{12} & y_{12} &
+y_{122}\\y_{2} & y_{12} & y_{22} & y_{122} &
+y_{222}\\\hline{}y_{12} & y_{12} & y_{122} & y_{122} &
+y_{1222}\\y_{22} & y_{122} & y_{222} & y_{1222} &
+y_{2222}\end{array} \right] \succeq{}0$$
 
-\\[\\left[ \\begin{array}{c|cc}-y\_{22}+y\_{2}+0.5
-& -y\_{122}+y\_{12}+0.5y\_{1}
-& -y\_{222}+y\_{22}+0.5y\_{2}\\\\\\hline{}-y\_{122}+y\_{12}+0.5y\_{1}
-& -y\_{122}+y\_{12}+0.5y\_{1}
-& -y\_{1222}+y\_{122}+0.5y\_{12}\\\\-y\_{222}+y\_{22}+0.5y\_{2}
-& -y\_{1222}+y\_{122}+0.5y\_{12}
-& -y\_{2222}+y\_{222}+0.5y\_{22}\\end{array}\\right]\\succeq{}0.\\]  
+$$\left[ \begin{array}{c|cc}-y_{22}+y_{2}+0.5
+& -y_{122}+y_{12}+0.5y_{1}
+& -y_{222}+y_{22}+0.5y_{2}\\\hline{}-y_{122}+y_{12}+0.5y_{1}
+& -y_{122}+y_{12}+0.5y_{1}
+& -y_{1222}+y_{122}+0.5y_{12}\\-y_{222}+y_{22}+0.5y_{2}
+& -y_{1222}+y_{122}+0.5y_{12}
+& -y_{2222}+y_{222}+0.5y_{22}\end{array}\right]\succeq{}0.$$  
 Apart from the matrices being symmetric, notice other regular patterns
 between the elements. We need to explicitly encode these.
 
@@ -254,30 +254,30 @@ in terms of human effort.
 
 The relaxation hence changes to the following:
 
-\\[ \\min\_{y}2y\_{12}\\]
+$$\min_{y}2y_{12}$$
 
 such that
 
-\\[\\left[ \\begin{array}{c|cc|ccc}1 & y\_{1} & y\_{2} & y\_{11} &
-y\_{12} & y\_{22}\\\\\\hline{}y\_{1} & y\_{11} & y\_{12} & y\_{111} &
-y\_{112} & y\_{122}\\\\y\_{2} & y\_{12} & y\_{22} & y\_{112} & y\_{122}
-& y\_{222}\\\\\\hline{}y\_{11} & y\_{111} & y\_{112} & y\_{1111} &
-y\_{1112} & y\_{1122}\\\\y\_{12} & y\_{112} & y\_{122} & y\_{1112} &
-y\_{1122} & y\_{1222}\\\\y\_{22} & y\_{122} & y\_{222} & y\_{1122} &
-y\_{1222} & y\_{2222}\\end{array} \\right] \\succeq{}0\\]
+$$\left[ \begin{array}{c|cc|ccc}1 & y_{1} & y_{2} & y_{11} &
+y_{12} & y_{22}\\\hline{}y_{1} & y_{11} & y_{12} & y_{111} &
+y_{112} & y_{122}\\y_{2} & y_{12} & y_{22} & y_{112} & y_{122}
+& y_{222}\\\hline{}y_{11} & y_{111} & y_{112} & y_{1111} &
+y_{1112} & y_{1122}\\y_{12} & y_{112} & y_{122} & y_{1112} &
+y_{1122} & y_{1222}\\y_{22} & y_{122} & y_{222} & y_{1122} &
+y_{1222} & y_{2222}\end{array} \right] \succeq{}0$$
 
-\\[\\left[ \\begin{array}{c|cc}-y\_{22}+y\_{2}+0.5
-& -y\_{122}+y\_{12}+0.5y\_{1}
-& -y\_{222}+y\_{22}+0.5y\_{2}\\\\\\hline{}-y\_{122}+y\_{12}+0.5y\_{1}
-& -y\_{1122}+y\_{112}+0.5y\_{11}
-& -y\_{1222}+y\_{122}+0.5y\_{12}\\\\-y\_{222}+y\_{22}+0.5y\_{2}
-& -y\_{1222}+y\_{122}+0.5y\_{12}
-& -y\_{2222}+y\_{222}+0.5y\_{22}\\end{array}\\right]\\succeq{}0.\\]
+$$\left[ \begin{array}{c|cc}-y_{22}+y_{2}+0.5
+& -y_{122}+y_{12}+0.5y_{1}
+& -y_{222}+y_{22}+0.5y_{2}\\\hline{}-y_{122}+y_{12}+0.5y_{1}
+& -y_{1122}+y_{112}+0.5y_{11}
+& -y_{1222}+y_{122}+0.5y_{12}\\-y_{222}+y_{22}+0.5y_{2}
+& -y_{1222}+y_{122}+0.5y_{12}
+& -y_{2222}+y_{222}+0.5y_{22}\end{array}\right]\succeq{}0.$$
 
-\\[\\left[ \\begin{array}{c|cc}y\_{11}-y\_{1} & y\_{111}-y\_{11} &
-y\_{112}-y\_{12}\\\\\\hline{}y\_{111}-y\_{11} & y\_{1111}-y\_{111} &
-y\_{1112}-y\_{112}\\\\y\_{112}-y\_{12} & y\_{1112}-y\_{112} &
-y\_{1122}-y\_{122}\\end{array}\\right]=0.\\]
+$$\left[ \begin{array}{c|cc}y_{11}-y_{1} & y_{111}-y_{11} &
+y_{112}-y_{12}\\\hline{}y_{111}-y_{11} & y_{1111}-y_{111} &
+y_{1112}-y_{112}\\y_{112}-y_{12} & y_{1112}-y_{112} &
+y_{1122}-y_{122}\end{array}\right]=0.$$
 
 Notice that the inequality matrix changed in only one element. The
 Python code corresponding to this problem is as follows:

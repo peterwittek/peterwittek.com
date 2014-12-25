@@ -36,4 +36,6 @@ PAGE_SAVE_AS = '{slug}.html'
 STATIC_PATHS = ['images']
 AUTHOR_SAVE_AS = ''
 MENUITEMS = [('Blog', '/')]
+PLUGIN_PATHS = ['../pelican-plugins']
+PLUGINS = ["render_math"]
 THEME = 'pelican-octopress-theme'

@@ -79,11 +79,11 @@ Quantum learning of unitary transformations is
 transduction: we have a limited number of future targets on which we
 want to apply the function -- the unitary in the quantum case. A new
 paper proves super-replication of unitaries: given *n* copies, we can
-get *n*^2^ almost perfect copies, with exponentially decreasing
+get $n^2$ almost perfect copies, with exponentially decreasing
 probability of success [(Dür et al., 2014)](#dur2014deterministic). The
-result holds for unitaries of the form \$\$U(\\theta) =
-exp(-\\imath\\theta H)\$\$, where the Hamiltonian *H* is known, but the
-interaction strength \$\$\\theta\$\$ is unknown. Generalization of this
+result holds for unitaries of the form $U(\theta) =
+exp(-\imath\theta H)$, where the Hamiltonian *H* is known, but the
+interaction strength $\theta$ is unknown. Generalization of this
 result would be exciting.
 
 It is also interesting to see how learning methods enhance problems in
