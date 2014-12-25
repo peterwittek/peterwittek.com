@@ -4,6 +4,7 @@ Author: Peter
 Category: Academic publishing
 Tags: Academic publishing, Python
 Slug: reproducible-research-literate-programming-ipython-and-github
+Summary: IPython's notebook interface combined with git and GitHub makes a perfect tool to promote reproducible academic publications.
 
 I came across [this thread](https://news.ycombinator.com/item?id=7699935) on Hacker News,
 which links to a curated gallery of IPython notebooks, including

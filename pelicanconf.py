@@ -13,14 +13,21 @@ TIMEZONE = 'Europe/Madrid'
 DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
+FEED_DOMAIN = SITEURL
+FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Social widget
-SOCIAL = (('github', 'https://github.com/peterwittek'),)
+SOCIAL = (('ResearchGate', 'http://www.researchgate.net/profile/Peter_Wittek'),
+          ('Scholar', 'http://scholar.google.com/citations?user=tEd_agoAAAAJ'),
+          ('LinkedIn', 'https://sg.linkedin.com/in/peterwittek'),
+          ('GitHub', 'https://github.com/peterwittek'),
+          ('SlideShare','https://www.slideshare.net/peter_wittek'),
+          ('Email','http://peterwittek.com/email-instructions/'),
+          )
 
 DEFAULT_PAGINATION = 1000
 
@@ -33,9 +40,12 @@ ARTICLE_ORDER_BY = 'date'
 PAGE_ORDER_BY = 'order'
 PAGE_URL = '{slug}.html'
 PAGE_SAVE_AS = '{slug}.html'
+INDEX_SAVE_AS = 'blog.html'
 STATIC_PATHS = ['images']
 AUTHOR_SAVE_AS = ''
 MENUITEMS = [('Blog', '/')]
 PLUGIN_PATHS = ['../pelican-plugins']
 PLUGINS = ["render_math"]
-THEME = 'pelican-octopress-theme'
+THEME = "themes/octopress-simplegrey"
+#THEME = "pelican-octopress-theme"
+

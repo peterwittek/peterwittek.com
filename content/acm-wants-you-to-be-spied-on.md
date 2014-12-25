@@ -4,6 +4,7 @@ Author: Peter
 Category: Espionage
 Tags: Espionage
 Slug: acm-wants-you-to-be-spied-on
+Summary: ACM member's forwarding email address must undergo filtering by Google. Your email correspondence cannot escape the attention of NSA.
 
 I am a fortunate person: I do not use Apple or Microsoft products, and
 my use of Google is limited to their scholarly services. My pattern of

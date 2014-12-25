@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content_title %}{% endblock %}
+
+{% block content %}
+
+<div>
+  {% for article in articles %}
+    {% include 'article_link.inc.html' %}
+  {% endfor %}
+</div>
+{% endblock content %}
+

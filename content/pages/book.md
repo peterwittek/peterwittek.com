@@ -5,7 +5,7 @@ Slug: book
 Order: 2
 
 Quantum Machine Learning: What Quantum Computing Means to Data Mining
-=====================================================================
+---------------------------------------------------------------------
 
 ![Cover of Quantum Machine
 Learning](http://peterwittek.com/wp-content/uploads/2014/02/cover-199x300.jpg)Machine
@@ -155,7 +155,3 @@ Table of Contents
 
 Bibliography
 ------------
-
-[bibtex template=qml-book-bibtex sort=firstauthor order=asc
-process\_titles=0 file=qml\_bibliography.bib]
-

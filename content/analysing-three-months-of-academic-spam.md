@@ -4,6 +4,7 @@ Author: Peter
 Category: Academic publishing
 Tags: Academic publishing
 Slug: analysing-three-months-of-academic-spam
+Summary: Unsolicited calls for papers flood our inboxes: here we analyse three months of academic spam to identify the sources.
 
 Can't get your paper in Nature? Publish it in the Journal of Ubiquitous
 Computing and Applications, just pay the $1000+ article processing fee,

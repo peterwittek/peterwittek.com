@@ -4,6 +4,7 @@ Author: Peter
 Category: Quantum machine learning
 Tags: Quantum machine learning, Machine learning, Quantum information theory
 Slug: more-on-quantum-learning-of-unitaries
+Summary: Classical regression, induction, transduction and the quantum learning of unitaries, plus making the difference explicit to process tomography.
 
 [AQIS](http://cs.e.yamagata-u.ac.jp/aqis14/) just concluded, and I
 presented a [poster](http://dx.doi.org/10.13140/2.1.3901.1201) on

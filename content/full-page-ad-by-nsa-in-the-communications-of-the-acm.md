@@ -4,6 +4,7 @@ Author: Peter
 Category: Espionage
 Tags: Espionage
 Slug: full-page-ad-by-nsa-in-the-communications-of-the-acm
+Summary: ACM's relationship with NSA is far tighter than one could wish.
 
 I had a two-week saga trying to pay for my ACM membership this year.
 Paypal did not work, then my credit card was not accepted by ACM, and

@@ -1,0 +1,10 @@
+
+<h2><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="{{ article.title}}">{{ article.title }}</a></h2>
+<div class="entry-content">{{ article.summary }}</div>
+  <p></p><i>Posted on <time datetime="{{ article.date.isoformat() }}" pubdate>{{ article.date|strftime('%d %B %Y') }}</time></i>. 
+  {% if article.tags %}Tags: 
+      {% for tag in article.tags %}
+         <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>{% if not loop.last %},{% endif %}
+      {% endfor %}
+  {% endif %}
+  </p>

@@ -4,6 +4,7 @@ Author: Peter
 Category: Quantum machine learning
 Tags: Quantum machine learning, Quantum information theory, Machine learning
 Slug: understanding-quantum-svms
+Summary: Training least squares support vector machines on quantum hardware results in exponential speedup; we take a machine learning perspective at the new algorithm.
 
 ***Update****: An extended version of this post will appear in the
 upcoming book [Quantum Machine Learning: What Quantum Computing Means to Data Mining](http://peterwittek.com/book/ "Quantum Machine Learning").*

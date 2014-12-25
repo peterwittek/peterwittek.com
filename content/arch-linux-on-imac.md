@@ -4,6 +4,7 @@ Author: Peter
 Category: Linux
 Tags: Linux
 Slug: arch-linux-on-imac
+Summary: Why would you use the spyware operating system installed on an iMac when you can run Arch Linux from an SD card?
 
 The office I was recently assigned to had an iMac with an almost nice
 27-inch screen -- it would be nice if it was not glossy. I thought I

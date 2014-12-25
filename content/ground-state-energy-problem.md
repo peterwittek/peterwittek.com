@@ -4,6 +4,7 @@ Author: Peter
 Category: Semidefinite programming
 Tags: Noncommutative polynomials, Semidefinite programming, SymPy
 Slug: ground-state-energy-problem
+Summary: Generating the SDP relaxation of the ground-state energy problem of a Hamiltonian.
 
 We are interested in finding the ground state energy of the following
 Hamiltonian ([Corboz et al., 2009](#corboz2009simulation)):  

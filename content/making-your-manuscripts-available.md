@@ -4,6 +4,7 @@ Author: Peter
 Category: Academic publishing
 Tags: Academic publishing
 Slug: making-your-manuscripts-available
+Summary: You are legally allowed to put a PDF of your paper online. Pre-publication manuscripts can be published in an institutional repository or on arXiv.
 
 If a PDF is not available for free download, your paper will have a
 limited reach. Most publishers allow uploading a pre-publication version

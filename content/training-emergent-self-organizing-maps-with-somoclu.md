@@ -4,6 +4,7 @@ Author: Peter
 Category: C++
 Tags: Machine learning, C++
 Slug: training-emergent-self-organizing-maps-with-somoclu
+Summary: Self-organizing maps are computationally expensive to train -- emergent maps are even more so. This post looks at the constraints with sparse data.
 
 Self-organizing maps are a topology-preserving embedding of
 high-dimensional data to two-dimensional surfaces such as a plane or a

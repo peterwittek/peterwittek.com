@@ -4,6 +4,7 @@ Author: Peter
 Category: Quantum machine learning
 Tags: Quantum machine learning, Quantum information theory, Machine learning
 Slug: recent-advances-in-quantum-machine-learning
+Summary: A quick overview of a handful of papers on quantum machine learning that appeared recently.
 
 *Update: A paper on the quantum learning of coherent states came out
 just a day after writing this up. I added a paragraph on it.*

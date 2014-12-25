@@ -4,6 +4,7 @@ Author: Peter
 Category: Linux
 Tags: Python, SymPy, Spyder, Linux
 Slug: computer-algebra-system-on-a-cell-phone
+Summary: Smartphones are powerful enough to run a Linux with a graphical interface: computer algebra systems are the next frontier in mobile computing.
 
 Around early 2008, I became obsessed with the idea of not having a
 laptop: a phone could work fine. Years passed, and Linux-based phones

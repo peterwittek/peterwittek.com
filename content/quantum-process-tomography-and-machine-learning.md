@@ -4,6 +4,7 @@ Author: Peter
 Category: Quantum machine learning
 Tags: Quantum machine learning, Quantum information theory, Machine learning
 Slug: quantum-process-tomography-and-machine-learning
+Summary: The optimal estimation of a group of unitary transforms allows for learning an unknown function: this is similar to regression in classical machine learning.
 
 ***Update****: An extended version of this post will appear in the
 upcoming book [Quantum Machine Learning: What Quantum Computing Means to Data Mining](http://peterwittek.com/book/ "Quantum Machine Learning").*  

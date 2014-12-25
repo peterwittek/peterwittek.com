@@ -4,6 +4,7 @@ Author: Peter
 Category: Academic publishing
 Tags: Academic publishing, Espionage
 Slug: browsing-academic-material-anonymously
+Summary: Cookies, browser-fingerprinting, tracking, and blocking of Tor exit nodes are becoming standard strategies while reading abstracts and exporting citations.
 
 Academic publications sit behind pay-walls, and to access papers, you
 need an approved IP address of your university, log in to your library,

@@ -4,6 +4,7 @@ Author: Peter
 Category: C++
 Tags: C++, GPU
 Slug: argmin-on-the-rows-of-a-matrix-with-thrust
+Summary: A detailed description of how to use Thrust reduce by key to calculate the argmins of the rows of a matrix
 
 [Thrust](https://github.com/thrust/thrust/ "Thrust") is fairly efficient
 in saving you from hand-crafting optimized CUDA kernels, but it is

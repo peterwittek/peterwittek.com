@@ -4,6 +4,7 @@ Author: Peter
 Category: Quantum machine learning
 Tags: Quantum machine learning, Machine learning, Quantum information theory
 Slug: causal-structures-bayesian-nets-and-quantum-systems
+Summary: New characterizations of Bell inequalities in terms of causal structures are emerging: they can give rise to quantum versions of Bayesian networks.
 
 [bibshow sort=firstauthor order=asc process\_titles=0
 template=post-bibtex file=bibliography.bib]  

@@ -4,6 +4,7 @@ Author: Peter
 Category: C++
 Tags: C++, GPU
 Slug: cublas-matrix-c-style
+Summary: Getting around Fortran-style array indexing in CuBlas from C code without transponation. Bonus Thrust vector casting added.
 
 CuBlas has decently optimized calls, but it stuck with column-first
 indexing, which makes it mind-bogglingly annoying to use in C code.

@@ -1,18 +1,24 @@
-Title: About Me
+Title: Home
 Date: 2013-01-04 11:46
 Author: Peter
 Slug: home
-Order: 3
+Order: 0
+Status: hidden
+Summary: Peter Wittek, research scientist in quantum machine learning, computational methods in quantum physics, and machine learning with high-performance computers.
+URL:
+save_as: index.html
 
+About
+-----
 ![profile\_photo](http://peterwittek.com/wp-content/uploads/2013/01/profile_photo.jpg)I
-am a research scientist working on quantum machine learning,
+am a research fellow working on quantum machine learning,
 computational methods in quantum simulations, and scalable learning
 algorithms on supercomputers. Trained as a mathematician and computer
 scientist, I received my PhD from the National University of Singapore.
 I have been involved in major EU research projects, and obtained several
 national and industry grants. Currently I work as a research fellow in
 the Quantum Information Theory group in ICFO-The Institute of Photonic
-Sciences. Previously I worked for the University of Borås, and I am
+Sciences. Previously I worked for the University of Borås and I am
 still an external employee of the university.
 
 Being location-independent, I lived in nearly two dozen countries, and
@@ -23,7 +29,7 @@ the National University of Singapore, and the Institute of Photonic
 Sciences.
 
 Research Interests
-==================
+------------------
 
 **Quantum Machine Learning**: The intersection of quantum computing and
 machine learning is an emergent research topic with exciting new
@@ -47,7 +53,7 @@ an embarrassingly parallel environment, such as a distributed GPU
 cluster.
 
 Current Projects
-================
+----------------
 
 **[![ncpol2sdpa](http://peterwittek.com/wp-content/uploads/2013/01/ncpol2sdpa.png)](http://peterwittek.com/approximating-the-ground-state-with-sdp "Approximating the Ground State of a Many-Particle Quantum System with Semi-Definite Relaxations")Approximating
 the Ground State of a Many-Particle Quantum System with Semi-Definite
@@ -86,7 +92,7 @@ Seventh Framework
 Programme](http://cordis.europa.eu/fp7/ict/telearn-digicult/home_en.html "FP7").
 
 Completed Projects
-==================
+------------------
 
 [![CHiP-SL](http://peterwittek.com/wp-content/uploads/2013/01/chip-sl.png "Cloud for High-Performance Statistical Learning")](http://peterwittek.com/research/chip-sl/)
 

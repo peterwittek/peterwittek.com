@@ -4,6 +4,7 @@ Author: Peter
 Category: Semidefinite programming
 Tags: Noncommutative polynomials, Python, Quantum information theory, Semidefinite programming, SymPy
 Slug: the-nieto-silleras-and-moroder-hierarchies-in-ncpol2sdpa
+Summary: Generating the semidefinite programming relaxation of polynomial optimization problems of noncommuting variables using the Nieto-Silleras and the Moroder hierarchies.
 
 Some alternatives to the NPA hierarchy ([Pironio et al., 2010](#pironio2010convergent)) were published recently. One of the new
 approaches takes all joint probabilities into consideration when looking

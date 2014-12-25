@@ -4,6 +4,7 @@ Author: Peter
 Category: Academic publishing
 Tags: Academic publishing
 Slug: comparing-latex-conversion-tools
+Summary: Converting LaTeX to word processor formats is the holy grail of document conversion. Perhaps we are getting closer to a viable solution.
 
 One of the great joys of working in an EU consortium is that members
 will enforce their standards on others. This means using Google Docs for

@@ -4,6 +4,7 @@ Author: Peter
 Category: Python
 Tags: Python
 Slug: ground-state-of-spinless-fermions-with-dmrg
+Summary: Calculating the ground state of spinless fermions on an open two-dimensional lattice with density matrix renormalization group using ALPS.
 
 We want to find the ground state energy of a free spinless fermionic
 system, described by the following Hamiltonian ([Corboz et al.,

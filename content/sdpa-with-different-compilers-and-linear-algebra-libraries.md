@@ -4,6 +4,7 @@ Author: Peter
 Category: Semidefinite programming
 Tags: Semidefinite programming, C++
 Slug: sdpa-with-different-compilers-and-linear-algebra-libraries
+Summary: GCC, ICC, PGI compilers with BLAS/LAPACK, MKL, and ACML are compared in solving an SDP with SDPA.
 
 I made a quick comparison between three compilers and three BLAS and
 LAPACK implementations for using [SDPA](http://sdpa.sourceforge.net/).

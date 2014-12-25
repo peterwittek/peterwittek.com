@@ -4,6 +4,7 @@ Author: Peter
 Category: Python
 Tags: C++, Python
 Slug: cython-with-pypy-and-numpy
+Summary: Load Cython modules from Pypy while also using Numpy.
 
 Pypy is making tremendous progress with its fork of Numpy.
 Unfortunately, Scipy is currently not supported. I wanted to use a

@@ -4,6 +4,7 @@ Author: Peter
 Category: Python
 Tags: Python, Semidefinite programming, SymPy
 Slug: memory-use-of-translating-sdp-problems
+Summary: Generating semidefinite programming relaxations of a noncommutative polynomial optimization problem is memory-hungry: some solutions are explored.
 
 Trying to generate the semidefinite programming relaxation of a ground
 state problem, we quickly run into memory constraints. Lattices above

@@ -4,6 +4,7 @@ Author: Peter
 Category: C++
 Tags: C++, GPU
 Slug: random-number-generation-with-c11-and-vsl
+Summary: Benchmarking the speed of random number generation in C++11 with GCC and with VSL and ICC.
 
 I have to generate a large amount of Gaussian random numbers and I was
 curious how good stock RNGs are, as opposed to rolling our own

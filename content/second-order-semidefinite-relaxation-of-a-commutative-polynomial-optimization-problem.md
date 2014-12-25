@@ -4,6 +4,7 @@ Author: Peter
 Category: Semidefinite programming
 Tags: Semidefinite programming, Python
 Slug: second-order-semidefinite-relaxation-of-a-commutative-polynomial-optimization-problem
+Summary: Second-order semidefinite relaxation of a constrained commutative polynomial optimization problem using PICOS in Python, exporting to SDPA.
 
 Consider the following polynomial optimization problem:
 

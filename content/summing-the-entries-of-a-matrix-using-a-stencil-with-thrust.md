@@ -4,6 +4,7 @@ Author: Peter
 Category: C++
 Tags: C++, GPU
 Slug: summing-the-entries-of-a-matrix-using-a-stencil-with-thrust
+Summary: Thrust-based summing of the elements of a submatrix at a given offset according to a stencil.
 
 The task sounds simple: sum every element according to a stencil in a
 two-dimensional layout. Ideally it should be done on the GPU, provided

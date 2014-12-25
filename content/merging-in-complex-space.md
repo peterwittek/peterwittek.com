@@ -4,6 +4,7 @@ Author: Peter
 Category: Machine learning
 Tags: Machine learning
 Slug: merging-in-complex-space
+Summary: Describing how to build a complex-valued random index using a term and a concept vector space.
 
 As described in [Wittek et. al, 2013](#wittek2013combining), we can
 easily merge two random indices in complex space. Using a random index

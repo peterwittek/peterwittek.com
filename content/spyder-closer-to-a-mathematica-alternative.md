@@ -4,6 +4,7 @@ Author: Peter
 Category: Python
 Tags: Python, SymPy, Spyder
 Slug: spyder-closer-to-a-mathematica-alternative
+Summary: A combination of Spyder, IPython, SymPy, NumPy, and Matplotlib gets pretty close to replace Mathematica in most of my use cases.
 
 We still do not quite have a
 [Mathematica](http://www.wolfram.com/mathematica/ "Mathematica") killer,

@@ -4,6 +4,7 @@ Author: Peter
 Category: Python
 Tags: Noncommutative polynomials, Python, SymPy
 Slug: generating-noncommutative-monomials-with-sympy
+Summary: A Python solution to generate monomials of noncommutative variables.
 
 We are not spoilt for choices to work with polynomials of noncommutative
 variables. [Yalmip](http://users.isy.liu.se/johanl/yalmip/ "Yalmip") has
