@@ -1,7 +1,8 @@
 Title: Full-page ad by NSA in the Communications of the ACM
 Date: 2014-01-28 23:36
 Author: Peter
-Category: Uncategorized
+Category: Espionage
+Tags: Espionage
 Slug: full-page-ad-by-nsa-in-the-communications-of-the-acm
 
 I had a two-week saga trying to pay for my ACM membership this year.
@@ -13,11 +14,10 @@ other words,
 
 **ACM is sponsored by NSA.**
 
-They help NSA [spying on my
-mails](http://peterwittek.com/2013/08/acm-wants-you-to-be-spied-on/), I
+They help NSA [spy on my mails](http://peterwittek.com/2013/08/acm-wants-you-to-be-spied-on/), I
 knew that before. With this latest update on their relationship, I am
 beginning to wonder: why exactly am I a member? Let me look at the
-\`benefits'. This is the list from their reminder to pay up:
+'benefits'. This is the list from their reminder to pay up:
 
 -   "Communications of the ACM magazine featuring news, analysis and
     insights from the computing world's leading authorities on the
@@ -49,4 +49,3 @@ They forgot to mention the forwarding ACM email address, something I
 rely on, unfortunately. Since this forwarding address is under the
 scrutinizing eyes of NSA, I am migrating to a new email address anyway.
 So why am I a member again?
-

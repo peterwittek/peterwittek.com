@@ -2,6 +2,7 @@ Title: SDPA with different compilers and linear algebra libraries
 Date: 2014-08-28 02:22
 Author: Peter
 Category: Semidefinite programming
+Tags: Semidefinite programming, C++
 Slug: sdpa-with-different-compilers-and-linear-algebra-libraries
 
 I made a quick comparison between three compilers and three BLAS and
@@ -14,16 +15,14 @@ arranged in NUMA blocks of 6 cores, and 512 GBytes of RAM. I tested GCC
 available, but I could not get it to compile MUMPS -- it is
 [probably](https://www.olcf.ornl.gov/kb_articles/software-tpsl/) not
 supported. OpenBLAS was version 0.2.9, LAPACK was 3.5.0, ACML 5.3.1, and
-MKL 11.1. The [benchmark SDP
-problem](http://peterwittek.com/files/benchmark.dat-s) had nearly three
+MKL 11.1. The [benchmark SDP problem](http://peterwittek.com/files/benchmark.dat-s) had nearly three
 thousand variables and nineteen blocks.
 
 Compilation was not entirely trivial; see the detailed instructions
 below. The cluster used SLURM for job scheduling. I blocked an entire
 fat node for each experiment. The job description followed this pattern:
 
-<div class="highlight">
-
+    :::bash
     #!/bin/bash
     #SBATCH -A <project id>
     #SBATCH -N 1
@@ -38,8 +37,6 @@ fat node for each experiment. The job description followed this pattern:
     export OMP_NUM_THREADS=48
     srun sdpa benchmark.dat-s benchmark.out
 
-</div>
-
 Results
 =======
 
@@ -47,13 +44,11 @@ The comparison is not entirely fair, since I did not delve into
 optimizing the individual compilers. The running time results were as
 follows (the values are in seconds):
 
-  ------------------ ------------------ ------------------ ------------------
-                     BLAS/              MKL                ACML
-                     LAPACK                                
-  GCC                37.21              23.03              21.42
-  ICC                37.31              11.48              18.83
-  PGI                251.48             22.03              N/A
-  ------------------ ------------------ ------------------ ------------------
+|BLAS/|MKL|ACML|LAPACK
+------------------|------------------|------------------|------------------
+|GCC|37.21|23.03|21.42
+|ICC|37.31|11.48|18.83
+|PGI|251.48|22.03|N/A
 
 The proprietary compilers are certainly more annoying, as they have
 unusual quirks that need to be addressed to compile SDPA. PGI's OpenMP
@@ -77,9 +72,8 @@ with the various tools and libraries.
 
 GCC and MKL
 -----------
-
-<div class="highlight">
-
+    
+    :::bash
     module load mkl
     export CFLAGS=$MKL_INCLUDE
     export CXXFLAGS=$MKL_INCLUDE
@@ -88,13 +82,10 @@ GCC and MKL
     ./configure --with-blas="-L$MKL_LDFLAGS" --with-lapack="-L$MKL_LDFLAGS"
     make -s
 
-</div>
-
 GCC and ACML
 ------------
 
-<div class="highlight">
-
+    :::bash
     module load acml/gcc
     export CFLAGS=$ACML_INCLUDE
     export CXXFLAGS=$ACML_INCLUDE
@@ -102,13 +93,10 @@ GCC and ACML
     ./configure --with-blas="$ACML_LDFLAGS $ACML_LIBS" --with-lapack="$ACML_LDFLAGS $ACML_LIBS"
     make -s
 
-</div>
-
 ICC and BLAS/LAPACK
 -------------------
 
-<div class="highlight">
-
+    :::bash
     module load intel
     export CC=icc
     export CXX=icpc
@@ -116,13 +104,10 @@ ICC and BLAS/LAPACK
     ./configure
     make -s
 
-</div>
-
 ICC and MKL
 -----------
 
-<div class="highlight">
-
+    :::bash
     module load intel mkl
     export CC=icc
     export CXX=icpc
@@ -133,13 +118,10 @@ ICC and MKL
     ./configure --with-blas="-L$MKL_LDFLAGS -mkl" --with-lapack="-L$MKL_LDFLAGS -mkl"
     make -s
 
-</div>
-
 ICC and ACML
 ------------
 
-<div class="highlight">
-
+    :::bash
     module load intel acml/intel
     export CC=icc
     export CXX=icpc
@@ -150,13 +132,10 @@ ICC and ACML
     ./configure --with-blas="$ACML_LDFLAGS -lintlc $ACML_LIBS" --with-lapack="$ACML_LDFLAGS -lintlc $ACML_LIBS"
     make -s
 
-</div>
-
 PGI and BLAS/LAPACK
 -------------------
 
-<div class="highlight">
-
+    :::bash
     module load pgi
     export CC=pgcc
     export CXX=pgc++
@@ -171,13 +150,10 @@ PGI and BLAS/LAPACK
     ./configure
     make -s
 
-</div>
-
 PGI and MKL
 -----------
 
-<div class="highlight">
-
+    :::bash
     module load pgi mkl
     export CC=pgcc
     export CXX=pgc++
@@ -190,5 +166,3 @@ PGI and MKL
     chmod 755 configure
     ./configure --with-blas="$MKL_LDFLAGS -lmkl_intel_lp64 -lmkl_core -lmkl_sequential -lpthread -lm -lgfortran" --with-lapack="$MKL_LDFLAGS -lmkl_intel_lp64 -lmkl_core -lmkl_sequential -lpthread -lm -lgfortran"
     make -s
-
-</div>

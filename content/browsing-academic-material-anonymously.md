@@ -2,6 +2,7 @@ Title: Alarming state of browsing academic material anonymously
 Date: 2014-09-03 03:35
 Author: Peter
 Category: Academic publishing
+Tags: Academic publishing, Espionage
 Slug: browsing-academic-material-anonymously
 
 Academic publications sit behind pay-walls, and to access papers, you
@@ -51,40 +52,23 @@ exit nodes is inconsistent, hence the results may not be easy to
 reproduce. In any case, if Tor worked, exporting the Bibtex citation was
 also possible. The results are summarized in the following table.
 
-  ------------ ------------ ------------ ------------ ------------ ------------
-               **Abstract** ** **        ** **        **Bibtex**   ** **
-
-               **Cookies**  **Javascript **Tor**      **Cookies**  **Javascript
-                            **                                     **
-
-  **Elsevier** No           Required     Blocked      No           Required
-
-  **Springer** No           No           Yes          No           No
-
-  **Wiley**    No           No           Yes          No           No
-
-  **T&F**      Required     No           Yes          Required     No
-
-  **WS**       Required     No           Yes          Required     Required
-
-  **IEEE**     No           No           Yes          Required     Required
-
-  **ACM**      No           No           Blocked      No           No
-
-  **APS**      No           No           Yes          No           No
-
-  **SIAM**     Required     No           Yes          Required     No
-
-  **RSP**      No           No           Blocked      No           No
-
-  **NPG**      No           No           Yes          N/A          N/A
-
-  **AAAS**     No           No           Yes          No           No
-
-  **PNAS**     No           No           Yes          No           No
-
-  **GS**       No           No           Blocked      No           Required
-  ------------ ------------ ------------ ------------ ------------ ------------
+|            | **Abstract**                       |||**Bibtex**  ||
+|------------|------------|------------|------------|------------|------------
+|            | **Cookies**|**Javascript**|**Tor**   |**Cookies** |**Javascript**
+|**Elsevier**| No         |  Required  |    Blocked |    No      |   Required
+|**Springer**| No         |  No        |   Yes      |    No      |     No
+**Wiley**  |  No  |    |     No  |         Yes  |        No      |     No
+**T&F**  |    Required  |   No  |         Yes  |        Required  |   No
+**WS**  |     Required  |   No  |         Yes  |        Required  |   Required
+**IEEE**  |   No  |    |     No  |         Yes  |        Required  |   Required
+**ACM**  |    No  |    |     No  |         Blocked      No  |         No
+**APS**  |    No  |    |     No  |         Yes  |        No  |         No
+**SIAM**  |   Required  |   No  |        Yes  |        Required  |   No
+**RSP**  |    No  |    |     No  |         Blocked      No  |         No
+**NPG**  |    No  |    |     No  |         Yes  |        N/A  |        N/A
+**AAAS**  |   No  |    |     No  |         Yes  |        No  |         No
+**PNAS**  |   No  |    |     No  |         Yes  |        No  |         No
+**GS**  |     No  |    |     No  |         Blocked  |    No  |         Required
 
 Taylor & Francis requires cookies. A
 [warning](http://www.tandfonline.com/action/cookieAbsent) comes up if

@@ -1,17 +1,18 @@
 Title: ACM wants you to be spied on
 Date: 2013-08-12 02:32
 Author: Peter
-Category: Uncategorized
+Category: Espionage
+Tags: Espionage
 Slug: acm-wants-you-to-be-spied-on
 
 I am a fortunate person: I do not use Apple or Microsoft products, and
 my use of Google is limited to their scholarly services. My pattern of
 using Facebook is under strict control. Hence the NSA scandal left me
 relatively unscathed: perhaps there are still bits of my personal data
-that NSA does not have yet. At least this is what I thought.
+that the NSA does not have yet. At least this is what I thought.
 
-ACM membership comes with a forwarding email address, which is useful if
-you anticipate frequent changes of affiliation and you want to maintain
+The ACM membership comes with a forwarding email address, which is useful if
+you anticipate frequent changes of your affiliation and you want to maintain
 a professional and permanent email address. ACM applies spam filtering
 before the mails are forwarded -- a commendable act given the sheer
 volume of academic spam. Unfortunately ACM outsourced filtering to

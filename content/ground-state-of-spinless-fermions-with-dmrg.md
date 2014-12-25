@@ -2,6 +2,7 @@ Title: Ground state of spinless fermions with DMRG
 Date: 2014-05-03 16:06
 Author: Peter
 Category: Python
+Tags: Python
 Slug: ground-state-of-spinless-fermions-with-dmrg
 
 We want to find the ground state energy of a free spinless fermionic
@@ -40,8 +41,7 @@ the original Hamiltonian, we can calculate the ground state. The
 following Python code generates the problem and prints the ground state
 energy and the truncation error:
 
-<div class="highlight">
-
+    :::python
     import pyalps
      
     parms = [{
@@ -68,20 +68,16 @@ energy and the truncation error:
     for s in data[0]:
         print s.props['observable'], ' : ', s.y[0]
 
-</div>
 
 References
 ==========
 
 <a name="corboz2009simulation"></a>Corboz, P.; Evenbly, G.; Verstraete,
-F. & Vidal, G. [Simulation of interacting fermions with entanglement
-renormalization](http://arxiv.org/abs/0904.4151). *Physics Review A*,
+F. & Vidal, G. [Simulation of interacting fermions with entanglement renormalization](http://arxiv.org/abs/0904.4151). *Physics Review A*,
 2010, 81, pp. 010303.
 
 <a name="bauer2011alps"></a>Bauer, B.; Carr, L.; Evertz, H.; Feiguin,
 A.; Freire, J.; Fuchs, S.; Gamper, L.; Gukelberger, J.; Gull, E.;
-Guertler, S. & others. [The ALPS project release 2.0: open source
-software for strongly correlated
-systems](http://arxiv.org/abs/1101.2646). *Journal of Statistical
+Guertler, S. & others. [The ALPS project release 2.0: open source software for strongly correlated systems](http://arxiv.org/abs/1101.2646). *Journal of Statistical
 Mechanics: Theory and Experiment*, IOP Publishing, 2011, 2011, P05001.
 

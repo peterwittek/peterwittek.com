@@ -1,7 +1,8 @@
 Title: Using Cython with Pypy and Numpy
 Date: 2014-11-13 14:57
 Author: Peter
-Category: C++, Python
+Category: Python
+Tags: C++, Python
 Slug: cython-with-pypy-and-numpy
 
 Pypy is making tremendous progress with its fork of Numpy.
@@ -13,12 +14,9 @@ would work together.
 I used Pypy 2.4.0 and the latest git of the Numpy
 [fork](https://bitbucket.org/pypy/numpy), which I installed manually:
 
-<div class="highlight">
-
+    :::bash
     git clone https://bitbucket.org/pypy/numpy.git
     cd numpy; pypy setup.py install --user
-
-</div>
 
 I used the Pypy version of Cython, which I installed from
 [AUR](https://aur.archlinux.org/packages/pypy-cython/). It was version
@@ -26,15 +24,14 @@ I used the Pypy version of Cython, which I installed from
 
 I adapted
 [this](http://docs.cython.org/src/userguide/numpy_tutorial.html) example
-to test whether it works. We need to rely on Pypy's cpyext module to
+to test whether it works. We need to rely on Pypy's ``cpyext`` module to
 load the C extension, which has been around for four years, but
 documentation is extremely sparse.
 
 The Cython file, named convolve.pyx, is an unmodified version from the
 Cython tutorial:
 
-<div class="highlight">
-
+    :::python
     from __future__ import division
     import numpy as np
     def naive_convolve(f, g):
@@ -78,18 +75,13 @@ Cython tutorial:
                 h[x, y] = value
         return h
 
-</div>
-
 I generated the C file and compiled it with GCC:
 
-<div class="highlight">
-
+    :::bash
     cython-pypy convolve.pyx
     gcc -shared -pthread -fPIC -fwrapv -O2 -Wall -fno-strict-aliasing   
        -I/opt/pypy/include -I$HOME/.local/lib/pypy2.7/include   
        -o convolve.so convolve.c
-
-</div>
 
 If you run into weird missing Numpy header files during compilation,
 check whether the include directory under Pypy contains a numpy with
@@ -99,8 +91,7 @@ which is why I install the library manually to my home folder.
 
 The following test works:
 
-<div class="highlight">
-
+    :::python
     import numpy as np
     import cpyext
     cpyext.load_module("convolve.so","convolve")
@@ -108,5 +99,3 @@ The following test works:
 
     print convolve.naive_convolve(np.array([[1, 1, 1]], dtype=np.int),
          np.array([[1],[2],[1]], dtype=np.int))
-
-</div>

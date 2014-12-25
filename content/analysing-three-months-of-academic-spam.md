@@ -2,15 +2,16 @@ Title: Analysing three months of academic spam
 Date: 2013-08-30 05:42
 Author: Peter
 Category: Academic publishing
+Tags: Academic publishing
 Slug: analysing-three-months-of-academic-spam
 
 Can't get your paper in Nature? Publish it in the Journal of Ubiquitous
-Computing and Applications, just pay the \$1000+ article processing fee,
+Computing and Applications, just pay the $1000+ article processing fee,
 they accept everything. Your paper was rejected from the leading
 conference of your field? It had an acceptance rate of 0.5 % for the
 past twenty years, do not be surprised. Why not try the International
 Conference on Advanced Education Technology and Management Science? It
-is not your field, but they accept anything if you pay the \$300
+is not your field, but they accept anything if you pay the $300
 registration fee, and the proceedings will be indexed by the Whatever
 Junk Compendex.
 
@@ -34,10 +35,9 @@ Attachments otherwise were common, the most hilarious was when the
 zealous organizers enclosed the author instructions in a doc file. About
 71 % of the spam messages had the mail in HTML format.
 
-  ---------------- ---------------------- --------------------
-  **Total spam**   **Unique addresses**   **Unique domains**
-  220              159                    77
-  ---------------- ---------------------- --------------------
+|**Total spam**   | **Unique addresses**   |  **Unique domains**
+|:---------------:|:----------------------:|:--------------------:
+|220              | 159                    | 77
 
 I processed the "From" field to extract the email address of the
 senders. Looking at the domains where the mails were sent from, there
@@ -49,10 +49,10 @@ providers, but if it is for money, then it apparently enables the VIP
 address owners to spam indiscriminately. 188.com was also there, so not
 surprisingly the majority of the spam included passages in Chinese.
 
-[caption id="attachment\_514" align="aligncenter" width="549"]![Pie
-chart of academic
-spammers](http://peterwittek.com/wp-content/uploads/2013/08/academic_spammer_pie_chart.png)
-Proportion of the domains of origin of academic spam.[/caption]
+![Pie chart of academic spammers](|filename|/images/academic_spammer_pie_chart.png)
+<p class="caption">
+Proportion of the domains of origin of academic spam.
+</p>
 
 Google Mail came second, but this is misleading. Most of the Gmail
 messages arrived from the obnoxious organizers of the 1st International
@@ -104,8 +104,7 @@ third line should include a backslash before the parentheses, but it
 would be parsed as an equation by WordPress, hence the backslashes were
 stripped):
 
-<div class="highlight">
-
+    :::bash
     #!/bin/bash
     cat academic_spam/*|grep "^[Ff]rom: " | sed -e 's/[Ff]rom: //'|  
        sed -e 's/.*<(.*)>/\1/'|sed -e 's/ *//g'|sed -e 's/.*@//'|  
@@ -115,17 +114,15 @@ stripped):
     echo "dummyemailaddress)" >> spammers.txt
     rm unique_domains.txt
 
-</div>
-
 The current output is the following:
 
-``` {.brush: .bash; .gutter: .false}
-.*@.*(126.com|188.com|51email.org|AdvancesENG.com|academeresearchjournals.com|arpapress.com|aviabank.com|bkmeeting.org|charitylight.org|cloudcomcongress.com|conf-edu.org|conf-support.org|conferenceemail.com|config-ei.org|confmail.org|davidpublishing.com|dijon.inra.fr|e.enefmmail.org|ei-conf.org|ei-edu.org|fesb.hr|fzu.edu.cn|garjournals.org|geonf.org|hansqk.org|hrjoin.org|ica-itb.org|ieit-conf.org|ij-cm.org|ijnest.org|infotech2014.com|inhubei.org|iphsci.com|irjournals.org|journals.hindawi.com|ljemail.org|m-hikari.com|mail-conf.org|mail.2013iiisconferences.org|mail.vresp.com|medknow.com|meritresearchjournals.com|mililink.com|monmo.org|mst.edu|ncat.edu|newgroundresjournals.org|newworldpub.com|noreply100.com|noreply101.com|noreply106.com|omicsonline.net|plaan.org|pubpromotion.com|pubspress.com|pwr.edu.pl|robionetics.org|scientificadvancespublishers.com|scirp.biz|scirp.info|scirpinfo.org|scirpnews.org|sohu.com|solsbj-63.com|srpinfo.org|statisticalhorizons.com|sweeg.org|thesai.org|uav.ro|vip.126.com|vip.163.com|xiaolun.info|yaoyao-ei.org)
-```
+    :::bash
+    .*@.*(126.com|188.com|51email.org|AdvancesENG.com|academeresearchjournals.com|arpapress.com|aviabank.com|bkmeeting.org|charitylight.org|cloudcomcongress.com|conf-edu.org|conf-support.org|conferenceemail.com|config-ei.org|confmail.org|davidpublishing.com|dijon.inra.fr|e.enefmmail.org|ei-conf.org|ei-edu.org|fesb.hr|fzu.edu.cn|garjournals.org|geonf.org|hansqk.org|hrjoin.org|ica-itb.org|ieit-conf.org|ij-cm.org|ijnest.org|infotech2014.com|inhubei.org|iphsci.com|irjournals.org|journals.hindawi.com|ljemail.org|m-hikari.com|mail-conf.org|mail.2013iiisconferences.org|mail.vresp.com|medknow.com|meritresearchjournals.com|mililink.com|monmo.org|mst.edu|ncat.edu|newgroundresjournals.org|newworldpub.com|noreply100.com|noreply101.com|noreply106.com|omicsonline.net|plaan.org|pubpromotion.com|pubspress.com|pwr.edu.pl|robionetics.org|scientificadvancespublishers.com|scirp.biz|scirp.info|scirpinfo.org|scirpnews.org|sohu.com|solsbj-63.com|srpinfo.org|statisticalhorizons.com|sweeg.org|thesai.org|uav.ro|vip.126.com|vip.163.com|xiaolun.info|yaoyao-ei.org)
+
 
 My domain uses CPanel, where user-level filtering allows using regexps.
 I set that emails matching this pattern should make their way directly
-to /dev/null. Waste of bandwidth is stopped at the server level.
+to ``/dev/null``. Waste of bandwidth is stopped at the server level.
 
 Closing remarks
 ===============
@@ -147,4 +144,3 @@ ones on arXiv, where no such changes are possible. This way at least an
 automated crawler will be less likely to pick up my address. For the
 spamming lists that already include me, the regexp generating script
 should reduce their annoyance.
-

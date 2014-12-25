@@ -1,7 +1,8 @@
 Title: Computer algebra system on a cell phone
 Date: 2013-09-29 03:51
 Author: Peter
-Category: SymPy
+Category: Linux
+Tags: Python, SymPy, Spyder, Linux
 Slug: computer-algebra-system-on-a-cell-phone
 
 Around early 2008, I became obsessed with the idea of not having a
@@ -66,12 +67,12 @@ garbled screens. I recommend the [small
 image](http://sourceforge.net/projects/linuxonandroid/files/Ubuntu/13.04/Small/ "Ubuntu ARM small")
 of Ubuntu 13.04. It includes the LXDE desktop.
 
-There is no actual installation taking place. The \`\`installer" is a
+There is no actual installation taking place. The "installer" is a
 bash script that runs in a terminal and chroots into the image you
 downloaded. When you run the script for the first time, you will have to
 answer a few questions. Choose a passsword for your user. Then say yes
 to both ssh and VNC, and set resolution to 854x480. You can change these
-latter options in /root/cfg/ubuntu.img.cfg.
+latter options in ``/root/cfg/ubuntu.img.cfg``.
 
 Configure Linux
 ===============
@@ -79,48 +80,33 @@ Configure Linux
 Connect to the wireless network. The terminal should be logged in as
 root in your chrooted environment. Find out your IP address:
 
-<div class="highlight">
-
-    # ifconfig
-
-</div>
+    :::bash
+    $ sudo ifconfig
 
 Typing commands on your screen is excruciating, so log in to your phone
 from your computer;
 
-<div class="highlight">
-
+    :::bash
     $ ssh ubuntu@ip_address
-
-</div>
 
 Install screen to avoid problems with dropping wifi signals:
 
-<div class="highlight">
-
+    :::bash
     $ sudo apt-get update
     $ sudo apt-get install screen
     $ screen
 
-</div>
-
 Install Spyder and Sympy:
 
-<div class="highlight">
-
+    :::bash
     $ sudo apt-get install python-sympy spyder
-
-</div>
 
 This will take hundreds of megabytes to download and more to install.
 The image file will be nearly full, so delete all the cached files after
 the operation completes:
 
-<div class="highlight">
-
+    ::bash
     $ rm -fr /var/cache/apt/archives/*
-
-</div>
 
 You are ready to access the X client through VNC. The solution is
 inefficient. X could run in the framebuffer. Android and X cannot share
@@ -237,8 +223,7 @@ Future Work
 Using VNC is an inefficient solution. Apart from the memory requirements
 of the client, rendering is slow. The X server should run in the
 framebuffer. Since this disables the Android graphics stack, phone
-functionality must be replaced by X-friendly solutions. [Firefox
-OS](https://www.mozilla.org/en-US/firefox/os/ "Firefox OS") or [Sailfish
+functionality must be replaced by X-friendly solutions. [Firefox OS](https://www.mozilla.org/en-US/firefox/os/ "Firefox OS") or [Sailfish
 OS](https://sailfishos.org/ "Sailfish OS") might be a long-term
 solution. The former already
 [works](http://neuralassembly.blogspot.jp/2013/06/xperia-arcxperia-rayfirefox-os.html "Xperia Arc running Firefox OS")
@@ -247,14 +232,12 @@ on an Arc S. The software side is nearing completion.
 If you want a phone-powered laptop, the hardware side looks bleak.
 Linking up the phone with a Bluetooth keyboard is easy. Programming the
 phone's screen to function as a touchpad should not be difficult
-either -- some [remote touchpad
-solutions](http://www.remotedroid.net/ "RemoteDroid") work this way.
+either -- some [remote touchpad solutions](http://www.remotedroid.net/ "RemoteDroid") work this way.
 
 The component that is missing is a portable, battery-powered screen that
 takes HDMI input. [Casetop](http://livi-design.com/ "Casetop")adds a
 tiny 11-inch screen a keyboard to your phone. GeChic gives you a
-[15.6-inch portable
-screen](http://www.gechic.com/product_help_en.asp?s=6 "On-Lap 2501M"),
+[15.6-inch portable screen](http://www.gechic.com/product_help_en.asp?s=6 "On-Lap 2501M"),
 but the resolution is only 1366x768, and it weights a kilo.
 
 You could salvage a full-HD LED panel from a laptop, or order a
@@ -262,7 +245,7 @@ replacement screen. The panels use a low-level interface called LVDS.
 This is specific to each panel, and converting an HDMI input to this
 signal is not trivial. Chalkboard Electronics
 [sells](http://www.chalk-elec.com/?page_id=1280 "LVDS LCD interface board")
-a programmable converter for \$39, but it gives you little information
+a programmable converter for $39, but it gives you little information
 on how to programme the interface for an arbitrary panel. Also, the
 board includes a power output for LCD screens, but it is superfluous for
 LED-lit panels.

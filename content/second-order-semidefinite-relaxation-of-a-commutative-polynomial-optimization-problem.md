@@ -1,7 +1,8 @@
 Title: Second-order semidefinite relaxation of a commutative polynomial optimization problem
 Date: 2013-05-17 07:22
 Author: Peter
-Category: Picos, Semidefinite programming
+Category: Semidefinite programming
+Tags: Semidefinite programming, Python
 Slug: second-order-semidefinite-relaxation-of-a-commutative-polynomial-optimization-problem
 
 Consider the following polynomial optimization problem:
@@ -14,8 +15,7 @@ such that
 
 \\[x\_1\^2-x\_1=0.\\]
 
-This is the commutative toy example in [Pironio et
-al., 2010](#pironio2010convergent), which extends the semidefinite
+This is the commutative toy example in [Pironio et al., 2010](#pironio2010convergent), which extends the semidefinite
 relaxations of constrained polynomial optimization problems
 ([Lasserre, 2001](#lasserre2001global))  to noncommutative variables.
 The number of variables in the corresponding semidefinite programming
@@ -376,4 +376,3 @@ polynomials and the problem of moments. *SIAM Journal on Optimization*,
 A. Convergent relaxations of polynomial optimization problems with
 noncommuting variables. *SIAM Journal on Optimization*, 2010, 20, pp.
 2157-2180.
-

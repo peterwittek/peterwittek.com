@@ -1,7 +1,8 @@
 Title: Quantum bound on the CHSH inequality using semidefinite relaxations
 Date: 2014-06-03 09:56
 Author: Peter
-Category: Noncommutative polynomials, Python, Quantum information theory, Semidefinite programming, SymPy
+Category: Semidefinite programming
+Tags: Noncommutative polynomials, Python, Quantum information theory, Semidefinite programming, SymPy
 Slug: quantum-bound-on-the-chsh-inequality-using-sdp
 
 <div id="notebook" class="border-box-sizing" tabindex="-1">

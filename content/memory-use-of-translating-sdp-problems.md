@@ -1,7 +1,8 @@
 Title: Memory use of translating SDP problems
 Date: 2013-07-01 00:01
 Author: Peter
-Category: Picos, Semidefinite programming, SymPy
+Category: Python
+Tags: Python, Semidefinite programming, SymPy
 Slug: memory-use-of-translating-sdp-problems
 
 Trying to generate the semidefinite programming relaxation of a ground
@@ -20,18 +21,14 @@ Pypy
 [Pypy](http://pypy.org/ "Pypy") is an alternative implementation of
 Python that promises using less memory. The latest version is 2.0.2. It
 installed to an alternative directory and it does not see the installed
-Python modules by default; we must set the PYTHONPATH variable manually:
+Python modules by default; we must set the ``PYTHONPATH`` variable manually:
 
-<div class="highlight">
-
+    :::bash
     $ export PYTHONPATH=/usr/lib64/python2.7/site-packages
-
-</div>
 
 Unfortunately, Pypy does not like Cvxopt:
 
-<div class="highlight">
-
+    :::bash
     $ pypy hamiltonian.py
     Traceback (most recent call last):
     File "app_main.py", line 72, in run_toplevel
@@ -47,12 +44,8 @@ Unfortunately, Pypy does not like Cvxopt:
     import cvxopt.base
     ImportError: No module named cvxopt.base
 
-</div>
-
 Installing Cvxopt from source with Pypy as the interpreter lead to a
-compilation error. Apparently,
-[others](http://morepypy.blogspot.com/2011/05/playing-with-linear-programming-on-pypy.html "Linear Programming on Pypy")
-also ran into problems when interfacing Cvxopt and Pypy.
+compilation error. Apparently, [others](http://morepypy.blogspot.com/2011/05/playing-with-linear-programming-on-pypy.html) also ran into problems when interfacing Cvxopt and Pypy.
 
 Python 3
 ========
@@ -63,21 +56,15 @@ Having zero proficiency in 2 to 3 conversion, and no interest in
 learning it, I ran the script to translate the source, and then install
 PICOS.
 
-<div class="highlight">
-
+    :::bash
     $ 2to3 -w *.py
     $ python setup.py install --user
 
-</div>
-
 Starting Ncpol2sdpa, an error message halts the script:
 
-<div class="highlight">
-
+    :::bash
     idmat=cvx.spmatrix(V,I,J,(s0*s0,s0*(s0+1)/2))
     TypeError: invalid dimension tuple
-
-</div>
 
 The error string is defined in Cvxopt. PICOS needs an undefined amount
 of work to be compatible with Python 3.
@@ -92,8 +79,7 @@ to compile PICOS and Ncpol2sdpa, and it was straightforward with Cython
 0.19.1. This script compiles shared libraries of the modules of both
 PICOS and Ncpol2sdpa:
 
-<div class="highlight">
-
+    :::bash
     #!/bin/bash
     cython2 *.py
     for i in `ls *.c`; do
@@ -103,18 +89,13 @@ PICOS and Ncpol2sdpa:
       gcc "${i%.*}.o" -shared -o "${i%.*}.so"
     done
 
-</div>
-
 The script to execute must have a main function, and we must link
 external libraries:
 
-<div class="highlight">
-
+    :::bash
     $ cython2 --embed hamiltonian.py
     $ gcc -c -O3 -I/usr/include/python2.7 hamiltonian.c
     $ gcc -o hamiltonian -lpython2.7 ncutils.o sdp_relaxation.o hamiltonian.o
-
-</div>
 
 The execution time for a lattice of 3×3 barely improved. The Cython
 variant finished in 24.16 s, whereas the CPython took 24.97 s. Memory
@@ -129,12 +110,9 @@ find which module took up so much memory.
 information to a file by including these two lines in the Hamiltonian
 script:
 
-<div class="highlight">
-
+    :::python
     from meliae import scanner
     scanner.dump_all_objects( "memorydump" )
-
-</div>
 
 [Runsnakerun](http://www.vrplumber.com/programming/runsnakerun/ "Runsnakerun")
 plotted the result:
@@ -150,11 +128,8 @@ anything. The reasons behind calling textplot remain obscure, but Sympy
 did turn out to be memory-inefficient due to its cache mechanism for
 symbolic variables. I turned the cache off with an environment variable:
 
-<div class="highlight">
-
+    :::bash
     $ export SYMPY_USE_CACHE=no
-
-</div>
 
 The running time was about 30 % longer (33.41 s versus 24.97 s), and
 memory use decreased by nearly 10 % (down to 368264k from 404400k).
@@ -171,22 +146,16 @@ Digging deeper into PICOS calls, the source of problems boiled down to
 defining the entries of SDP constraints. For instance, an equality with
 a matrix variable is defined as follows:
 
-<div class="highlight">
-
+    :::python
     Meq = prob.add_variable('Meq', (size, size), vtype = 'symmetric')
     prob.add_constraint(Meq == 0)
-
-</div>
 
 The next step is to add the entries of the symmetric matrix. If the
 entries are numbers, this is very simple, a list or a Numpy array will
 do:
-
-<div class="highlight">
-
+  
+    :::python
     Meq.value = whatEverListOrNumpyArray
-
-</div>
 
 The above line will drop an error if the list or array contains an
 affine expression. The problem is with Cvxopt, it accepts only basic
@@ -196,12 +165,8 @@ Since we only have affine expressions of relaxed equality constraints,
 our only option is to force constraints on each (i,j) element of the
 matrix in the following form
 
-<div class="highlight">
-
+    :::python
     prob.add_constraint(Meq[i, j] == eqrelax)
-
-</div>
 
 So if PICOS and Cvxopt are used, memory use will always limit the size
 of the problems you can solve.
-

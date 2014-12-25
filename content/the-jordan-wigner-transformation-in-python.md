@@ -1,18 +1,17 @@
 Title: The Jordan-Wigner transformation in Python
 Date: 2014-06-03 10:19
 Author: Peter
-Category: Python, Quantum information theory, SymPy
+Category: Python
+Tags: Python, Quantum information theory, SymPy
 Slug: the-jordan-wigner-transformation-in-python
 
+*This post is [available](http://nbviewer.ipython.org/github/peterwittek/ipython-notebooks/blob/master/Jordan-Wigner_Transform_in_Python.ipynb "The Jordan-Wigner transform in Python")
+as an IPython notebook.*
 <div class="cell border-box-sizing text_cell rendered">
 
 <div class="inner_cell">
 
 <div class="text_cell_render border-box-sizing rendered_html">
-
-*This post is
-[available](http://nbviewer.ipython.org/github/peterwittek/ipython-notebooks/blob/master/Jordan-Wigner_Transform_in_Python.ipynb "The Jordan-Wigner transform in Python")
-as an IPython notebook.*
 
 Hamiltonians on one dimensional chains provide a good sanity check when
 trying out new numerical methods. The Jordan-Wigner transform is an easy

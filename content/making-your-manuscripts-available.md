@@ -2,6 +2,7 @@ Title: Make your manuscripts available online
 Date: 2013-09-19 09:40
 Author: Peter
 Category: Academic publishing
+Tags: Academic publishing
 Slug: making-your-manuscripts-available
 
 If a PDF is not available for free download, your paper will have a
@@ -11,8 +12,7 @@ Academic publishing is an outrageously lucrative business: a single
 article usually costs at least thirty dollars. You do not see any
 royalties, the editor does not get a cent, and copy-editing is
 outsourced for a few dollars a paper. Hence publishers register a
-[profit margin up to 40
-%](http://www.guardian.co.uk/commentisfree/2011/aug/29/academic-publishers-murdoch-socialist).
+[profit margin up to 40 %](http://www.guardian.co.uk/commentisfree/2011/aug/29/academic-publishers-murdoch-socialist).
 Your interest is to make your work as widely available as possible. You
 are legally allowed to do so, even if you signed a copyright transfer.
 
@@ -71,8 +71,7 @@ subsequent corrections. In such a case, the version that makes it to the
 institutional repository will be of much lower quality.
 
 If your institution does not have a repository, and you are associated
-with a European institutions, [Open Access Infrastructure Research for
-Europe](http://www.openaire.eu/ "Open Access Infrastructure Research for Europe")
+with a European institutions, [Open Access Infrastructure Research for Europe](http://www.openaire.eu/)
 provides you a space to share your manuscript. If this is not an option,
 check the inclusion requirements by Google Scholar. If you put the PDF
 on your personal website, you want to be sure that it will be indexed
@@ -84,8 +83,7 @@ problem.
 Few authors know that they are not obliged to transfer the copyright. It
 is not necessary to get your paper published in a journal or
 proceedings. You are allowed to retain extensive rights for distribution
-by attaching an [author
-addendum](http://www.arl.org/sparc/author/addendum.shtml) to your
+by attaching an [author addendum](http://www.arl.org/sparc/author/addendum.shtml) to your
 copyright transfer. If you find the copyright transfer agreement too
 restrictive, do not hesitate changing the clauses.
 

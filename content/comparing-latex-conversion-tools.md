@@ -1,7 +1,8 @@
 Title: Comparing LaTeX conversion tools
 Date: 2013-11-25 02:38
 Author: Peter
-Category: Uncategorized
+Category: Academic publishing
+Tags: Academic publishing
 Slug: comparing-latex-conversion-tools
 
 One of the great joys of working in an EU consortium is that members
@@ -39,13 +40,14 @@ formulae; fortunately OMML is incompatible with W3C's MathML.
 
 Here is a summary of the versions of the tools tested:
 
-  ------------ ---------------
-  **Tool**     **Version**
-  latex2html   2008-2 (1.71)
-  latex2rtf    2.3.3
-  Pandoc       1.12.1
-  tex4ht       2013.31548
-  ------------ ---------------
+
+**Tool**    |**Version**
+------------|---------------
+latex2html  |2008-2 (1.71)
+latex2rtf   |2.3.3
+Pandoc      |1.12.1
+tex4ht      |2013.31548
+
 
 The environment for testing was Arch Linux, up to date with packages as
 of 2013-11-22. The word processors were LibreOffice 4.1.3 and OpenOffice
@@ -77,7 +79,7 @@ tables convert, that is a great advantage.
 
 Ridiculous as it is, I would expect file names to be arbitrary.
 Unfortunately, on a 21st Unix system, several LaTeX-related tools will
-complain if a file name contains multiple \`.' characters. Accordingly,
+complain if a file name contains multiple '.' characters. Accordingly,
 the file names in the test case were kept simple.
 
 The test case is available on
@@ -113,17 +115,14 @@ The amsmath pmatrix and the basic array in math mode are
 by default, but adding an extra line in the preamble partially solves
 the problem:
 
-<div class="highlight">
-
+    :::latex
     \let\columnlines\empty
-
-</div>
 
 Opening and closing brackets will be the wrong size. Cross-references
 work, the formulae are all there, they can even be edited. References
 are also there. Neither the PNG nor the PDF figures show.
 
-Htlatex has similar limitations to mk4ht, but pmatrix and array in math
+Htlatex has similar limitations to mk4ht, but ``pmatrix`` and ``array`` in math
 mode work. PDF images are processed with ImageMagick if an extra
 [configuration
 file](http://tex.stackexchange.com/questions/46156/pdf-image-files-and-htlatex/46210#46210)
@@ -139,14 +138,14 @@ everything to PNG.
 
 The results are compared in the following table:
 
-  ------------ --------------- ----------------- ---------------- --------------- --------------- ----------- ------------- -----------------
-  **Tool**     **PDF figs.**   **Inline math**   **Eqs.**         **Ams- symb**   **Ams- math**   **Cites**   **X-refs.**   **Multi table**
-  latex2html   ?               ?                 ?                ?               ?               ?           ?             ?
-  latex2rtf    Yes             Yes               Yes              Ugly            No              Yes         Yes           Yes
-  Pandoc       No              Partial           Basic            Ugly            No              Yes         No            No
-  mk4ht        No              Yes (editable)    Yes (editable)   Ugly            Ugly            Yes         Yes           Yes
-  htlatex      Yes             Yes               Yes              Yes             Yes             Yes         Yes           Yes
-  ------------ --------------- ----------------- ---------------- --------------- --------------- ----------- ------------- -----------------
+
+**Tool** | **PDF figs.** | **Inline math** | **Eqs.** | **Ams- symb** | **Ams- math** | **Cites** | **X-refs.** | **Multi table**
+------------|---------------|-----------------|----------------|---------------|---------------|-----------|-------------|-----------------
+latex2html | ? | ? | ? | ? | ? | ? | ? | ?
+latex2rtf | Yes | Yes | Yes | Ugly | No | Yes | Yes | Yes
+Pandoc | No | Partial | Basic | Ugly | No | Yes | No | No
+mk4ht | No | Yes (editable) | Yes (editable) | Ugly | Ugly | Yes | Yes | Yes
+htlatex | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes
 
 LibreOffice could not open the RTF and ODT files. The flaw is probably
 with this version of LibreOffice, and not with the tools, as all files

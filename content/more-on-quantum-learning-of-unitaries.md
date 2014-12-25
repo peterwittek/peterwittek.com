@@ -1,13 +1,13 @@
-Title: More on quantum learning of unitaries, process tomography, and classical regression
+Title: More on the quantum learning of unitaries, process tomography, and classical regression
 Date: 2014-08-26 06:05
 Author: Peter
-Category: Machine learning, Quantum information theory, Quantum machine learning
+Category: Quantum machine learning
+Tags: Quantum machine learning, Machine learning, Quantum information theory
 Slug: more-on-quantum-learning-of-unitaries
 
 [AQIS](http://cs.e.yamagata-u.ac.jp/aqis14/) just concluded, and I
 presented a [poster](http://dx.doi.org/10.13140/2.1.3901.1201) on
-transductive and active learning in the [quantum learning of
-unitaries](http://peterwittek.com/2013/11/quantum-process-tomography-and-machine-learning/)
+transductive and active learning in the [quantum learning of unitaries](http://peterwittek.com/2013/11/quantum-process-tomography-and-machine-learning/)
 ([Wittek, 2014](#wittek2014transduction)). We had some good discussions
 on the topic, particularly on the differences between process tomography
 and learning of unitary transformations, and whether this whole idea of
@@ -62,8 +62,7 @@ implementation: a sequential approach is more feasible. In this case,
 subsequent optimal states would depend on what the previous state
 revealed of the process. To spice things up, this sequence of optimal
 states could be augmented by classical learning and the parametric
-control of estimating the unitary ([Hentschel & Sanders,
-2010](#hentschel2010machine))
+control of estimating the unitary ([Hentschel & Sanders, 2010](#hentschel2010machine))
 
 The next question is what the input and output data might be. I believe
 it is a clear case of quantum input and output, a
@@ -87,16 +86,12 @@ References
 ==========
 
 <a name="bisio2010optimal"></a>Bisio, A.; Chiribella, G.; D'Ariano, G.;
-Facchini, S. & Perinotti, P. [Optimal quantum learning of a unitary
-transformation](http://arxiv.org/abs/0903.0543). *Physical Review A*,
+Facchini, S. & Perinotti, P. [Optimal quantum learning of a unitary transformation](http://arxiv.org/abs/0903.0543). *Physical Review A*,
 2010, 81, 032324.  
 <a name="hentschel2010machine"></a>Hentschel, A. & Sanders, B. C.
-[Machine Learning for Precise Quantum
-Measurement](http://arxiv.org/abs/0910.0762). *Physical Review Letters*,
+[Machine Learning for Precise Quantum Measurement](http://arxiv.org/abs/0910.0762). *Physical Review Letters*,
 2010, 104, 063603.  
-<a name="wittek2014transduction"></a>Wittek, P. [Transduction and
-Active Learning in the Quantum Learning of Unitary
-Transformations](http://bada.hb.se/bitstream/2320/14001/1/transduction_and_active_learning.pdf).
+<a name="wittek2014transduction"></a>Wittek, P. [Transduction and Active Learning in the Quantum Learning of Unitary Transformations](http://bada.hb.se/bitstream/2320/14001/1/transduction_and_active_learning.pdf).
 *Poster Session at AQIS-14, 14th Asian Quantum Information Science
 Conference*, 2014, Kyoto, Japan.
 

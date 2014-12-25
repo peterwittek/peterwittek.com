@@ -1,17 +1,16 @@
 Title: Understanding quantum support vector machines
 Date: 2013-08-15 03:08
 Author: Peter
-Category: Machine learning, Quantum information theory, Quantum machine learning
+Category: Quantum machine learning
+Tags: Quantum machine learning, Quantum information theory, Machine learning
 Slug: understanding-quantum-svms
 
 ***Update****: An extended version of this post will appear in the
-upcoming book [Quantum Machine Learning: What Quantum Computing Means to
-Data Mining](http://peterwittek.com/book/ "Quantum Machine Learning").*
+upcoming book [Quantum Machine Learning: What Quantum Computing Means to Data Mining](http://peterwittek.com/book/ "Quantum Machine Learning").*
 
 A fascinating paper recently appeared on arXiv that proves the
 exponential speedup of least-squares support vector machines (SVMs)
-using quantum computing ([Rebentrost et al.,
-2013](#rebentrost2013quantum)). While the five-page eprint is fairly
+using quantum computing ([Rebentrost et al., 2013](#rebentrost2013quantum)). While the five-page eprint is fairly
 accessible to readers who are not well-versed in quantum information
 theory, I had a hard time understanding some steps. This write-up is a
 diluted interpretation of the content, bringing it down to my level.
@@ -90,8 +89,7 @@ K(\\mathbf{x}\_i,\\mathbf{x})+b\\right).\$\$ On classical hardware, the
 quadratic problem is solved by sequential minimum optimization.
 
 Least squares SVMs modify the goal function of the primal problem by
-using the \$\$l\_2\$\$ norm in the regularization term ([Suykens and
-Vandewalle, 1999](#suykens1999least)):
+using the \$\$l\_2\$\$ norm in the regularization term ([Suykens and Vandewalle, 1999](#suykens1999least)):
 
 \\[\\text{Minimize} \\quad
 \\frac{1}{2}\\mathbf{u}\^T\\mathbf{u}+\\frac{\\gamma}{2}\\sum\_{i=1}\^M
@@ -203,13 +201,10 @@ also possible.
 
 The algorithm hinges on three ideas:
 
--   Quantum matrix inversion is fast ([Harrow et al.,
-    2009](#harrow2009quantum)).
--   Simulation of sparse matrixes is efficient ([Berry et al.,
-    2007](#berry2007efficient));
+-   Quantum matrix inversion is fast ([Harrow et al.,     2009](#harrow2009quantum)).
+-   Simulation of sparse matrixes is efficient ([Berry et al.,     2007](#berry2007efficient));
 -   Non-sparse density matrices reveal the eigenstructure exponentially
-    faster than in classical algorithms ([Lloyd et al.,
-    2009](#lloyd2013quantum2));
+    faster than in classical algorithms ([Lloyd et al.,     2009](#lloyd2013quantum2));
 
 To solve the linear equation (1), we need to invert
 \$\$F=\\left(\\begin{array}{cc}0 & 1\^T \\\\ 1 & K+\\gamma\^{-1}I
@@ -221,18 +216,15 @@ graph, and \$\$K\_{\\gamma}=\\left(\\begin{array}{cc} 0 & 0\\\\0 &
 K+\\gamma\^{-1}I\\end{array}\\right).\$\$ We normalize \$\$F\$\$ with
 its trace:
 \$\$\\hat{F}=\\frac{F}{\\textrm{tr}F}=\\frac{F}{\\textrm{tr}K\_{\\gamma}}.\$\$
-By using the [Lie product
-formula](https://en.wikipedia.org/wiki/Lie_product_formula "Lie product formula"),
-or, more precisely, the[Baker-Campbell-Hausdorff
-formula](https://en.wikipedia.org/wiki/Baker%E2%80%93Campbell%E2%80%93Hausdorff_formula "Baker-Campbell-Hausdorff formula"),
+By using the [Lie product formula](https://en.wikipedia.org/wiki/Lie_product_formula "Lie product formula"),
+or, more precisely, the[Baker-Campbell-Hausdorff formula](https://en.wikipedia.org/wiki/Baker%E2%80%93Campbell%E2%80%93Hausdorff_formula "Baker-Campbell-Hausdorff formula"),
 we get the exponential by  
 
 \\[e\^{-i\\hat{F}\\Delta{}t}=e\^{\\frac{-iJ\\Delta{}t}{\\textrm{tr}K\_{\\gamma}}}e\^{\\frac{-i\\gamma\^{-1}I\\Delta{}t}{\\textrm{tr}K\_{\\gamma}}}e\^{\\frac{-iK\\Delta{}t}{\\textrm{tr}K\_{\\gamma}}}+O(\\Delta{}t\^2).\\qquad
 (2)\\]
 
 To obtain the exponentials, the sparse matrices \$\$J\$\$ and the
-constant multiply of the identity matrix are easy to simulate ([Berry et
-al., 2007](#berry2007efficient)).
+constant multiply of the identity matrix are easy to simulate ([Berry et al., 2007](#berry2007efficient)).
 
 On the other hand, the kernel matrix \$\$K\$\$ is not sparse. This is
 where quantum self analysis helps: given multiple copies of a density
@@ -281,8 +273,7 @@ non-Hermitian matrices, so this problem is easier to sort out.
 \$\$O(\\log(MN))\$\$ states are required to perform classification,
 which is both good and bad. It is good because it compresses the kernel
 exponentially. It is bad because the trained model is not sparse. A
-pivotal point in the success of SVMs is [structural risk
-minimization](https://en.wikipedia.org/wiki/Structural_risk_minimization "Structural risk minimization"):
+pivotal point in the success of SVMs is [structural risk minimization](https://en.wikipedia.org/wiki/Structural_risk_minimization "Structural risk minimization"):
 the learned model should not overfit the data, otherwise its
 generalization performance will be poor. The quantum SVM massively
 overfits the data, every single data instance will become a support
@@ -294,29 +285,21 @@ References
 ==========
 
 <a name="berry2007efficient"></a>Berry, D. W.; Ahokas, G.; Cleve, R. &
-Sanders, B. C. [Efficient quantum algorithms for simulating sparse
-Hamiltonians](http://arxiv.org/abs/quant-ph/0508139). *Communications in
+Sanders, B. C. [Efficient quantum algorithms for simulating sparse Hamiltonians](http://arxiv.org/abs/quant-ph/0508139). *Communications in
 Mathematical Physics*, 2007, 270, 359-371.  
 <a name="giovannetti2008quantum"></a>Giovannetti, V.; Lloyd, S. &
-Maccone, L. [Quantum random access
-memory](http://arxiv.org/abs/0708.1879). *Physical Review Letters*,
+Maccone, L. [Quantum random access memory](http://arxiv.org/abs/0708.1879). *Physical Review Letters*,
 2008, 100, 160501.  
 <a name="harrow2009quantum"></a>Harrow, A. W.; Hassidim, A. & Lloyd, S.
-[Quantum algorithm for linear systems of
-equations](http://arxiv.org/abs/0811.3171). *Physical Review Letters*,
+[Quantum algorithm for linear systems of equations](http://arxiv.org/abs/0811.3171). *Physical Review Letters*,
 2009, 103, 150502.  
 <a name="lloyd2013quantum2"></a>Lloyd, S.; Mohseni, M. & Rebentrost, P.
 [Quantum self analysis](http://arxiv.org/abs/1307.0401).
 *arXiv:1307.0401*, 2013.  
 <a name="lloyd2013quantum"></a> Lloyd, S.; Mohseni, M. & Rebentrost, P.
-[Quantum algorithms for supervised and unsupervised machine
-learning](http://arxiv.org/abs/1307.0411). *arXiv:1307.0411*, 2013.  
+[Quantum algorithms for supervised and unsupervised machine learning](http://arxiv.org/abs/1307.0411). *arXiv:1307.0411*, 2013.  
 <a name="rebentrost2013quantum"></a>Rebentrost, P.; Mohseni, M. &
-Lloyd, S.[Quantum support vector machine for big feature and big data
-classification](http://arxiv.org/abs/1307.0471). *arXiv:1307.0471*,
+Lloyd, S.[Quantum support vector machine for big feature and big data classification](http://arxiv.org/abs/1307.0471). *arXiv:1307.0471*,
 2013.  
-<a name="suykens1999least"></a> Suykens, J. A. & Vandewalle, J. [Least
-squares support vector machine
-classifiers](http://link.springer.com/article/10.1023/A:1018628609742).
+<a name="suykens1999least"></a> Suykens, J. A. & Vandewalle, J. [Least squares support vector machine classifiers](http://link.springer.com/article/10.1023/A:1018628609742).
 *Neural Processing Letters*, 1999, 9, 293--300.
-

@@ -1,7 +1,8 @@
 Title: Causal structures, Bayesian nets, and quantum systems
 Date: 2014-09-18 10:22
 Author: Peter
-Category: Machine learning, Quantum information theory, Quantum machine learning
+Category: Quantum machine learning
+Tags: Quantum machine learning, Machine learning, Quantum information theory
 Slug: causal-structures-bayesian-nets-and-quantum-systems
 
 [bibshow sort=firstauthor order=asc process\_titles=0
@@ -134,4 +135,3 @@ References
 ==========
 
 [/bibshow]
-

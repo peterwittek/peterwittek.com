@@ -1,7 +1,8 @@
 Title: CuBlas matrix multiplication with C-style arrays
 Date: 2013-06-17 06:48
 Author: Peter
-Category: C++, GPU
+Category: C++
+Tags: C++, GPU
 Slug: cublas-matrix-c-style
 
 CuBlas has decently optimized calls, but it stuck with column-first
@@ -18,8 +19,7 @@ special structure, they are not symmetric or Hermitian, they are
 definitely not square, and the elements are single-precision floats. You
 would like to make the following function call:
 
-<div class="highlight">
-
+    :::c
     cublasSgemm(cublasHandle_t handle,
                  cublasOperation_t transa, cublasOperation_t transb,
                  int m, int n, int k,
@@ -28,8 +28,6 @@ would like to make the following function call:
                  const float *B, int ldb,
                  const float *beta,
                  float *C, int ldc)
-
-</div>
 
 Some parameters are easier than others. The handle is just the usual
 CuBlas handle which is better initialized somewhere before the call.
@@ -51,30 +49,29 @@ layout](http://peterwittek.com/wp-content/uploads/2013/04/c-matrix-fortran-view.
 The important thing to notice that they do not need to be transposed to
 get the correct result, flipping their order will be sufficient. So DE
 C-style will be ED Fortran-style. With this, we can establish five more
-parameters: transa will be CUBLAS\_OP\_N (=not transposed), transb will
-be CUBLAS\_OP\_N, A will be E, B will be D, and the result C will be F.
+parameters: ``transa`` will be ``CUBLAS_OP_N`` (=not transposed), ``transb`` will
+be ``CUBLAS_OP_N``, A will be E, B will be D, and the result C will be F.
 
-m is the number of rows of matrices A and C. This will not correspond to
+The parameter ``m`` is the number of rows of matrices A and C. This will not correspond to
 our row numbers because we flipped the order of multiplication. So this
-value will be in fact the number of columns of E (denoted by colE). n is
+value will be in fact the number of columns of E (denoted by ``colE``). The parameter ``n`` is
 the number of columns of matrices B and C, which in our case will
-correspond to rowD. k is the number of columns of A and rows of B, in
+correspond to ``rowD``. The parameter ``k`` is the number of columns of A and rows of B, in
 our case, it will be colD.
 
 Perhaps the hardest to figure out is the leading dimensions of the
-matrices, lda, ldb, and ldc. In Fortran, this would be the distance in
-memory between two consecutive \*columns\* of the respective matrices.
+matrices, ``lda``, ``ldb``, and ``ldc.`` In Fortran, this would be the distance in
+memory between two consecutive *columns* of the respective matrices.
 Since we have C-style arrays, this will be the distance between two
 consecutive rows, which is, of course, the number of columns. So the
-lda, ldb, and ldc will become colE, colD, and colE, respectively.
+``lda``, ``ldb``, and ``ldc`` will become ``colE``, ``colD``, and ``colE``, respectively.
 
 We would be fools not to make use of the excellent Thrust library in the
 rest of our code, so let us further assume that the matrices are stored
 as Thrust vectors, so they need to be cast in raw-pointer forms for the
 CuBlas call. Putting it all together, the call will be:
 
-<div class="highlight">
-
+    :::c++
     float alpha = 1.0f; float beta = 0.0f;
     status = cublasSgemm(handle, CUBLAS_OP_N, CUBLAS_OP_N,
                           colE, rowD, colD,
@@ -82,9 +79,8 @@ CuBlas call. Putting it all together, the call will be:
                                   thrust::raw_pointer_cast(&D[0]), colD,
                           &beta,  thrust::raw_pointer_cast(&F[0]), colE);
 
-</div>
 
 [This](https://gist.github.com/peterwittek/6303527 "Matrix product") bit
-of code shows a working example. It should compile with  nvcc -o
-matrix\_product\_c\_view matrix\_product\_c\_view.cu -lcublas.
+of code shows a working example. It should compile with  ``nvcc -o
+matrix_product_c_view matrix_product_c_view.cu -lcublas``.
 

@@ -1,14 +1,13 @@
 Title: Quantum process tomography and machine learning
 Date: 2013-11-01 06:31
 Author: Peter
-Category: Machine learning, Quantum information theory, Quantum machine learning
+Category: Quantum machine learning
+Tags: Quantum machine learning, Quantum information theory, Machine learning
 Slug: quantum-process-tomography-and-machine-learning
 
 ***Update****: An extended version of this post will appear in the
-upcoming book [Quantum Machine Learning: What Quantum Computing Means to
-Data Mining](http://peterwittek.com/book/ "Quantum Machine Learning").*  
-***Update 2****: Some clarifications are made in a [new
-post](http://peterwittek.com/2014/08/more-on-quantum-learning-of-unitaries/).*
+upcoming book [Quantum Machine Learning: What Quantum Computing Means to Data Mining](http://peterwittek.com/book/ "Quantum Machine Learning").*  
+***Update 2****: Some clarifications are made in a [new post](http://peterwittek.com/2014/08/more-on-quantum-learning-of-unitaries/).*
 
 Take a high-level view on machine learning: given a training set
 \$\$\\{(\\mathbf{x}\_1,y\_1),\\ldots,(\\mathbf{x}\_N,y\_N)\\},\$\$ where
@@ -29,19 +28,15 @@ classical case, we would like to calculate \$\$\\hat{U}(\\rho)\$\$ for a
 new state \$\$\\rho\$\$ ([Bisio et al., 2010](#bisio2010optimal)).
 
 In a classical setting, we define an objective function, and we seek an
-optimum subject to constraints and assumptions. For instance, in [linear
-least
-squares](https://en.wikipedia.org/wiki/Least_squares#Problem_statement),
+optimum subject to constraints and assumptions. For instance, in [linear least squares](https://en.wikipedia.org/wiki/Least_squares#Problem_statement),
 we assume that the unknown function has the form
 \$\$f(\\mathbf{x},\\mathbf{\\beta})=\\beta\_0+\\beta\_1\\mathbf{x}.\$\$
 We seek to minimize the squared residual \$\$S=\\sum\_{i=1}\^N
 (y\_i-f(\\mathbf{x},\\mathbf{\\beta}))\^2.\$\$ The assumption in
 learning by quantum process tomography is that the channel is unitary
 and that the unitary transformation is drawn from a group -- that is, it
-meets basic symmetry conditions ([Chiribella et al.,
-2005](#chiribella2005optimal)). The objective function is replaced by
-the [fidelity of quantum
-states](https://en.wikipedia.org/wiki/Fidelity_of_quantum_states).
+meets basic symmetry conditions ([Chiribella et al., 2005](#chiribella2005optimal)). The objective function is replaced by
+the [fidelity of quantum states](https://en.wikipedia.org/wiki/Fidelity_of_quantum_states).
 
 Apart from these similarities, the rest of the learning process does not
 resemble the classical variant. Unlike in the classical setting,
@@ -69,8 +64,7 @@ The task is simple: we have a black box that implements an unknown
 unitary \$\$U,\$\$ and we can make \$\$N\$\$ calls to it to identify the
 unitary. \$\$U\$\$ acts on a finite \$\$d\$\$-dimensional Hilbert space,
 and performs a deterministic transformation belonging to a given
-[representation of a compact Lie
-group](https://en.wikipedia.org/wiki/Representation_of_a_Lie_group)
+[representation of a compact Lie group](https://en.wikipedia.org/wiki/Representation_of_a_Lie_group)
 ([Chiribella, 2011](#chiribella2011group)). The deterministic
 transformation is also known as a quantum channel.
 
@@ -78,8 +72,7 @@ Two immediate problems arise: (i) How do we store the approximated
 unitary? (ii) How do we dispose the \$\$N\$\$ uses? In parallel or in
 sequence?
 
-The first question is easier to address: the [Choi-Jamiołkowsky
-duality](https://en.wikipedia.org/wiki/Channel-state_duality) enables
+The first question is easier to address: the [Choi-Jamiołkowsky duality](https://en.wikipedia.org/wiki/Channel-state_duality) enables
 storing the unitary as a state. Denote the stored state as
 \$\$|\\phi\_U\\rangle.\$\$
 
@@ -104,17 +97,13 @@ Optimal state for learning
 
 Classical learning takes the training examples, and tries to make the
 best of them. Some variants may ask for specific extra examples, as in
-[active
-learning](https://en.wikipedia.org/wiki/Active_learning_%28machine_learning%29),
+[active learning](https://en.wikipedia.org/wiki/Active_learning_%28machine_learning%29),
 which is, in turn, a flavour of semi-supervised learning. Other
-algorithms learn to ignore irrelevant examples, such [support vector
-machines with
-*C*-regularization](https://en.wikipedia.org/wiki/Support_vector_machines#Soft_margin).
+algorithms learn to ignore irrelevant examples, such [support vector machines with *C*-regularization](https://en.wikipedia.org/wiki/Support_vector_machines#Soft_margin).
 Quantum process tomography, on the other hand, requires and *optimal*
 input state, which also has to be entangled.
 
-To give an intuition why entanglement is necessary, consider [superdense
-coding](https://en.wikipedia.org/wiki/Superdense_coding): two classical
+To give an intuition why entanglement is necessary, consider [superdense coding](https://en.wikipedia.org/wiki/Superdense_coding): two classical
 bits are sent over a quantum channel by a single qubit. The two
 communicating parties, Alice and Bob, have a half of two entangled
 qubits -- in fact, a Bell state -- each. Alice applies one of four
@@ -123,8 +112,7 @@ different one, and sends the qubit over. Bob measures the state, and
 deduces which one of the four operations was used, thus retrieving two
 classical bits of information. The use of entanglement with an ancillary
 system improves the discrimination of unknown transformations; this
-motivates using such states in generic process tomography ([Chiribella,
-2011](#chiribella2011group)).
+motivates using such states in generic process tomography ([Chiribella, 2011](#chiribella2011group)).
 
 A representation of the unitary group is *irreducible* in an invariant
 subspace, if the subspace does not have a proper subspace that is
@@ -138,15 +126,13 @@ decomposition) of unitary representation \$\$\\{U\_g\\}\$\$ is given by
 \$\$U\_g=\\oplus\_{\\mu\\in{}\\textrm{Irr}(U\_g)}U\_g\^\\mu\\otimes\\mathbb{I}\_{m\_\\mu},\$\$
 acting on
 \$\$\\mathcal{H}=\\oplus\_{\\mu\\in{}\\textrm{Irr}(U\_g)}\\mathcal{H}\_\\mu\\otimes\\mathbb{C}\^{m\_\\mu}\$\$
-([Chiribella et al., 2005](#chiribella2005optimal); [Chiribella,
-2006](#chiribella2006optimal), p.26). \$\$\\mathcal{H}\_\\mu\$\$ is
+([Chiribella et al., 2005](#chiribella2005optimal); [Chiribella, 2006](#chiribella2006optimal), p.26). \$\$\\mathcal{H}\_\\mu\$\$ is
 called the representation space, and \$\$\\mathbb{C}\^{m\_\\mu}\$\$ is
 the multiplicity space. \$\$\\mathbb{I}\_{m\_\\mu}\$\$ is the identity
 on the \$\$m\_\\mu\$\$-dimensional Hilbert space.
 
 Using the decomposition of \$\$U\^{\\otimes{}N}\$\$, we have the
-following lemma to identify the optimal input state ([Bisio et al.,
-2010](#bisio2010optimal)):
+following lemma to identify the optimal input state ([Bisio et al., 2010](#bisio2010optimal)):
 
 **Lemma (Optimal states for storage)** The optimal input state for
 storage can be taken of the form \$\$|\\phi\\rangle =
@@ -164,8 +150,7 @@ carrying the representation
 \$\$\\mathbb{I}\_j\$\$ being the identity in \$\$\\mathcal{H}\_j.\$\$
 
 The optimal state for the estimation of an unknown unitary is always a
-superposition of maximally entangled states ([Chiribella et al.,
-2011](#chiribella2005optimal)).
+superposition of maximally entangled states ([Chiribella et al., 2011](#chiribella2005optimal)).
 
 Applying the learned function
 =============================
@@ -179,10 +164,8 @@ There is no loss of generality in restricting the search space to
 covariant POVMs ([Holevo, 2011](#holevo2011probabilistic)) of the form
 \$\$M(g) = U\_g\\Xi{}U\_g\^{\\dagger},\$\$ with a positive operator
 \$\$\\Xi\$\$ satisfying the normalizing condition \$\$\\int\_G
-\\mathrm{d}gM(g)=\\mathbb{I}\$\$ ([Chiribella et al.,
-2005](#chiribella2005optimal)). The following theorem provides the
-optimal measurement to retrieve the approximated unitary ([Bisio et al.,
-2010](#bisio2010optimal)):
+\\mathrm{d}gM(g)=\\mathbb{I}\$\$ ([Chiribella et al., 2005](#chiribella2005optimal)). The following theorem provides the
+optimal measurement to retrieve the approximated unitary ([Bisio et al., 2010](#bisio2010optimal)):
 
 **Theorem (Optimal retrieving strategy)** The optimal retrieving of
 \$\$U\$\$ from the memory state \$\$|\\phi\_U\\rangle\$\$ is achieved by
@@ -215,24 +198,17 @@ to see a formal link between these concepts.
 References
 ==========
 
-<a name="acin2001optimal"></a>Acín, A.; Jané, E. & Vidal, G. [Optimal
-estimation of quantum dynamics](http://arxiv.org/abs/quant-ph/0012015).
+<a name="acin2001optimal"></a>Acín, A.; Jané, E. & Vidal, G. [Optimal estimation of quantum dynamics](http://arxiv.org/abs/quant-ph/0012015).
 *Physical Review A*, 2001, 64, 050302.  
 <a name="bisio2010optimal"></a>Bisio, A.; Chiribella, G.; D'Ariano, G.;
-Facchini, S. & Perinotti, P. [Optimal quantum learning of a unitary
-transformation](http://arxiv.org/abs/0903.0543). *Physical Review A*,
+Facchini, S. & Perinotti, P. [Optimal quantum learning of a unitary transformation](http://arxiv.org/abs/0903.0543). *Physical Review A*,
 2010, 81, 032324.  
 <a name="chiribella2005optimal"></a>Chiribella, G.; D'ariano, G. &
-Sacchi, M. [Optimal estimation of group transformations using
-entanglement](http://arxiv.org/abs/quant-ph/0506267). *Physical Review
+Sacchi, M. [Optimal estimation of group transformations using entanglement](http://arxiv.org/abs/quant-ph/0506267). *Physical Review
 A*, 2005, 72, 042338.  
-<a name="chiribella2006optimal"></a>Chiribella, G. [Optimal estimation
-of quantum signals in the presence of
-symmetry](http://www.qubit.it/educational/thesis/ThesisRevised.pdf). PhD
+<a name="chiribella2006optimal"></a>Chiribella, G. [Optimal estimation of quantum signals in the presence of symmetry](http://www.qubit.it/educational/thesis/ThesisRevised.pdf). PhD
 thesis. *University of Pavia*, 2006.  
-<a name="chiribella2011group"></a>Chiribella, G. [Group theoretic
-structures in the estimation of an unknown unitary
-transformation](http://arxiv.org/abs/1012.2130). *Journal of Physics:
+<a name="chiribella2011group"></a>Chiribella, G. [Group theoretic structures in the estimation of an unknown unitary transformation](http://arxiv.org/abs/1012.2130). *Journal of Physics:
 Conference Series*, 2011, 284, 012001.  
 <a name="holevo2011probabilistic"></a>Holevo, A. *Probabilistic and
 statistical aspects of quantum theory*. Springer, 2011.

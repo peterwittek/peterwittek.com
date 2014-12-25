@@ -1,7 +1,8 @@
 Title: Generating noncommutative monomials with SymPy
 Date: 2013-05-06 00:05
 Author: Peter
-Category: Noncommutative polynomials, Python, SymPy
+Category: Python
+Tags: Noncommutative polynomials, Python, SymPy
 Slug: generating-noncommutative-monomials-with-sympy
 
 We are not spoilt for choices to work with polynomials of noncommutative

@@ -1,42 +1,37 @@
 Title: Summing the entries of a matrix using a stencil with Thrust
 Date: 2013-04-22 02:06
 Author: Peter
-Category: C++, GPU
+Category: C++
+Tags: C++, GPU
 Slug: summing-the-entries-of-a-matrix-using-a-stencil-with-thrust
 
 The task sounds simple: sum every element according to a stencil in a
 two-dimensional layout. Ideally it should be done on the GPU, provided
 the input is already sitting in the device memory. This operation
-occurs, for instance, in[agent-based
-modelling](http://on-demand.gputechconf.com/gtc/2013/poster/pdf/P0197_PeterWittek.pdf "GTC Poster"),
+occurs, for instance, in [agent-based modelling](http://on-demand.gputechconf.com/gtc/2013/poster/pdf/P0197_PeterWittek.pdf "GTC Poster"),
 when the agent collects information about its environment. The stencil
 in that case is a circle with a radius that corresponds to the agents'
 horizon:
 
-![An agent's horizon as a
-stencil](http://peterwittek.com/wp-content/uploads/2013/04/agent_stencil.png)
+![An agent's horizon as a stencil](http://peterwittek.com/wp-content/uploads/2013/04/agent_stencil.png)
 
 The idea would be to avoid hand-tuning CUDA reduction kernels, and rely
 on Thrust to save work. The sum we need is a kind of inner product of
 the stencil and the submatrix tile at a given offset:
 
-<div class="highlight">
-
+    :::c++
     thrust::inner_product(tile.begin(), tile.end(),
                            stencil.begin(), 0);
-
-</div>
 
 Yet, given Thrust's fundamentally one-dimensional focus, it proves to be
 a complicated task to accomplish. The difficulty arises that we need to
 extract a 2D sub-array from a 2D matrix. We need to define a new class
-tile, with its own begin() and end() functions that can serve as input
+tile, with its own ``begin()`` and ``end()`` functions that can serve as input
 for the above call. The constructor simply fills in the values for its
 private variables that keep track of the tile size and the leading
 dimension of the matrix:
 
-<div class="highlight">
-
+    :::c++
     tiled_range(Iterator first, Iterator last,
                 data_type tile_size_x, data_type tile_size_y,
                 data_type leading_dimension)
@@ -44,23 +39,18 @@ dimension of the matrix:
         tile_size_x(tile_size_x), tile_size_y(tile_size_y),
         leading_dimension(leading_dimension) {}
 
-</div>
-
-To get the iterator right for the tiled\_range class, we will need a
+To get the iterator right for the ``tiled_range`` class, we will need a
 counting, a transform, and a permutation iterator, with the latter being
 the iterator type for our class. To keep things short, these are
 typedef-ed.
 
-<div class="highlight">
-
+    :::c++
     typedef typename thrust::counting_iterator<data_type>
                       CountingIterator;
     typedef typename thrust::transform_iterator<tile_functor, CountingIterator>
                       TransformIterator;
     typedef typename thrust::permutation_iterator<Iterator,TransformIterator>
                       PermutationIterator;
-
-</div>
 
 The permuation iterator takes two arguments:
 
@@ -72,18 +62,17 @@ The first one will be the entire matrix, whereas the "permutation" will
 be a new transform iterator that ensures only the tile elements are
 returned. The transform iterator in turn takes two parameters:
 
--   An Iterator pointing to the input to this transform\_iterator's
-    AdaptableUnaryFunction.
--   An AdaptableUnaryFunction used to transform the objects pointed to
-    by x.
+-   An ``Iterator`` pointing to the input to this ``transform_iterator``'s
+    ``AdaptableUnaryFunction``.
+-   An ``AdaptableUnaryFunction`` used to transform the objects pointed to
+    by ``x``.
 
 The iterator will be a counting operator starting at zero. The unary
 function maps the linear counter to the correct index of the matrix
 based on the tile parameters and the leading dimension of the matrix.
 The functor itself is fairly simple:
 
-<div class="highlight">
-
+    :::c++
     struct tile_functor : public thrust::unary_function<data_type,data_type>
     {
         data_type tile_size_x;
@@ -101,30 +90,22 @@ The functor itself is fairly simple:
         }
     };
 
-</div>
+With all components prepared, the ``begin()`` function becomes
 
-With all components prepared, the begin() function becomes
-
-<div class="highlight">
-
+    :::c++
     PermutationIterator begin(void) const
     {
       return PermutationIterator(first, TransformIterator(CountingIterator(0),
                tile_functor(tile_size_x, leading_dimension)));
     }
 
-</div>
+The ``end()`` function is again very simple:
 
-The end() function is again very simple:
-
-<div class="highlight">
-
+    :::c++
     PermutationIterator end(void) const
     {
       return begin() + tile_size_y * tile_size_x;
     }
-
-</div>
 
 A complete example is given
 [here](https://gist.github.com/peterwittek/6303588 "Source"), which

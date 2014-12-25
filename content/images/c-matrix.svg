@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="411.27039"
+   height="316.26025"
+   id="svg3047"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="c-matrix.svg">
+  <defs
+     id="defs3049">
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend"
+       style="overflow:visible">
+      <path
+         id="path3999"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         id="path3996"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart-5"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3996-9"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-4"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3999-1"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="104.19478"
+     inkscape:cy="121.79158"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1080"
+     inkscape:window-x="-1"
+     inkscape:window-y="-2"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata3052">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-124.8125,-181.67725)">
+    <rect
+       style="color:#000000;fill:none;stroke:#000000;stroke-width:2.59069133;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3055"
+       width="343.46445"
+       height="272.76181"
+       x="126.10101"
+       y="223.89197"
+       inkscape:export-filename="/home/wittek/c-matrix.png"
+       inkscape:export-xdpi="131.3"
+       inkscape:export-ydpi="131.3" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 127.01033,301.09315 341.47492,0"
+       id="path3827"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/wittek/c-matrix.png"
+       inkscape:export-xdpi="131.3"
+       inkscape:export-ydpi="131.3" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 127.01033,261.97197 341.47492,0"
+       id="path3827-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/wittek/c-matrix.png"
+       inkscape:export-xdpi="131.3"
+       inkscape:export-ydpi="131.3" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 127.01033,340.21434 341.47492,0"
+       id="path3827-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/wittek/c-matrix.png"
+       inkscape:export-xdpi="131.3"
+       inkscape:export-ydpi="131.3" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 127.01033,379.33552 341.47492,0"
+       id="path3827-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/wittek/c-matrix.png"
+       inkscape:export-xdpi="131.3"
+       inkscape:export-ydpi="131.3" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 127.01033,418.45671 341.47492,0"
+       id="path3827-01"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/wittek/c-matrix.png"
+       inkscape:export-xdpi="131.3"
+       inkscape:export-ydpi="131.3" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 127.01033,457.57789 341.47492,0"
+       id="path3827-40"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/wittek/c-matrix.png"
+       inkscape:export-xdpi="131.3"
+       inkscape:export-ydpi="131.3" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 127.01033,222.85078 341.47492,0"
+       id="path3827-8-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/wittek/c-matrix.png"
+       inkscape:export-xdpi="131.3"
+       inkscape:export-ydpi="131.3" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 127.01033,496.69908 341.47492,0"
+       id="path3827-40-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/wittek/c-matrix.png"
+       inkscape:export-xdpi="131.3"
+       inkscape:export-ydpi="131.3" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3930"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       transform="translate(80.976724,-327.42762)"
+       inkscape:export-filename="/home/wittek/c-matrix.png"
+       inkscape:export-xdpi="131.3"
+       inkscape:export-ydpi="131.3"><flowRegion
+         id="flowRegion3932"><rect
+           id="rect3934"
+           width="90.130608"
+           height="23.23678"
+           x="55.627487"
+           y="558.05212" /></flowRegion><flowPara
+         id="flowPara3936"
+         style="font-size:16px">d<flowSpan
+   style="font-size:65.00091553%;baseline-shift:sub"
+   id="flowSpan3950">11</flowSpan> d<flowSpan
+   style="font-size:65.00091553%;baseline-shift:sub"
+   id="flowSpan3952">12 </flowSpan>... </flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3942"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       inkscape:export-filename="/home/wittek/c-matrix.png"
+       inkscape:export-xdpi="131.3"
+       inkscape:export-ydpi="131.3"><flowRegion
+         id="flowRegion3944"><rect
+           id="rect3946"
+           width="52.810905"
+           height="33.798981"
+           x="194.34413"
+           y="618.60858" /></flowRegion><flowPara
+         id="flowPara3948"></flowPara></flowRoot>    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 126.04203,219.35815 0,-35.20727"
+       id="path3954"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/wittek/c-matrix.png"
+       inkscape:export-xdpi="131.3"
+       inkscape:export-ydpi="131.3" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 469.665,220.06229 0,-35.20727"
+       id="path3954-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/wittek/c-matrix.png"
+       inkscape:export-xdpi="131.3"
+       inkscape:export-ydpi="131.3" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow1Lstart);marker-mid:none;marker-end:url(#Arrow1Lend)"
+       d="m 127.8202,201.75451 341.47492,0"
+       id="path3827-8-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/wittek/c-matrix.png"
+       inkscape:export-xdpi="131.3"
+       inkscape:export-ydpi="131.3" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3930-2"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       transform="translate(220.67754,-380.67735)"
+       inkscape:export-filename="/home/wittek/c-matrix.png"
+       inkscape:export-xdpi="131.3"
+       inkscape:export-ydpi="131.3"><flowRegion
+         id="flowRegion3932-0"><rect
+           id="rect3934-6"
+           width="40.84042"
+           height="21.124319"
+           x="55.627487"
+           y="558.05212" /></flowRegion><flowPara
+         id="flowPara3936-0"
+         style="font-size:16px">colD</flowPara></flowRoot>    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 509.09714,224.28717 -35.20727,0"
+       id="path3954-8-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/wittek/c-matrix.png"
+       inkscape:export-xdpi="131.3"
+       inkscape:export-ydpi="131.3" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 508.39299,496.0873 -35.20727,0"
+       id="path3954-8-0-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/wittek/c-matrix.png"
+       inkscape:export-xdpi="131.3"
+       inkscape:export-ydpi="131.3" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow1Lstart);marker-mid:none;marker-end:url(#Arrow1Lend)"
+       d="m 489.38107,495.76958 0,-270.46053"
+       id="path3827-8-5-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/wittek/c-matrix.png"
+       inkscape:export-xdpi="131.3"
+       inkscape:export-ydpi="131.3" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3930-2-1"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       transform="translate(443.91102,-207.98768)"
+       inkscape:export-filename="/home/wittek/c-matrix.png"
+       inkscape:export-xdpi="131.3"
+       inkscape:export-ydpi="131.3"><flowRegion
+         id="flowRegion3932-0-6"><rect
+           id="rect3934-6-1"
+           width="40.84042"
+           height="21.124319"
+           x="55.627487"
+           y="558.05212" /></flowRegion><flowPara
+         id="flowPara3936-0-7"
+         style="font-size:16px">rowD</flowPara></flowRoot>  </g>
+</svg>

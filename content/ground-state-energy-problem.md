@@ -1,7 +1,8 @@
 Title: Converting a ground-state energy problem to a semidefinite programme
 Date: 2013-06-03 09:45
 Author: Peter
-Category: Noncommutative polynomials, Picos, Semidefinite programming, SymPy
+Category: Semidefinite programming
+Tags: Noncommutative polynomials, Semidefinite programming, SymPy
 Slug: ground-state-energy-problem
 
 We are interested in finding the ground state energy of the following
@@ -21,8 +22,7 @@ constraints:
 
 We fix γ=1 and λ=2. Treating the problem as an instance of
 noncommutative polynomial optimization, we convert it to a semidefinite
-programme (SDP) relaxation ([Pironio et
-al., 2010](#pironio2010convergent)).
+programme (SDP) relaxation ([Pironio et al., 2010](#pironio2010convergent)).
 
 Generating the relaxation
 =========================
@@ -213,12 +213,10 @@ References
 ==========
 
 <a name="corboz2009simulation"></a>Corboz, P.; Evenbly, G.; Verstraete,
-F. & Vidal, G. [Simulation of interacting fermions with entanglement
-renormalization](http://arxiv.org/abs/0904.4151). *Physics Review A*,
+F. & Vidal, G. [Simulation of interacting fermions with entanglement renormalization](http://arxiv.org/abs/0904.4151). *Physics Review A*,
 2010, 81, pp. 010303.
 
 <a name="pironio2010convergent"></a>Pironio, S.; Navascués, M. & Acín,
-A. [Convergent relaxations of polynomial optimization problems with
-noncommuting variables](http://arxiv.org/abs/0903.4368). *SIAM Journal
+A. [Convergent relaxations of polynomial optimization problems with noncommuting variables](http://arxiv.org/abs/0903.4368). *SIAM Journal
 on Optimization*, 2010, 20, pp. 2157-2180.
 

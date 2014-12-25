@@ -1,21 +1,16 @@
 Title: The Nieto-Silleras and Moroder hierarchies in Ncpol2sdpa
 Date: 2014-11-27 10:44
 Author: Peter
-Category: Noncommutative polynomials, Python, Quantum information theory, Semidefinite programming, SymPy
+Category: Semidefinite programming
+Tags: Noncommutative polynomials, Python, Quantum information theory, Semidefinite programming, SymPy
 Slug: the-nieto-silleras-and-moroder-hierarchies-in-ncpol2sdpa
 
-Some alternatives to the NPA hierarchy ([Pironio et al.,
-2010](#pironio2010convergent)) were published recently. One of the new
+Some alternatives to the NPA hierarchy ([Pironio et al., 2010](#pironio2010convergent)) were published recently. One of the new
 approaches takes all joint probabilities into consideration when looking
 for a maximum guessing probability, and not just the ones included in a
-particular Bell inequality ([Nieto-Silleras et al.,
-2014](#nieto-silleras2014using), [Bancal et al.,
-2014](#bancal2014more)). We refer to this type as the Nieto-Silleras
-hierarchy.
+particular Bell inequality ([Nieto-Silleras et al., 2014](#nieto-silleras2014using), [Bancal et al., 2014](#bancal2014more)). We refer to this type as the Nieto-Silleras hierarchy.
 
-The other extension consider a tensor product structure between the
-parties in a two-party Bell experiment ([Moroder et al.,
-2013](#moroder2013device)). This structure allows imposing further
+The other extension consider a tensor product structure between the parties in a two-party Bell experiment ([Moroder et al., 2013](#moroder2013device)). This structure allows imposing further
 constraints that are not possible in the NPA hierarchy, such as the
 positivity of the partial transpose of the moment matrix. We refer to
 this as the Moroder hierarchy.
@@ -415,8 +410,7 @@ gives more flexibility, so we work with that. The default function for
 loading is called loadsdpafile. We modify this to return the moment
 matrix itself:
 
-<div class="highlight">
-
+    :::matlab
     function [F,h,momentmatrix] = loadsdpafilehacked(varargin)
 
     filename = varargin{1};
@@ -476,46 +470,34 @@ matrix itself:
     end
     h = -b'*x;
 
-</div>
-
 Using this modified function, we can perform arbitrary postprocessing on
 the moment matrix, for instance, imposing the PPT condition:
 
-<div class="highlight">
-
+    :::matlab
     [F,h,momentmatrix]=loadsdpafilehacked('chsh-moroder.dat-s');
     F = F + (PartialTranspose(momentmatrix>=0)
     optimize(F,h)
-
-</div>
 
 References
 ==========
 
 <a name="bancal2014more"></a>Bancal, J.-D.; Sheridan, L. & Scarani, V.
-[More randomness from the same
-data](http://dx.doi.org/10.1088/1367-2630/16/3/033011). New Journal of
+[More randomness from the same data](http://dx.doi.org/10.1088/1367-2630/16/3/033011). New Journal of
 Physics, 2014, 16, pp. 033011.
 
 <a name="johansson2013qutip"></a>Johansson, J.R.; Nation, P.D. & Nori,
-F. [QuTiP 2: A Python framework for the dynamics of open quantum
-systems](http://dx.doi.org/10.1016/j.cpc.2012.11.019). Computer Physics
+F. [QuTiP 2: A Python framework for the dynamics of open quantum systems](http://dx.doi.org/10.1016/j.cpc.2012.11.019). Computer Physics
 Communications, 2013, 184, pp. 1234--1240.
 
 <a name="moroder2013device"></a>Moroder, T.; Bancal, J.-D.; Liang,
-Y.-C.; Hofmann, M. & Gühne, O. [Device-independent entanglement
-quantification and related
-applications](http://dx.doi.org/10.1103/PhysRevLett.111.030501). Physics
+Y.-C.; Hofmann, M. & Gühne, O. [Device-independent entanglement quantification and related applications](http://dx.doi.org/10.1103/PhysRevLett.111.030501). Physics
 Review Letters, American Physical Society, 2013, 111, pp. 030501.
 
 <a name="nieto-silleras2014using"></a>Nieto-Silleras, O.; Pironio, S. &
-Silman, J. [Using complete measurement statistics for optimal
-device-independent randomness
-evaluation](http://dx.doi.org/10.1088/1367-2630/16/1/013035). New
+Silman, J. [Using complete measurement statistics for optimal device-independent randomness evaluation](http://dx.doi.org/10.1088/1367-2630/16/1/013035). New
 Journal of Physics, 2014, 16, pp. 013035.
 
 <a name="pironio2010convergent"></a>Pironio, S.; Navascués, M. & Acín,
-A. [Convergent relaxations of polynomial optimization problems with
-noncommuting variables](http://arxiv.org/abs/0903.4368). *SIAM Journal
+A. [Convergent relaxations of polynomial optimization problems with noncommuting variables](http://arxiv.org/abs/0903.4368). *SIAM Journal
 on Optimization*, 2010, 20, pp. 2157-2180.
 

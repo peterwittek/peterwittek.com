@@ -1,7 +1,8 @@
 Title: Training emergent self-organizing maps on sparse data with Somoclu
 Date: 2013-12-20 04:54
 Author: Peter
-Category: Uncategorized
+Category: C++
+Tags: Machine learning, C++
 Slug: training-emergent-self-organizing-maps-with-somoclu
 
 Self-organizing maps are a topology-preserving embedding of
@@ -20,7 +21,7 @@ points will share a best matching neuron in the grid.
 
 Emergent self-organizing maps (ESOMs) are a variant in which *k*\>*n*.
 In this arrangement, a data point will not only have a unique best
-matching neuron, but the neuron's neighbourhood will also \`belong' to
+matching neuron, but the neuron's neighbourhood will also 'belong' to
 the data point. Clustering structure will still show: some areas of the
 map will be denser than others.
 
@@ -38,8 +39,7 @@ Computational requirements
 Self-organizing maps are notoriously slow to train, and ESOMs are even
 more so. [Somoclu](http://peterwittek.github.io/somoclu/) is a
 high-performance implementation that accelerates computations on
-multicore CPUs, GPUs, and even on multiple nodes ([Wittek,
-2013](#wittek2013somoclu)).
+multicore CPUs, GPUs, and even on multiple nodes ([Wittek, 2013](#wittek2013somoclu)).
 
 Apart from training time, additional problems surface with ESOMs. The
 codebook of the map -- the data structure that holds the weight vector
@@ -68,16 +68,13 @@ storing matrix entries in 4-byte floats. Even with the savings, a map
 with 500x300 nodes takes nearly 13 GBytes of RAM. We trained the map
 with the following settings:
 
-<div class="highlight">
-
+    :::bash
     $ somoclu -k 2 -x 500 -y 300 -m 1 -s 2 data/reuters-nolabels.svm data/reuters
 
-</div>
-
-The parameter -k sets the sparse CPU kernel. The dimensions of the
-neuron grid are passed in the parameters -x and -y. We calculated a
-toroid map with with the -m 1 parameter. Finally, we saved all interim
-data structures with -s 2.
+The parameter ``-k`` sets the sparse CPU kernel. The dimensions of the
+neuron grid are passed in the parameters ``-x`` and ``-y``. We calculated a
+toroid map with with the ``-m 1`` parameter. Finally, we saved all interim
+data structures with ``-s 2``.
 
 We observed a curious phenomenon in the training process. The first six
 epoch took the same time each, nearly five hours (see the figure below).
@@ -130,7 +127,5 @@ AWS in Education Machine Learning Grant award.
 References
 ==========
 
-<a name="wittek2013somoclu"></a> Wittek, P. [Somoclu: An Efficient
-Distributed Library for Self-Organizing
-Maps](http://arxiv.org/abs/1305.1422). *arXiv:1305.1422*, 2013.
+<a name="wittek2013somoclu"></a> Wittek, P. [Somoclu: An Efficient Distributed Library for Self-Organizing Maps](http://arxiv.org/abs/1305.1422). *arXiv:1305.1422*, 2013.
 

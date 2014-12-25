@@ -1,7 +1,8 @@
 Title: Spyder: Getting closer to a viable Mathematica alternative
 Date: 2013-08-07 04:00
 Author: Peter
-Category: SymPy
+Category: Python
+Tags: Python, SymPy, Spyder
 Slug: spyder-closer-to-a-mathematica-alternative
 
 We still do not quite have a
@@ -28,13 +29,10 @@ Tools-\>Configuration-\>IPython console-\>Advanced Settings-\>Use
 symbolic math. The disadvantage of this that if you restart the IPython
 console, you may not get your SymPy libraries back. In this case, set up
 the IPython startup file accordingly, and also at this to
-\~/.config/ipython/profile\_default/ipython\_config.py:
+``~/.config/ipython/profile_default/ipython_config.py``:
 
-<div class="highlight">
-
+    :::python
     c.InteractiveShellApp.extra_extension = sympy.interactive.ipythonprinting
-
-</div>
 
 This formats mathematical formulae nicely.
 
@@ -509,8 +507,7 @@ Out[10]:
 </div>
 
 Sympy also has functions for more advanced applications, such as
-[Hermitian
-Operators](http://peterwittek.com/2013/05/generating-noncommutative-monomials-with-sympy/ "Generating noncommutative monomials with SymPy")
+[Hermitian Operators](http://peterwittek.com/2013/05/generating-noncommutative-monomials-with-sympy/ "Generating noncommutative monomials with SymPy")
 for quantum physics simulations.
 
 Functional Programming
@@ -708,43 +705,33 @@ With a bit of extra work, IPython can do something similar. If you have
 four cores, then launch an IPython parallel controller with four
 engines:
 
-<div class="highlight">
-
+    :::bash
     $ ipcluster start -n 4
 
-</div>
-
 This starts the engines and creates a couple of files in
-\~/.config/ipython/profile\_default/security. Those files will be parsed
+``~/.config/ipython/profile_default/security``. Those files will be parsed
 when you start the IPython shell. Then create a parallel environment in
 the shell:
 
-<div class="highlight">
-
+    :::python
     from IPython.parallel import Client
     rc = Client()
     dview = rc[:]
 
-</div>
-
 You are ready to use your parallel map function:
 
-<div class="highlight">
-
+    :::python
     dview.map_sync(lambda x: x**10, range(32))
-
-</div>
 
 What Mathematica Cannot Do
 ==========================
 
 Mathematica will never tell you how it arrived at a result. Given that
 the tools used here are open source, if you have enough time, you can
-always figure how a particular result was derived. A caveat: \`enough
+always figure how a particular result was derived. A caveat: 'enough
 time' might be a period longer than your life span.
 
-Theoretically Spyder could [run on my
-phone.](http://peterwittek.com/2013/09/computer-algebra-system-on-a-cell-phone/ "Computer Algebra System on a Cell Phone")
+Theoretically Spyder could [run on my phone.](http://peterwittek.com/2013/09/computer-algebra-system-on-a-cell-phone/ "Computer Algebra System on a Cell Phone")
 It requires bootstrapping a Linux and starting X in the framebuffer.
 None of this is rocket science, but I have not tried it yet. VNC-based
 solutions to run X as a virtual screen are inefficient.
@@ -764,12 +751,9 @@ execution on a cloud-based server.
 IPython bridges different levels of the software stack. I can do a
 symbolic integral, then run a bash command:
 
-<div class="highlight">
-
+    :::python
     display(integrate(sin(x),x))
     !uname -a
-
-</div>
 
 I cannot come up with an obvious application scenario, but executing
 external commands in Mathematica was always troublesome.
@@ -788,7 +772,7 @@ Most issues go back to Python itself and have nothing to do with Spyder
 per se. One exception is the way to break execution in the IPython
 console. This is annoying. The IPython interpreter is split in two tabs:
 the client where you issue commands, receive output and error message,
-and do all your work, and a \`console', where the execution takes place.
+and do all your work, and a 'console', where the execution takes place.
 Breaking the execution is a stochastic process: keep pressing Control+C
 in the console and the client, and hope that your execution stops.
 Strange enough, Mathematica suffers from similar problems. While Alt+,
@@ -819,4 +803,3 @@ programme with Pypy can be four to six times faster than with the
 default CPython interpreter. Let us not talk about memory use, though,
 that is bound to be abysmal with any given Python interpreter or
 compiler.
-
