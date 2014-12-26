@@ -43,9 +43,11 @@ PAGE_SAVE_AS = '{slug}.html'
 INDEX_SAVE_AS = 'blog.html'
 STATIC_PATHS = ['images']
 AUTHOR_SAVE_AS = ''
-MENUITEMS = [('Blog', '/')]
-PLUGIN_PATHS = ['../pelican-plugins']
-PLUGINS = ["render_math"]
-THEME = "themes/octopress-simplegrey"
-#THEME = "pelican-octopress-theme"
 
+# Plugin-related settings
+PLUGIN_PATHS = ['..']
+PLUGINS = ['pelican-ipynb', 'render_math']
+
+# Theme-related settings
+THEME = 'themes/octopress-simplegrey'
+#THEME = 'pelican-octopress-theme'

@@ -1,0 +1,7 @@
+Title: Quantum bound on the CHSH inequality using semidefinite relaxations
+Date: 2014-06-03 09:56
+Author: Peter
+Category: Semidefinite programming
+Tags: Noncommutative polynomials, Python, Quantum information theory, Semidefinite programming, SymPy
+Slug: quantum-bound-on-the-chsh-inequality-using-sdp
+Summary: A hierarchy of semidefinite programming relaxations approximates the Tsirelson bound on the CHSH inequality.
