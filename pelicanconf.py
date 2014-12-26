@@ -46,7 +46,7 @@ AUTHOR_SAVE_AS = ''
 
 # Plugin-related settings
 PLUGIN_PATHS = ['../pelican_plugins']
-PLUGINS = ['ipynb', 'render_math', 'bibtex']
+PLUGINS = ['ipynb', 'render_math']
 
 # Theme-related settings
 THEME = 'themes/octopress-simplegrey'
