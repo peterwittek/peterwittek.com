@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% block title %}{{ article.title }} - {{ SITENAME }}{% endblock %}
+{% block title %}{{ article.title }}{% endblock %}
 
 {% block extra_meta %}
 
@@ -18,7 +18,7 @@
 {% block content %}
 	<article class="full">
 		<h1>{{ article.title }}</h1>
-    <i>Posted: {{ article.date|strftime('%d %B %Y') }}</i>
+    <i>Posted on {{ article.date|strftime('%d %B %Y') }}</i>
 		{{ article.content }}	
 
 	</article>

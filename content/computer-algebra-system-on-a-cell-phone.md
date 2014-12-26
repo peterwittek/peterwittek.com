@@ -13,14 +13,13 @@ year of tinkering, I finally have a graphical computer algebra system
 running on it. It is an important step toward dodging my laptop
 entirely, although more work lies ahead.
 
-[caption id="attachment\_546" align="alignnone" width="620"][![Phone
+<center>[![Phone
 calculating the symbolic derivative of an implicit
-function.](http://peterwittek.com/wp-content/uploads/2013/09/spyder_on_phone-1024x538.jpg)](http://peterwittek.com/wp-content/uploads/2013/09/spyder_on_phone.jpg)
-Phone calculating the symbolic derivative of an implicit
-function.[/caption]
+function.](http://peterwittek.com/images/spyder_on_phone-300x157.jpg)](http://peterwittek.com/images/spyder_on_phone.jpg)</center>
+<center>Phone calculating the symbolic derivative of an implicit function.</center>
 
 Hardware
-========
+--------
 
 The phone is a Sony Xperia Arc S from 2011. It has a 1.4 GHz Scorpion
 Snapdragon CPU, which is a single-core ARM Cortex-A8 unit with ARMv7
@@ -29,12 +28,12 @@ about ten times slower than the single-core performance of the i7-620M
 processor in my laptop, which peaks at 3.33 GHz. The FPU is much slower
 than that.
 
-[caption id="attachment\_570" align="alignnone" width="600"]![Comparing
+<center>![Comparing
 an ARMv7 and an x86\_64
-CPU](http://peterwittek.com/wp-content/uploads/2013/09/benchmark.png) A
-quick performance comparison between an i7-620M and a Cortex-A8
+CPU](http://peterwittek.com/images/benchmark.png)</center>
+<center>A quick performance comparison between an i7-620M and a Cortex-A8
 Snapdragon CPU. The benchmarks were performed in hardinfo. Lower values
-are better.[/caption]
+are better.</center>
 
 A more limiting constraint is the RAM, which is only 512 MBytes. Bash
 reports even less than that, about 360 MBytes. Large-scale symbolic
@@ -43,7 +42,7 @@ calculations will not happen on this hardware.
 The screen is a 4.2-inch, true-colour TFT, with 854x480 pixels.
 
 Software
-========
+--------
 
 The phone was rooted through official Sony channels, and it runs
 Cyanogenmod 10 (Android 4.1.2). Proprietary software was not
@@ -59,7 +58,7 @@ Installer](http://sourceforge.net/projects/linuxonandroid/files/App/ "Complete L
 to proceed.
 
 Get Linux Running
-=================
+-----------------
 
 Complete Linux Installer needs you to store the image file in an
 appropriate folder in the root of the sdcard, e.g. archlinux for Arch,
@@ -76,7 +75,7 @@ to both ssh and VNC, and set resolution to 854x480. You can change these
 latter options in ``/root/cfg/ubuntu.img.cfg``.
 
 Configure Linux
-===============
+---------------
 
 Connect to the wireless network. The terminal should be logged in as
 root in your chrooted environment. Find out your IP address:
@@ -122,7 +121,7 @@ LXDE is not a touch-friendly interface. Pan in to click more precisely.
 Disable the screensaver.
 
 Running the Computer Algebra System
-===================================
+-----------------------------------
 
 Launch Spyder from the run menu. It will take a while. If the CPU load
 diagram does not show high-CPU load, then the launch failed due to
@@ -132,94 +131,18 @@ Start an Ipython interpreter in Spyder. The Ipython configuration file
 does not work correctly. To have pretty printing, you have to initialize
 Sympy's appropriate function:
 
-<div class="cell border-box-sizing code_cell rendered">
-
-<div class="input">
-
-<div class="prompt input_prompt">
-
-In [1]:
-
-</div>
-
-<div class="inner_cell">
-
-<div class="input_area">
-
-<div class="highlight">
-
+    :::python
     from sympy import *
     init_printing()
 
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
 You are ready to test symbolic computations:
 
-<div class="cell border-box-sizing code_cell rendered">
-
-<div class="input">
-
-<div class="prompt input_prompt">
-
-In [2]:
-
-</div>
-
-<div class="inner_cell">
-
-<div class="input_area">
-
-<div class="highlight">
-
+    :::python
     x, y = symbols('x y')
     diff(sin(x*y)**x, x)
 
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="output_wrapper">
-
-<div class="output">
-
-<div class="output_area">
-
-<div class="prompt output_prompt">
-
-Out[2]:
-
-</div>
-
-<div class="output_latex output_subarea output_pyout">
-
-\$\$\\left(\\frac{x y \\cos{\\left (x y \\right )}}{\\sin{\\left (x y
-\\right )}} + \\log{\\left (\\sin{\\left (x y \\right )} \\right
-)}\\right) \\sin\^{x}{\\left (x y \\right )}\$\$
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
 Future Work
-===========
+-----------
 
 Using VNC is an inefficient solution. Apart from the memory requirements
 of the client, rendering is slow. The X server should run in the
@@ -255,4 +178,3 @@ If you select your components carefully, you should be able to construct
 a 17-inch laptop that weights about one kilogram, excluding the
 processing unit, the phone. Perhaps we will get there in the next year
 or two.
-

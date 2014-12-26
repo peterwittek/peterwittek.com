@@ -1,6 +1,0 @@
-Benchmark	i7-620M	Cortex-A8
-"CPU\nBlowfish"	4.05	59.07
-"CPU\nFibonacci"	2.31	15.16
-"CPU\nN-Queens"	5.67	47.23
-"FPU FFT"	1.24	61.84
-"FPU\nRaytracing"	3.98	100.71

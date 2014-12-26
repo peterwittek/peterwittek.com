@@ -45,8 +45,8 @@ STATIC_PATHS = ['images']
 AUTHOR_SAVE_AS = ''
 
 # Plugin-related settings
-PLUGIN_PATHS = ['..']
-PLUGINS = ['pelican-ipynb', 'render_math']
+PLUGIN_PATHS = ['../pelican_plugins']
+PLUGINS = ['ipynb', 'render_math']
 
 # Theme-related settings
 THEME = 'themes/octopress-simplegrey'

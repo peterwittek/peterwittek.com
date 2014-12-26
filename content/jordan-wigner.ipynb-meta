@@ -1,0 +1,7 @@
+Title: The Jordan-Wigner transformation in Python
+Date: 2014-06-03 10:19
+Author: Peter
+Category: Python
+Tags: Python, Quantum information theory, SymPy
+Slug: the-jordan-wigner-transformation-in-python
+Summary: Using SymPy, it is easy to calculate the Jordan-Wigner transformation in Python.

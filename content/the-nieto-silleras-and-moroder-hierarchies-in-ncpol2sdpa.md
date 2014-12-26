@@ -23,43 +23,18 @@ and its dependencies are installed, [QuTiP](http://qutip.org/) is
 available, and the default solver, SDPA, is also operational.
 
 Nieto-Silleras hierarchy
-========================
+------------------------
 
 To deal with the joint probabilities necessary for setting constraints,
 we also rely on QuTiP ([Johansson et al., 2013](#johansson2013qutip)).
 First we need to import some functions:
 
-<div class="cell border-box-sizing code_cell rendered">
-
-<div class="input">
-
-<div class="prompt input_prompt">
-
-In [1]:
-
-</div>
-
-<div class="inner_cell">
-
-<div class="input_area">
-
-<div class="highlight">
-
+    :::python
     from math import sqrt
     from qutip import tensor, basis, sigmax, sigmay, expect, qeye
     from ncpol2sdpa import SdpRelaxation, flatten, solve_sdp,   
                           generate_measurements,   
                           projective_measurement_constraints
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
 
 We will work in a CHSH scenario where we are trying to find the maximum
 guessing probability of the first projector of Alice's first
@@ -67,22 +42,7 @@ measurement. We generate the joint probability distribution on the
 maximally entangled state with the measurements that give the maximum
 quantum violation of the CHSH inequality:
 
-<div class="cell border-box-sizing code_cell rendered">
-
-<div class="input">
-
-<div class="prompt input_prompt">
-
-In [2]:
-
-</div>
-
-<div class="inner_cell">
-
-<div class="input_area">
-
-<div class="highlight">
-
+    :::python
     def joint_probabilities():
         psi = (tensor(basis(2,0),basis(2,0)) + 
                tensor(basis(2,1),basis(2,1))).unit()
@@ -108,35 +68,10 @@ In [2]:
         p.append(expect(tensor(A_10, B_10), psi))
         return p
 
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
 Next we need the basic configuration of the projectors. We also set the
 level of the SDP relaxation and the objective.
 
-<div class="cell border-box-sizing code_cell rendered">
-
-<div class="input">
-
-<div class="prompt input_prompt">
-
-In [3]:
-
-</div>
-
-<div class="inner_cell">
-
-<div class="input_area">
-
-<div class="highlight">
-
+    :::python
     level = 1
     A_configuration = [2, 2]
     B_configuration = [2, 2]
@@ -146,35 +81,10 @@ In [3]:
         P_A, P_B)
     objective = -P_A[0][0]
 
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
 We must define further constraints, namely that the joint probabilities
 must match:
 
-<div class="cell border-box-sizing code_cell rendered">
-
-<div class="input">
-
-<div class="prompt input_prompt">
-
-In [4]:
-
-</div>
-
-<div class="inner_cell">
-
-<div class="input_area">
-
-<div class="highlight">
-
+    :::python
     probabilities = joint_probabilities()
     equalities = []
     k=0
@@ -191,34 +101,9 @@ In [4]:
             equalities.append(P_A[i][0]*P_B[j][0]-probabilities[k])
             k += 1
 
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
 From here, obtaining the SDP relaxation and solving it is trivial:
 
-<div class="cell border-box-sizing code_cell rendered">
-
-<div class="input">
-
-<div class="prompt input_prompt">
-
-In [5]:
-
-</div>
-
-<div class="inner_cell">
-
-<div class="input_area">
-
-<div class="highlight">
-
+    :::python
     sdpRelaxation = SdpRelaxation([flatten([P_A, P_B])], verbose=2,
                                    hierarchy="nieto-silleras")
     sdpRelaxation.get_relaxation(objective, [], equalities,
@@ -226,44 +111,15 @@ In [5]:
 
     print(solve_sdp(sdpRelaxation))
 
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="output_wrapper">
-
-<div class="output">
-
-<div class="output_area">
-
-<div class="prompt">
-
-</div>
-
-<div class="output_subarea output_stream output_stdout output_text">
-
     Number of SDP variables: 15
     Generating moment matrix...
     Reduced number of SDP variables: 11
     Processing 16 inequalities...
     (-0.5000000504870096, -0.5000001112451216)
 
-</div>
-
-</div>
-
-</div>
-
-</div>
 
 Moroder hierarchy
-=================
+-----------------
 
 This type of hierarchy allows for a wider range of constraints of the
 optimization problems, including ones that are not of polynomial form.
@@ -274,56 +130,16 @@ constraints. This second step can be done in MATLAB, for instance.
 
 We need to import a slightly different set of functions:
 
-<div class="cell border-box-sizing code_cell rendered">
-
-<div class="input">
-
-<div class="prompt input_prompt">
-
-In [6]:
-
-</div>
-
-<div class="inner_cell">
-
-<div class="input_area">
-
-<div class="highlight">
-
+    :::python
     from ncpol2sdpa import SdpRelaxation, flatten, write_to_sdpa,   
                           generate_measurements,   
                           projective_measurement_constraints,   
                           define_objective_with_I
 
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
 Then we set up the problem with specifically with the CHSH inequality in
 the probability picture as the objective function:
 
-<div class="cell border-box-sizing code_cell rendered">
-
-<div class="input">
-
-<div class="prompt input_prompt">
-
-In [7]:
-
-</div>
-
-<div class="inner_cell">
-
-<div class="input_area">
-
-<div class="highlight">
-
+    :::python
     level = 1
     A_configuration = [2, 2]
     B_configuration = [2, 2]
@@ -335,74 +151,19 @@ In [7]:
     monomial_substitutions = projective_measurement_constraints(A, B)
     objective = define_objective_with_I(I, A, B)
 
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
 We obtain the relaxation and write it to a sparse SDPA file:
 
-<div class="cell border-box-sizing code_cell rendered">
-
-<div class="input">
-
-<div class="prompt input_prompt">
-
-In [8]:
-
-</div>
-
-<div class="inner_cell">
-
-<div class="input_area">
-
-<div class="highlight">
-
+    :::python
     sdpRelaxation = SdpRelaxation([flatten(A), flatten(B)], verbose=2,
                                    hierarchy="moroder")
     sdpRelaxation.get_relaxation(objective, [], [],
                                  monomial_substitutions, level)
     write_to_sdpa(sdpRelaxation, "chsh-moroder.dat-s")
 
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="output_wrapper">
-
-<div class="output">
-
-<div class="output_area">
-
-<div class="prompt">
-
-</div>
-
-<div class="output_subarea output_stream output_stdout output_text">
-
     Number of SDP variables: 44
     Generating moment matrix...
     Reduced number of SDP variables: 18
     Processing 0 inequalities...
-
-</div>
-
-</div>
-
-</div>
-
-</div>
 
 From here, processing switches to MATLAB. We can read the SDPA file with
 [SeDuMi](http://sedumi.ie.lehigh.edu/) or
