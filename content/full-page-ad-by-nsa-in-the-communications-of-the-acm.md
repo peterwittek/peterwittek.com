@@ -15,7 +15,7 @@ other words,
 
 **ACM is sponsored by NSA.**
 
-They help NSA [spy on my mails](http://peterwittek.com/2013/08/acm-wants-you-to-be-spied-on/), I
+They help NSA [spy on my mails]({filename}/acm-wants-you-to-be-spied-on.md), I
 knew that before. With this latest update on their relationship, I am
 beginning to wonder: why exactly am I a member? Let me look at the
 'benefits'. This is the list from their reminder to pay up:

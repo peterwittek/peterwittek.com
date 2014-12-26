@@ -9,7 +9,7 @@ Summary: IPython's notebook interface combined with git and GitHub makes a perfe
 I came across [this thread](https://news.ycombinator.com/item?id=7699935) on Hacker News,
 which links to a curated gallery of IPython notebooks, including
 countless interesting topics, most notably, [reproducible academic publications](https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks#reproducible-academic-publications).
-I am a fan of IPython, combined with [a few other tools](http://peterwittek.com/2013/08/spyder-closer-to-a-mathematica-alternative/),
+I am a fan of IPython, combined with [a few other tools]({filename}/spyder-mathematica-alternative.ipynb),
 it makes a great replacement for Mathematica, but I never thought of it
 as a way to make research results more accessible. This is because I was
 using it from [Spyder](https://code.google.com/p/spyderlib/), avoiding
@@ -31,7 +31,7 @@ results. A combination of GitHub and Ipython sounds like a much more
 viable option.
 
 Enter IPython
-=============
+-------------
 
 Unfortunately, the console and qtconsole environments of IPython will
 not allow to mix code with anything. The only option is the
@@ -80,7 +80,7 @@ Firefox instance:
 
 The result looks like the following:
 
-[![ipython-notebook](http://peterwittek.com/wp-content/uploads/2014/05/ipython-notebook.png)](http://nbviewer.ipython.org/github/peterwittek/ipython-notebooks/blob/master/Comparing_DMRG_ED_and_SDP.ipynb)
+[![ipython-notebook]({filename}/images/ipython-notebook.png)](http://nbviewer.ipython.org/github/peterwittek/ipython-notebooks/blob/master/Comparing_DMRG_ED_and_SDP.ipynb)
 
 Parallel to Spyder, I use the notebook interface for writing notes and
 record meaningful lines of code. It would be wonderful to develop code
@@ -93,7 +93,7 @@ connect to console and qtconsole kernels. So at this point, you need to
 re-run calculations in the notebook interface.
 
 Sharing the work
-================
+----------------
 
 Putting every bit of code or text under version control is a good habit.
 It is only natural to put the notebooks in git repositories. From here,

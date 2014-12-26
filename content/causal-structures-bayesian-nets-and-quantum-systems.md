@@ -35,7 +35,7 @@ In what follows, some relevant references are collected to each of these
 directions.
 
 Quantum correlations and causal structures
-==========================================
+------------------------------------------
 
 Bell inequalities are the traditional way of studying quantum
 correlations. A recent body of work shows that various extensions of
@@ -74,7 +74,7 @@ adding an additional inequality on the entropies, they also suggest a
 test for quantum nonlocality [bibcite key=chaves2014inferring].
 
 Extending the d-separation theorem
-==================================
+----------------------------------
 
 Papers in this category take a different angle at causal structures in
 quantum correlation than the ones in the previous section. The focus is
@@ -104,7 +104,7 @@ they prove that this criterion has the same effect as the d-separation
 in the classical case.
 
 Learning classical networks
-===========================
+---------------------------
 
 Learning the optimal network that might have produced a given set of
 data is a major challenge in optimization theory: it is an NP-hard
@@ -133,6 +133,6 @@ search, hence opening up the way to learn classical Bayesian networks in
 gate quantum computers [bibcite key=tucci2014quantum].
 
 References
-==========
+----------
 
 [/bibshow]

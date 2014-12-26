@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Peter Wittek'
 SITENAME = 'Peter Wittek'
-SITEURL = ''
+SITEURL = 'http://peterwittek.com'
 
 PATH = 'content'
 
@@ -32,7 +32,7 @@ SOCIAL = (('ResearchGate', 'http://www.researchgate.net/profile/Peter_Wittek'),
 DEFAULT_PAGINATION = 1000
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
 
 DISPLAY_CATEGORIES_ON_MENU = False
 

@@ -6,10 +6,8 @@ Order: 2
 
 Quantum Machine Learning: What Quantum Computing Means to Data Mining
 ---------------------------------------------------------------------
-
-![Cover of Quantum Machine
-Learning](http://peterwittek.com/wp-content/uploads/2014/02/cover-199x300.jpg)Machine
-learning has become indispensable in discovering patterns in large data
+<img style="float:left; border-right:10px solid white" src="images/cover-199x300.jpg" alt="cover"/>
+Machine learning has become indispensable in discovering patterns in large data
 sets, and the theory is at the core of a larger set of tools known as
 data mining. It is a mature field with an astonishing array of practical
 applications.

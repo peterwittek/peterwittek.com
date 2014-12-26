@@ -14,7 +14,7 @@ when the agent collects information about its environment. The stencil
 in that case is a circle with a radius that corresponds to the agents'
 horizon:
 
-![An agent's horizon as a stencil](http://peterwittek.com/wp-content/uploads/2013/04/agent_stencil.png)
+<center>![An agent's horizon as a stencil]({filename}/images/agent_stencil.png)</center>
 
 The idea would be to avoid hand-tuning CUDA reduction kernels, and rely
 on Thrust to save work. The sum we need is a kind of inner product of
@@ -118,4 +118,3 @@ locations, which is pretty hard on the GPU. Speedups around 8x are still
 apparent on Fermi hardware compared to a single core, which is not
 great, but it is a workable solution in a hybrid scenario where other
 CPU cores can be kept busy with OpenMP or MPI.
-

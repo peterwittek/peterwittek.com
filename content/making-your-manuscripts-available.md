@@ -18,14 +18,14 @@ Your interest is to make your work as widely available as possible. You
 are legally allowed to do so, even if you signed a copyright transfer.
 
 Before you begin
-================
+----------------
 
 Never include your email address in a publicly available PDF. It is too
 easy to extract. Academic spammers with flood your inbox with calls for
 papers that you are not even vaguely interested in.
 
 arXiv
-=====
+-----
 
 Using arXiv for pre-submission manuscript is a standard procedure in
 mathematics and physics, and many computer scientists follow suit.
@@ -54,7 +54,7 @@ one still available. This is one more reason never to include your email
 address in the paper.
 
 Institutional repository
-========================
+------------------------
 
 If your paper is accepted in a journal or in a conference proceedings,
 you sign a copyright transfer, so that the publisher can shamelessly
@@ -89,7 +89,7 @@ copyright transfer. If you find the copyright transfer agreement too
 restrictive, do not hesitate changing the clauses.
 
 Other information related to your manuscript
-============================================
+--------------------------------------------
 
 Apart from making the paper available for download, it is a good idea to
 gather all related information at one place, so interested readers have
@@ -101,4 +101,3 @@ means: you only need to provide a Bibtex file of your papers. Your
 Bibtex entries should include the URLs for the PDF, related code, and so
 on. A PHP script automatically takes care of the rest, and generates a
 nicely formatted list of your papers.
-

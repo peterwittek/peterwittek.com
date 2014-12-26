@@ -37,15 +37,11 @@ are trickier.
 
 This is how the matrix D look like in memory with C-style indexing:
 
-[caption id="attachment\_189" align="alignnone" width="360"]![The memory
-layout of a matrix in C-style
-indexing](http://peterwittek.com/wp-content/uploads/2013/04/c-matrix.png)
-The memory layout of a matrix in C-style indexing[/caption]
+<center>![The memory layout of a matrix in C-style indexing]({filename}/images/c-matrix.png)</center>
 
 This is how CuBlas sees them:
 
-![A matrix in C in Fortran-style memory
-layout](http://peterwittek.com/wp-content/uploads/2013/04/c-matrix-fortran-view.png)
+<center>![A matrix in C in Fortran-style memory layout]({filename}/images/c-matrix-fortran-view.png)</center>
 
 The important thing to notice that they do not need to be transposed to
 get the correct result, flipping their order will be sufficient. So DE

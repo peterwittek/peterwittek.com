@@ -241,7 +241,7 @@ the moment matrix, for instance, imposing the PPT condition:
     optimize(F,h)
 
 References
-==========
+----------
 
 <a name="bancal2014more"></a>Bancal, J.-D.; Sheridan, L. & Scarani, V.
 [More randomness from the same data](http://dx.doi.org/10.1088/1367-2630/16/3/033011). New Journal of
@@ -262,4 +262,3 @@ Journal of Physics, 2014, 16, pp. 013035.
 <a name="pironio2010convergent"></a>Pironio, S.; Navascués, M. & Acín,
 A. [Convergent relaxations of polynomial optimization problems with noncommuting variables](http://arxiv.org/abs/0903.4368). *SIAM Journal
 on Optimization*, 2010, 20, pp. 2157-2180.
-

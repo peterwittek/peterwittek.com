@@ -22,7 +22,7 @@ deliberate effort to avoid Google, they will scan every single incoming
 mail that arrives to your forwarding address.
 
 What Happened
-=============
+-------------
 
 As an ACM member, I made my forwarding address my primary address for
 professional correspondence. When I learned about Google's interference,
@@ -76,7 +76,7 @@ an Spam and Virus filtering system.
 Google has you.
 
 Outlook
-=======
+-------
 
 It is never a good idea to denigrate an organization that you are
 associated with, but I believe that the integrity of ACM as a
@@ -88,4 +88,3 @@ I must consider changing allegiance -- preferably to a less
 spying-prone, non-US-based professional body. I should also give up
 chasing after the mirage of a permanent email address; it will never
 happen.
-

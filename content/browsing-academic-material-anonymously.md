@@ -104,7 +104,7 @@ Tor exit nodes, and they choose the most brainless form of defence:
 block the IP address. Their profits are obviously not channelled towards
 hiring competent IT personnel. I am not surprised to see ACM on the list
 of blockers: they are sponsored by the
-[NSA](http://peterwittek.com/2014/01/full-page-ad-by-nsa-in-the-communications-of-the-acm/ "Full-page ad by NSA in the Communications of the ACM"),
+[NSA]({filename}/full-page-ad-by-nsa-in-the-communications-of-the-acm.md "Full-page ad by NSA in the Communications of the ACM"),
 they glorify the actions of the NSA by calling the employees
 \`[law-abiding dedicated
 patriots](http://cacm.acm.org/magazines/2014/5/174340-the-nsa-and-snowden/fulltext "Law-abiding dedicated patriots")'

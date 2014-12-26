@@ -13,9 +13,7 @@ year of tinkering, I finally have a graphical computer algebra system
 running on it. It is an important step toward dodging my laptop
 entirely, although more work lies ahead.
 
-<center>[![Phone
-calculating the symbolic derivative of an implicit
-function.](http://peterwittek.com/images/spyder_on_phone-300x157.jpg)](http://peterwittek.com/images/spyder_on_phone.jpg)</center>
+<center>[![Phone calculating the symbolic derivative of an implicit function.]({filename}/images/spyder_on_phone-300x157.jpg)]({filename}/images/spyder_on_phone.jpg)</center>
 <center>Phone calculating the symbolic derivative of an implicit function.</center>
 
 Hardware
@@ -28,12 +26,8 @@ about ten times slower than the single-core performance of the i7-620M
 processor in my laptop, which peaks at 3.33 GHz. The FPU is much slower
 than that.
 
-<center>![Comparing
-an ARMv7 and an x86\_64
-CPU](http://peterwittek.com/images/benchmark.png)</center>
-<center>A quick performance comparison between an i7-620M and a Cortex-A8
-Snapdragon CPU. The benchmarks were performed in hardinfo. Lower values
-are better.</center>
+<center>![Comparing an ARMv7 and an x86_64 CPU]({filename}/images/benchmark.png)</center>
+<center>A quick performance comparison between an i7-620M and a Cortex-A8 Snapdragon CPU. The benchmarks were performed in hardinfo. Lower values are better.</center>
 
 A more limiting constraint is the RAM, which is only 512 MBytes. Bash
 reports even less than that, about 360 MBytes. Large-scale symbolic

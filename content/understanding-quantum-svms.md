@@ -7,7 +7,7 @@ Slug: understanding-quantum-svms
 Summary: Training least squares support vector machines on quantum hardware results in exponential speedup; we take a machine learning perspective at the new algorithm.
 
 ***Update****: An extended version of this post will appear in the
-upcoming book [Quantum Machine Learning: What Quantum Computing Means to Data Mining](http://peterwittek.com/book/ "Quantum Machine Learning").*
+upcoming book [Quantum Machine Learning: What Quantum Computing Means to Data Mining]({filename}/pages/book.md "Quantum Machine Learning").*
 
 A fascinating paper recently appeared on arXiv that proves the
 exponential speedup of least-squares support vector machines (SVMs)
@@ -24,7 +24,7 @@ this is one source of the speedup. The other source of the speedup is
 the efficient solution of the linear equations on quantum hardware.
 
 Least Squares Support Vector Machines
-=====================================
+-------------------------------------
 
 A support vector machine (SVM) is a supervised learning algorithm which
 learns a given independent and identically distributed training example
@@ -117,7 +117,7 @@ exponential speedup in these two steps, leading to an overall complexity
 of $O(\log(MN))$.
 
 Calculating the Kernel Matrix
-=============================
+-----------------------------
 
 In the quantum algorithm, the training instances are presented as
 quantum states $|\mathbf{x}_i \rangle$. We do not require the
@@ -163,9 +163,8 @@ gate (CSWAP gate) and an Hadamard gate which checks the equivalence of
 two states $|f\rangle$ and $|f'\rangle$ . With an ancilla
 state $|a\rangle$ , the schematic diagram is as follows:
 
-[caption id="attachment_782" align="aligncenter" width="294"]![A swap
-test](http://peterwittek.com/wp-content/uploads/2013/08/swap_test.png) A
-swap test[/caption]
+<center>![A swap test]({filename}/images/swap_test.png)</center>
+<center>A swap test</center>
 
 The first transformation swaps $|f\rangle$ and
 $ |f'\rangle$ if the ancilla bit is $|1\rangle$ . The
@@ -181,7 +180,7 @@ evaluating a single dot product $\mathbf{x}_i^T\mathbf{x}_j$
 is $O(\epsilon^{-1}\log N).$ 
 
 Obtaining the Optimum of the Least Squares Dual Formulation
-===========================================================
+-----------------------------------------------------------
 
 If you only calculate the kernel matrix by quantum means, you have a
 complexity of $O(M^2 (M + \epsilon^{-1}\log N))$ . There is
@@ -190,10 +189,10 @@ also possible.
 
 The algorithm hinges on three ideas:
 
--   Quantum matrix inversion is fast ([Harrow et al.,     2009](#harrow2009quantum)).
--   Simulation of sparse matrixes is efficient ([Berry et al.,     2007](#berry2007efficient));
+-   Quantum matrix inversion is fast ([Harrow et al., 2009](#harrow2009quantum)).
+-   Simulation of sparse matrixes is efficient ([Berry et al., 2007](#berry2007efficient));
 -   Non-sparse density matrices reveal the eigenstructure exponentially
-    faster than in classical algorithms ([Lloyd et al.,     2009](#lloyd2013quantum2));
+    faster than in classical algorithms ([Lloyd et al., 2009](#lloyd2013quantum2));
 
 To solve the linear equation (1), we need to invert 
 $$F=\left(\begin{array}{cc}0 & 1^T \\ 1 & K+\gamma^{-1}I
@@ -241,7 +240,7 @@ With this inversion algorithm, the overall time complexity of training
 the support vector parameters is $O(\log(NM))$.
 
 Limitations and Open Questions
-==============================
+------------------------------
 
 The approach only works for dense training vectors, for obvious reasons.
 In many classical algorithms, execution speed -- and not complexity --
@@ -271,7 +270,7 @@ interesting to see how this translates to actual classification
 performance on real-world data sets.
 
 References
-==========
+----------
 
 <a name="berry2007efficient"></a>Berry, D. W.; Ahokas, G.; Cleve, R. &
 Sanders, B. C. [Efficient quantum algorithms for simulating sparse Hamiltonians](http://arxiv.org/abs/quant-ph/0508139). *Communications in

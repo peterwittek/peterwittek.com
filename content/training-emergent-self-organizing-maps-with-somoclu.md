@@ -35,7 +35,7 @@ will be sparse. These gaps gain meaning depending on the nature of the
 data.
 
 Computational requirements
-==========================
+--------------------------
 
 Self-organizing maps are notoriously slow to train, and ESOMs are even
 more so. [Somoclu](http://peterwittek.github.io/somoclu/) is a
@@ -57,7 +57,7 @@ drastically reduce memory requirements for holding the data, the
 codebook will always be a dense structure.
 
 Training the map
-================
+----------------
 
 We constructed a term-document vector space from the Reuters-21578
 collection. We filtered the terms space to remove words that occurred
@@ -82,10 +82,8 @@ epoch took the same time each, nearly five hours (see the figure below).
 Then a sharp rise occurred, epoch seven took over twenty-five hours. The
 last two epoch took over two days each.
 
-[caption id="attachment\_704" align="alignnone" width="486"]![Execution
-time of
-epochs](http://peterwittek.com/wp-content/uploads/2013/12/somoclu-timing.png)
-Execution time of epochs.[/caption]
+<center>![Execution time of epochs]({filename}/images/somoclu-timing.png)</center>
+<center>Execution time of epochs.</center>
 
 We thought it was a bug, but careful debugging showed that sparse
 kernels will always slow down with large maps. The explanation lies in
@@ -96,7 +94,7 @@ values very close to zero. We suspect that these fine-precision floating
 operations cause the slow down.
 
 Results
-=======
+-------
 
 The first three iterations resulted in maps so meaningless they were
 discarded. Structures began to emerge from epoch six. The figure below
@@ -104,29 +102,24 @@ plots the U-matrix after epoch seven. Neighbourhoods are taking shape,
 but the central part, where most of the cluster are, is still blur. Bear
 in mind that this is a toroid map.
 
-[caption id="attachment\_705" align="alignnone" width="500"]![Plot of
-U-matrix after seven training
-epochs.](http://peterwittek.com/wp-content/uploads/2013/12/plot-reuters.7.umx_.png)
-Plot of U-matrix after seven training epochs[/caption]
+<center>![Plot of U-matrix after seven training epochs.]({filename}/images/plot-reuters.7.umx_.png)</center>
+<center>Plot of U-matrix after seven training epochs</center>
 
 The video below shows the U-matrices from epochs four to nine. The final
 map -- looking like a honey comb -- clearly identifies hot clusters, and
 more sparsely populated topical areas.
 
-[video width="500" height="300"
-mp4="http://peterwittek.com/wp-content/uploads/2013/12/time\_lapse.mp4"
-ogv="movie.ogv"
-webm="http://peterwittek.com/wp-content/uploads/2013/12/time\_lapse.webm"][/video]
+<center><video width="500" height="300" preload="metadata" controls="controls"><source type="video/mp4" src="images/time_lapse.mp4?_=1" /><source type="video/webm" src="images/time_lapse.webm?_=1" /><a href="images/time_lapse.mp4">images/time_lapse.mp4</a></video></center>
+
 
 Acknowledgemet
-==============
+--------------
 
 This work was by supported by the European Commission Seventh Framework
 Programme under Grant Agreement Number FP7-601138 PERICLES and by the
 AWS in Education Machine Learning Grant award.
 
 References
-==========
+----------
 
 <a name="wittek2013somoclu"></a> Wittek, P. [Somoclu: An Efficient Distributed Library for Self-Organizing Maps](http://arxiv.org/abs/1305.1422). *arXiv:1305.1422*, 2013.
-

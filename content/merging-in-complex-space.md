@@ -14,7 +14,7 @@ representations allows us to leverage on the strength of both, yielding
 higher recall rates. The steps below outline how the merge works.
 
 Downloads
-=========
+---------
 
 The modified source code of SemanticVectors is available
 [here](http://peterwittek.com/files/semanticvectors-3.8-modified-src.tar.gz "Source files").
@@ -31,7 +31,7 @@ false as the default value for ``filteroutnumbers``. There is also an extra
 classes helping with the new complex space (``ComplexSpaceMerger``).
 
 Assumptions
-===========
+-----------
 
 We assume that the document collection is indexed by Lucene  in the
 folder ``lucene-index-term_representation``. We further assume that a
@@ -39,7 +39,7 @@ concept representation is available, e.g., created by MetaMap ([Aronson and Lan
 representation is in ``lucene-index-concept_representation``.
 
 Procedure
-=========
+---------
 
 The instructions below assume that all data, including the Lucene index
 directories, are in the same folder as the jar file. Set up environment
@@ -78,7 +78,7 @@ components of the query must belong to the same query, otherwise
 querying is straightforward.
 
 References
-==========
+----------
 
 <a name="aronson2010overview"></a> Aronson, A. R. & Lang, F.-M. An
 overview of MetaMap: historical perspective and recent advances.

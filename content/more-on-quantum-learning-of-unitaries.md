@@ -8,7 +8,7 @@ Summary: Classical regression, induction, transduction and the quantum learning 
 
 [AQIS](http://cs.e.yamagata-u.ac.jp/aqis14/) just concluded, and I
 presented a [poster](http://dx.doi.org/10.13140/2.1.3901.1201) on
-transductive and active learning in the [quantum learning of unitaries](http://peterwittek.com/2013/11/quantum-process-tomography-and-machine-learning/)
+transductive and active learning in the [quantum learning of unitaries]({filename}/quantum-process-tomography-and-machine-learning.md)
 ([Wittek, 2014](#wittek2014transduction)). We had some good discussions
 on the topic, particularly on the differences between process tomography
 and learning of unitary transformations, and whether this whole idea of
@@ -84,7 +84,7 @@ transition to the classical domain. So I maintain that it makes sense to
 talk about quantum input and output data.
 
 References
-==========
+----------
 
 <a name="bisio2010optimal"></a>Bisio, A.; Chiribella, G.; D'Ariano, G.;
 Facchini, S. & Perinotti, P. [Optimal quantum learning of a unitary transformation](http://arxiv.org/abs/0903.0543). *Physical Review A*,

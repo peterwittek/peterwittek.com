@@ -7,8 +7,8 @@ Slug: quantum-process-tomography-and-machine-learning
 Summary: The optimal estimation of a group of unitary transforms allows for learning an unknown function: this is similar to regression in classical machine learning.
 
 ***Update****: An extended version of this post will appear in the
-upcoming book [Quantum Machine Learning: What Quantum Computing Means to Data Mining](http://peterwittek.com/book/ "Quantum Machine Learning").*  
-***Update 2****: Some clarifications are made in a [new post](http://peterwittek.com/2014/08/more-on-quantum-learning-of-unitaries/).*
+upcoming book [Quantum Machine Learning: What Quantum Computing Means to Data Mining]({filename}/pages/book.md "Quantum Machine Learning").*  
+***Update 2****: Some clarifications are made in a [new post]({filename}/more-on-quantum-learning-of-unitaries.md).*
 
 Take a high-level view on machine learning: given a training set
 $\{(\mathbf{x}_1,y_1),\ldots,(\mathbf{x}_N,y_N)\},$ where
@@ -59,7 +59,7 @@ This blog post interprets [Bisio et al., 2010](#bisio2010optimal) by
 following through these steps.
 
 Parallel application and storage of unitary
-===========================================
+-------------------------------------------
 
 The task is simple: we have a black box that implements an unknown
 unitary $U,$ and we can make $N$ calls to it to identify the
@@ -94,7 +94,7 @@ $|\phi\rangle\in\mathcal{H}_o\otimes\mathcal{H}_i.$
 The next question is what that suitable input state might be.
 
 Optimal state for learning
-==========================
+--------------------------
 
 Classical learning takes the training examples, and tries to make the
 best of them. Some variants may ask for specific extra examples, as in
@@ -154,7 +154,7 @@ The optimal state for the estimation of an unknown unitary is always a
 superposition of maximally entangled states ([Chiribella et al., 2011](#chiribella2005optimal)).
 
 Applying the learned function
-=============================
+-----------------------------
 
 A measure-and-prepare strategy is optimal for applying the learned
 function an arbitrary number of times. This strategy consists of
@@ -183,7 +183,7 @@ all locals channels. The fidelity does not degrade with repeated
 applications.
 
 Closing remarks
-===============
+---------------
 
 From the perspective of machine learning, restricting the approximated
 function to unitaries is a serious constraint. It implies that the
@@ -197,7 +197,7 @@ a form of biclustering, followed by a transformation. It would be good
 to see a formal link between these concepts.
 
 References
-==========
+----------
 
 <a name="acin2001optimal"></a>Acín, A.; Jané, E. & Vidal, G. [Optimal estimation of quantum dynamics](http://arxiv.org/abs/quant-ph/0012015).
 *Physical Review A*, 2001, 64, 050302.  
@@ -213,4 +213,3 @@ thesis. *University of Pavia*, 2006.
 Conference Series*, 2011, 284, 012001.  
 <a name="holevo2011probabilistic"></a>Holevo, A. *Probabilistic and
 statistical aspects of quantum theory*. Springer, 2011.
-

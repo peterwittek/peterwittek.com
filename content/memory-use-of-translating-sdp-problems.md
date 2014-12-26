@@ -17,7 +17,7 @@ and Sympy 0.7.2. The baseline implementation of
 relied on CPython 2.7.5.
 
 Pypy
-====
+----
 
 [Pypy](http://pypy.org/ "Pypy") is an alternative implementation of
 Python that promises using less memory. The latest version is 2.0.2. It
@@ -49,7 +49,7 @@ Installing Cvxopt from source with Pypy as the interpreter lead to a
 compilation error. Apparently, [others](http://morepypy.blogspot.com/2011/05/playing-with-linear-programming-on-pypy.html) also ran into problems when interfacing Cvxopt and Pypy.
 
 Python 3
-========
+--------
 
 An obvious candidate is the latest release of Python, version 3.3.2.
 Numpy, Cvxopt, and Sympy are known to work with Python 3. PICOS is not.
@@ -71,7 +71,7 @@ The error string is defined in Cvxopt. PICOS needs an undefined amount
 of work to be compatible with Python 3.
 
 Cython 2
-========
+--------
 
 [Cython](http://cython.org/ "Cython") is the beacon of hope, generating
 C code from Python scripts, which are then compiled by GCC. Since Cvxopt
@@ -103,7 +103,7 @@ variant finished in 24.16 s, whereas the CPython took 24.97 s. Memory
 use was marginally more for Cython: 406072k versus 404400k.
 
 Finding the source of high memory use
-=====================================
+-------------------------------------
 
 As Python interpreters and compilers failed me, I turned to profiling to
 find which module took up so much memory.
@@ -118,8 +118,7 @@ script:
 [Runsnakerun](http://www.vrplumber.com/programming/runsnakerun/ "Runsnakerun")
 plotted the result:
 
-[![Memory use with a 3x3
-lattice](http://peterwittek.com/wp-content/uploads/2013/06/hamiltonian3x3memoryuse-1024x578.png)](http://peterwittek.com/wp-content/uploads/2013/06/hamiltonian3x3memoryuse.png)
+<img src="images/hamiltonian3x3memoryuse.png" width="620" height="349"" alt="Memory use with a 3x3 lattice"/>
 
 This is a sad diagram to look at. There is no single culprit, the memory
 use is fragmented to thousands of unrelated modules. The module
@@ -141,7 +140,7 @@ all references to PICOS calls. The memory use dropped to 65028k. Sympy
 was innocent.
 
 Cvxopt only accepts basic types in matrix variables
-===================================================
+---------------------------------------------------
 
 Digging deeper into PICOS calls, the source of problems boiled down to
 defining the entries of SDP constraints. For instance, an equality with

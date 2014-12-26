@@ -9,7 +9,7 @@ Summary: A quick overview of a handful of papers on quantum machine learning tha
 *Update: A paper on the quantum learning of coherent states came out
 just a day after writing this up. I added a paragraph on it.*
 
-Since I submitted the manuscript of the [book](http://peterwittek.com/book) on quantum machine learning to the
+Since I submitted the manuscript of the [book]({filename}/pages/book.md) on quantum machine learning to the
 publisher, quite a bit of progress has been made on the topic. In this
 post, I quickly go through the new papers that came to my attention
 recently.
@@ -99,6 +99,9 @@ collective measurement. The result is similar in broad outlines to the
 quantum learning of unitaries, although for only small amplitudes: a
 collective measurement is optimal.
 
+References
+----------
+
 <a name="briegel2012projective"></a>Briegel, H. J. & De las Cuevas, G.
 [Projective Simulation for Artificial Intelligence](http://dx.doi.org/10.1038/srep00400). Scientific Reports,
 2012, 2, 1--16.
@@ -135,4 +138,3 @@ arXiv:1410.8700, 2014.
 
 <a name="yoo2014quantum"></a> Yoo, S.; Bang, J.; Lee, C. & Lee, J. [A Quantum Speedup in Machine Learning: Finding an N-bit Boolean Function for a Classification](http://dx.doi.org/10.1088/1367-2630/16/10/103014).
 New Journal of Physics, 2014, 16, 103014.
-

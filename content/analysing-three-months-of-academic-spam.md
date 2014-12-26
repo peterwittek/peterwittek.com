@@ -25,7 +25,7 @@ that arrived in my inbox between 2013-05-15 and 2013-08-30 to see what
 kind of observations I can make.
 
 Academic spam in numbers
-========================
+------------------------
 
 I received a total of 220 spam messages over the period, totalling 27
 MBytes of wasted bandwidth. Out of the 27 MBytes, nearly 20 MBytes were
@@ -50,10 +50,8 @@ providers, but if it is for money, then it apparently enables the VIP
 address owners to spam indiscriminately. 188.com was also there, so not
 surprisingly the majority of the spam included passages in Chinese.
 
-![Pie chart of academic spammers](|filename|/images/academic_spammer_pie_chart.png)
-<p class="caption">
-Proportion of the domains of origin of academic spam.
-</p>
+![Pie chart of academic spammers]({filename}/images/academic_spammer_pie_chart.png)
+<center>Proportion of the domains of origin of academic spam.</center>
 
 Google Mail came second, but this is misleading. Most of the Gmail
 messages arrived from the obnoxious organizers of the 1st International
@@ -89,7 +87,7 @@ would be equivalent to writing a vexed reply to the usual "You inherited
 a billion dollars" scam.
 
 A better filter
-===============
+---------------
 
 Filtering out any email that contains Chinese characters would solve
 most of my problems, but I maintain good relations with the Tsinghua
@@ -115,18 +113,35 @@ stripped):
     echo "dummyemailaddress)" >> spammers.txt
     rm unique_domains.txt
 
-The current output is the following:
+The current output is the following: 
 
     :::bash
-    .*@.*(126.com|188.com|51email.org|AdvancesENG.com|academeresearchjournals.com|arpapress.com|aviabank.com|bkmeeting.org|charitylight.org|cloudcomcongress.com|conf-edu.org|conf-support.org|conferenceemail.com|config-ei.org|confmail.org|davidpublishing.com|dijon.inra.fr|e.enefmmail.org|ei-conf.org|ei-edu.org|fesb.hr|fzu.edu.cn|garjournals.org|geonf.org|hansqk.org|hrjoin.org|ica-itb.org|ieit-conf.org|ij-cm.org|ijnest.org|infotech2014.com|inhubei.org|iphsci.com|irjournals.org|journals.hindawi.com|ljemail.org|m-hikari.com|mail-conf.org|mail.2013iiisconferences.org|mail.vresp.com|medknow.com|meritresearchjournals.com|mililink.com|monmo.org|mst.edu|ncat.edu|newgroundresjournals.org|newworldpub.com|noreply100.com|noreply101.com|noreply106.com|omicsonline.net|plaan.org|pubpromotion.com|pubspress.com|pwr.edu.pl|robionetics.org|scientificadvancespublishers.com|scirp.biz|scirp.info|scirpinfo.org|scirpnews.org|sohu.com|solsbj-63.com|srpinfo.org|statisticalhorizons.com|sweeg.org|thesai.org|uav.ro|vip.126.com|vip.163.com|xiaolun.info|yaoyao-ei.org)
-
+    *@.*(126.com|188.com|51email.org|AdvancesENG.com|
+    academeresearchjournals.com|arpapress.com|aviabank.com|
+    bkmeeting.org|charitylight.org|cloudcomcongress.com|
+    conf-edu.org|conf-support.org|conferenceemail.com|
+    config-ei.org|confmail.org|davidpublishing.com|dijon.inra.fr|
+    e.enefmmail.org|ei-conf.org|ei-edu.org|fesb.hr|fzu.edu.cn|
+    garjournals.org|geonf.org|hansqk.org|hrjoin.org|ica-itb.org|
+    ieit-conf.org|ij-cm.org|ijnest.org|infotech2014.com|
+    inhubei.org|iphsci.com|irjournals.org|journals.hindawi.com|
+    ljemail.org|m-hikari.com|mail-conf.org|
+    mail.2013iiisconferences.org|mail.vresp.com|medknow.com|
+    meritresearchjournals.com|mililink.com|monmo.org|mst.edu|
+    ncat.edu|newgroundresjournals.org|newworldpub.com|
+    noreply100.com|noreply101.com|noreply106.com|omicsonline.net|
+    plaan.org|pubpromotion.com|pubspress.com|pwr.edu.pl|
+    robionetics.org|scientificadvancespublishers.com|scirp.biz|
+    scirp.info|scirpinfo.org|scirpnews.org|sohu.com|solsbj-63.com|
+    srpinfo.org|statisticalhorizons.com|sweeg.org|thesai.org|
+    uav.ro|vip.126.com|vip.163.com|xiaolun.info|yaoyao-ei.org)
 
 My domain uses CPanel, where user-level filtering allows using regexps.
 I set that emails matching this pattern should make their way directly
 to ``/dev/null``. Waste of bandwidth is stopped at the server level.
 
 Closing remarks
-===============
+---------------
 
 Are all open access journals scams? No, but the ones you receive a call
 from are. They are predatory publishers with fishy business models.

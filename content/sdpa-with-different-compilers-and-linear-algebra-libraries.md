@@ -39,7 +39,7 @@ fat node for each experiment. The job description followed this pattern:
     srun sdpa benchmark.dat-s benchmark.out
 
 Results
-=======
+-------
 
 The comparison is not entirely fair, since I did not delve into
 optimizing the individual compilers. The running time results were as
@@ -66,13 +66,12 @@ Apart from running time, there was not much difference between the
 scenarios. Most notably, memory use was nearly identical in all cases.
 
 Compiling SDPA with different compilers and libraries
-=====================================================
+-----------------------------------------------------
 
 The following settings summarize what was to be done to compile SDPA
 with the various tools and libraries.
 
-GCC and MKL
------------
+### GCC and MKL
     
     :::bash
     module load mkl
@@ -83,8 +82,7 @@ GCC and MKL
     ./configure --with-blas="-L$MKL_LDFLAGS" --with-lapack="-L$MKL_LDFLAGS"
     make -s
 
-GCC and ACML
-------------
+### GCC and ACML
 
     :::bash
     module load acml/gcc
@@ -94,8 +92,7 @@ GCC and ACML
     ./configure --with-blas="$ACML_LDFLAGS $ACML_LIBS" --with-lapack="$ACML_LDFLAGS $ACML_LIBS"
     make -s
 
-ICC and BLAS/LAPACK
--------------------
+### ICC and BLAS/LAPACK
 
     :::bash
     module load intel
@@ -105,8 +102,7 @@ ICC and BLAS/LAPACK
     ./configure
     make -s
 
-ICC and MKL
------------
+### ICC and MKL
 
     :::bash
     module load intel mkl
@@ -119,8 +115,7 @@ ICC and MKL
     ./configure --with-blas="-L$MKL_LDFLAGS -mkl" --with-lapack="-L$MKL_LDFLAGS -mkl"
     make -s
 
-ICC and ACML
-------------
+### ICC and ACML
 
     :::bash
     module load intel acml/intel
@@ -133,8 +128,7 @@ ICC and ACML
     ./configure --with-blas="$ACML_LDFLAGS -lintlc $ACML_LIBS" --with-lapack="$ACML_LDFLAGS -lintlc $ACML_LIBS"
     make -s
 
-PGI and BLAS/LAPACK
--------------------
+### PGI and BLAS/LAPACK
 
     :::bash
     module load pgi
@@ -151,8 +145,7 @@ PGI and BLAS/LAPACK
     ./configure
     make -s
 
-PGI and MKL
------------
+### PGI and MKL
 
     :::bash
     module load pgi mkl

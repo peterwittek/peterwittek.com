@@ -67,8 +67,6 @@ argmin function:
       }
     };
 
-</div>
-
 The input to this binary function will be a tuple where the first
 element is the linear index of the matrix array, and the second element
 is the corresponding entry in the matrix. The tuple needs to be zipped.

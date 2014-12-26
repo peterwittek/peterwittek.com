@@ -10,8 +10,7 @@ save_as: index.html
 
 About
 -----
-![profile\_photo](http://peterwittek.com/wp-content/uploads/2013/01/profile_photo.jpg)I
-am a research fellow working on quantum machine learning,
+<img style="float:left; border-right:10px solid white" src="images/profile_photo.jpg" alt="profile_photo"/>I am a research fellow working on quantum machine learning,
 computational methods in quantum simulations, and scalable learning
 algorithms on supercomputers. Trained as a mathematician and computer
 scientist, I received my PhD from the National University of Singapore.
@@ -54,10 +53,8 @@ cluster.
 
 Current Projects
 ----------------
-
-**[![ncpol2sdpa](http://peterwittek.com/wp-content/uploads/2013/01/ncpol2sdpa.png)](http://peterwittek.com/approximating-the-ground-state-with-sdp "Approximating the Ground State of a Many-Particle Quantum System with Semi-Definite Relaxations")Approximating
-the Ground State of a Many-Particle Quantum System with Semi-Definite
-Relaxations** (2013-2014): Identifying the ground state of a
+<img style="float:left; border-right:8px solid white" src="images/ncpol2sdpa.png" alt="ncpol2sdpa"/>
+[**Approximating the Ground State of a Many-Particle Quantum System with Semi-Definite Relaxations**]({filename}/pages/approximating-the-ground-state-with-sdp.md) (2013-2014): Identifying the ground state of a
 many-particle system whose interactions are described by a Hamiltonian
 is an important problem in quantum physics. During the last decade,
 different relaxations of the previous Hamiltonian minimization problem
@@ -75,8 +72,8 @@ Programme under Grant Agreement Number FP7-601138
 de Supercomputación](http://www.bsc.es/RES "RES") and by the [Swedish
 National Infrastructure for Computing](http://www.snic.se/ "SNIC").
 
-[![Pericles
-logo](http://peterwittek.com/wp-content/uploads/2013/01/pericles1.png)](http://www.pericles-project.eu/)**Pericles**
+<img style="float:left; border-right:8px solid white" src="images/pericles1.png" alt="pericles"/>
+**[Pericles](http://www.pericles-project.eu/)**
 (2013-2017): Promoting and Enhancing Reuse of Information throughout the
 Content Lifecycle taking account of Evolving Semantics (Pericles) is an
 integrated project in which academic and industrial partners have come
@@ -93,10 +90,8 @@ Programme](http://cordis.europa.eu/fp7/ict/telearn-digicult/home_en.html "FP7").
 
 Completed Projects
 ------------------
-
-[![CHiP-SL](http://peterwittek.com/wp-content/uploads/2013/01/chip-sl.png "Cloud for High-Performance Statistical Learning")](http://peterwittek.com/research/chip-sl/)
-
-**ChiP-SL** (2013-2014): Big data asks for scalable algorithms, but
+<img style="float:left; border-right:8px solid white" src="images/chip-sl.png" alt="chip-sl"/>
+**[ChiP-SL]({filename}/pages/chip-sl.md)** (2013-2014): Big data asks for scalable algorithms, but
 scalability is just one aspect of the problem. Many applications also
 require the speedy processing of large volumes of data. Examples include
 supporting financial decision making, advanced services in digital
@@ -111,7 +106,8 @@ enables the verification, rapid dissemination, and quick adaptation of
 the algorithms being developed. Funded by [Amazon Web
 Services](http://aws.amazon.com/ "Amazon Web Services").
 
-[![tsa](http://peterwittek.com/wp-content/uploads/2013/01/tsa.png)](http://peterwittek.github.io/trotter-suzuki-mpi/ "Implementation of Trotter-Suzuki Approximation")**TSA**
+<img style="float:left; border-right:8px solid white" src="images/tsa.png" alt="t-s-a"/>
+**[TSA](http://peterwittek.github.io/trotter-suzuki-mpi/)**
 (2012): The Trotter-Suzuki approximation leads to an efficient algorithm
 for solving the time-dependent Schrödinger equation. Using existing
 highly optimized CPU and GPU kernels, we developed a distributed version
@@ -125,7 +121,8 @@ the [Barcelona Supercomputing
 Centre](http://bsc.es/ "Barcelona Supercomputing Centre") funded by
 [HPC-EUROPA2](http://www.hpc-europa.org/ "HPC-EUROPA2").
 
-[![squalar](http://peterwittek.com/wp-content/uploads/2013/01/squalar.png)](http://peterwittek.com/squalar "SQUALAR")**SQUALAR**
+<img style="float:left; border-right:8px solid white" src="images/squalar.png" alt="squalar"/>
+**[SQUALAR](http://peterwittek.com/squalar)**
 (2011): High-performance computational resources and distributed systems
 are crucial for the success of real-world language technology
 applications. The novel paradigm of general-purpose computing on
@@ -141,8 +138,8 @@ heterogeneous computing to develop new formalisms of information
 representation for natural language processing. Co-funded by [Amazon Web
 Services](http://aws.amazon.com/ "Amazon Web Services").
 
-[![logo-shaman](http://peterwittek.com/wp-content/uploads/2013/01/logo-shaman.png)](http://shaman-ip.eu/ "SHAMAN")
-**SHAMAN** (2010-2011) was an integrated project on large-scale digital
+<img style="float:left; border-right:8px solid white" src="images/logo-shaman.png" alt="shaman"/>
+**[SHAMAN](http://shaman-ip.eu/)** (2010-2011) was an integrated project on large-scale digital
 preservation. As part of the preservation framework, advanced services
 aid the discovery of archived digital objects. These services are based
 on machine learning and data processing, which in turn asks for scalable

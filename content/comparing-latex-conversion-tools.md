@@ -20,7 +20,7 @@ unsolved. I created a small test case for the features I need, and
 checked which tool would fit the bill. This post is about the results.
 
 Tools
-=====
+-----
 
 For the past thirteen years since I have been facing this problem, the
 range of tools does not seem to expanding much. The usual suspects are
@@ -55,7 +55,7 @@ of 2013-11-22. The word processors were LibreOffice 4.1.3 and OpenOffice
 4.0.0.
 
 Test case
-=========
+---------
 
 The test case involves common LaTeX features that I frequently use.
 Crucial packages include amsmath, amssymb, graphicx, subfigure, url.
@@ -90,7 +90,7 @@ included. A script is added to generate the output with all the tools
 outlined.
 
 Results
-=======
+-------
 
 Before the tools were tested, LaTeX and Bibtex ran on the source files
 to generate the auxiliary files. Several parameters were tested for each
@@ -153,7 +153,7 @@ with this version of LibreOffice, and not with the tools, as all files
 opened in OpenOffice.
 
 Conclusions
-===========
+-----------
 
 Htlatex won out, but tinkering is still necessary. You must convert all
 your vector images to a raster format. Then generate HTML, and open it
