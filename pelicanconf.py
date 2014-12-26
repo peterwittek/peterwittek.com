@@ -26,7 +26,7 @@ SOCIAL = (('ResearchGate', 'http://www.researchgate.net/profile/Peter_Wittek'),
           ('LinkedIn', 'https://sg.linkedin.com/in/peterwittek'),
           ('GitHub', 'https://github.com/peterwittek'),
           ('SlideShare','https://www.slideshare.net/peter_wittek'),
-          ('Email','http://peterwittek.com/email-instructions/'),
+          ('Email','/email-instructions.html'),
           )
 
 DEFAULT_PAGINATION = 1000
@@ -46,7 +46,7 @@ AUTHOR_SAVE_AS = ''
 
 # Plugin-related settings
 PLUGIN_PATHS = ['../pelican_plugins']
-PLUGINS = ['ipynb', 'render_math']
+PLUGINS = ['ipynb', 'render_math', 'bibtex']
 
 # Theme-related settings
 THEME = 'themes/octopress-simplegrey'

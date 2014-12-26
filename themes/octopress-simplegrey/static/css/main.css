@@ -254,7 +254,7 @@ ol.archive li .tags
 }
 .social a[href*='twitter.com'] + i:before {content: url('../images/icons/twitter-18px.png'); }
 .social a[href*='linkedin.com'] + i:before {content: url('../images/icons/linkedin-18px.png'); }
-.social a[href*='peterwittek.com'] + i:before {content: url('../images/icons/email-18px.png'); }
+.social a[href*='email-instructions.html'] + i:before {content: url('../images/icons/email-18px.png'); }
 .social a[href*='github.com'] + i:before {content: url('../images/icons/github-18px.png'); }
 .social a[href*='slideshare.net'] + i:before {content: url('../images/icons/slideshare-18px.png'); }
 .social a[href*='researchgate.net'] + i:before {content: url('../images/icons/researchgate-18px.png'); }
