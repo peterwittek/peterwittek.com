@@ -10,22 +10,12 @@ save_as: index.html
 
 About
 -----
-<img style="float:left; border-right:10px solid white" src="images/profile_photo.jpg" alt="profile_photo"/>I am a research fellow working on quantum machine learning,
-computational methods in quantum simulations, and scalable learning
-algorithms on supercomputers. Trained as a mathematician and computer
-scientist, I received my PhD from the National University of Singapore.
-I have been involved in major EU research projects, and obtained several
-national and industry grants. Currently I work as a research fellow in
-the Quantum Information Theory group in ICFO-The Institute of Photonic
-Sciences. Previously I worked for the University of Borås and I am
-still an external employee of the university.
+<img style="float:left; border-right:10px solid white" src="images/profile_photo.jpg" alt="profile_photo"/>I am a research fellow working on quantum machine learning, computational methods in quantum correlations and quantum simulations, and scalable learning algorithms on supercomputers. Trained as a mathematician and computer scientist, I received my PhD from the [National University of Singapore](http://www.comp.nus.edu.sg/). I have been involved in major EU research projects, and obtained several national and industry grants. Currently I work in the [Quantum Information Theory](http://www.icfo.eu/research/group_details.php?id=19) group in ICFO-The Institute of Photonic Sciences. I have been affiliated with the [University of Borås](http://www.hb.se/en/) since 2010, and I am still an external employee of the university.
 
 Being location-independent, I lived in nearly two dozen countries, and
-did research stints at several institutions, including the Indian
-Institute of Science, Barcelona Supercomputing Center, Bangor
-University, Tsinghua University,  the Centre for Quantum Technologies in
-the National University of Singapore, and the Institute of Photonic
-Sciences.
+did research stints at several institutions, including the [Indian Institute of Science](http://csa.iisc.ernet.in/), [Barcelona Supercomputing Center](http://www.bsc.es/computer-applications), [Bangor University](http://www.bangor.ac.uk/cs/), [Tsinghua University](http://www.riit.tsinghua.edu.cn/docinfo_out/board5/boardlist.jsp?columnId=002010307&parentColumnId=0020103), the [Centre for Quantum Technologies](http://quantumlah.org/) in the National University of Singapore, and [ICFO-The Institute of Photonic Sciences](http://www.icfo.eu/).
+
+Apart from my academic pursuits, I am also a member of the [NUS Overseas Colleges Alumni](http://www.overseas.nus.edu.sg/), a society promoting entrepreneurship. I have been involved in various startups and I currently serve as a technology advisor to [Fuzzie](http://fuzzie.com.sg/).
 
 Research Interests
 ------------------

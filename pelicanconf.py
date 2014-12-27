@@ -22,7 +22,7 @@ AUTHOR_FEED_RSS = None
 
 # Social widget
 SOCIAL = (('ResearchGate', 'http://www.researchgate.net/profile/Peter_Wittek'),
-          ('Scholar', 'http://scholar.google.com/citations?user=tEd_agoAAAAJ'),
+          ('Google Scholar', 'http://scholar.google.com/citations?user=tEd_agoAAAAJ'),
           ('LinkedIn', 'https://sg.linkedin.com/in/peterwittek'),
           ('GitHub', 'https://github.com/peterwittek'),
           ('SlideShare','https://www.slideshare.net/peter_wittek'),
@@ -46,7 +46,20 @@ AUTHOR_SAVE_AS = ''
 
 # Plugin-related settings
 PLUGIN_PATHS = ['../pelican_plugins']
-PLUGINS = ['ipynb', 'render_math']
+PLUGINS = ['ipynb', 'render_math', 'share_post', 'sitemap']
+SITEMAP = {
+    'format': 'xml',
+    'priorities': {
+        'articles': 0.5,
+        'indexes': 0.5,
+        'pages': 0.5
+    },
+    'changefreqs': {
+        'articles': 'monthly',
+        'indexes': 'daily',
+        'pages': 'monthly'
+    }
+}
 
 # Theme-related settings
 THEME = 'themes/octopress-simplegrey'

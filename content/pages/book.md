@@ -31,12 +31,10 @@ explains the most relevant concepts of machine learning, quantum
 mechanics, and quantum information theory, and contrasts classical
 learning algorithms to their quantum counterparts.
 
-The book is available at [Elsevier
-Store](http://store.elsevier.com/product.jsp?isbn=9780128009536 "Quantum Machine Learning: What Quantum Computing Means to Data Mining"),
+The book is available at [Elsevier Store](http://store.elsevier.com/product.jsp?isbn=9780128009536 "Quantum Machine Learning: What Quantum Computing Means to Data Mining"),
 at
 [Amazon](http://www.amazon.com/Quantum-Machine-Learning-Computing-Mining/dp/0128009535 "Quantum Machine Learning: What Quantum Computing Means to Data Mining"),
-and also at [Barnes and
-Noble](http://www.barnesandnoble.com/w/quantum-machine-learning-peter-wittek/1118900383?ean=9780128009536 "Quantum Machine Learning: What Quantum Computing Means to Data Mining").
+and also at [Barnes and Noble](http://www.barnesandnoble.com/w/quantum-machine-learning-peter-wittek/1118900383?ean=9780128009536 "Quantum Machine Learning: What Quantum Computing Means to Data Mining"). Elsevier Store gives a 25&nbsp;% discount with the promotional code PRT2514.
 
 Table of Contents
 -----------------

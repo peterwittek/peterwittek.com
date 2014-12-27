@@ -8,7 +8,7 @@
 	{% block extra_meta %}
 	{% endblock %}
 
-	<link rel="top" href="#" /><link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,300italic,400italic,600italic|Source+Code+Pro' rel='stylesheet' type='text/css'></link>
+	<link rel="top" href="#" />
 	<link rel="stylesheet" href="{{ SITEURL }}/theme/css/{{ CSS_FILE }}" type="text/css" />
 		
 	{% block scripts %}
@@ -37,6 +37,8 @@
 	    </div>
 	    {% if PAGES %}
 	      <nav class="pages">
+          <a href="{{ SITEURL }}/index.html">Home</a>
+          -
 	        {% for p in PAGES %}
             <a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a>
             {% if not loop.last %}-{% endif %}
@@ -58,7 +60,7 @@
 
 	        {% if SOCIAL %}
 	        <aside>
-	        <h2>Contact</h2>
+	        <h2>Get in Touch</h2>
             <ul class="social">
             {% for name, link in SOCIAL %}
             <li><a href="{{ link }}">{{ name }}</a><i></i></li>
@@ -67,11 +69,21 @@
           </aside>
     			{% endif %}
 
+          {% if RECENT_POST_COUNT is not defined %}
+                {% set RECENT_POST_COUNT = 5 %}
+          {% endif %}
+          <h2>Recent Posts</h2>
+              {% for article in articles[:RECENT_POST_COUNT] %}
+                <p><a href="{{ SITEURL }}/{{ article.url }}">
+                    {{ article.title }}
+                </a></p>
+              {% endfor %}
 	        <nav>
-            <h2>Tags</h2>
-            {% for tag, article in tags %}
-              <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>{% if not loop.last %},{% endif %}
-            {% endfor %}
+            {% set tags = tag_cloud | sort(attribute='1') %}
+            <h2>Tags</span></h2>
+                {% for tag in tags %}
+                    <a href="{{ SITEURL }}/{{ tag.0.url }}">{{ tag.0 }}</a><br />
+                {% endfor %}
 	        </nav>
 
 	        {% if LINKS %}

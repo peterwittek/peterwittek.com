@@ -31,24 +31,17 @@
   {% endif %}
   </p>
 
-    <p>
-	<a href="https://twitter.com/share" class="twitter-share-button" data-via="{{ TWITTER_USERNAME }}" data-lang="en" data-size="large" data-related="{{ TWITTER_USERNAME }}">Tweet</a>
-	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-	</p>
+<section>
+    <p id="post-share-links">
+        Share on:
+        <a href="{{article.share_post['linkedin']}}" target="_blank" title="Share on LinkedIn"><img src="images/linkedin_24.png" alt="LinkedIn"></a>
 
-	{% if DISQUS_SITENAME %}
-	<div class="comments">
-	<h2>Comments !</h2>
-	    <div id="disqus_thread"></div>
-	    <script type="text/javascript">
-	       var disqus_identifier = "{{ article.url }}";
-	       (function() {
-	       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-	       dsq.src = 'http://{{ DISQUS_SITENAME }}.disqus.com/embed.js';
-	       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-	      })();
-	    </script>
-	</div>
-	{% endif %}
+        <a href="{{article.share_post['facebook']}}" target="_blank" title="Share on Facebook"><img src="images/facebook_24.png" alt="Facebook"></a>
+
+        <a href="{{article.share_post['google-plus']}}" target="_blank" title="Share on Google Plus"><img src="images/googleplus_24.png" alt="Google+"></a>
+
+        <a href="{{article.share_post['twitter']}}" target="_blank" title="Share on Twitter"><img src="images/twitter_30.png" alt="Twitter"></a>
+    </p>
+</section>
 
 {% endblock %}
