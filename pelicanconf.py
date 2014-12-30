@@ -41,7 +41,7 @@ EXTRA_PATH_METADATA = {
     'static/.htaccess': {'path': '.htaccess'},
     }
 AUTHOR_SAVE_AS = ''
-#TYPOGRIFY = True
+TYPOGRIFY = True
     
 # Plugin-related settings
 PLUGIN_PATHS = ['../pelican_plugins']
