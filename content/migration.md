@@ -65,6 +65,13 @@ As for the articles, Pandoc can process [@bibkey] entries in the Markdown text t
     :::bash
     $ pandoc --bibliography bibliography.bib -f markdown -t markdown_strict input.md > output.md
 
+This does not parse the eprint links and capitalizes arXiv, so I follow it up by a one-liner:
+
+    :::bash
+    cat output.md|sed -e 's/ArXiv:\(.*\)\*/\[arXiv:\1\](http:\/\/arxiv.org\/abs\/\1)\*/'
+
+If you miss one entry, it is a pain to do the process again.
+
 The nasty aspect of the solution is that this conversion should be invoked on the fly, just before the HTML files are generated. The module [Pyandoc](https://github.com/kennethreitz/pyandoc) should help setting up a hook from Python, but so far I could not be bothered. Another problem is internal href-s from the point of the reference to the citation are not added. This would require preprocessing and postprocessing the Markdown files around Pandoc. One day I will do that. Till then, citations in Markdown remain inconvenient.
 
 Comments and sharing
