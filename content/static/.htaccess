@@ -33,3 +33,5 @@ Redirect /2014/10/recent-advances-in-quantum-machine-learning/ /recent-advances-
 Redirect /2014/11/cython-with-pypy-and-numpy/ /cython-with-pypy-and-numpy.html
 Redirect /2014/11/the-nieto-silleras-and-moroder-hierarchies-in-ncpol2sdpa/ /the-nieto-silleras-and-moroder-hierarchies-in-ncpol2sdpa.html
 Redirect /2014/12/random-number-generation-with-c11-and-vsl/ /random-number-generation-with-c11-and-vsl.html
+ErrorDocument 404 /404.html
+ErrorDocument 500 /500.html
