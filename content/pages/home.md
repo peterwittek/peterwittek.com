@@ -20,7 +20,7 @@ Apart from my academic pursuits, I am also a member of the [NUS Overseas College
 Research Interests
 ------------------
 
-**Quantum Machine Learning**: The intersection of quantum computing and
+**Quantum machine learning**: The intersection of quantum computing and
 machine learning is an emergent research topic with exciting new
 possibilities for learning theory. Apart from reduced time complexity of
 quantum learning algorithms, generalization performance may also improve
