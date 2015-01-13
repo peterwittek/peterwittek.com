@@ -101,7 +101,7 @@ Order: 1
 -   P. Wittek and C. L. Tan. A kernel-based feature weighting for text classification. In *Proceedings of IJCNN-09, IEEE International Joint Conference on Neural Networks*, pages 3373--3379, June 2009.
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.1109/IJCNN.2009.5179022)  [![[PDF]](images/pdf.png)](http://www.comp.nus.edu.sg/~tancl/publications/c2009/peter.pdf)
 -   P. Wittek, S. Darányi, and C. L. Tan. An ordering of terms based on semantic relatedness. In H. Bunt, editor, *Proceedings of IWCS-09, 8th International Conference on Computational Semantics*, pages 235--247, January 2009.
-    [![[GitHub]](images/github.png)](https://github.com/peterwittek/sseriation)  [![[PDF]](images/pdf.png)](http://acl.eldoc.ub.rug.nl/mirror/W/W09/W09-3721.pdf)
+    [![[GitHub]](images/github.png)](https://github.com/peterwittek/sseriation)  [![[PDF]](images/pdf.png)](http://www.aclweb.org/anthology/W09-3721)
 
 2008
 ----
