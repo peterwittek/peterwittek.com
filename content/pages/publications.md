@@ -9,7 +9,8 @@ Order: 1
 
 -   Wen Jun Jiang, Shi Chao Gao, Peter Wittek, and Li Zhao. Real-time heart rate detection from facial video recording on a smart phone using Kalman filters. In *Proceedings of HealthCom-14, 16th IEEE International Conference on E-health Networking, Application & Services*, October 2014.
     [![[PDF]](images/pdf.png)](http://bada.hb.se/bitstream/2320/14337/1/jiang2014realtime.pdf)
--   Wen Jun Jiang, Peter Wittek, Li Zhao, and Shi Chao Gao. Adaptive thresholding with inverted triangular area for real-time detection of the heart rate from photoplethysmogram traces on a smartphone. In *To appear in Proceedings of EMBC-14, 36th Annual International Conference of the IEEE Engineering in Medicine and Biology Society*, August 2014.
+-   Wen Jun Jiang, Peter Wittek, Li Zhao, and Shi Chao Gao. Adaptive thresholding with inverted triangular area for real-time detection of the heart rate from photoplethysmogram traces on a smartphone. In *Proceedings of EMBC-14, 36th Annual International Conference of the IEEE Engineering in Medicine and Biology Society*, pages 3212--3215, August 2014.
+    [![[DOI]](images/doi.png)](http://dx.doi.org/10.1109/EMBC.2014.6944306)
     [![[Link]](images/external.png)](https://play.google.com/store/apps/details?id=com.kiwihealthcare.cardiacfinger)  [![[PDF]](images/pdf.png)](http://bada.hb.se/bitstream/2320/14032/1/jiang2014adaptive.pdf)
 -   Peter Wittek. Ncpol2sdpa -- sparse semidefinite programming relaxations for polynomial optimization problems of noncommuting variables. *To appear in the ACM Transactions on Mathematical Software*, August 2014.
     [![[Slides]](images/slideshare.jpg)](http://www.slideshare.net/peter_wittek/algorithmic-conversion-of-polynomial-optimization-problems-of-noncommuting-variables-to-semidefinite-programming-relaxations)  [![[GitHub]](images/github.png)](http://peterwittek.github.io/ncpol2sdpa/)  [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1308.6029v2.pdf)
