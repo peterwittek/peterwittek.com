@@ -1,8 +1,15 @@
 Title: Publications
-Date: 2013-01-04 10:58
+Date: 2015-01-29 10:58
 Author: Peter
 Slug: publications
 Order: 1
+
+2015
+----
+-   Safa A. Najim, Ik Soo Lim, Peter Wittek, and Mark Jones. FSPE: Visualisation of hyperspectral imagery using faithful stochastic proximity embedding. *IEEE Geoscience and Remote Sensing Letters*, 12(1):18--22, 2015.
+    [![[DOI]](images/doi.png)](http://dx.doi.org/10.1109/LGRS.2014.2324631)  [![[Link]](images/external.png)](https://sites.google.com/site/fspedr/)  [![[PDF]](images/pdf.png)](http://www.vmg.cs.bangor.ac.uk/Publications/FSPE.pdf)
+-   Peter Wittek, Shi Chao Gao, Ik Soo Lim, Li Zhao. Somoclu: An efficient parallel library for self-organizing maps. *arXiv:1305.1422*, 2015.
+    [![[Link]](images/external.png)](http://peterwittek.com/2013/12/training-emergent-self-organizing-maps-with-somoclu/)  [![[GitHub]](images/github.png)](http://peterwittek.github.io/somoclu/)  [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1305.1422v2.pdf)
 
 2014
 ----
@@ -20,8 +27,6 @@ Order: 1
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.13140/2.1.3901.1201)  [![[Slides]](images/slideshare.jpg)](http://www.slideshare.net/peter_wittek/aqis14poster)  [![[PDF]](images/pdf.png)](http://bada.hb.se/bitstream/2320/14001/1/transduction_and_active_learning.pdf)
 -   P. Wittek, S. Darányi, and Y.H. Lin. A vector field approach to lexical semantics. In *To appear in Proceedings of QI-14, 8th International Conference on Quantum Interaction*, June 2014.
     [![[Slides]](images/slideshare.jpg)](http://www.slideshare.net/peter_wittek/qi-14-draft-140628)  [![[PDF]](images/pdf.png)](http://bada.hb.se/bitstream/2320/13809/1/semantic_fields.pdf)
--   Safa A. Najim, Ik Soo Lim, Peter Wittek, and Mark Jones. Fspe: Visualisation of hyperspectral imagery using faithful stochastic proximity embedding. *IEEE Geoscience and Remote Sensing Letters*, 12(1):18--22, 2014.
-    [![[DOI]](images/doi.png)](http://dx.doi.org/10.1109/LGRS.2014.2324631)  [![[Link]](images/external.png)](https://sites.google.com/site/fspedr/)  [![[PDF]](images/pdf.png)](http://www.vmg.cs.bangor.ac.uk/Publications/FSPE.pdf)
 
 2013
 ----
@@ -32,8 +37,6 @@ Order: 1
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.1007/978-3-642-54943-4_14)  [![[Link]](images/external.png)](http://peterwittek.com/2013/07/merging-in-complex-space/)  [![[Slides]](images/slideshare.jpg)](http://www.slideshare.net/peter_wittek/qi13poster)  [![[PDF]](images/pdf.png)](http://bada.hb.se/bitstream/2320/12521/1/complex_space.pdf)
 -   P. Wittek, I. K. Lim, and X. Rubio-Campillo. Quantum probabilistic description of dealing with risk and ambiguity in foraging decisions. In *Proceedings of QI-13, 7th International Quantum Interaction Symposium*, pages 296--307, July 2013.
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.1007/978-3-642-54943-4_27)  [![[Slides]](images/slideshare.jpg)](http://www.slideshare.net/peter_wittek/quantum-probabilistic-description-of-dealing-with-risk-and-ambiguity-in-foraging-decisions)  [![[GitHub]](images/github.png)](https://github.com/xrubio/pandora/tree/master/pandora/examples/quantumForaging)  [![[PDF]](images/pdf.png)](http://bada.hb.se/bitstream/2320/12513/1/quantum_foraging.pdf)
--   Peter Wittek. Somoclu: An efficient distributed library for self-organizing maps. *arXiv:1305.1422*, May 2013.
-    [![[Link]](images/external.png)](http://peterwittek.com/2013/12/training-emergent-self-organizing-maps-with-somoclu/)  [![[GitHub]](images/github.png)](http://peterwittek.github.io/somoclu/)  [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1305.1422v1.pdf)
 -   P. Wittek and X. Rubio-Campillo. Social simulations accelerated: Large-scale agent-based modeling on a GPU cluster. In *Poster session at GTC-13, GPU Technology Conference*, March 2013.
     [![[PDF]](images/pdf.png)](http://on-demand.gputechconf.com/gtc/2013/poster/pdf/P0197_PeterWittek.pdf)
 -   P. Wittek and S. Darányi. Accelerating text mining workloads in a MapReduce-based distributed GPU environment. *Journal of Parallel and Distributed Computing*, 73(2):198--206, February 2013.
