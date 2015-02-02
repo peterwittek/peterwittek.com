@@ -15,7 +15,7 @@ About
 Being location-independent, I lived in nearly two dozen countries, and
 did research stints at several institutions, including the [Indian Institute of Science](http://csa.iisc.ernet.in/), [Barcelona Supercomputing Center](http://www.bsc.es/computer-applications), [Bangor University](http://www.bangor.ac.uk/cs/), [Tsinghua University](http://www.riit.tsinghua.edu.cn/docinfo_out/board5/boardlist.jsp?columnId=002010307&parentColumnId=0020103), the [Centre for Quantum Technologies](http://quantumlah.org/) in the National University of Singapore, and [ICFO-The Institute of Photonic Sciences](http://www.icfo.eu/).
 
-Apart from my academic pursuits, I am also a member of the [NUS Overseas Colleges Alumni](http://www.overseas.nus.edu.sg/), a society promoting entrepreneurship. I have been involved in various startups and I currently serve as a technology advisor to [Fuzzie](http://fuzzie.com.sg/).
+Apart from my academic pursuits, I am also a member of the [NUS Overseas Colleges Alumni](http://www.overseas.nus.edu.sg/), a society promoting entrepreneurship. I have been involved in various startups and I currently serve as a technology advisor to [Fuzzie](http://www.fuzzie.com.sg/).
 
 Research Interests
 ------------------
