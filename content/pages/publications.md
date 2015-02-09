@@ -6,6 +6,8 @@ Order: 1
 
 2015
 ----
+-   P. Wittek, S. Darányi, E. Kontopoulos, T. Moysiadis and I. Kompatsiaris. Monitoring term drift based on semantic consistency in an evolving vector field. *arXiv:1502.01753*, 2015.
+    [![[GitHub]](images/github.png)](https://github.com/peterwittek/concept_drifts)  [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1502.01753v1.pdf)
 -   S. A. Najim, I. S. Lim, P. Wittek, and M. Jones. FSPE: Visualisation of hyperspectral imagery using faithful stochastic proximity embedding. *IEEE Geoscience and Remote Sensing Letters*, 12(1):18--22, 2015.
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.1109/LGRS.2014.2324631)  [![[Link]](images/external.png)](https://sites.google.com/site/fspedr/)  [![[PDF]](images/pdf.png)](http://www.vmg.cs.bangor.ac.uk/Publications/FSPE.pdf)
 -   P. Wittek, S. C. Gao, I. S. Lim, L. Zhao. Somoclu: An efficient parallel library for self-organizing maps. *arXiv:1305.1422*, 2015.
