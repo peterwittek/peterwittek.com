@@ -10,6 +10,8 @@ Order: 1
     [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1504.04986.pdf)
 -   S. A. Najim, I. S. Lim, P. Wittek, and M. Jones. FSPE: Visualisation of hyperspectral imagery using faithful stochastic proximity embedding. *IEEE Geoscience and Remote Sensing Letters*, 12(1):18--22, 2015.
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.1109/LGRS.2014.2324631)  [![[Link]](images/external.png)](https://sites.google.com/site/fspedr/)  [![[PDF]](images/pdf.png)](http://www.vmg.cs.bangor.ac.uk/Publications/FSPE.pdf)
+-   P. Wittek. Ncpol2sdpa -- Sparse semidefinite programming relaxations for polynomial optimization problems of noncommuting variables. *To appear in the ACM Transactions on Mathematical Software*, 2015.
+    [![[Slides]](images/slideshare.jpg)](http://www.slideshare.net/peter_wittek/algorithmic-conversion-of-polynomial-optimization-problems-of-noncommuting-variables-to-semidefinite-programming-relaxations)  [![[GitHub]](images/github.png)](http://peterwittek.github.io/ncpol2sdpa/)  [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1308.6029v2.pdf)
 -   P. Wittek, S. Darányi, E. Kontopoulos, T. Moysiadis and I. Kompatsiaris. Monitoring term drift based on semantic consistency in an evolving vector field. *To Appear in Proceedings of IJCNN-15, International Joint Conference on Neural Networks*, 2015.
     [![[GitHub]](images/github.png)](https://github.com/peterwittek/concept_drifts)  [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1502.01753.pdf)
 -   P. Wittek, S. C. Gao, I. S. Lim, L. Zhao. Somoclu: An efficient parallel library for self-organizing maps. *arXiv:1305.1422*, 2015.
@@ -23,14 +25,12 @@ Order: 1
 -   W. J. Jiang, P. Wittek, L. Zhao, and S. C. Gao. Adaptive thresholding with inverted triangular area for real-time detection of the heart rate from photoplethysmogram traces on a smartphone. In *Proceedings of EMBC-14, 36th Annual International Conference of the IEEE Engineering in Medicine and Biology Society*, pages 3212--3215, August 2014.
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.1109/EMBC.2014.6944306)
     [![[Link]](images/external.png)](https://play.google.com/store/apps/details?id=com.kiwihealthcare.cardiacfinger)  [![[PDF]](images/pdf.png)](http://bada.hb.se/bitstream/2320/14032/1/jiang2014adaptive.pdf)
--   P. Wittek. Ncpol2sdpa -- Sparse semidefinite programming relaxations for polynomial optimization problems of noncommuting variables. *To appear in the ACM Transactions on Mathematical Software*, August 2014.
-    [![[Slides]](images/slideshare.jpg)](http://www.slideshare.net/peter_wittek/algorithmic-conversion-of-polynomial-optimization-problems-of-noncommuting-variables-to-semidefinite-programming-relaxations)  [![[GitHub]](images/github.png)](http://peterwittek.github.io/ncpol2sdpa/)  [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1308.6029v2.pdf)
 -   P. Wittek. *Quantum Machine Learning: What Quantum Computing Means to Data Mining*. Academic Press, New York, NY, USA, August 2014.
     [![[Link]](images/external.png)](http://peterwittek.com/book/)  [![[GitHub]](images/github.png)](https://github.com/peterwittek/quantum_machine_learning_figures)
 -   P. Wittek. Transduction and active learning in the quantum learning of unitary transformations. In *Poster Session at AQIS-14, 14th Asian Quantum Information Science Conference*, August 2014.
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.13140/2.1.3901.1201)  [![[Slides]](images/slideshare.jpg)](http://www.slideshare.net/peter_wittek/aqis14poster)  [![[PDF]](images/pdf.png)](http://bada.hb.se/bitstream/2320/14001/1/transduction_and_active_learning.pdf)
 -   P. Wittek, S. Darányi, and Y.H. Lin. A vector field approach to lexical semantics. In *Proceedings of QI-14, 8th International Conference on Quantum Interaction*, pages 78--92, June 2014.
-    [![[Slides]](images/slideshare.jpg)](http://www.slideshare.net/peter_wittek/qi-14-draft-140628)  [![[PDF]](images/pdf.png)](http://bada.hb.se/bitstream/2320/13809/1/semantic_fields.pdf)
+    [![[DOI]](images/doi.png)](http://dx.doi.org/10.1007/978-3-319-15931-7_7)[![[Slides]](images/slideshare.jpg)](http://www.slideshare.net/peter_wittek/qi-14-draft-140628)  [![[PDF]](images/pdf.png)](http://bada.hb.se/bitstream/2320/13809/1/semantic_fields.pdf)
 
 2013
 ----
