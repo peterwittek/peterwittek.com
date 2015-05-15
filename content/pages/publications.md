@@ -6,11 +6,13 @@ Order: 1
 
 2015
 ----
--   I. S. Lim, P. Wittek, and Parkinson, J. On the Origin of Risk Sensitivity: the Energy Budget Rule Revisited. *arXiv:1504.04986*, 2015.
+-   A. Acín, S. Pironio, T. Vértesi, and P. Wittek. Optimal randomness certification from one entangled bit. *arXiv:1505.03837*, 2015.
+    [![[GitHub]](images/github.png)](http://nbviewer.ipython.org/github/peterwittek/ipython-notebooks/blob/master/Optimal%20randomness%20generation%20from%20entangled%20quantum%20states.ipynb) [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1505.03837.pdf)
+-   I. S. Lim, P. Wittek, and J. Parkinson. On the Origin of Risk Sensitivity: the Energy Budget Rule Revisited. *arXiv:1504.04986*, 2015.
     [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1504.04986.pdf)
 -   S. A. Najim, I. S. Lim, P. Wittek, and M. Jones. FSPE: Visualisation of hyperspectral imagery using faithful stochastic proximity embedding. *IEEE Geoscience and Remote Sensing Letters*, 12(1):18--22, 2015.
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.1109/LGRS.2014.2324631)  [![[Link]](images/external.png)](https://sites.google.com/site/fspedr/)  [![[PDF]](images/pdf.png)](http://www.vmg.cs.bangor.ac.uk/Publications/FSPE.pdf)
--   P. Wittek. Ncpol2sdpa -- Sparse semidefinite programming relaxations for polynomial optimization problems of noncommuting variables. *ACM Transactions on Mathematical Software*, 41(3), 2015.
+-   P. Wittek. Ncpol2sdpa -- Sparse semidefinite programming relaxations for polynomial optimization problems of noncommuting variables. *ACM Transactions on Mathematical Software*, 41(3):21, 2015.
     [![[Slides]](images/slideshare.jpg)](http://www.slideshare.net/peter_wittek/algorithmic-conversion-of-polynomial-optimization-problems-of-noncommuting-variables-to-semidefinite-programming-relaxations)  [![[GitHub]](images/github.png)](http://peterwittek.github.io/ncpol2sdpa/)  [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1308.6029v2.pdf)
 -   P. Wittek, S. Darányi, E. Kontopoulos, T. Moysiadis and I. Kompatsiaris. Monitoring term drift based on semantic consistency in an evolving vector field. *To Appear in Proceedings of IJCNN-15, International Joint Conference on Neural Networks*, 2015.
     [![[GitHub]](images/github.png)](https://github.com/peterwittek/concept_drifts)  [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1502.01753.pdf)
