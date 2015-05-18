@@ -50,7 +50,7 @@ time necessary for an adiabatic evolution. It can pay off to violate
 this time, repeat the evolution several times, and sample the output.
 This time to solution might prove to be a better benchmark for adiabatic
 optimization. It turns out that there is a heavy tail for time to
-solution even for the same type of optimization problems. (Steiger,
+solution even for the same type of optimization problems (Steiger,
 Rønnow, and Troyer 2015). Introducing intermediate Hamiltonians can help
 achieving better gaps (Zeng, Zhang, and Sarovar 2015). It seems,
 however, that these Hamiltonians have to be carefully crafted, as
