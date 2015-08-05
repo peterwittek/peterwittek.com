@@ -26,7 +26,7 @@ SOCIAL = (('ResearchGate', 'http://www.researchgate.net/profile/Peter_Wittek'),
           ('LinkedIn', 'https://sg.linkedin.com/in/peterwittek'),
           ('GitHub', 'https://github.com/peterwittek'),
           ('SlideShare','https://www.slideshare.net/peter_wittek'),
-          ('Email','/email-instructions.html'),
+          ('Email','http://scr.im/2uzg'),
           )
 
 DEFAULT_PAGINATION = 1000
