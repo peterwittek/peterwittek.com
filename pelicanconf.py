@@ -29,6 +29,7 @@ SOCIAL = (('ResearchGate', 'http://www.researchgate.net/profile/Peter_Wittek'),
           ('Email','http://scr.im/2uzg'),
           )
 
+MARKUP = ('md', 'ipynb')
 DEFAULT_PAGINATION = 1000
 DISPLAY_CATEGORIES_ON_MENU = False
 ARTICLE_ORDER_BY = 'reversed-date'
@@ -47,6 +48,7 @@ AUTHOR_SAVE_AS = ''
 # Plugin-related settings
 PLUGIN_PATHS = ['../pelican_plugins']
 PLUGINS = ['ipynb', 'render_math', 'share_post', 'sitemap']
+IPYNB_USE_META_SUMMARY = True
 SITEMAP = {
     'format': 'xml',
     'priorities': {

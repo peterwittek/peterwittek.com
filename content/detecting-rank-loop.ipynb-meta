@@ -5,4 +5,3 @@ Category: Semidefinite programming
 Tags: Noncommutative polynomials, Semidefinite programming, Quantum information theory, Python
 Slug: detecting-rank-loop
 Summary: It is possible to detect a rank loop in the hierarchy of SDP relaxations of polynomial optimization problems, but an arbitrary-precision SDP solver is recommended.
-
