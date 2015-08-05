@@ -79,10 +79,9 @@
                 </a></p>
               {% endfor %}
 	        <nav>
-            {% set tags = tag_cloud | sort(attribute='1') %}
             <h2>Tags</span></h2>
-                {% for tag in tags %}
-                    <a href="{{ SITEURL }}/{{ tag.0.url }}">{{ tag.0 }}</a><br />
+                {% for tag, articles in tags %}
+                    <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a><br />
                 {% endfor %}
 	        </nav>
 

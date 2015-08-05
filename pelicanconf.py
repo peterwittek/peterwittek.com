@@ -47,7 +47,8 @@ AUTHOR_SAVE_AS = ''
 
 # Plugin-related settings
 PLUGIN_PATHS = ['../pelican_plugins']
-PLUGINS = ['ipynb', 'render_math', 'share_post', 'sitemap']
+PLUGINS = ['feed_summary', 'ipynb', 'render_math', 'share_post', 'sitemap']
+FEED_USE_SUMMARY = True
 IPYNB_USE_META_SUMMARY = True
 SITEMAP = {
     'format': 'xml',
