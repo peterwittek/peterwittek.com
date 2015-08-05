@@ -31,7 +31,7 @@ SOCIAL = (('ResearchGate', 'http://www.researchgate.net/profile/Peter_Wittek'),
 
 DEFAULT_PAGINATION = 1000
 DISPLAY_CATEGORIES_ON_MENU = False
-ARTICLE_ORDER_BY = 'date'
+ARTICLE_ORDER_BY = 'reversed-date'
 PAGE_ORDER_BY = 'order'
 PAGE_URL = '{slug}.html'
 PAGE_SAVE_AS = '{slug}.html'
