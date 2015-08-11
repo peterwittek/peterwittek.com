@@ -10,7 +10,7 @@ We want to find the ground state energy of a free spinless fermionic
 system, described by the following Hamiltonian ([Corboz et al.,
 2009](#corboz2009simulation)):
 
-$$H_{\mathrm{free}}=\sum_{}\left[c_{r}^{\dagger}
+$$H_{\mathrm{free}}=\sum_{<rs>}\left[c_{r}^{\dagger}
 c_{s}+c_{s}^{\dagger} c_{r}-\gamma(c_{r}^{\dagger}
 c_{s}^{\dagger}+c_{s}c_{r})\right]-2\lambda\sum_{r}c_{r}^{\dagger}c_{r},$$
 where $<rs>$ goes through nearest neighbour pairs in a two-dimensional
