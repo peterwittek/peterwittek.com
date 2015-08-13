@@ -10,7 +10,7 @@ Order: 1
     [![[GitHub]](images/github.png)](http://nbviewer.ipython.org/github/peterwittek/ipython-notebooks/blob/master/Optimal%20randomness%20generation%20from%20entangled%20quantum%20states.ipynb) [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1505.03837.pdf)
 -   S. Darányi and P. Wittek. Conceptual machinery of the mythopoetic mind: Attis, a case study. *To Appear in Proceedings of QI-15, 9th International Quantum Interaction Symposium*, July 2015.
     [![[Slides]](images/slideshare.jpg)](http://www.slideshare.net/peter_wittek/conceptual-machinery-of-the-mythopoetic-mind-attis-a-case-study)  [![[PDF]](images/pdf.png)](https://www.researchgate.net/profile/Peter_Wittek/publication/280055117_Conceptual_machinery_of_the_mythopoetic_mind_Attis_a_case_study/links/55a5bec208ae00cf99c9818e.pdf)
--   I. S. Lim, P. Wittek, and J. Parkinson. On the origin of risk sensitivity: the energy budget rule revisited. To Appear in Animal Behaviour, 2015.
+-   I. S. Lim, P. Wittek, and J. Parkinson. On the origin of risk sensitivity: the energy budget rule revisited. *To Appear in Animal Behaviour*, 2015.
     [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1504.04986.pdf)
 -   S. A. Najim, I. S. Lim, P. Wittek, and M. Jones. FSPE: Visualisation of hyperspectral imagery using faithful stochastic proximity embedding. *IEEE Geoscience and Remote Sensing Letters*, 12(1):18--22, 2015.
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.1109/LGRS.2014.2324631)  [![[Link]](images/external.png)](https://sites.google.com/site/fspedr/)  [![[PDF]](images/pdf.png)](http://www.vmg.cs.bangor.ac.uk/Publications/FSPE.pdf)
