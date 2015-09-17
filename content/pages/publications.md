@@ -57,7 +57,7 @@ Order: 1
 -   S. Darányi and P. Wittek. Demonstrating conceptual dynamics in an evolving text collection. *Journal of the American Society for Information Science and Technology*, 64(12):2564--2572, 2013.
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.1002/asi.22940)  [![[GitHub]](images/github.png)](http://peterwittek.github.io/dynamicbiseriation/)  [![[PDF]](images/pdf.png)](http://bada.hb.se/bitstream/2320/12614/1/Demonstrating%20Conceptual%20Dynamics.pdf)
 -   P. Wittek. High-performance dynamic quantum clustering on graphics processors. *Journal of Computational Physics*, 233:262--271, January 2013.
-    [![[DOI]](images/doi.png)](http://dx.doi.org/10.1016/j.jcp.2012.08.048)  [![[PDF]](images/pdf.png)](http://bada.hb.se/bitstream/2320/11759/1/jcomp12dqc.pdf)
+    [![[DOI]](images/doi.png)](http://dx.doi.org/10.1016/j.jcp.2012.08.048)  [![[GitHub]](images/github.png)](https://github.com/peterwittek/dqc-gpu)  [![[PDF]](images/pdf.png)](http://bada.hb.se/bitstream/2320/11759/1/jcomp12dqc.pdf)
 -   P. Wittek. Two-way incremental seriation in the temporal domain with three-dimensional visualization: Making sense of evolving high-dimensional data sets. *Computational Statistics and Data Analysis*, 66:193--201, 2013.
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.1016/j.csda.2013.03.026)  [![[GitHub]](images/github.png)](http://peterwittek.github.io/dynamicbiseriation/)  [![[PDF]](images/pdf.png)](http://bada.hb.se/bitstream/2320/12278/3/Wittek-Two-way_Seration.pdf)
 -   P. Wittek and F.M. Cucchietti. A second-order distributed Trotter-Suzuki solver with a hybrid CPU-GPU kernel. *Computer Physics Communications*, 184:1165--1171, 2013.
