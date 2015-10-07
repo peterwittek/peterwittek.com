@@ -14,10 +14,10 @@ As most of the tools rely on sparse matrices for representing data and sometimes
 
 Tool      |Version|Python 2|Python 3|Pypy|PyPI| Anaconda|Hermitian
 ----------|:-----:|:------:|:------:|:--:|:--:|:-------:|:-------:
-CVXOPT    |1.1.8  |Yes     |Yes     | No | No | Yes     |No
+CVXOPT    |1.1.8  |Yes     |Yes     |No  | Yes| Yes     |No
 SDPA-P    |0.2.1  |Yes     |?       |?   | No | No      |No
 Mosek     |7.1    |Yes     |Yes     |Yes | No | No      |No
-SMCP      |0.4.1  |Yes     |No      |No  | No | No      |No
+SMCP      |0.4.1  |Yes     |No      |No  | Yes| No      |No
 SCS       |1.1.5  |Yes     |Yes     |No  | Yes| No      |No
 CVXPY     |0.3.2  |Yes     |Yes     |No  | Yes| No      |No
 PICOS     |1.1.1  |Yes     |Yes     |No  | Yes| No      |Yes
