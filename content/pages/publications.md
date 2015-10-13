@@ -8,6 +8,8 @@ Order: 1
 ----
 -   A. Acín, S. Pironio, T. Vértesi, and P. Wittek. Optimal randomness certification from one entangled bit. *arXiv:1505.03837*, 2015.
     [![[GitHub]](images/github.png)](http://nbviewer.ipython.org/github/peterwittek/ipython-notebooks/blob/master/Optimal%20randomness%20generation%20from%20entangled%20quantum%20states.ipynb) [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1505.03837.pdf)
+-   F. J. Curchod, M. Johansson, R. Augusiak, M. J. Hoban, P. Wittek, and A. Acín. Unbounded randomness certification using sequences of measurements. *arXiv:1510.03394*, 2015.
+    [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1510.03394.pdf)
 -   S. Darányi and P. Wittek. Conceptual machinery of the mythopoetic mind: Attis, a case study. *To Appear in Proceedings of QI-15, 9th International Quantum Interaction Symposium*, July 2015.
     [![[Slides]](images/slideshare.jpg)](http://www.slideshare.net/peter_wittek/conceptual-machinery-of-the-mythopoetic-mind-attis-a-case-study)  [![[PDF]](images/pdf.png)](https://www.researchgate.net/profile/Peter_Wittek/publication/280055117_Conceptual_machinery_of_the_mythopoetic_mind_Attis_a_case_study/links/55a5bec208ae00cf99c9818e.pdf)
 -   I. S. Lim, P. Wittek, and J. Parkinson. On the origin of risk sensitivity: the energy budget rule revisited. *To Appear in Animal Behaviour*, 2015.
@@ -17,11 +19,11 @@ Order: 1
 -   P. Wittek. Algorithm 950: Ncpol2sdpa---Sparse semidefinite programming relaxations for polynomial optimization problems of noncommuting variables. *ACM Transactions on Mathematical Software*, 41(3):21, 2015.
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.1145/2699464)
     [![[Slides]](images/slideshare.jpg)](http://www.slideshare.net/peter_wittek/algorithmic-conversion-of-polynomial-optimization-problems-of-noncommuting-variables-to-semidefinite-programming-relaxations)  [![[GitHub]](images/github.png)](http://peterwittek.github.io/ncpol2sdpa/)  [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1308.6029v2.pdf)
--   P. Wittek and L. Calderaro. Extended computational kernels in a massively parallel implementation of the Trotter-Suzuki approximation. *To Appear in Computer Physics Communications*, 2015.
+-   P. Wittek and L. Calderaro. Extended computational kernels in a massively parallel implementation of the Trotter-Suzuki approximation. *Computer Physics Communications*, 2015.
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.1016/j.cpc.2015.07.017)
     [![[GitHub]](images/github.png)](https://peterwittek.github.io/trotter-suzuki-mpi/)
     [![[PDF]](images/pdf.png)](https://www.researchgate.net/profile/Peter_Wittek/publication/280962265_Extended_Computational_Kernels_in_a_Massively_Parallel_Implementation_of_the_TrotterSuzuki_Approximation/links/55cebd1f08aee19936fc5dcf.pdf)
--   P. Wittek, S. Darányi, E. Kontopoulos, T. Moysiadis and I. Kompatsiaris. Monitoring term drift based on semantic consistency in an evolving vector field. *To Appear in Proceedings of IJCNN-15, International Joint Conference on Neural Networks*, 2015.
+-   P. Wittek, S. Darányi, E. Kontopoulos, T. Moysiadis and I. Kompatsiaris. Monitoring term drift based on semantic consistency in an evolving vector field. *Proceedings of IJCNN-15, International Joint Conference on Neural Networks*, 2015.
     [![[Slides]](images/slideshare.jpg)](http://www.slideshare.net/peter_wittek/monitoring-term-drift-based-on-semantic-consistency-in-an-evolving-vector-field)  [![[GitHub]](images/github.png)](https://github.com/peterwittek/concept_drifts)  [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1502.01753.pdf)
 -   P. Wittek, S. C. Gao, I. S. Lim, L. Zhao. Somoclu: An efficient parallel library for self-organizing maps. *arXiv:1305.1422*, 2015.
     [![[Link]](images/external.png)](http://peterwittek.com/2013/12/training-emergent-self-organizing-maps-with-somoclu/)  [![[GitHub]](images/github.png)](http://peterwittek.github.io/somoclu/)  [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1305.1422v2.pdf)
