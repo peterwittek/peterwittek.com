@@ -19,7 +19,7 @@ Order: 1
 -   P. Wittek. Algorithm 950: Ncpol2sdpa---Sparse semidefinite programming relaxations for polynomial optimization problems of noncommuting variables. *ACM Transactions on Mathematical Software*, 41(3):21, 2015.
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.1145/2699464)
     [![[Slides]](images/slideshare.jpg)](http://www.slideshare.net/peter_wittek/algorithmic-conversion-of-polynomial-optimization-problems-of-noncommuting-variables-to-semidefinite-programming-relaxations)  [![[GitHub]](images/github.png)](http://peterwittek.github.io/ncpol2sdpa/)  [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1308.6029)
--   P. Wittek and L. Calderaro. Extended computational kernels in a massively parallel implementation of the Trotter-Suzuki approximation. *Computer Physics Communications*, 2015.
+-   P. Wittek and L. Calderaro. Extended computational kernels in a massively parallel implementation of the Trotter-Suzuki approximation. *Computer Physics Communications*, 197:339--340, 2015.
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.1016/j.cpc.2015.07.017)
     [![[GitHub]](images/github.png)](https://peterwittek.github.io/trotter-suzuki-mpi/)
     [![[PDF]](images/pdf.png)](https://www.researchgate.net/profile/Peter_Wittek/publication/280962265_Extended_Computational_Kernels_in_a_Massively_Parallel_Implementation_of_the_TrotterSuzuki_Approximation/links/55cebd1f08aee19936fc5dcf.pdf)
