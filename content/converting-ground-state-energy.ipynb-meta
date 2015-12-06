@@ -1,7 +1,0 @@
-Title: Converting a ground-state energy problem to a semidefinite programme
-Date: 2013-06-03 09:45
-Author: Peter
-Category: Semidefinite programming
-Tags: Noncommutative polynomials, Semidefinite programming, SymPy
-Slug: ground-state-energy-problem
-Summary: Generating the SDP relaxation of the ground-state energy problem of a Hamiltonian.
