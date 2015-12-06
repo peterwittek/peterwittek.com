@@ -1,8 +1,8 @@
 Title: ACM wants you to be spied on
 Date: 2013-08-12 02:32
 Author: Peter
-Category: Espionage
-Tags: Espionage
+Category: Surveillance
+Tags: Surveillance
 Slug: acm-wants-you-to-be-spied-on
 Summary: ACM member's forwarding email address must undergo filtering by Google. Your email correspondence cannot escape the attention of NSA.
 

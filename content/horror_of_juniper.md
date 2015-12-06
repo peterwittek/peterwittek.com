@@ -1,8 +1,8 @@
 Title: The horror of Juniper VPN
 Date: 2015-08-11 16:35
 Author: Peter
-Category: Espionage
-Tags: Espionage, Linux
+Category: Surveillance
+Tags: Surveillance, Linux
 Slug: horror-of-juniper-vpn
 Summary: We waste tax payers money on an outrageously bad piece of VPN software that also opens backdoors for government and industrial espionage.
 

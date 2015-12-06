@@ -2,7 +2,7 @@ Title: Alarming state of browsing academic material anonymously
 Date: 2014-09-03 03:35
 Author: Peter
 Category: Academic publishing
-Tags: Academic publishing, Espionage
+Tags: Academic publishing, Surveillance
 Slug: browsing-academic-material-anonymously
 Summary: Cookies, browser-fingerprinting, tracking, and blocking of Tor exit nodes are becoming standard strategies while reading abstracts and exporting citations.
 

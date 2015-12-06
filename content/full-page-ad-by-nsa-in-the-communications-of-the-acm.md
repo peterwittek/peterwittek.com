@@ -1,8 +1,8 @@
 Title: Full-page ad by NSA in the Communications of the ACM
 Date: 2014-01-28 23:36
 Author: Peter
-Category: Espionage
-Tags: Espionage
+Category: Surveillance
+Tags: Surveillance
 Slug: full-page-ad-by-nsa-in-the-communications-of-the-acm
 Summary: ACM's relationship with NSA is far tighter than one could wish.
 
