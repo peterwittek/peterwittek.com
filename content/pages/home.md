@@ -10,9 +10,7 @@ save_as: index.html
 
 About
 -----
-<img style="float:left; border-right:10px solid white" src="images/profile_photo.jpg" alt="profile_photo"/>I am a research fellow working on quantum machine learning, computational methods in quantum correlations and quantum simulations, and scalable learning algorithms on supercomputers. Trained as a mathematician and computer scientist, I received my PhD from the [National University of Singapore](http://www.comp.nus.edu.sg/). I have been involved in major EU research projects, and obtained several national and industry grants. Currently I work in the [Quantum Information Theory group](http://www.icfo.eu/research/group_details.php?id=19) in ICFO-The Institute of Photonic Sciences. I have been affiliated with the [University of Borås](http://www.hb.se/en/) since 2010, and I am still an external employee of the university. 
-
-Being location-independent, I lived in nearly two dozen countries, and
+<img style="float:left; border-right:10px solid white" src="images/profile_photo.jpg" alt="profile_photo"/>I am a research fellow working on quantum machine learning, computational methods in quantum correlations and quantum simulations, and scalable learning algorithms on supercomputers. Trained as a mathematician and computer scientist, I received my PhD from the [National University of Singapore](http://www.comp.nus.edu.sg/). I have been involved in major EU research projects, and obtained several national and industry grants. Currently I work in the [Quantum Information Theory group](http://www.icfo.eu/research/group_details.php?id=19) in ICFO-The Institute of Photonic Sciences. I have been affiliated with the [University of Borås](http://www.hb.se/en/) since 2010. I
 did longer research stints at several institutions, including the [Indian Institute of Science](http://csa.iisc.ernet.in/), [Barcelona Supercomputing Center](http://www.bsc.es/computer-applications), [Tsinghua University](http://www.riit.tsinghua.edu.cn/docinfo_out/board5/boardlist.jsp?columnId=002010307&parentColumnId=0020103), the [Centre for Quantum Technologies](http://quantumlah.org/) in the National University of Singapore, and the [Quantum Information Group](http://www.eve.phys.s.u-tokyo.ac.jp/indexe.htm) in the University of Tokyo.
 
 Apart from my academic pursuits, I am also a member of the [NUS Overseas Colleges Alumni](http://www.overseas.nus.edu.sg/), a society promoting entrepreneurship. I have been involved in various startups, I serve as the chief of quantum machine learning in the [Creative Destruction Lab](http://creativedestructionlab.com/) in the University of Toronto and I am a technology advisor to [Fuzzie](http://www.fuzzie.com.sg/).
@@ -44,7 +42,7 @@ cluster.
 Current Projects
 ----------------
 <img style="float:left; border-right:8px solid white" src="images/ncpol2sdpa.png" alt="ncpol2sdpa"/>
-[**Approximating the Ground State of a Many-Particle Quantum System with Semi-Definite Relaxations**]({filename}/pages/approximating-the-ground-state-with-sdp.md) (2013-2014): Identifying the ground state of a
+[**Approximating the Ground State of a Many-Particle Quantum System with Semi-Definite Relaxations**]({filename}/pages/approximating-the-ground-state-with-sdp.md) (2013-2016): Identifying the ground state of a
 many-particle system whose interactions are described by a Hamiltonian
 is an important problem in quantum physics. During the last decade,
 different relaxations of the previous Hamiltonian minimization problem
@@ -58,7 +56,7 @@ beat any of the existing numerical methods to establish lower bounds to
 the ground-state energy and, in particular, exact diagonalization of the
 Hamiltonian. Sponsored by European Commission Seventh Framework
 Programme under Grant Agreement Number FP7-601138
-[PERICLES](http://pericles-project.eu/ "PERICLES"), by the [Red Española
+[PERICLES](http://pericles-project.eu/ "PERICLES"), by the ERC grant [QITBOX](http://cordis.europa.eu/project/rcn/111554_en.html), by the [Red Española
 de Supercomputación](http://www.bsc.es/RES "RES") and by the [Swedish
 National Infrastructure for Computing](http://www.snic.se/ "SNIC").
 
@@ -78,8 +76,8 @@ heterogeneous accelerator architectures. Funded by [European Commission
 Seventh Framework
 Programme](http://cordis.europa.eu/fp7/ict/telearn-digicult/home_en.html "FP7").
 
-Completed Projects
-------------------
+Past Projects
+-------------
 <img style="float:left; border-right:8px solid white" src="images/chip-sl.png" alt="chip-sl"/>
 **[ChiP-SL]({filename}/pages/chip-sl.md)** (2013-2014): Big data asks for scalable algorithms, but
 scalability is just one aspect of the problem. Many applications also
@@ -97,9 +95,10 @@ the algorithms being developed. Funded by [Amazon Web
 Services](http://aws.amazon.com/ "Amazon Web Services").
 
 <img style="float:left; border-right:8px solid white" src="images/tsa.png" alt="t-s-a"/>
-**[TSA](http://peterwittek.github.io/trotter-suzuki-mpi/)**
-(2012): The Trotter-Suzuki approximation leads to an efficient algorithm
-for solving the time-dependent Schrödinger equation. Using existing
+**[Trotter-Suzuki Approximation](https://trotter-suzuki-mpi.github.io/)**
+(2012): The Trotter-Suzuki decomposition leads to an efficient algorithm
+for solving the time-dependent Schrödinger equation and the
+Gross-Pitaevskii equation. Using existing
 highly optimized CPU and GPU kernels, we developed a distributed version
 of the algorithm that runs efficiently on a cluster. Our implementation
 also improves single node performance, and is able to use multiple GPUs
