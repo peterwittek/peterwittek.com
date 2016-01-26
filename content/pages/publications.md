@@ -4,6 +4,11 @@ Author: Peter
 Slug: publications
 Order: 1
 
+2016
+----
+-   P. Palittapongarnpim, P. Wittek, B. C. Sanders. Controlling Adaptive Quantum Phase Estimation with Scalable Reinforcement Learning. *To Appear in Proceedings of ESANN-16,  24th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning*, 2016.
+    [![[GitHub]](images/github.png)](https://github.com/PanPalitta/phase_estimation)
+
 2015
 ----
 -   A. Acín, S. Pironio, T. Vértesi, and P. Wittek. Optimal randomness certification from one entangled bit. *arXiv:1505.03837*, 2015.
