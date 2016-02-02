@@ -4,7 +4,7 @@ Author: Peter
 Category: Quantum information theory
 Tags: Quantum information theory
 Slug: gpe-comparison
-Summary: A quick comparison of Trotter-Suzuki-MPI, GPELab, and GPUE for simulating Bose-Einstein Condensates
+Summary: A quick comparison of Trotter-Suzuki-MPI, GPELab, and GPUE for simulating the evolution of Bose-Einstein Condensates
 
 The numerical simulation of Bose-Einstein condensates is a challenging task, even more so if we are interested in fast rotating vortices. We compare two implementations that rely on time-splitting pseudospectral methods, [GPELab](http://gpelab.math.cnrs.fr/) and [GPUE](https://mlxd.github.io/GPUE/), and one that uses the Trotter-Suzuki approximation ([Trotter-Suzuki-MPI](http://trotter-suzuki-mpi.github.io/)). I am involved in the development of the last one and I was curious how it performs compared to other methods. This comparison is joint work with [Luca Calderaro](https://github.com/Lucacalderaro), my co-developer in the Trotter-Suzuki project who did all the coding of the test cases, and we also received help from [Lee James O'Riordan](https://www.researchgate.net/profile/Lee_ORiordan), the main developer of GPUE, for which we are grateful.
 
