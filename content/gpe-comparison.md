@@ -58,7 +58,7 @@ The following table summarizes the execution time of the kernels (in seconds, se
 | TS-MPI GPU kernel | 10.7    | 22.9   |
 
 
-Looking at the execution time, GPUE is the clear winner. It has a marginal advantage over TS-MPI with the GPU kernel in real-time evolution, but it is twice as fast in imaginary-time evolution. This is a limitation of the Trotter-Suzuki approximation when applied to imaginary-time evolution: the state has to be renormalized in every iteration, which results in a substantial increase in computational time.
+Looking at the execution time, GPUE is the clear winner. It has a marginal advantage over TS-MPI with the GPU kernel in real-time evolution, but it is faster in imaginary-time evolution. This is a limitation of the Trotter-Suzuki approximation when applied to imaginary-time evolution: the state has to be renormalized in every iteration, which results in a substantial increase in computational time.
 
 The overhead of MATLAB is stunning. To keep the comparison apples to apples, the closest equivalent is the CPU kernel of TS-MPI. Even compared to that, it is 37x slower in real-time evolution, and 42x slower in imaginary-time evolution.
 
