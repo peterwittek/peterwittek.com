@@ -19,7 +19,7 @@ When it comes to the physics of the problem, GPELab takes the prime: it can tack
 | Vortices in BEC            | Yes     | Yes    | Yes    |
 | 2-Component BEC            | Yes     | No     | Yes    |
 
-GPELab's main weakness is that it only runs in MATLAB, with all the pain that implies from licence fees to the 1970s syntax. Running it on a supercomputer is an exceptional challenge, which puts severe limitations on GPELab's scalability. GPUE runs from the command line and it has a handful of Python routines to process the output. TS-MPI is the most flexible, as it allows the computational core to be called interactively from Python, but it also exposes a C++ API for more scalable calculations on a cluster. On the other hand, only a fraction of its functionality is exposed through its command-line interface, and MATLAB support was dropped in version 1.5.
+GPELab's main weakness is that it only runs in MATLAB, with all the pain that implies from licence fees to the 1970s syntax. Running it on a supercomputer is an exceptional challenge, which puts severe limitations on GPELab's scalability. GPUE runs from the command line and it has a handful of Python routines to process the output. TS-MPI is the most flexible, as it allows the computational core to be called [interactively from Python](https://trotter-suzuki-mpi.readthedocs.org/), but it also exposes a C++ API for more scalable calculations on a cluster. On the other hand, only a fraction of its functionality is exposed through its command-line interface, and MATLAB support was dropped in version 1.5.
 
 | Computational Environment   |&nbsp;TS-MPI  |&nbsp;GPUE   |&nbsp;GPELab |
 | --------------------------- |:-------:|:------:|:------:|
@@ -28,7 +28,7 @@ GPELab's main weakness is that it only runs in MATLAB, with all the pain that im
 | Python                      | Yes     | Partial| No     |
 | MATLAB                      | Partial | No     | Yes    |
 
-GPELab uses multicore CPUs, but oMATLAB puts performance constraints on the calculations. The main selling point of GPUE is, naturally, that it uses the GPU. Apart from the GPU routines, some auxiliary computations are also parallelized on CPU. GPUE can use only one GPU. TS-MPI was conceived to be massively parallel, so it can use several GPUs and it also runs on a cluster, but in the absence of these resources, a multicore CPU will do. Its GPU kernel can handle several types of the Gross-Pitaevskii equation, but it is not extended yet to work with a nonzero angular velocity.
+GPELab uses multicore CPUs, but MATLAB puts performance constraints on the calculations. The main selling point of GPUE is, naturally, that it uses the GPU. Apart from the GPU routines, some auxiliary computations are also parallelized on the CPU. GPUE can use only one GPU. TS-MPI was conceived to be massively parallel, so it can use several GPUs and it also runs on a cluster, but in the absence of these resources, a multicore CPU will do. Its GPU kernel can handle several types of the Gross-Pitaevskii equation, but it is not extended yet to work with a nonzero angular velocity.
 
 | Parallel and Distributed Computing|&nbsp;TS-MPI  |&nbsp;GPUE   |&nbsp;GPELab |
 | --------------------------------- |:-------:|:------:|:------:|
