@@ -6,8 +6,8 @@ Order: 1
 
 2016
 ----
--   A. Acín, S. Pironio, T. Vértesi, and P. Wittek. Optimal randomness certification from one entangled bit. To Appear in *Physical Review A*, 2016.
-    [![[GitHub]](images/github.png)](http://nbviewer.ipython.org/github/peterwittek/ipython-notebooks/blob/master/Optimal%20randomness%20generation%20from%20entangled%20quantum%20states.ipynb)  [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1505.03837)
+-   A. Acín, S. Pironio, T. Vértesi, and P. Wittek. Optimal randomness certification from one entangled bit. *Physical Review A*, 93:040102, 2016.
+    [![[DOI]](images/doi.png)](http://dx.doi.org/10.1103/PhysRevA.93.040102)  [![[GitHub]](images/github.png)](http://nbviewer.ipython.org/github/peterwittek/ipython-notebooks/blob/master/Optimal%20randomness%20generation%20from%20entangled%20quantum%20states.ipynb)  [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1505.03837)
 -   P. Palittapongarnpim, P. Wittek, B. C. Sanders. Controlling Adaptive Quantum Phase Estimation with Scalable Reinforcement Learning. *To Appear in Proceedings of ESANN-16,  24th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning*, 2016.
     [![[GitHub]](images/github.png)](https://github.com/PanPalitta/phase_estimation)
 -   P. Wittek, S. C. Gao, I. S. Lim, L. Zhao. Somoclu: An efficient parallel library for self-organizing maps. To Appear in *Journal of Statistical Software*, 2016.
