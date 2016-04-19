@@ -18,7 +18,7 @@ Order: 1
 ----
 -   F. J. Curchod, M. Johansson, R. Augusiak, M. J. Hoban, P. Wittek, and A. Acín. Unbounded randomness certification using sequences of measurements. *arXiv:1510.03394*, 2015.
     [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1510.03394)
--   S. Darányi and P. Wittek. Conceptual machinery of the mythopoetic mind: Attis, a case study. *To Appear in Proceedings of QI-15, 9th International Quantum Interaction Symposium*, July 2015.
+-   S. Darányi and P. Wittek. Conceptual machinery of the mythopoetic mind: Attis, a case study. *Proceedings of QI-15, 9th International Quantum Interaction Symposium*, pages 195--2006, July 2015.
     [![[Slides]](images/slideshare.jpg)](http://www.slideshare.net/peter_wittek/conceptual-machinery-of-the-mythopoetic-mind-attis-a-case-study)  [![[PDF]](images/pdf.png)](https://www.researchgate.net/profile/Peter_Wittek/publication/280055117_Conceptual_machinery_of_the_mythopoetic_mind_Attis_a_case_study/links/55a5bec208ae00cf99c9818e.pdf)
 -   I. S. Lim, P. Wittek, and J. Parkinson. On the origin of risk sensitivity: the energy budget rule revisited. *Animal Behaviour*, 110:69--77, 2015.
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.1016/j.anbehav.2015.09.007)  [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1504.04986)
