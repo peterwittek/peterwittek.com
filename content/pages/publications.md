@@ -13,13 +13,12 @@ Order: 1
 -   P. Wittek, S. C. Gao, I. S. Lim, L. Zhao. Somoclu: An efficient parallel library for self-organizing maps. To Appear in *Journal of Statistical Software*, 2016.
     [![[Link]](images/external.png)](http://peterwittek.com/2013/12/training-emergent-self-organizing-maps-with-somoclu/)  [![[GitHub]](images/github.png)](http://peterwittek.github.io/somoclu/)  [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1305.1422)
 
-
 2015
 ----
 -   F. J. Curchod, M. Johansson, R. Augusiak, M. J. Hoban, P. Wittek, and A. Acín. Unbounded randomness certification using sequences of measurements. *arXiv:1510.03394*, 2015.
     [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1510.03394)
 -   S. Darányi and P. Wittek. Conceptual machinery of the mythopoetic mind: Attis, a case study. *Proceedings of QI-15, 9th International Quantum Interaction Symposium*, pages 195--2006, July 2015.
-    [![[Slides]](images/slideshare.jpg)](http://www.slideshare.net/peter_wittek/conceptual-machinery-of-the-mythopoetic-mind-attis-a-case-study)  [![[PDF]](images/pdf.png)](https://www.researchgate.net/profile/Peter_Wittek/publication/280055117_Conceptual_machinery_of_the_mythopoetic_mind_Attis_a_case_study/links/55a5bec208ae00cf99c9818e.pdf)
+    [![[DOI]](images/doi.png)](http://dx.doi.org/10.1007/978-3-319-28675-4_15)  [![[Slides]](images/slideshare.jpg)](http://www.slideshare.net/peter_wittek/conceptual-machinery-of-the-mythopoetic-mind-attis-a-case-study)  [![[PDF]](images/pdf.png)](https://www.researchgate.net/profile/Peter_Wittek/publication/280055117_Conceptual_machinery_of_the_mythopoetic_mind_Attis_a_case_study/links/55a5bec208ae00cf99c9818e.pdf)
 -   I. S. Lim, P. Wittek, and J. Parkinson. On the origin of risk sensitivity: the energy budget rule revisited. *Animal Behaviour*, 110:69--77, 2015.
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.1016/j.anbehav.2015.09.007)  [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1504.04986)
 -   S. A. Najim, I. S. Lim, P. Wittek, and M. Jones. FSPE: Visualisation of hyperspectral imagery using faithful stochastic proximity embedding. *IEEE Geoscience and Remote Sensing Letters*, 12(1):18--22, 2015.
@@ -32,13 +31,13 @@ Order: 1
     [![[GitHub]](images/github.png)](https://trotter-suzuki-mpi.github.io/)
     [![[PDF]](images/pdf.png)](https://www.researchgate.net/profile/Peter_Wittek/publication/280962265_Extended_Computational_Kernels_in_a_Massively_Parallel_Implementation_of_the_TrotterSuzuki_Approximation/links/55cebd1f08aee19936fc5dcf.pdf)
 -   P. Wittek, S. Darányi, E. Kontopoulos, T. Moysiadis and I. Kompatsiaris. Monitoring term drift based on semantic consistency in an evolving vector field. *Proceedings of IJCNN-15, International Joint Conference on Neural Networks*, 2015.
-    [![[Slides]](images/slideshare.jpg)](http://www.slideshare.net/peter_wittek/monitoring-term-drift-based-on-semantic-consistency-in-an-evolving-vector-field)  [![[GitHub]](images/github.png)](https://github.com/peterwittek/concept_drifts)  [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1502.01753)
+    [![[DOI]](images/doi.png)](http://dx.doi.org/10.1109/IJCNN.2015.7280766)  [![[Slides]](images/slideshare.jpg)](http://www.slideshare.net/peter_wittek/monitoring-term-drift-based-on-semantic-consistency-in-an-evolving-vector-field)  [![[GitHub]](images/github.png)](https://github.com/peterwittek/concept_drifts)  [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1502.01753)
 
 2014
 ----
 
 -   W. J. Jiang, S. C. Gao, P. Wittek, and L. Zhao. Real-time heart rate detection from facial video recording on a smart phone using Kalman filters. In *Proceedings of HealthCom-14, 16th IEEE International Conference on E-health Networking, Application & Services*, October 2014.
-    [![[PDF]](images/pdf.png)](http://bada.hb.se/bitstream/2320/14337/1/jiang2014realtime.pdf)
+    [![[DOI]](images/doi.png)](http://dx.doi.org/10.1109/HealthCom.2014.7001875)  [![[PDF]](images/pdf.png)](http://bada.hb.se/bitstream/2320/14337/1/jiang2014realtime.pdf)
 -   W. J. Jiang, P. Wittek, L. Zhao, and S. C. Gao. Adaptive thresholding with inverted triangular area for real-time detection of the heart rate from photoplethysmogram traces on a smartphone. In *Proceedings of EMBC-14, 36th Annual International Conference of the IEEE Engineering in Medicine and Biology Society*, pages 3212--3215, August 2014.
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.1109/EMBC.2014.6944306)
     [![[Link]](images/external.png)](https://play.google.com/store/apps/details?id=com.kiwihealthcare.cardiacfinger)  [![[PDF]](images/pdf.png)](http://bada.hb.se/bitstream/2320/14032/1/jiang2014adaptive.pdf)
@@ -47,7 +46,7 @@ Order: 1
 -   P. Wittek. Transduction and active learning in the quantum learning of unitary transformations. In *Poster Session at AQIS-14, 14th Asian Quantum Information Science Conference*, August 2014.
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.13140/2.1.3901.1201)  [![[Slides]](images/slideshare.jpg)](http://www.slideshare.net/peter_wittek/aqis14poster)  [![[PDF]](images/pdf.png)](http://bada.hb.se/bitstream/2320/14001/1/transduction_and_active_learning.pdf)
 -   P. Wittek, S. Darányi, and Y.H. Lin. A vector field approach to lexical semantics. In *Proceedings of QI-14, 8th International Conference on Quantum Interaction*, pages 78--92, June 2014.
-    [![[DOI]](images/doi.png)](http://dx.doi.org/10.1007/978-3-319-15931-7_7)[![[Slides]](images/slideshare.jpg)](http://www.slideshare.net/peter_wittek/qi-14-draft-140628)  [![[PDF]](images/pdf.png)](http://bada.hb.se/bitstream/2320/13809/1/semantic_fields.pdf)
+    [![[DOI]](images/doi.png)](http://dx.doi.org/10.1007/978-3-319-15931-7_7)  [![[Slides]](images/slideshare.jpg)](http://www.slideshare.net/peter_wittek/qi-14-draft-140628)  [![[PDF]](images/pdf.png)](http://bada.hb.se/bitstream/2320/13809/1/semantic_fields.pdf)
 
 2013
 ----
