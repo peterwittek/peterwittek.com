@@ -8,7 +8,7 @@ Order: 1
 ----
 -   A. Acín, S. Pironio, T. Vértesi, and P. Wittek. Optimal randomness certification from one entangled bit. *Physical Review A*, 93:040102, 2016.
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.1103/PhysRevA.93.040102)  [![[GitHub]](images/github.png)](http://nbviewer.ipython.org/github/peterwittek/ipython-notebooks/blob/master/Optimal%20randomness%20generation%20from%20entangled%20quantum%20states.ipynb)  [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1505.03837)
--   P. Palittapongarnpim, P. Wittek, B. C. Sanders. Controlling Adaptive Quantum Phase Estimation with Scalable Reinforcement Learning. *To Appear in Proceedings of ESANN-16,  24th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning*, 2016.
+-   P. Palittapongarnpim, P. Wittek, B. C. Sanders. Controlling Adaptive Quantum Phase Estimation with Scalable Reinforcement Learning. *In Proceedings of ESANN-16,  24th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning*, pages 327--332, April 2016.
     [![[GitHub]](images/github.png)](https://github.com/PanPalitta/phase_estimation)
 -   P. Wittek, S. C. Gao, I. S. Lim, L. Zhao. Somoclu: An efficient parallel library for self-organizing maps. To Appear in *Journal of Statistical Software*, 2016.
     [![[Link]](images/external.png)](http://peterwittek.com/2013/12/training-emergent-self-organizing-maps-with-somoclu/)  [![[GitHub]](images/github.png)](http://peterwittek.github.io/somoclu/)  [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1305.1422)
@@ -87,8 +87,8 @@ Order: 1
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.1007/s10723-012-9206-7)  [![[PDF]](images/pdf.png)](http://bada.hb.se/bitstream/2320/10967/3/Digital%20Preservation%20in%20Grids%20and%20Clouds.pdf)
 -   S. Darányi, P. Wittek, and L. Forró. Toward sequencing “narrative DNA": Tale types, motif strings and memetic pathways. In *Proceedings of CMN-12, 3rd Workshop on Computational Models of Narrative in conjunction with the 8th Language Resources and Evaluation Conference*, pages 2--10, May 2012.
     [![[Slides]](images/slideshare.jpg)](http://www.slideshare.net/peter_wittek/toward-sequencing-narrative-dna-tale-types-motif-strings-and-memetic-pathways)  [![[PDF]](images/pdf.png)](http://bada.hb.se/bitstream/2320/11830/2/Towards%20Sequencing%20Narrative%20DNA.pdf)
--   P. Wittek and S. Darányi. A GPU-accelerated algorithm for self-organizing maps in a distributed environment. In *Proceedings of ESANN-12, 20th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning*, April 2012.
-    [![[GitHub]](images/github.png)](https://github.com/peterwittek/mr-mpi-som-gpu)  [![[PDF]](images/pdf.png)](http://bada.hb.se/bitstream/2320/10966/4/esann12gpusom.pdf)
+-   P. Wittek and S. Darányi. A GPU-accelerated algorithm for self-organizing maps in a distributed environment. In *Proceedings of ESANN-12, 20th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning*, pages 609--614, April 2012.
+    [![[GitHub]](images/github.png)](https://github.com/peterwittek/mr-mpi-som-gpu)  [![[PDF]](images/pdf.png)](https://www.elen.ucl.ac.be/Proceedings/esann/esannpdf/es2012-35.pdf)
 
 2011
 ----
