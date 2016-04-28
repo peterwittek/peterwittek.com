@@ -33,7 +33,7 @@ The SDP solver family [SDPA](http://sdpa.sourceforge.net/) has a Python interfac
 
 The commercial optimization products [Mosek](http://mosek.com/), [CPLEX](http://www-01.ibm.com/software/commerce/optimization/cplex-optimizer/), and [Gurobi](http://www.gurobi.com) all have a Python interface.
 
-[SMCP](https://smcp.readthedocs.org/) can solve sparse matrix cone problems in Python.
+[SMCP](https://smcp.readthedocs.io/) can solve sparse matrix cone problems in Python.
 
 [SCS](https://github.com/cvxgrp/scs) solves convex cone problems via operator splitting and it has a Python interface. It might prove faster but less accurate than other solvers.
 
@@ -49,4 +49,4 @@ Having an SDP solver is awesome, but it is even better if we have handy tools to
 
 SDP relaxations of polynomial optimization problems
 ----------------------------------------------------------
-[Ncpol2sdpa](https://ncpol2sdpa.readthedocs.org/) generates semidefinite relaxations of polynomial optimization problems. If the variables are commutative, it generates the Lasserre hierarchy, similarly to  [Gloptipoly](http://homepages.laas.fr/henrion/software/gloptipoly/) in MATLAB. It is also able to use the sparse structure of such problems, like [SparsePOP](http://sparsepop.sourceforge.net/) in MATLAB. If the variables are noncommutative, it generates various incarnations of the NPA hierarchy. For instance, in Bell scenarios, it can calculate maximum violations similarly to [NPAHierarchy](http://www.qetlab.com/NPAHierarchy) in MATLAB, but it also encompasses a wider ranger of applications, such as calculating the ground-state energy of certain Hamiltonians. It supports complex Hermitian matrices.
+[Ncpol2sdpa](https://ncpol2sdpa.readthedocs.io/) generates semidefinite relaxations of polynomial optimization problems. If the variables are commutative, it generates the Lasserre hierarchy, similarly to  [Gloptipoly](http://homepages.laas.fr/henrion/software/gloptipoly/) in MATLAB. It is also able to use the sparse structure of such problems, like [SparsePOP](http://sparsepop.sourceforge.net/) in MATLAB. If the variables are noncommutative, it generates various incarnations of the NPA hierarchy. For instance, in Bell scenarios, it can calculate maximum violations similarly to [NPAHierarchy](http://www.qetlab.com/NPAHierarchy) in MATLAB, but it also encompasses a wider ranger of applications, such as calculating the ground-state energy of certain Hamiltonians. It supports complex Hermitian matrices.
