@@ -9,6 +9,8 @@ Order: 1
 -   A. Acín, S. Pironio, T. Vértesi, and P. Wittek. Optimal randomness certification from one entangled bit. *Physical Review A*, 93:040102, 2016.
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.1103/PhysRevA.93.040102)  [![[GitHub]](images/github.png)](http://nbviewer.ipython.org/github/peterwittek/ipython-notebooks/blob/master/Optimal%20randomness%20generation%20from%20entangled%20quantum%20states.ipynb)  [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1505.03837)
 -   S. C. Gao, P. Wittek, L. Zhao, and W. J. Jiang. Data-driven estimation of blood pressure using photoplethysmographic signals. To appear in *Proceedings of EMBC-16, 38th Annual International Conference of the IEEE Engineering in Medicine and Biology Society*, August 2016.
+-   A. Monràs, G. Sentís, P. Wittek. Inductive quantum learning: Why you are doing it almost right. *arXiv:1605.07541*, 2016.
+    [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1605.07541)
 -   P. Palittapongarnpim, P. Wittek, B. C. Sanders. Controlling adaptive quantum phase estimation with scalable reinforcement learning. *In Proceedings of ESANN-16,  24th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning*, pages 327--332, April 2016.
     [![[GitHub]](images/github.png)](https://github.com/PanPalitta/phase_estimation)
 -   P. Wittek, S. C. Gao, I. S. Lim, L. Zhao. Somoclu: An efficient parallel library for self-organizing maps. To Appear in *Journal of Statistical Software*, 2016.
