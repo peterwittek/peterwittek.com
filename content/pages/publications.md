@@ -18,6 +18,9 @@ Order: 1
     [![[GitHub]](images/github.png)](http://nbviewer.jupyter.org/github/peterwittek/ipython-notebooks/blob/master/Citation_Network_SDP.ipynb)  [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1605.08185)
 -   P. Wittek, S. C. Gao, I. S. Lim, L. Zhao. Somoclu: An efficient parallel library for self-organizing maps. To Appear in *Journal of Statistical Software*, 2016.
     [![[Link]](images/external.png)](http://peterwittek.com/2013/12/training-emergent-self-organizing-maps-with-somoclu/)  [![[GitHub]](images/github.png)](http://peterwittek.github.io/somoclu/)  [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1305.1422)
+-   P. Wittek, Y. H. Liu, S. Darányi, T. Gedeon, I. S. Lim. Risk and Ambiguity in Information Seeking: Eye Gaze Patterns Reveal Contextual Behaviour in Dealing with Uncertainty. *arXiv:1606.08157*, 2016.
+    [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1606.08157)
+
 
 2015
 ----
