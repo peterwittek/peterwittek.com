@@ -14,6 +14,10 @@ Order: 1
     [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1605.07541)
 -   P. Palittapongarnpim, P. Wittek, B. C. Sanders. Controlling adaptive quantum phase estimation with scalable reinforcement learning. *In Proceedings of ESANN-16,  24th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning*, pages 327--332, April 2016.
     [![[GitHub]](images/github.png)](https://github.com/PanPalitta/phase_estimation)
+-   P. Palittapongarnpim, P. Wittek, E. Zahedinejad, B. C. Sanders. Learning in Quantum Control: High-Dimensional Global Optimization for Noisy Quantum Dynamics. *arXiv:1607.03428*, 2016.
+    [![[GitHub]](images/github.png)](https://github.com/PanPalitta/phase_estimation)
+    [![[GitHub]](images/github.png)](https://github.com/ezahedin/DE_high-dimensional)
+    [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1607.03428)
 -   P. Wittek, S. Darányi, G. Nelhans: Ruling Out Static Latent Homophily in Citation Networks. *arXiv:1605.08185*, 2016.
     [![[GitHub]](images/github.png)](http://nbviewer.jupyter.org/github/peterwittek/ipython-notebooks/blob/master/Citation_Network_SDP.ipynb)  [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1605.08185)
 -   P. Wittek, S. C. Gao, I. S. Lim, L. Zhao. Somoclu: An efficient parallel library for self-organizing maps. To Appear in *Journal of Statistical Software*, 2016.
