@@ -8,16 +8,20 @@ Order: 1
 ----
 -   A. Acín, S. Pironio, T. Vértesi, and P. Wittek. Optimal randomness certification from one entangled bit. *Physical Review A*, 93:040102, 2016.
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.1103/PhysRevA.93.040102)  [![[GitHub]](images/github.png)](http://nbviewer.ipython.org/github/peterwittek/ipython-notebooks/blob/master/Optimal%20randomness%20generation%20from%20entangled%20quantum%20states.ipynb)  [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1505.03837)
+-   S. Darányi, P. Wittek, K. Konstantinidis, S. Papadopoulos, E. Kontopoulos. A Physical Metaphor to Study Semantic Drift. To appear in *Proceedings of SuCCESS-16, 1st International Workshop on Semantic Change & Evolving Semantics*, September 2016.
 -   S. C. Gao, P. Wittek, L. Zhao, and W. J. Jiang. Data-driven estimation of blood pressure using photoplethysmographic signals. To appear in *Proceedings of EMBC-16, 38th Annual International Conference of the IEEE Engineering in Medicine and Biology Society*, August 2016.
     [![[GitHub]](images/github.png)](https://github.com/thmedialab/DataDrivenBP)
 -   A. Monràs, G. Sentís, P. Wittek. Inductive quantum learning: Why you are doing it almost right. *arXiv:1605.07541*, 2016.
     [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1605.07541)
 -   P. Palittapongarnpim, P. Wittek, B. C. Sanders. Controlling adaptive quantum phase estimation with scalable reinforcement learning. *In Proceedings of ESANN-16,  24th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning*, pages 327--332, April 2016.
     [![[GitHub]](images/github.png)](https://github.com/PanPalitta/phase_estimation)
+    [![[PDF]](images/pdf.png)](http://www.elen.ucl.ac.be/Proceedings/esann/esannpdf/es2016-12.pdf)
 -   P. Palittapongarnpim, P. Wittek, E. Zahedinejad, B. C. Sanders. Learning in Quantum Control: High-Dimensional Global Optimization for Noisy Quantum Dynamics. *arXiv:1607.03428*, 2016.
     [![[GitHub]](images/github.png)](https://github.com/PanPalitta/phase_estimation)
     [![[GitHub]](images/github.png)](https://github.com/ezahedin/DE_high-dimensional)
     [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1607.03428)
+-   A. Salavrakos, R. Augusiak, J. Tura, P. Wittek, A. Acín, and S. Pironio. Bell inequalities for maximally entangled states. *arXiv:1607.04578*, 2016.
+    [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1607.04578)
 -   P. Wittek, S. Darányi, G. Nelhans: Ruling Out Static Latent Homophily in Citation Networks. *arXiv:1605.08185*, 2016.
     [![[GitHub]](images/github.png)](http://nbviewer.jupyter.org/github/peterwittek/ipython-notebooks/blob/master/Citation_Network_SDP.ipynb)  [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1605.08185)
 -   P. Wittek, S. C. Gao, I. S. Lim, L. Zhao. Somoclu: An efficient parallel library for self-organizing maps. To Appear in *Journal of Statistical Software*, 2016.
