@@ -15,10 +15,10 @@ Order: 1
 -   A. Monràs, G. Sentís, P. Wittek. Inductive quantum learning: Why you are doing it almost right. *arXiv:1605.07541*, 2016.
     [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1605.07541)
 -   P. Palittapongarnpim, P. Wittek, B. C. Sanders. Controlling adaptive quantum phase estimation with scalable reinforcement learning. *In Proceedings of ESANN-16,  24th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning*, pages 327--332, April 2016.
-    [![[GitHub]](images/github.png)](https://github.com/PanPalitta/phase_estimation)
+    [![[GitHub]](images/github.png)](https://panpalitta.github.io/phase_estimation/)
     [![[PDF]](images/pdf.png)](http://www.elen.ucl.ac.be/Proceedings/esann/esannpdf/es2016-12.pdf)
 -   P. Palittapongarnpim, P. Wittek, E. Zahedinejad, B. C. Sanders. Learning in Quantum Control: High-Dimensional Global Optimization for Noisy Quantum Dynamics. *arXiv:1607.03428*, 2016.
-    [![[GitHub]](images/github.png)](https://github.com/PanPalitta/phase_estimation)
+    [![[GitHub]](images/github.png)](https://panpalitta.github.io/phase_estimation/)
     [![[GitHub]](images/github.png)](https://github.com/ezahedin/DE_high-dimensional)
     [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1607.03428)
 -   A. Salavrakos, R. Augusiak, J. Tura, P. Wittek, A. Acín, and S. Pironio. Bell inequalities for maximally entangled states. *arXiv:1607.04578*, 2016.
