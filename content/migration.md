@@ -6,6 +6,8 @@ Tags: Academic publishing
 Slug: academic-website-with-pelican
 Summary: In pursuit of open science, academics should blog. As good nerds, they should opt for static website generators. Pelican is a great option, but caveats apply.
 
+*Update: The source code of my website is [available on GitHub](https://github.com/peterwittek/peterwittek.com).*
+
 I am a firm believer of the openness of science, which is also the reason why I blog about issues I encounter during my work. My website used Wordpress for two years, but I figured that using a static website generator would be a more elegant solution that would make it easier for me to write and publish posts.
 
 Reasons
@@ -37,7 +39,7 @@ Mathematical formulas and syntax highlighting
 ---------------------------------------------
 Syntax highlighting worked magically. I did not have to do anything to get it work. MathJax required a [plugin](https://github.com/getpelican/pelican-plugins/tree/master/render_math), but then it worked just fine. Javascript is, of course, necessary to render the formulas, so extreme privacy freaks will be unhappy.
 
-IPython support is more difficult, but it would be important to promote [literate programming]({filename}/reproducible-research-literate-programming-ipython-and-github.md). Theoretically you can add an IPython notebook, and it processed the same way as the rest of the content, the corresponding HTML is rendered when the site is generated. This, however, is a flawed process. [Pandoc](http://johnmacfarlane.net/pandoc/) is necessary, and I have mixed experiences using it. I ended up [forking](https://github.com/peterwittek/pelican-ipynb) the pelican-ipynb plugin repository to get the summary metadata field correct and to have better support for MathJax. Node.js should not be installed when using the plugin. The solution is still not perfect, but I am not a CSS wizard to sort out the remaining visual issues, nor I want to become one. The result looks okay on a laptop screen and bad on a phone. 
+IPython support is more difficult, but it would be important to promote [literate programming]({filename}/reproducible-research-literate-programming-ipython-and-github.md). Theoretically you can add an IPython notebook, and it processed the same way as the rest of the content, the corresponding HTML is rendered when the site is generated. This, however, is a flawed process. [Pandoc](http://johnmacfarlane.net/pandoc/) is necessary, and I have mixed experiences using it. I ended up [forking](https://github.com/peterwittek/pelican-ipynb) the pelican-ipynb plugin repository to get the summary metadata field correct and to have better support for MathJax. Node.js should not be installed when using the plugin. The solution is still not perfect, but I am not a CSS wizard to sort out the remaining visual issues, nor I want to become one. The result looks okay on a laptop screen and bad on a phone.
 
 The hardest part: bibliography and references
 ---------------------------------------------
@@ -60,7 +62,7 @@ The first one is actually harder. I ended up using [Bibtex2html](https://www.lri
 
 Compared to this, configuring the [Papercite plugin](https://wordpress.org/plugins/papercite/) of Wordpress is a breeze.
 
-As for the articles, Pandoc can process [@bibkey] entries in the Markdown text the same way as LaTeX and Bibtex would do. The trick here is that you should tell Pandoc that the output Markdown is a different flavour than the input: 
+As for the articles, Pandoc can process [@bibkey] entries in the Markdown text the same way as LaTeX and Bibtex would do. The trick here is that you should tell Pandoc that the output Markdown is a different flavour than the input:
 
     :::bash
     $ pandoc --bibliography bibliography.bib -f markdown -t markdown_strict input.md > output.md
@@ -98,18 +100,18 @@ I generate the new sitemap with a Pelican [plugin](https://github.com/getpelican
 
 Publishing new posts and updates
 --------------------------------
-This is my favourite part. For this alone, the conversion was worthwhile. I no longer have to rely on insecure login, Javascript-based editor, and the rest of the Wordpress misery. Once I have a new post finished, I move it to the content directory, and issue 
+This is my favourite part. For this alone, the conversion was worthwhile. I no longer have to rely on insecure login, Javascript-based editor, and the rest of the Wordpress misery. Once I have a new post finished, I move it to the content directory, and issue
 
     :::bash
     make rsync_upload
-    
+
 It is magical. The rsync part had to be tweaked to make it work, as my shared webhost does not allow ssh. I mount a Webdav directory and to the syncing on the local filesystem. My webhost uses CPanel and it was trivial to add Webdav access -- the menu item is called Web Disk. To mount this folder by a user, I added a line to fstab:
 
     :::bash
     https://shared.hostname.net:dav_port /mnt/webdav davfs user,noauto 0 0
 
 I store the username and password in ``~/.davfs2/secrets``. Then I replaced the relevant lines in the default Pelican Makefile to this:
-    
+
     :::makefile
     rsync_upload: publish
       mount /mnt/webdav
