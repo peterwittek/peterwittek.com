@@ -8,7 +8,7 @@ Order: 1
 ----
 -   A. Acín, S. Pironio, T. Vértesi, and P. Wittek. Optimal randomness certification from one entangled bit. *Physical Review A*, 93:040102, 2016.
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.1103/PhysRevA.93.040102)  [![[GitHub]](images/github.png)](http://nbviewer.ipython.org/github/peterwittek/ipython-notebooks/blob/master/Optimal%20randomness%20generation%20from%20entangled%20quantum%20states.ipynb)  [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1505.03837)
--   L. Calderaro, A. L. Fetter, P. Massignan, and P. Wittek. Vortex dynamics in coherently coupled Bose-Einstein condensates.
+-   L. Calderaro, A. L. Fetter, P. Massignan, and P. Wittek. Vortex dynamics in coherently coupled Bose-Einstein condensates. *arXiv:1609.03966*, 2016.
     [![[GitHub]](images/github.png)](https://nbviewer.jupyter.org/github/trotter-suzuki-mpi/notebooks/blob/master/Vortex_Dynamics.ipynb)  [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1609.03966)
 -   S. Darányi, P. Wittek, K. Konstantinidis, S. Papadopoulos, and E. Kontopoulos. A Physical Metaphor to Study Semantic Drift. To appear in *Proceedings of SuCCESS-16, 1st International Workshop on Semantic Change & Evolving Semantics*, September 2016.
     [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1608.01298)
@@ -17,7 +17,10 @@ Order: 1
     [![[PDF]](images/pdf.png)](https://www.researchgate.net/profile/Peter_Wittek/publication/307477267_Data-Driven_Estimation_of_Blood_Pressure_Using_Photoplethysmographic_Signals/links/57c6b20e08ae9d64047e01d7.pdf)
 -   A. Monràs, G. Sentís, P. Wittek. Inductive quantum learning: Why you are doing it almost right. *arXiv:1605.07541*, 2016.
     [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1605.07541)
--   P. Palittapongarnpim, P. Wittek, B. C. Sanders. Single-shot Adaptive Measurement for Quantum-enhanced Metrology . To appear in *In Proceedings of Quantum Communications and Quantum Imaging XIV conference at SPIE Optics + Photonics*, August 2016.
+-   M. Oszmaniec, L. Guerini, A. Acín, P. Wittek. Simulation of general quantum measurements with projective measurements. *arXiv:1609.06139*, 2016.
+    [![[GitHub]](images/github.png)](https://github.com/peterwittek/ipython-notebooks/blob/master/Simulating_POVMs.ipynb)
+    [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1609.06139)
+-   P. Palittapongarnpim, P. Wittek, B. C. Sanders. Single-shot Adaptive Measurement for Quantum-enhanced Metrology. To appear in *In Proceedings of Quantum Communications and Quantum Imaging XIV conference at SPIE Optics + Photonics*, August 2016.
     [![[GitHub]](images/github.png)](https://panpalitta.github.io/phase_estimation/)
     [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1608.06238)
 -   P. Palittapongarnpim, P. Wittek, B. C. Sanders. Controlling adaptive quantum phase estimation with scalable reinforcement learning. *In Proceedings of ESANN-16,  24th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning*, pages 327--332, April 2016.
