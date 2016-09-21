@@ -20,7 +20,8 @@ Order: 1
 -   M. Oszmaniec, L. Guerini, P. Wittek, A. Acín. Simulation of general quantum measurements with projective measurements. *arXiv:1609.06139*, 2016.
     [![[GitHub]](images/github.png)](https://github.com/peterwittek/ipython-notebooks/blob/master/Simulating_POVMs.ipynb)
     [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1609.06139)
--   P. Palittapongarnpim, P. Wittek, B. C. Sanders. Single-shot Adaptive Measurement for Quantum-enhanced Metrology. To appear in *In Proceedings of Quantum Communications and Quantum Imaging XIV conference at SPIE Optics + Photonics*, August 2016.
+-   P. Palittapongarnpim, P. Wittek, B. C. Sanders. Single-shot Adaptive Measurement for Quantum-enhanced Metrology. In *Proceedings of Quantum Communications and Quantum Imaging XIV conference at SPIE Optics + Photonics*, pages 99800H-99800H-11, September 2016.
+    [![[DOI]](images/doi.png)](http://dx.doi.org/10.1117/12.2237355)  [![[Slides]](images/slideshare.jpg)](http://www.slideshare.net/peter_wittek/conceptual-machinery-of-the-mythopoetic-mind-attis-a-case-study)
     [![[GitHub]](images/github.png)](https://panpalitta.github.io/phase_estimation/)
     [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1608.06238)
 -   P. Palittapongarnpim, P. Wittek, B. C. Sanders. Controlling adaptive quantum phase estimation with scalable reinforcement learning. *In Proceedings of ESANN-16,  24th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning*, pages 327--332, April 2016.
