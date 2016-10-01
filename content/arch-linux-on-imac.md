@@ -1,8 +1,8 @@
 Title: Running Arch Linux from an SD Card on an iMac
 Date: 2014-03-06 01:53
 Author: Peter
-Category: Linux
-Tags: Linux
+Category: Surveillance
+Tags: Surveillance
 Slug: arch-linux-on-imac
 Summary: Why would you use the spyware operating system installed on an iMac when you can run Arch Linux from an SD card?
 

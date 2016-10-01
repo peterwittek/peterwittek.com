@@ -2,7 +2,7 @@ Title: Migrating an academic website from Wordpress to Pelican
 Date: 2014-12-28 16:59
 Author: Peter
 Category: Academic publishing
-Tags: Academic publishing
+Tags: Academic publishing, Python
 Slug: academic-website-with-pelican
 Summary: In pursuit of open science, academics should blog. As good nerds, they should opt for static website generators. Pelican is a great option, but caveats apply.
 

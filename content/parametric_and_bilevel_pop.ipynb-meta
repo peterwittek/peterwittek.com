@@ -2,6 +2,6 @@ Title: Relaxations of parametric and bilevel polynomial optimization problems
 Date: 2015-12-04 16:56
 Author: Peter
 Category: Semidefinite programming
-Tags: Noncommutative polynomials, Python, Semidefinite programming, SymPy
+Tags: Noncommutative polynomials, Python, Semidefinite programming
 Slug: parametric-and-bilevel-pop
 Summary: Semidefinite programming relaxations of polynomial optimization problems of commuting variables with moment constraints, parametric and bilevel variants.

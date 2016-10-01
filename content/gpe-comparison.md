@@ -2,7 +2,7 @@ Title: Comparing three numerical solvers of the Gross-Pitaevskii equation
 Date: 2016-02-03 16:59
 Author: Peter
 Category: Quantum information theory
-Tags: Quantum information theory
+Tags: Quantum information theory, GPU
 Slug: gpe-comparison
 Summary: A quick comparison of Trotter-Suzuki-MPI, GPELab, and GPUE for simulating the evolution of Bose-Einstein Condensates
 

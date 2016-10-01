@@ -1,8 +1,8 @@
 Title: Computer algebra system on a cell phone
 Date: 2013-09-29 03:51
 Author: Peter
-Category: Linux
-Tags: Python, SymPy, Linux
+Category: Python
+Tags: Python
 Slug: computer-algebra-system-on-a-cell-phone
 Summary: Smartphones are powerful enough to run a Linux with a graphical interface: computer algebra systems are the next frontier in mobile computing.
 
