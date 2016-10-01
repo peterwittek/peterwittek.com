@@ -41,25 +41,6 @@ cluster.
 
 Current Projects
 ----------------
-<img style="float:left; border-right:8px solid white" src="images/ncpol2sdpa.png" alt="ncpol2sdpa"/>
-[**Approximating the Ground State of a Many-Particle Quantum System with Semi-Definite Relaxations**]({filename}/pages/approximating-the-ground-state-with-sdp.md) (2013-2016): Identifying the ground state of a
-many-particle system whose interactions are described by a Hamiltonian
-is an important problem in quantum physics. During the last decade,
-different relaxations of the previous Hamiltonian minimization problem
-have been proposed. Interestingly, they provide lower bound the
-ground-state energy, complementing the upper bounds that are obtainable
-using variational methods. These algorithms can be understood as lower
-levels of a general hierarchy of semi-definite programming (SDP)
-relaxations for non-commutative polynomial optimization. The main goal
-is to identify physically relevant situations in which SDP relaxations
-beat any of the existing numerical methods to establish lower bounds to
-the ground-state energy and, in particular, exact diagonalization of the
-Hamiltonian. Sponsored by European Commission Seventh Framework
-Programme under Grant Agreement Number FP7-601138
-[PERICLES](http://pericles-project.eu/ "PERICLES"), by the ERC grant [QITBOX](http://cordis.europa.eu/project/rcn/111554_en.html), by the [Red Española
-de Supercomputación](http://www.bsc.es/RES "RES") and by the [Swedish
-National Infrastructure for Computing](http://www.snic.se/ "SNIC").
-
 <img style="float:left; border-right:8px solid white" src="images/pericles1.png" alt="pericles"/>
 **[Pericles](http://www.pericles-project.eu/)**
 (2013-2017): Promoting and Enhancing Reuse of Information throughout the
@@ -72,9 +53,37 @@ contextuality and scalability within the project. Contextuality refers
 to probabilistic framework that considers the broader and narrower
 context of the data within a quantum-like formulation, whereas
 scalability allows executing algorithms on massive data sets using
-heterogeneous accelerator architectures. Funded by [European Commission
-Seventh Framework
-Programme](http://cordis.europa.eu/fp7/ict/telearn-digicult/home_en.html "FP7").
+heterogeneous accelerator architectures. Funded by [European Commission Seventh Framework Programme](http://cordis.europa.eu/fp7/ict/telearn-digicult/home_en.html "FP7") (FP7-601138).
+
+<img style="float:left; border-right:8px solid white" src="images/moment_matrix.png" alt="Moment matrix"/>
+[**Studying Many-Body Quantum Systems with Semidefinite Programming Relaxations**](https://ncpol2sdpa.readthedocs.org/): Identifying the ground state of a
+many-particle system whose interactions are described by a Hamiltonian
+is an important problem in quantum physics. During the last decade,
+different relaxations of the previous Hamiltonian minimization problem
+have been proposed. Interestingly, they provide lower bound the
+ground-state energy, complementing the upper bounds that are obtainable
+using variational methods. These algorithms can be understood as lower
+levels of a general hierarchy of semidefinite programming (SDP)
+relaxations for non-commutative polynomial optimization. The main goal
+is to identify physically relevant situations in which SDP relaxations
+beat any of the existing numerical methods to establish lower bounds to
+the ground-state energy and, in particular, exact diagonalization of the
+Hamiltonian. The same methodology of SDP relaxations also applies to certain problems in quantum correlations. The set of quantum correlations is convex, but the boundary is hard to characterize. The hierarchy of SDP relaxations approximates this boundary from the outside and the approximation is often very accurate. The applications of this method include establishing the maximum quantum violation of Bell inequalities and calculating the maximum amount of randomness that can be extracted from certain multipartite quantum systems. Sponsored by the ERC grant [QITBOX](http://cordis.europa.eu/project/rcn/111554_en.html), by the [Spanish Supercomputing Network](https://www.bsc.es/marenostrum-support-services/res) (FI-2013-1-0008 and FI-2013-3-0004) and by the [Swedish National Infrastructure for Computing](http://www.snic.se/) (SNIC 2014/2-7 and 2015/1-162).
+
+<img style="float:left; border-right:8px solid white" src="images/quantum_gas61.png" alt="t-s-a"/>
+**[Trotter-Suzuki Approximation](https://github.com/trotter-suzuki-mpi)**
+(2012, 2015-2016): The Trotter-Suzuki decomposition leads to an efficient algorithm
+for solving the time-dependent Schrödinger equation and the
+Gross-Pitaevskii equation. Using existing
+highly optimized CPU and GPU kernels, we developed a distributed version
+of the algorithm that runs efficiently on a cluster. Our implementation
+also improves single node performance, and is able to use multiple GPUs
+within a node. The scaling is close to linear using the CPU kernels,
+whereas the efficiency of GPU kernels improve with larger matrices. We
+also introduced a hybrid kernel that simultaneously uses multicore CPUs
+and GPUs in a distributed system.  The distributed extension was carried out while visiting the the [Barcelona Supercomputing
+Centre](http://bsc.es/ "Barcelona Supercomputing Centre") funded by
+[HPC-EUROPA2](http://www.hpc-europa.org/ "HPC-EUROPA2"). Generalizing the capabilities of kernels was carried out by Luca Calderaro sponsored by the [Erasmus+](http://ec.europa.eu/programmes/erasmus-plus/index_en.htm) programme. Computational resources were granted by the [Spanish Supercomputing Network](https://www.bsc.es/marenostrum-support-services/res) (FI-2015-2-0023), the [High Performance Computing Center North](https://www.hpc2n.umu.se/) ([SNIC](http://www.snic.se/) 2015/1-162 and SNIC 2016/1-320), and a hardware grant by [Nvidia](https://www.nvidia.com/).
 
 Past Projects
 -------------
@@ -93,22 +102,6 @@ the project Cloud for High-Performance Statistical Learning (ChiP-SL)
 enables the verification, rapid dissemination, and quick adaptation of
 the algorithms being developed. Funded by [Amazon Web
 Services](http://aws.amazon.com/ "Amazon Web Services").
-
-<img style="float:left; border-right:8px solid white" src="images/tsa.png" alt="t-s-a"/>
-**[Trotter-Suzuki Approximation](https://trotter-suzuki-mpi.github.io/)**
-(2012): The Trotter-Suzuki decomposition leads to an efficient algorithm
-for solving the time-dependent Schrödinger equation and the
-Gross-Pitaevskii equation. Using existing
-highly optimized CPU and GPU kernels, we developed a distributed version
-of the algorithm that runs efficiently on a cluster. Our implementation
-also improves single node performance, and is able to use multiple GPUs
-within a node. The scaling is close to linear using the CPU kernels,
-whereas the efficiency of GPU kernels improve with larger matrices. We
-also introduced a hybrid kernel that simultaneously uses multicore CPUs
-and GPUs in a distributed system. This project was a research visit to
-the [Barcelona Supercomputing
-Centre](http://bsc.es/ "Barcelona Supercomputing Centre") funded by
-[HPC-EUROPA2](http://www.hpc-europa.org/ "HPC-EUROPA2").
 
 <img style="float:left; border-right:8px solid white" src="images/squalar.png" alt="squalar"/>
 **[SQUALAR](http://peterwittek.com/squalar)**
@@ -139,4 +132,3 @@ involved in digital preservation potentially lack the necessary
 infrastructure, a high-performance cloud computing component was also
 developed. Funded by [Framework Programme
 7](http://cordis.europa.eu/fp7/ict/telearn-digicult/home_en.html "FP7").
-
