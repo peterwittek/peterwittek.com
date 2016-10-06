@@ -17,7 +17,7 @@ Order: 1
     [![[PDF]](images/pdf.png)](https://www.researchgate.net/profile/Peter_Wittek/publication/307477267_Data-Driven_Estimation_of_Blood_Pressure_Using_Photoplethysmographic_Signals/links/57c6b20e08ae9d64047e01d7.pdf)
 -   A. Monràs, G. Sentís, P. Wittek. Inductive quantum learning: Why you are doing it almost right. *arXiv:1605.07541*, 2016.
     [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1605.07541)
--   M. Oszmaniec, L. Guerini, P. Wittek, A. Acín. Simulation of general quantum measurements with projective measurements. *arXiv:1609.06139*, 2016.
+-   M. Oszmaniec, L. Guerini, P. Wittek, A. Acín. Simulation of positive-operator-valued measures with projective measurements. *arXiv:1609.06139*, 2016.
     [![[GitHub]](images/github.png)](https://github.com/peterwittek/ipython-notebooks/blob/master/Simulating_POVMs.ipynb)
     [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1609.06139)
 -   P. Palittapongarnpim, P. Wittek, B. C. Sanders. Single-shot Adaptive Measurement for Quantum-enhanced Metrology. In *Proceedings of Quantum Communications and Quantum Imaging XIV conference at SPIE Optics + Photonics*, pages 99800H-99800H-11, September 2016.
