@@ -45,7 +45,7 @@ The comparison is not entirely fair, since I did not delve into
 optimizing the individual compilers. The running time results were as
 follows (the values are in seconds):
 
-|BLAS/|MKL|ACML|LAPACK
+|Compiler| BLAS/LAPACK | Intel MKL| ACML |
 ------------------|------------------|------------------|------------------
 |GCC|37.21|23.03|21.42
 |ICC|37.31|11.48|18.83
