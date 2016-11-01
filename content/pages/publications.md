@@ -15,6 +15,7 @@ Order: 1
 -   S. C. Gao, P. Wittek, L. Zhao, and W. J. Jiang. Data-driven estimation of blood pressure using photoplethysmographic signals. To appear in *Proceedings of EMBC-16, 38th Annual International Conference of the IEEE Engineering in Medicine and Biology Society*, August 2016.
     [![[GitHub]](images/github.png)](https://github.com/thmedialab/DataDrivenBP)
     [![[PDF]](images/pdf.png)](https://www.researchgate.net/profile/Peter_Wittek/publication/307477267_Data-Driven_Estimation_of_Blood_Pressure_Using_Photoplethysmographic_Signals/links/57c6b20e08ae9d64047e01d7.pdf)
+-   E. Kontopoulos, T. Moysiadis, M. Tsagiopoulou, S. Darányi, P. Wittek, N. Papakonstantinou, S. Ntoufa, G. Meditskos, I. Kompatsiaris, K. Stamatopoulos. Studying the Cohesion Evolution of Genes Related to Chronic Lymphocytic Leukemia Using Semantic Similarity in Gene Ontology and Self-Organizing Maps. To appear in *Proceedings of SWAT4LS-16, 9th Semantic Web Applications and Tools for Life Sciences Workshop*, December 2016.
 -   A. Meroño Peñuela, P. Wittek, S. Darányi. Visualizing the Drift of Linked Open Data Using Self-Organizing Maps. To appear in *Proceedings of Drift-a-LOD Workshop at the 20th International Conference on Knowledge Engineering and Knowledge Management*, November 2016.
     [![[GitHub]](images/github.png)](https://github.com/albertmeronyo/somoclu-dyldo)
     [![[PDF]](images/pdf.png)](http://event.cwi.nl/drift-a-lod/2016/papers/Drift-a-LOD2016_paper_3.pdf)
@@ -24,13 +25,13 @@ Order: 1
     [![[GitHub]](images/github.png)](https://github.com/peterwittek/ipython-notebooks/blob/master/Simulating_POVMs.ipynb)
     [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1609.06139)
 -   P. Palittapongarnpim, P. Wittek, B. C. Sanders. Single-shot Adaptive Measurement for Quantum-enhanced Metrology. In *Proceedings of Quantum Communications and Quantum Imaging XIV conference at SPIE Optics + Photonics*, pages 99800H-99800H-11, September 2016.
-    [![[DOI]](images/doi.png)](http://dx.doi.org/10.1117/12.2237355)  [![[Slides]](images/slideshare.jpg)](http://www.slideshare.net/peter_wittek/conceptual-machinery-of-the-mythopoetic-mind-attis-a-case-study)
+    [![[DOI]](images/doi.png)](http://dx.doi.org/10.1117/12.2237355)
     [![[GitHub]](images/github.png)](https://panpalitta.github.io/phase_estimation/)
     [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1608.06238)
 -   P. Palittapongarnpim, P. Wittek, B. C. Sanders. Controlling adaptive quantum phase estimation with scalable reinforcement learning. *In Proceedings of ESANN-16,  24th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning*, pages 327--332, April 2016.
     [![[GitHub]](images/github.png)](https://panpalitta.github.io/phase_estimation/)
     [![[PDF]](images/pdf.png)](http://www.elen.ucl.ac.be/Proceedings/esann/esannpdf/es2016-12.pdf)
--   P. Palittapongarnpim, P. Wittek, E. Zahedinejad, B. C. Sanders. Learning in Quantum Control: High-Dimensional Global Optimization for Noisy Quantum Dynamics. *arXiv:1607.03428*, 2016.
+-   P. Palittapongarnpim, P. Wittek, E. Zahedinejad, B. C. Sanders. Learning in Quantum Control: High-Dimensional Global Optimization for Noisy Quantum Dynamics. To appear in *Neurocomputing*, 2016.
     [![[GitHub]](images/github.png)](https://panpalitta.github.io/phase_estimation/)
     [![[GitHub]](images/github.png)](https://github.com/ezahedin/DE_high-dimensional)
     [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1607.03428)
@@ -38,9 +39,9 @@ Order: 1
     [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1607.04578)
 -   P. Wittek, S. Darányi, G. Nelhans: Ruling Out Static Latent Homophily in Citation Networks. *arXiv:1605.08185*, 2016.
     [![[GitHub]](images/github.png)](http://nbviewer.jupyter.org/github/peterwittek/ipython-notebooks/blob/master/Citation_Network_SDP.ipynb)  [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1605.08185)
--   P. Wittek, S. C. Gao, I. S. Lim, L. Zhao. Somoclu: An efficient parallel library for self-organizing maps. To Appear in *Journal of Statistical Software*, 2016.
+-   P. Wittek, S. C. Gao, I. S. Lim, L. Zhao. Somoclu: An efficient parallel library for self-organizing maps. To appear in *Journal of Statistical Software*, 2016.
     [![[Link]](images/external.png)](http://peterwittek.com/2013/12/training-emergent-self-organizing-maps-with-somoclu/)  [![[GitHub]](images/github.png)](http://peterwittek.github.io/somoclu/)  [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1305.1422)
--   P. Wittek, Y. H. Liu, S. Darányi, T. Gedeon, I. S. Lim. Risk and Ambiguity in Information Seeking: Eye Gaze Patterns Reveal Contextual Behaviour in Dealing with Uncertainty. *arXiv:1606.08157*, 2016.
+-   P. Wittek, Y. H. Liu, S. Darányi, T. Gedeon, I. S. Lim. Risk and Ambiguity in Information Seeking: Eye Gaze Patterns Reveal Contextual Behaviour in Dealing with Uncertainty. To appear in *Frontiers in Psychology*, 2016.
     [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1606.08157)
 
 
