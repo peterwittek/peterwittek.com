@@ -17,6 +17,7 @@ Order: 1
     [![[PDF]](images/pdf.png)](https://www.researchgate.net/profile/Peter_Wittek/publication/307477267_Data-Driven_Estimation_of_Blood_Pressure_Using_Photoplethysmographic_Signals/links/57c6b20e08ae9d64047e01d7.pdf)
 -   A. Meroño Peñuela, P. Wittek, S. Darányi. Visualizing the Drift of Linked Open Data Using Self-Organizing Maps. To appear in *Proceedings of Drift-a-LOD Workshop at the 20th International Conference on Knowledge Engineering and Knowledge Management*, November 2016.
     [![[GitHub]](images/github.png)](https://github.com/albertmeronyo/somoclu-dyldo)
+    [![[PDF]](images/pdf.png)](http://event.cwi.nl/drift-a-lod/2016/papers/Drift-a-LOD2016_paper_3.pdf)
 -   A. Monràs, G. Sentís, P. Wittek. Inductive quantum learning: Why you are doing it almost right. *arXiv:1605.07541*, 2016.
     [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1605.07541)
 -   M. Oszmaniec, L. Guerini, P. Wittek, A. Acín. Simulation of positive-operator-valued measures with projective measurements. *arXiv:1609.06139*, 2016.
