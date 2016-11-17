@@ -12,8 +12,8 @@ Order: 1
     [![[GitHub]](images/github.png)](https://nbviewer.jupyter.org/github/trotter-suzuki-mpi/notebooks/blob/master/Vortex_Dynamics.ipynb)  [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1609.03966)
 -   S. Darányi, P. Wittek, K. Konstantinidis, S. Papadopoulos, and E. Kontopoulos. A Physical Metaphor to Study Semantic Drift. To appear in *Proceedings of SuCCESS-16, 1st International Workshop on Semantic Change & Evolving Semantics*, September 2016.
     [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1608.01298)
--   S. C. Gao, P. Wittek, L. Zhao, and W. J. Jiang. Data-driven estimation of blood pressure using photoplethysmographic signals. To appear in *Proceedings of EMBC-16, 38th Annual International Conference of the IEEE Engineering in Medicine and Biology Society*, August 2016.
-    [![[GitHub]](images/github.png)](https://github.com/thmedialab/DataDrivenBP)
+-   S. C. Gao, P. Wittek, L. Zhao, and W. J. Jiang. Data-driven estimation of blood pressure using photoplethysmographic signals. *Proceedings of EMBC-16, 38th Annual International Conference of the IEEE Engineering in Medicine and Biology Society*, pages 766--769, August 2016.
+    [![[DOI]](images/doi.png)](http://dx.doi.org/10.1109/EMBC.2016.7590814)  [![[GitHub]](images/github.png)](https://github.com/thmedialab/DataDrivenBP)
     [![[PDF]](images/pdf.png)](https://www.researchgate.net/profile/Peter_Wittek/publication/307477267_Data-Driven_Estimation_of_Blood_Pressure_Using_Photoplethysmographic_Signals/links/57c6b20e08ae9d64047e01d7.pdf)
 -   E. Kontopoulos, T. Moysiadis, M. Tsagiopoulou, S. Darányi, P. Wittek, N. Papakonstantinou, S. Ntoufa, G. Meditskos, I. Kompatsiaris, K. Stamatopoulos. Studying the Cohesion Evolution of Genes Related to Chronic Lymphocytic Leukemia Using Semantic Similarity in Gene Ontology and Self-Organizing Maps. To appear in *Proceedings of SWAT4LS-16, 9th Semantic Web Applications and Tools for Life Sciences Workshop*, December 2016.
     [![[PDF]](images/pdf.png)](https://www.researchgate.net/profile/Efstratios_Kontopoulos/publication/310254239_Studying_the_Cohesion_Evolution_of_Genes_Related_to_Chronic_Lymphocytic_Leukemia_Using_Semantic_Similarity_in_Gene_Ontology_and_Self-Organizing_Maps/links/582ad3a008ae138f1bf40300.pdf)
@@ -42,8 +42,8 @@ Order: 1
     [![[GitHub]](images/github.png)](http://nbviewer.jupyter.org/github/peterwittek/ipython-notebooks/blob/master/Citation_Network_SDP.ipynb)  [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1605.08185)
 -   P. Wittek, S. C. Gao, I. S. Lim, L. Zhao. Somoclu: An efficient parallel library for self-organizing maps. To appear in *Journal of Statistical Software*, 2016.
     [![[Link]](images/external.png)](http://peterwittek.com/2013/12/training-emergent-self-organizing-maps-with-somoclu/)  [![[GitHub]](images/github.png)](http://peterwittek.github.io/somoclu/)  [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1305.1422)
--   P. Wittek, Y. H. Liu, S. Darányi, T. Gedeon, I. S. Lim. Risk and Ambiguity in Information Seeking: Eye Gaze Patterns Reveal Contextual Behaviour in Dealing with Uncertainty. To appear in *Frontiers in Psychology*, 2016.
-    [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1606.08157)
+-   P. Wittek, Y. H. Liu, S. Darányi, T. Gedeon, I. S. Lim. Risk and Ambiguity in Information Seeking: Eye Gaze Patterns Reveal Contextual Behaviour in Dealing with Uncertainty. *Frontiers in Psychology*, 7, 1790, 2016.
+    [![[DOI]](images/doi.png)](http://dx.doi.org/10.3389/fpsyg.2016.01790)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1606.08157)
 
 
 2015
