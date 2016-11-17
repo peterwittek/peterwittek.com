@@ -145,7 +145,7 @@ Order: 1
 -   S. Darányi, P. Wittek, and M. Dobreva. Position paper: Adding a 5m layer to the 5s model of digital libraries. In *Proceedings of DLID-ICADL-10, Digital Libraries for International Development in conjunction with International Conference on Asian Digital Libraries*, page 3, June 2010.
 -   S. Darányi, P. Wittek, and M. Dobreva. Toward a 5M model of digital libraries. In *Proceedings of DLID-ICADL-10, Digital Libraries for International Development in conjunction with International Conference on Asian Digital Libraries*, pages 4--11, June 2010.
     [![[PDF]](images/pdf.png)](http://bada.hb.se/bitstream/2320/9701/1/Toward%205M_100420.pdf)
--   P. Wittek, S. Darányi, and M. Dobreva. Matching evolving hilbert spaces and language for semantic access to digital libraries. In *Proceedings of ICADL-10, 12th International Conference on Asia-Pacific Digital Libraries*, pages 262--263, June 2010.
+-   P. Wittek, S. Darányi, and M. Dobreva. Matching evolving Hilbert spaces and language for semantic access to digital libraries. In *Proceedings of ICADL-10, 12th International Conference on Asia-Pacific Digital Libraries*, pages 262--263, June 2010.
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.1007/978-3-642-13654-2_35)  [![[PDF]](images/pdf.png)](http://bada.hb.se/bitstream/2320/6633/2/icadl10matching.pdf)
 -   P. Wittek. *Compactly supported basis functions as support vector kernels: Capturing feature interdependence in the embedding space*. PhD thesis, Department of Computer Science, National University of Singapore, April 2010.
     [![[PDF]](images/pdf.png)](http://scholarbank.nus.edu.sg/bitstream/handle/10635/18828/Wittek.pdf)
