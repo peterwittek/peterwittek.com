@@ -10,7 +10,7 @@ Order: 1
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.1103/PhysRevA.93.040102)  [![[GitHub]](images/github.png)](http://nbviewer.ipython.org/github/peterwittek/ipython-notebooks/blob/master/Optimal%20randomness%20generation%20from%20entangled%20quantum%20states.ipynb)  [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1505.03837)
 -   L. Calderaro, A. L. Fetter, P. Massignan, and P. Wittek. Vortex dynamics in coherently coupled Bose-Einstein condensates. *arXiv:1609.03966*, 2016.
     [![[GitHub]](images/github.png)](https://nbviewer.jupyter.org/github/trotter-suzuki-mpi/notebooks/blob/master/Vortex_Dynamics.ipynb)  [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1609.03966)
--   S. Darányi, P. Wittek, K. Konstantinidis, S. Papadopoulos, and E. Kontopoulos. A Physical Metaphor to Study Semantic Drift. To appear in *Proceedings of SuCCESS-16, 1st International Workshop on Semantic Change & Evolving Semantics*, September 2016.
+-   S. Darányi, P. Wittek, K. Konstantinidis, S. Papadopoulos, and E. Kontopoulos. A Physical Metaphor to Study Semantic Drift. *Proceedings of SuCCESS-16, 1st International Workshop on Semantic Change & Evolving Semantics*, 1695, September 2016.
     [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1608.01298)
 -   S. C. Gao, P. Wittek, L. Zhao, and W. J. Jiang. Data-driven estimation of blood pressure using photoplethysmographic signals. *Proceedings of EMBC-16, 38th Annual International Conference of the IEEE Engineering in Medicine and Biology Society*, pages 766--769, August 2016.
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.1109/EMBC.2016.7590814)  [![[GitHub]](images/github.png)](https://github.com/thmedialab/DataDrivenBP)
