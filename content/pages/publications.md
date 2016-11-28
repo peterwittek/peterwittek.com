@@ -38,10 +38,12 @@ Order: 1
     [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1607.03428)
 -   A. Salavrakos, R. Augusiak, J. Tura, P. Wittek, A. Acín, and S. Pironio. Bell inequalities for maximally entangled states. *arXiv:1607.04578*, 2016.
     [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1607.04578)
--   P. Wittek, S. Darányi, G. Nelhans: Ruling Out Static Latent Homophily in Citation Networks. *arXiv:1605.08185*, 2016.
+-   P. Wittek, S. Darányi, G. Nelhans: Ruling Out Static Latent Homophily in Citation Networks. To appear in *Scientometrics*, 2016.
     [![[GitHub]](images/github.png)](http://nbviewer.jupyter.org/github/peterwittek/ipython-notebooks/blob/master/Citation_Network_SDP.ipynb)  [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1605.08185)
 -   P. Wittek, S. C. Gao, I. S. Lim, L. Zhao. Somoclu: An efficient parallel library for self-organizing maps. To appear in *Journal of Statistical Software*, 2016.
     [![[Link]](images/external.png)](http://peterwittek.com/2013/12/training-emergent-self-organizing-maps-with-somoclu/)  [![[GitHub]](images/github.png)](http://peterwittek.github.io/somoclu/)  [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1305.1422)
+-   P. Wittek, C. Gogolin. Quantum Enhanced Inference in Markov Logic Networks. *arXiv:1611.08104*, 2016.
+    [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1611.08104)
 -   P. Wittek, Y. H. Liu, S. Darányi, T. Gedeon, I. S. Lim. Risk and Ambiguity in Information Seeking: Eye Gaze Patterns Reveal Contextual Behaviour in Dealing with Uncertainty. *Frontiers in Psychology*, 7, 1790, 2016.
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.3389/fpsyg.2016.01790)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1606.08157)
 
