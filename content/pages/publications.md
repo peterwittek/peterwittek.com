@@ -7,11 +7,13 @@ Order: 1
 2016
 ----
 -   A. Acín, S. Pironio, T. Vértesi, and P. Wittek. Optimal randomness certification from one entangled bit. *Physical Review A*, 93:040102, 2016.
-    [![[DOI]](images/doi.png)](http://dx.doi.org/10.1103/PhysRevA.93.040102)  [![[GitHub]](images/github.png)](http://nbviewer.ipython.org/github/peterwittek/ipython-notebooks/blob/master/Optimal%20randomness%20generation%20from%20entangled%20quantum%20states.ipynb)  [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1505.03837)
+    [![[DOI]](images/doi.png)](http://dx.doi.org/10.1103/PhysRevA.93.040102)  [![[GitHub]](images/github.png)](http://nbviewer.ipython.org/github/peterwittek/ipython-notebooks/blob/master/Optimal%20randomness%20generation%20from%20entangled%20quantum%20states.ipynb)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1505.03837)
+-   J. Biamonte, P. Wittek, N. Pancotti, P. Rebentrost, N. Wiebe, S. Lloyd. Quantum Machine Learning. *arXiv:1611.09347*, 2016.
+    [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1611.09347)
 -   L. Calderaro, A. L. Fetter, P. Massignan, and P. Wittek. Vortex dynamics in coherently coupled Bose-Einstein condensates. *arXiv:1609.03966*, 2016.
-    [![[GitHub]](images/github.png)](https://nbviewer.jupyter.org/github/trotter-suzuki-mpi/notebooks/blob/master/Vortex_Dynamics.ipynb)  [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1609.03966)
+    [![[GitHub]](images/github.png)](https://nbviewer.jupyter.org/github/trotter-suzuki-mpi/notebooks/blob/master/Vortex_Dynamics.ipynb)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1609.03966)
 -   S. Darányi, P. Wittek, K. Konstantinidis, S. Papadopoulos, and E. Kontopoulos. A Physical Metaphor to Study Semantic Drift. *Proceedings of SuCCESS-16, 1st International Workshop on Semantic Change & Evolving Semantics*, 1695, September 2016.
-    [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1608.01298)
+    [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1608.01298)
 -   S. C. Gao, P. Wittek, L. Zhao, and W. J. Jiang. Data-driven estimation of blood pressure using photoplethysmographic signals. *Proceedings of EMBC-16, 38th Annual International Conference of the IEEE Engineering in Medicine and Biology Society*, pages 766--769, August 2016.
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.1109/EMBC.2016.7590814)  [![[GitHub]](images/github.png)](https://github.com/thmedialab/DataDrivenBP)
     [![[PDF]](images/pdf.png)](https://www.researchgate.net/profile/Peter_Wittek/publication/307477267_Data-Driven_Estimation_of_Blood_Pressure_Using_Photoplethysmographic_Signals/links/57c6b20e08ae9d64047e01d7.pdf)
@@ -21,10 +23,10 @@ Order: 1
     [![[GitHub]](images/github.png)](https://github.com/albertmeronyo/somoclu-dyldo)
     [![[PDF]](images/pdf.png)](http://event.cwi.nl/drift-a-lod/2016/papers/Drift-a-LOD2016_paper_3.pdf)
 -   A. Monràs, G. Sentís, P. Wittek. Inductive quantum learning: Why you are doing it almost right. *arXiv:1605.07541*, 2016.
-    [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1605.07541)
+    [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1605.07541)
 -   M. Oszmaniec, L. Guerini, P. Wittek, A. Acín. Simulation of positive-operator-valued measures with projective measurements. *arXiv:1609.06139*, 2016.
     [![[GitHub]](images/github.png)](https://github.com/peterwittek/ipython-notebooks/blob/master/Simulating_POVMs.ipynb)
-    [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1609.06139)
+    [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1609.06139)
 -   P. Palittapongarnpim, P. Wittek, B. C. Sanders. Single-shot Adaptive Measurement for Quantum-enhanced Metrology. In *Proceedings of Quantum Communications and Quantum Imaging XIV conference at SPIE Optics + Photonics*, pages 99800H-99800H-11, September 2016.
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.1117/12.2237355)
     [![[GitHub]](images/github.png)](https://panpalitta.github.io/phase_estimation/)
@@ -35,15 +37,15 @@ Order: 1
 -   P. Palittapongarnpim, P. Wittek, E. Zahedinejad, B. C. Sanders. Learning in Quantum Control: High-Dimensional Global Optimization for Noisy Quantum Dynamics. To appear in *Neurocomputing*, 2016.
     [![[GitHub]](images/github.png)](https://panpalitta.github.io/phase_estimation/)
     [![[GitHub]](images/github.png)](https://github.com/ezahedin/DE_high-dimensional)
-    [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1607.03428)
+    [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1607.03428)
 -   A. Salavrakos, R. Augusiak, J. Tura, P. Wittek, A. Acín, and S. Pironio. Bell inequalities for maximally entangled states. *arXiv:1607.04578*, 2016.
-    [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1607.04578)
+    [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1607.04578)
 -   P. Wittek, S. Darányi, G. Nelhans: Ruling Out Static Latent Homophily in Citation Networks. To appear in *Scientometrics*, 2016.
-    [![[GitHub]](images/github.png)](http://nbviewer.jupyter.org/github/peterwittek/ipython-notebooks/blob/master/Citation_Network_SDP.ipynb)  [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1605.08185)
+    [![[GitHub]](images/github.png)](http://nbviewer.jupyter.org/github/peterwittek/ipython-notebooks/blob/master/Citation_Network_SDP.ipynb)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1605.08185)
 -   P. Wittek, S. C. Gao, I. S. Lim, L. Zhao. Somoclu: An efficient parallel library for self-organizing maps. To appear in *Journal of Statistical Software*, 2016.
-    [![[Link]](images/external.png)](http://peterwittek.com/2013/12/training-emergent-self-organizing-maps-with-somoclu/)  [![[GitHub]](images/github.png)](http://peterwittek.github.io/somoclu/)  [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1305.1422)
+    [![[Link]](images/external.png)](http://peterwittek.com/2013/12/training-emergent-self-organizing-maps-with-somoclu/)  [![[GitHub]](images/github.png)](http://peterwittek.github.io/somoclu/)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1305.1422)
 -   P. Wittek, C. Gogolin. Quantum Enhanced Inference in Markov Logic Networks. *arXiv:1611.08104*, 2016.
-    [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1611.08104)
+    [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1611.08104)
 -   P. Wittek, Y. H. Liu, S. Darányi, T. Gedeon, I. S. Lim. Risk and Ambiguity in Information Seeking: Eye Gaze Patterns Reveal Contextual Behaviour in Dealing with Uncertainty. *Frontiers in Psychology*, 7, 1790, 2016.
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.3389/fpsyg.2016.01790)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1606.08157)
 
@@ -51,22 +53,22 @@ Order: 1
 2015
 ----
 -   F. J. Curchod, M. Johansson, R. Augusiak, M. J. Hoban, P. Wittek, and A. Acín. Unbounded randomness certification using sequences of measurements. *arXiv:1510.03394*, 2015.
-    [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1510.03394)
+    [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1510.03394)
 -   S. Darányi and P. Wittek. Conceptual machinery of the mythopoetic mind: Attis, a case study. *Proceedings of QI-15, 9th International Quantum Interaction Symposium*, pages 195--2006, July 2015.
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.1007/978-3-319-28675-4_15)  [![[Slides]](images/slideshare.jpg)](http://www.slideshare.net/peter_wittek/conceptual-machinery-of-the-mythopoetic-mind-attis-a-case-study)  [![[PDF]](images/pdf.png)](https://www.researchgate.net/profile/Peter_Wittek/publication/280055117_Conceptual_machinery_of_the_mythopoetic_mind_Attis_a_case_study/links/55a5bec208ae00cf99c9818e.pdf)
 -   I. S. Lim, P. Wittek, and J. Parkinson. On the origin of risk sensitivity: the energy budget rule revisited. *Animal Behaviour*, 110:69--77, 2015.
-    [![[DOI]](images/doi.png)](http://dx.doi.org/10.1016/j.anbehav.2015.09.007)  [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1504.04986)
+    [![[DOI]](images/doi.png)](http://dx.doi.org/10.1016/j.anbehav.2015.09.007)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1504.04986)
 -   S. A. Najim, I. S. Lim, P. Wittek, and M. Jones. FSPE: Visualisation of hyperspectral imagery using faithful stochastic proximity embedding. *IEEE Geoscience and Remote Sensing Letters*, 12(1):18--22, 2015.
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.1109/LGRS.2014.2324631)  [![[Link]](images/external.png)](https://sites.google.com/site/fspedr/)  [![[PDF]](images/pdf.png)](http://www.vmg.cs.bangor.ac.uk/Publications/FSPE.pdf)
 -   P. Wittek. Algorithm 950: Ncpol2sdpa---Sparse semidefinite programming relaxations for polynomial optimization problems of noncommuting variables. *ACM Transactions on Mathematical Software*, 41(3):21, 2015.
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.1145/2699464)
-    [![[Slides]](images/slideshare.jpg)](http://www.slideshare.net/peter_wittek/algorithmic-conversion-of-polynomial-optimization-problems-of-noncommuting-variables-to-semidefinite-programming-relaxations)  [![[GitHub]](images/github.png)](http://peterwittek.github.io/ncpol2sdpa/)  [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1308.6029)
+    [![[Slides]](images/slideshare.jpg)](http://www.slideshare.net/peter_wittek/algorithmic-conversion-of-polynomial-optimization-problems-of-noncommuting-variables-to-semidefinite-programming-relaxations)  [![[GitHub]](images/github.png)](http://peterwittek.github.io/ncpol2sdpa/)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1308.6029)
 -   P. Wittek and L. Calderaro. Extended computational kernels in a massively parallel implementation of the Trotter-Suzuki approximation. *Computer Physics Communications*, 197:339--340, 2015.
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.1016/j.cpc.2015.07.017)
     [![[GitHub]](images/github.png)](https://trotter-suzuki-mpi.github.io/)
     [![[PDF]](images/pdf.png)](https://www.researchgate.net/profile/Peter_Wittek/publication/280962265_Extended_Computational_Kernels_in_a_Massively_Parallel_Implementation_of_the_TrotterSuzuki_Approximation/links/55cebd1f08aee19936fc5dcf.pdf)
 -   P. Wittek, S. Darányi, E. Kontopoulos, T. Moysiadis and I. Kompatsiaris. Monitoring term drift based on semantic consistency in an evolving vector field. *Proceedings of IJCNN-15, International Joint Conference on Neural Networks*, 2015.
-    [![[DOI]](images/doi.png)](http://dx.doi.org/10.1109/IJCNN.2015.7280766)  [![[Slides]](images/slideshare.jpg)](http://www.slideshare.net/peter_wittek/monitoring-term-drift-based-on-semantic-consistency-in-an-evolving-vector-field)  [![[GitHub]](images/github.png)](https://github.com/peterwittek/concept_drifts)  [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1502.01753)
+    [![[DOI]](images/doi.png)](http://dx.doi.org/10.1109/IJCNN.2015.7280766)  [![[Slides]](images/slideshare.jpg)](http://www.slideshare.net/peter_wittek/monitoring-term-drift-based-on-semantic-consistency-in-an-evolving-vector-field)  [![[GitHub]](images/github.png)](https://github.com/peterwittek/concept_drifts)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1502.01753)
 
 2014
 ----
@@ -103,7 +105,7 @@ Order: 1
 -   P. Wittek. Two-way incremental seriation in the temporal domain with three-dimensional visualization: Making sense of evolving high-dimensional data sets. *Computational Statistics and Data Analysis*, 66:193--201, 2013.
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.1016/j.csda.2013.03.026)  [![[GitHub]](images/github.png)](http://peterwittek.github.io/dynamicbiseriation/)  [![[PDF]](images/pdf.png)](http://bada.hb.se/bitstream/2320/12278/3/Wittek-Two-way_Seration.pdf)
 -   P. Wittek and F.M. Cucchietti. A second-order distributed Trotter-Suzuki solver with a hybrid CPU-GPU kernel. *Computer Physics Communications*, 184:1165--1171, 2013.
-    [![[DOI]](images/doi.png)](http://dx.doi.org/10.1016/j.cpc.2012.12.008)  [![[GitHub]](images/github.png)](https://peterwittek.github.io/trotter-suzuki-mpi/)  [![[PDF]](images/pdf.png)](http://arxiv.org/pdf/1208.2407)
+    [![[DOI]](images/doi.png)](http://dx.doi.org/10.1016/j.cpc.2012.12.008)  [![[GitHub]](images/github.png)](https://peterwittek.github.io/trotter-suzuki-mpi/)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1208.2407)
 
 2012
 ----
