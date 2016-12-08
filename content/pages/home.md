@@ -55,7 +55,7 @@ heterogeneous accelerator architectures. Funded by [European Commission Seventh 
 
 [<img style="float:left; border-right:8px solid white" src="images/quantum_gas61.png" alt="t-s-a"/>](https://github.com/trotter-suzuki-mpi)
 **[Trotter-Suzuki Approximation](https://github.com/trotter-suzuki-mpi)**
-(2012, 2015-2016): The Trotter-Suzuki decomposition leads to an efficient algorithm
+(2012, 2015-2017): The Trotter-Suzuki decomposition leads to an efficient algorithm
 for solving the time-dependent Schrödinger equation and the
 Gross-Pitaevskii equation. Using existing
 highly optimized CPU and GPU kernels, we developed a distributed version
@@ -66,7 +66,7 @@ whereas the efficiency of GPU kernels improve with larger matrices. We
 also introduced a hybrid kernel that simultaneously uses multicore CPUs
 and GPUs in a distributed system.  The distributed extension was carried out while visiting the the [Barcelona Supercomputing
 Centre](http://bsc.es/ "Barcelona Supercomputing Centre") funded by
-[HPC-EUROPA2](http://www.hpc-europa.org/ "HPC-EUROPA2"). Generalizing the capabilities of kernels was carried out by Luca Calderaro sponsored by the [Erasmus+](http://ec.europa.eu/programmes/erasmus-plus/index_en.htm) programme. Computational resources were granted by the [Spanish Supercomputing Network](https://www.bsc.es/marenostrum-support-services/res) (FI-2015-2-0023), the [High Performance Computing Center North](https://www.hpc2n.umu.se/) ([SNIC](http://www.snic.se/) 2015/1-162 and SNIC 2016/1-320), and a hardware grant by [Nvidia](https://www.nvidia.com/).
+[HPC-EUROPA2](http://www.hpc-europa.org/ "HPC-EUROPA2"). Generalizing the capabilities of kernels was carried out by Luca Calderaro sponsored by the [Erasmus+](http://ec.europa.eu/programmes/erasmus-plus/index_en.htm) programme. Computational resources were granted by the [Spanish Supercomputing Network](https://www.bsc.es/marenostrum-support-services/res) (FI-2015-2-0023 and FI-2016-3-0042), the [High Performance Computing Center North](https://www.hpc2n.umu.se/) ([SNIC](http://www.snic.se/) 2015/1-162 and SNIC 2016/1-320), and a hardware grant by [Nvidia](https://www.nvidia.com/).
 
 
 [<img style="float:left; border-right:8px solid white" src="images/moment_matrix.png" alt="Moment matrix"/>](https://ncpol2sdpa.readthedocs.org/)
