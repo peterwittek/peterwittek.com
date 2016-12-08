@@ -40,8 +40,8 @@ Order: 1
     [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1607.03428)
 -   A. Salavrakos, R. Augusiak, J. Tura, P. Wittek, A. Acín, and S. Pironio. [Bell inequalities for maximally entangled states](https://arxiv.org/abs/1607.04578). *arXiv:1607.04578*, 2016.
     [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1607.04578)
--   P. Wittek, S. Darányi, and G. Nelhans. [Ruling Out Static Latent Homophily in Citation Networks](https://arxiv.org/abs/1605.08185). To appear in *Scientometrics*, 2016.
-    [![[GitHub]](images/github.png)](http://nbviewer.jupyter.org/github/peterwittek/ipython-notebooks/blob/master/Citation_Network_SDP.ipynb)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1605.08185)
+-   P. Wittek, S. Darányi, and G. Nelhans. [Ruling Out Static Latent Homophily in Citation Networks](https://arxiv.org/abs/1605.08185). *Scientometrics*, 2016.
+    [![[DOI]](images/doi.png)](http://dx.doi.org/10.1007/s11192-016-2194-9)  [![[GitHub]](images/github.png)](http://nbviewer.jupyter.org/github/peterwittek/ipython-notebooks/blob/master/Citation_Network_SDP.ipynb)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1605.08185)
 -   P. Wittek, S. C. Gao, I. S. Lim, and L. Zhao. [Somoclu: An efficient parallel library for self-organizing maps](https://arxiv.org/abs/1305.1422). To appear in *Journal of Statistical Software*, 2016.
     [![[Link]](images/external.png)](http://peterwittek.com/2013/12/training-emergent-self-organizing-maps-with-somoclu/)  [![[GitHub]](images/github.png)](http://peterwittek.github.io/somoclu/)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1305.1422)
 -   P. Wittek and C. Gogolin. [Quantum Enhanced Inference in Markov Logic Networks](https://arxiv.org/abs/1611.08104). *arXiv:1611.08104*, 2016.
