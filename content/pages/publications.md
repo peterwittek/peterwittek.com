@@ -8,6 +8,8 @@ Order: 1
 ----
 -   A. Acín, S. Pironio, T. Vértesi, and P. Wittek. [Optimal randomness certification from one entangled bit](https://arxiv.org/abs/1505.03837). *Physical Review A*, 93:040102, 2016.
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.1103/PhysRevA.93.040102)  [![[GitHub]](images/github.png)](https://github.com/peterwittek/ipython-notebooks/blob/master/Optimal%20randomness%20generation%20from%20entangled%20quantum%20states.ipynb)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1505.03837)
+-   F. Baccari, D. Cavalcanti, P. Wittek, and A. Acín. [Efficient device-independent entanglement detection for multipartite systems](https://arxiv.org/abs/1612.08551). *arXiv:1612.08551*, 2016.
+    [![[GitHub]](images/github.png)](https://github.com/FlavioBaccari/Hierarchy-for-nonlocality-detection)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1612.08551)
 -   J. Biamonte, P. Wittek, N. Pancotti, P. Rebentrost, N. Wiebe, and S. Lloyd. [Quantum Machine Learning](https://arxiv.org/abs/1611.09347). *arXiv:1611.09347*, 2016.
     [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1611.09347)
 -   L. Calderaro, A. L. Fetter, P. Massignan, and P. Wittek. [Vortex dynamics in coherently coupled Bose-Einstein condensates](https://arxiv.org/abs/1609.03966). *arXiv:1609.03966*, 2016.
@@ -60,7 +62,7 @@ Order: 1
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.1016/j.anbehav.2015.09.007)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1504.04986)
 -   S. A. Najim, I. S. Lim, P. Wittek, and M. Jones. FSPE: Visualisation of hyperspectral imagery using faithful stochastic proximity embedding. *IEEE Geoscience and Remote Sensing Letters*, 12(1):18--22, 2015.
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.1109/LGRS.2014.2324631)  [![[Link]](images/external.png)](https://sites.google.com/site/fspedr/)  [![[PDF]](images/pdf.png)](http://www.vmg.cs.bangor.ac.uk/Publications/FSPE.pdf)
--   P. Wittek. Algorithm 950: [Ncpol2sdpa---Sparse semidefinite programming relaxations for polynomial optimization problems of noncommuting variables](https://arxiv.org/abs/1308.6029). *ACM Transactions on Mathematical Software*, 41(3):21, 2015.
+-   P. Wittek. [Algorithm 950: Ncpol2sdpa---Sparse semidefinite programming relaxations for polynomial optimization problems of noncommuting variables](https://arxiv.org/abs/1308.6029). *ACM Transactions on Mathematical Software*, 41(3):21, 2015.
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.1145/2699464)
     [![[Slides]](images/slideshare.jpg)](http://www.slideshare.net/peter_wittek/algorithmic-conversion-of-polynomial-optimization-problems-of-noncommuting-variables-to-semidefinite-programming-relaxations)  [![[GitHub]](images/github.png)](http://peterwittek.github.io/ncpol2sdpa/)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1308.6029)
 -   P. Wittek and L. Calderaro. Extended computational kernels in a massively parallel implementation of the Trotter-Suzuki approximation. *Computer Physics Communications*, 197:339--340, 2015.
