@@ -6,6 +6,8 @@ Tags: Quantum information theory, GPU
 Slug: gpe-comparison
 Summary: A quick comparison of Trotter-Suzuki-MPI, GPELab, and GPUE for simulating the evolution of Bose-Einstein Condensates
 
+*Update 18/01/2017*: Added more information based on version 1.6.1 of Trooter-Suzuki-MPI.
+
 The numerical simulation of Bose-Einstein condensates is a challenging task, even more so if we are interested in fast rotating vortices. We compare two implementations that rely on time-splitting pseudospectral methods, [GPELab](http://gpelab.math.cnrs.fr/) and [GPUE](https://mlxd.github.io/GPUE/), and one that uses the Trotter-Suzuki approximation ([Trotter-Suzuki-MPI](http://trotter-suzuki-mpi.github.io/)). I am involved in the development of the last one and I was curious how it performs compared to other methods. This comparison is joint work with [Luca Calderaro](https://github.com/Lucacalderaro), my co-developer in the Trotter-Suzuki project who did all the coding of the test cases, and we also received help from [Lee James O'Riordan](https://www.researchgate.net/profile/Lee_ORiordan), the main developer of GPUE, for which we are grateful.
 
 Features
@@ -14,7 +16,7 @@ When it comes to the physics of the problem, GPELab takes the prime: it can tack
 
 | Physics Modelling          |&nbsp;TS-MPI  |&nbsp;GPUE   |&nbsp;GPELab |
 | -------------------------- |:-------:|:------:|:------:|
-| Dimension                  | 2D      | 2D     |1D/2D/3D|
+| Dimension                  | 1D/2D   | 2D     |1D/2D/3D|
 | Linear Schrödinger Equation| Yes     | Yes    | Yes    |
 | Vortices in BEC            | Yes     | Yes    | Yes    |
 | 2-Component BEC            | Yes     | No     | Yes    |
@@ -23,7 +25,7 @@ GPELab's main weakness is that it only runs in MATLAB, with all the pain that im
 
 | Computational Environment   |&nbsp;TS-MPI  |&nbsp;GPUE   |&nbsp;GPELab |
 | --------------------------- |:-------:|:------:|:------:|
-| Command line                | Partial | Yes    | No     |
+| Command line                | No      | Yes    | No     |
 | C++ API                     | Yes     | No     | No     |
 | Python                      | Yes     | Partial| No     |
 | MATLAB                      | Partial | No     | Yes    |
