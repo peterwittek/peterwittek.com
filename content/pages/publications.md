@@ -4,6 +4,12 @@ Author: Peter
 Slug: publications
 Order: 1
 
+2017
+----
+-   L. Calderaro, A. L. Fetter, P. Massignan, and P. Wittek. [Vortex dynamics in coherently coupled Bose-Einstein condensates](https://arxiv.org/abs/1609.03966). *Physical Review A*, 95:023605, 2017.
+    [![[DOI]](images/doi.png)](http://dx.doi.org/10.1103/PhysRevA.95.023605)
+    [![[GitHub]](images/github.png)](https://github.com/trotter-suzuki-mpi/notebooks/blob/master/Vortex_Dynamics.ipynb)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1609.03966)
+
 2016
 ----
 -   A. Acín, S. Pironio, T. Vértesi, and P. Wittek. [Optimal randomness certification from one entangled bit](https://arxiv.org/abs/1505.03837). *Physical Review A*, 93:040102, 2016.
@@ -12,8 +18,6 @@ Order: 1
     [![[GitHub]](images/github.png)](https://github.com/FlavioBaccari/Hierarchy-for-nonlocality-detection)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1612.08551)
 -   J. Biamonte, P. Wittek, N. Pancotti, P. Rebentrost, N. Wiebe, and S. Lloyd. [Quantum Machine Learning](https://arxiv.org/abs/1611.09347). *arXiv:1611.09347*, 2016.
     [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1611.09347)
--   L. Calderaro, A. L. Fetter, P. Massignan, and P. Wittek. [Vortex dynamics in coherently coupled Bose-Einstein condensates](https://arxiv.org/abs/1609.03966). *arXiv:1609.03966*, 2016.
-    [![[GitHub]](images/github.png)](https://github.com/trotter-suzuki-mpi/notebooks/blob/master/Vortex_Dynamics.ipynb)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1609.03966)
 -   S. Darányi, P. Wittek, K. Konstantinidis, S. Papadopoulos, and E. Kontopoulos. [A Physical Metaphor to Study Semantic Drift](https://arxiv.org/abs/1608.01298). *Proceedings of SuCCESS-16, 1st International Workshop on Semantic Change & Evolving Semantics*, 1695, September 2016.
     [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1608.01298)
 -   S. C. Gao, P. Wittek, L. Zhao, and W. J. Jiang. Data-driven estimation of blood pressure using photoplethysmographic signals. *Proceedings of EMBC-16, 38th Annual International Conference of the IEEE Engineering in Medicine and Biology Society*, pages 766--769, August 2016.
