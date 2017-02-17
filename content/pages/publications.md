@@ -9,6 +9,14 @@ Order: 1
 -   L. Calderaro, A. L. Fetter, P. Massignan, and P. Wittek. [Vortex dynamics in coherently coupled Bose-Einstein condensates](https://arxiv.org/abs/1609.03966). *Physical Review A*, 95:023605, 2017.
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.1103/PhysRevA.95.023605)
     [![[GitHub]](images/github.png)](https://github.com/trotter-suzuki-mpi/notebooks/blob/master/Vortex_Dynamics.ipynb)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1609.03966)
+-   F. J. Curchod, M. Johansson, R. Augusiak, M. J. Hoban, P. Wittek, and A. Acín. [Unbounded randomness certification using sequences of measurements](https://arxiv.org/abs/1510.03394). *Physical Review A*, 95:020102, 2017.
+    [![[DOI]](images/doi.png)](http://dx.doi.org/10.1103/PhysRevA.95.020102)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1510.03394)
+-   P. Palittapongarnpim, P. Wittek, E. Zahedinejad, S. Vedaie, and B. C. Sanders. [Learning in Quantum Control: High-Dimensional Global Optimization for Noisy Quantum Dynamics](https://arxiv.org/abs/1607.03428). To appear in *Neurocomputing*, 2017.
+    [![[GitHub]](images/github.png)](https://panpalitta.github.io/phase_estimation/)
+    [![[GitHub]](images/github.png)](https://github.com/ezahedin/DE_high-dimensional)
+    [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1607.03428)
+-   P. Wittek, S. C. Gao, I. S. Lim, and L. Zhao. [Somoclu: An efficient parallel library for self-organizing maps](https://arxiv.org/abs/1305.1422). To appear in *Journal of Statistical Software*, 2017.
+    [![[Link]](images/external.png)](http://peterwittek.com/2013/12/training-emergent-self-organizing-maps-with-somoclu/)  [![[GitHub]](images/github.png)](http://peterwittek.github.io/somoclu/)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1305.1422)
 
 2016
 ----
@@ -40,16 +48,10 @@ Order: 1
 -   P. Palittapongarnpim, P. Wittek, and B. C. Sanders. Controlling adaptive quantum phase estimation with scalable reinforcement learning. *In Proceedings of ESANN-16,  24th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning*, pages 327--332, April 2016.
     [![[GitHub]](images/github.png)](https://panpalitta.github.io/phase_estimation/)
     [![[PDF]](images/pdf.png)](http://www.elen.ucl.ac.be/Proceedings/esann/esannpdf/es2016-12.pdf)
--   P. Palittapongarnpim, P. Wittek, E. Zahedinejad, S. Vedaie, and B. C. Sanders. [Learning in Quantum Control: High-Dimensional Global Optimization for Noisy Quantum Dynamics](https://arxiv.org/abs/1607.03428). To appear in *Neurocomputing*, 2016.
-    [![[GitHub]](images/github.png)](https://panpalitta.github.io/phase_estimation/)
-    [![[GitHub]](images/github.png)](https://github.com/ezahedin/DE_high-dimensional)
-    [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1607.03428)
 -   A. Salavrakos, R. Augusiak, J. Tura, P. Wittek, A. Acín, and S. Pironio. [Bell inequalities for maximally entangled states](https://arxiv.org/abs/1607.04578). *arXiv:1607.04578*, 2016.
     [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1607.04578)
 -   P. Wittek, S. Darányi, and G. Nelhans. [Ruling Out Static Latent Homophily in Citation Networks](https://arxiv.org/abs/1605.08185). *Scientometrics*, 2016.
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.1007/s11192-016-2194-9)  [![[GitHub]](images/github.png)](http://github.com/peterwittek/ipython-notebooks/blob/master/Citation_Network_SDP.ipynb)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1605.08185)
--   P. Wittek, S. C. Gao, I. S. Lim, and L. Zhao. [Somoclu: An efficient parallel library for self-organizing maps](https://arxiv.org/abs/1305.1422). To appear in *Journal of Statistical Software*, 2016.
-    [![[Link]](images/external.png)](http://peterwittek.com/2013/12/training-emergent-self-organizing-maps-with-somoclu/)  [![[GitHub]](images/github.png)](http://peterwittek.github.io/somoclu/)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1305.1422)
 -   P. Wittek and C. Gogolin. [Quantum Enhanced Inference in Markov Logic Networks](https://arxiv.org/abs/1611.08104). *arXiv:1611.08104*, 2016.
     [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1611.08104)
 -   P. Wittek, Y. H. Liu, S. Darányi, T. Gedeon, and I. S. Lim. [Risk and Ambiguity in Information Seeking: Eye Gaze Patterns Reveal Contextual Behaviour in Dealing with Uncertainty](https://arxiv.org/abs/1606.08157). *Frontiers in Psychology*, 7, 1790, 2016.
@@ -58,8 +60,6 @@ Order: 1
 
 2015
 ----
--   F. J. Curchod, M. Johansson, R. Augusiak, M. J. Hoban, P. Wittek, and A. Acín. [Unbounded randomness certification using sequences of measurements](https://arxiv.org/abs/1510.03394). *arXiv:1510.03394*, 2015.
-    [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1510.03394)
 -   S. Darányi and P. Wittek. Conceptual machinery of the mythopoetic mind: Attis, a case study. *Proceedings of QI-15, 9th International Quantum Interaction Symposium*, pages 195--2006, July 2015.
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.1007/978-3-319-28675-4_15)  [![[Slides]](images/slideshare.jpg)](http://www.slideshare.net/peter_wittek/conceptual-machinery-of-the-mythopoetic-mind-attis-a-case-study)  [![[PDF]](images/pdf.png)](https://www.researchgate.net/profile/Peter_Wittek/publication/280055117_Conceptual_machinery_of_the_mythopoetic_mind_Attis_a_case_study/links/55a5bec208ae00cf99c9818e.pdf)
 -   I. S. Lim, P. Wittek, and J. Parkinson. [On the origin of risk sensitivity: the energy budget rule revisited](https://arxiv.org/abs/1504.04986). *Animal Behaviour*, 110:69--77, 2015.
