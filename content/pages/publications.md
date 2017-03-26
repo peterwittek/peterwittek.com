@@ -17,6 +17,9 @@ Order: 1
     [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1607.03428)
 -   P. Wittek, S. C. Gao, I. S. Lim, and L. Zhao. [Somoclu: An efficient parallel library for self-organizing maps](https://arxiv.org/abs/1305.1422). To appear in *Journal of Statistical Software*, 2017.
     [![[Link]](images/external.png)](http://peterwittek.com/2013/12/training-emergent-self-organizing-maps-with-somoclu/)  [![[GitHub]](images/github.png)](http://peterwittek.github.io/somoclu/)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1305.1422)
+-   P. Wittek and C. Gogolin. [Quantum Enhanced Inference in Markov Logic Networks](https://arxiv.org/abs/1611.08104). To appear in *Scientific Reports*, 2017.
+    [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1611.08104)
+
 
 2016
 ----
@@ -52,8 +55,6 @@ Order: 1
     [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1607.04578)
 -   P. Wittek, S. Darányi, and G. Nelhans. [Ruling Out Static Latent Homophily in Citation Networks](https://arxiv.org/abs/1605.08185). *Scientometrics*, 2016.
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.1007/s11192-016-2194-9)  [![[GitHub]](images/github.png)](http://github.com/peterwittek/ipython-notebooks/blob/master/Citation_Network_SDP.ipynb)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1605.08185)
--   P. Wittek and C. Gogolin. [Quantum Enhanced Inference in Markov Logic Networks](https://arxiv.org/abs/1611.08104). *arXiv:1611.08104*, 2016.
-    [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1611.08104)
 -   P. Wittek, Y. H. Liu, S. Darányi, T. Gedeon, and I. S. Lim. [Risk and Ambiguity in Information Seeking: Eye Gaze Patterns Reveal Contextual Behaviour in Dealing with Uncertainty](https://arxiv.org/abs/1606.08157). *Frontiers in Psychology*, 7, 1790, 2016.
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.3389/fpsyg.2016.01790)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1606.08157)
 
@@ -89,7 +90,7 @@ Order: 1
 -   P. Wittek. Transduction and active learning in the quantum learning of unitary transformations. In *Poster Session at AQIS-14, 14th Asian Quantum Information Science Conference*, August 2014.
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.13140/2.1.3901.1201)  [![[Slides]](images/slideshare.jpg)](http://www.slideshare.net/peter_wittek/aqis14poster)  [![[PDF]](images/pdf.png)](http://bada.hb.se/bitstream/2320/14001/1/transduction_and_active_learning.pdf)
 -   P. Wittek, S. Darányi, and Y.H. Lin. A vector field approach to lexical semantics. In *Proceedings of QI-14, 8th International Conference on Quantum Interaction*, pages 78--92, June 2014.
-    [![[DOI]](images/doi.png)](http://dx.doi.org/10.1007/978-3-319-15931-7_7)  [![[Slides]](images/slideshare.jpg)](http://www.slideshare.net/peter_wittek/qi-14-draft-140628)  [![[PDF]](images/pdf.png)](http://bada.hb.se/bitstream/2320/13809/1/semantic_fields.pdf)
+    [![[DOI]](images/doi.png)](http://dx.doi.org/10.1007/978-3-319-15931-7_7)  [![[PDF]](images/pdf.png)](http://bada.hb.se/bitstream/2320/13809/1/semantic_fields.pdf)
 
 2013
 ----
@@ -99,7 +100,7 @@ Order: 1
 -   P. Wittek, B. Koopman, G. Zuccon, and S Darányi. Combining word semantics within complex Hilbert space for information retrieval. In *Proceedings of QI-13, 7th International Quantum Interaction Symposium*, pages 160--171, July 2013.
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.1007/978-3-642-54943-4_14)  [![[Link]](images/external.png)](http://peterwittek.com/2013/07/merging-in-complex-space/)  [![[Slides]](images/slideshare.jpg)](http://www.slideshare.net/peter_wittek/qi13poster)  [![[PDF]](images/pdf.png)](http://bada.hb.se/bitstream/2320/12521/1/complex_space.pdf)
 -   P. Wittek, I. K. Lim, and X. Rubio-Campillo. Quantum probabilistic description of dealing with risk and ambiguity in foraging decisions. In *Proceedings of QI-13, 7th International Quantum Interaction Symposium*, pages 296--307, July 2013.
-    [![[DOI]](images/doi.png)](http://dx.doi.org/10.1007/978-3-642-54943-4_27)  [![[Slides]](images/slideshare.jpg)](http://www.slideshare.net/peter_wittek/quantum-probabilistic-description-of-dealing-with-risk-and-ambiguity-in-foraging-decisions)  [![[GitHub]](images/github.png)](https://github.com/xrubio/pandora/tree/master/pandora/examples/quantumForaging)  [![[PDF]](images/pdf.png)](http://bada.hb.se/bitstream/2320/12513/1/quantum_foraging.pdf)
+    [![[DOI]](images/doi.png)](http://dx.doi.org/10.1007/978-3-642-54943-4_27)  [![[GitHub]](images/github.png)](https://github.com/xrubio/pandora/tree/master/pandora/examples/quantumForaging)  [![[PDF]](images/pdf.png)](http://bada.hb.se/bitstream/2320/12513/1/quantum_foraging.pdf)
 -   P. Wittek and X. Rubio-Campillo. Social simulations accelerated: Large-scale agent-based modeling on a GPU cluster. In *Poster session at GTC-13, GPU Technology Conference*, March 2013.
     [![[PDF]](images/pdf.png)](http://on-demand.gputechconf.com/gtc/2013/poster/pdf/P0197_PeterWittek.pdf)
 -   P. Wittek and S. Darányi. Accelerating text mining workloads in a MapReduce-based distributed GPU environment. *Journal of Parallel and Distributed Computing*, 73(2):198--206, February 2013.
@@ -117,19 +118,18 @@ Order: 1
 ----
 
 -   P. Wittek and X. Rubio-Campillo. Military reconstructive simulation in the cloud to aid battlefield excavations. In *Proceedings of CloudCom-12, 4th IEEE International Conference on Cloud Computing Technology and Science*, pages 869--874, December 2012.
-    [![[DOI]](images/doi.png)](http://dx.doi.org/10.1109/CloudCom.2012.6427538)  [![[Slides]](images/slideshare.jpg)](http://www.slideshare.net/peter_wittek/military-reconstructive-simulation-in-the-cloud-to-aid-battlefield-excavations)  [![[PDF]](images/pdf.png)](http://bada.hb.se/bitstream/2320/11758/3/cloud4sim12simulation.pdf)
+    [![[DOI]](images/doi.png)](http://dx.doi.org/10.1109/CloudCom.2012.6427538)  [![[PDF]](images/pdf.png)](http://bada.hb.se/bitstream/2320/11758/3/cloud4sim12simulation.pdf)
 -   P. Wittek and X. Rubio-Campillo. Scalable agent-based modelling with cloud HPC resources for social simulations. In *Proceedings of CloudCom-12, 4th IEEE International Conference on Cloud Computing Technology and Science*, pages 355--362, December 2012.
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.1109/CloudCom.2012.6427498)  [![[Slides]](images/slideshare.jpg)](http://www.slideshare.net/peter_wittek/scalable-agentbased-modelling-with-cloud-hpc-resources-for-social-simulations)  [![[PDF]](images/pdf.png)](http://bada.hb.se/bitstream/2320/11757/3/cloudcom12hpc.pdf)
 -   S. Darányi and P. Wittek. The gravity of meaning: Physics as a metaphor to model semantic changes. In *Proceedings of SLTC-12, 4th Swedish Language Technology Conference*, pages 18--19, October 2012.
-    [![[Slides]](images/slideshare.jpg)](http://www.slideshare.net/peter_wittek/the-gravity-of-meaning-physics-as-a-metaphor-to-model-semantic-changes)
 -   S. Darányi, P. Wittek, and M. Dobreva. Using wavelet analysis for text categorization in digital libraries: a first experiment with Strathprints. *International Journal on Digital Libraries*, 12(1):3--12, July 2012.
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.1007/s00799-012-0079-y)  [![[PDF]](images/pdf.png)](http://bada.hb.se/bitstream/2320/9820/1/ijdl11using-0519.pdf)
 -   S. Darányi and P. Wittek. Connecting the dots: Mass, energy, word meaning, and particle-wave duality. In *Proceedings of QI-12, 6th International Quantum Interaction Symposium*, pages 207--217, June 2012.
-    [![[DOI]](images/doi.png)](http://dx.doi.org/10.1007/978-3-642-35659-9_19)  [![[Slides]](images/slideshare.jpg)](http://www.slideshare.net/peter_wittek/connecting-the-dots-mass-energy-word-meaning-and-particlewave-duality)  [![[PDF]](images/pdf.png)](http://bada.hb.se/bitstream/2320/11004/3/qi12duals.pdf)
+    [![[DOI]](images/doi.png)](http://dx.doi.org/10.1007/978-3-642-35659-9_19)  [![[PDF]](images/pdf.png)](http://bada.hb.se/bitstream/2320/11004/3/qi12duals.pdf)
 -   P. Wittek and S. Darányi. Digital preservation in grids and clouds: A middleware approach. *Journal of Grid Computing*, 10(1):133--149, June 2012.
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.1007/s10723-012-9206-7)  [![[PDF]](images/pdf.png)](http://bada.hb.se/bitstream/2320/10967/3/Digital%20Preservation%20in%20Grids%20and%20Clouds.pdf)
 -   S. Darányi, P. Wittek, and L. Forró. Toward sequencing “narrative DNA": Tale types, motif strings and memetic pathways. In *Proceedings of CMN-12, 3rd Workshop on Computational Models of Narrative in conjunction with the 8th Language Resources and Evaluation Conference*, pages 2--10, May 2012.
-    [![[Slides]](images/slideshare.jpg)](http://www.slideshare.net/peter_wittek/toward-sequencing-narrative-dna-tale-types-motif-strings-and-memetic-pathways)  [![[PDF]](images/pdf.png)](http://bada.hb.se/bitstream/2320/11830/2/Towards%20Sequencing%20Narrative%20DNA.pdf)
+    [![[PDF]](images/pdf.png)](http://bada.hb.se/bitstream/2320/11830/2/Towards%20Sequencing%20Narrative%20DNA.pdf)
 -   P. Wittek and S. Darányi. A GPU-accelerated algorithm for self-organizing maps in a distributed environment. In *Proceedings of ESANN-12, 20th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning*, pages 609--614, April 2012.
     [![[GitHub]](images/github.png)](https://github.com/peterwittek/mr-mpi-som-gpu)  [![[PDF]](images/pdf.png)](https://www.elen.ucl.ac.be/Proceedings/esann/esannpdf/es2012-35.pdf)
 
@@ -137,7 +137,7 @@ Order: 1
 ----
 
 -   P. Wittek and S. Darányi. Leveraging on high-performance computing and cloud technologies in digital libraries: A case study. In *Proceedings of HPCCloud-11, Workshop on Integration and Application of Cloud Computing to High Performance Computing*, pages 606--611, December 2011.
-    [![[DOI]](images/doi.png)](http://dx.doi.org/10.1109/CloudCom.2011.93)  [![[Slides]](images/slideshare.jpg)](http://www.slideshare.net/peter_wittek/leveraging-on-highperformance-computing-and-cloud-technologies-in-digital-libraries-a-case-study)  [![[PDF]](images/pdf.png)](http://bada.hb.se/bitstream/2320/9695/1/hpccloud11leveraging.pdf)
+    [![[DOI]](images/doi.png)](http://dx.doi.org/10.1109/CloudCom.2011.93)  [![[PDF]](images/pdf.png)](http://bada.hb.se/bitstream/2320/9695/1/hpccloud11leveraging.pdf)
 -   P. Wittek and W. Ravenek. Supporting the exploration of a corpus of 17th-century scholarly correspondences by topic modeling. In *Proceedings of SDH-11, Supporting Digital Humanities: Answering the Unaskable*, November 2011.
     [![[GitHub]](images/github.png)](https://github.com/peterwittek/ckcc-topic-modeling)  [![[PDF]](images/pdf.png)](http://bada.hb.se/bitstream/2320/9689/3/sdh2011-wittek-ravenek.pdf)
 -   P. Wittek and C. L. Tan. Compactly supported basis functions as support vector kernels for classification. *Transactions on Pattern Analysis and Machine Intelligence*, 33(10):2039 --2050, October 2011.
@@ -145,7 +145,7 @@ Order: 1
 -   P. Wittek and S. Darányi. Spectral composition of semantic spaces. In *Proceedings of QI-11, 5th International Quantum Interaction Symposium*, June 2011.
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.1007/978-3-642-24971-6_7)  [![[Slides]](images/slideshare.jpg)](http://www.slideshare.net/peter_wittek/spectral-composition-of-semantic-spaces)  [![[GitHub]](images/github.png)](https://github.com/peterwittek/squalar-spectralmap)  [![[PDF]](images/pdf.png)](http://bada.hb.se/bitstream/2320/9692/3/qi11spectral.pdf)
 -   P. Wittek and S. Darányi. Introducing scalable quantum approaches in language representation. In *Proceedings of QI-11, 5th International Quantum Interaction Symposium*, June 2011.
-    [![[DOI]](images/doi.png)](http://dx.doi.org/10.1007/978-3-642-24971-6_2)  [![[Slides]](images/slideshare.jpg)](http://www.slideshare.net/peter_wittek/introducing-scalable-quantum-approaches-in-language-representation)  [![[PDF]](images/pdf.png)](http://bada.hb.se/bitstream/2320/9694/3/qi11squalar.pdf)
+    [![[DOI]](images/doi.png)](http://dx.doi.org/10.1007/978-3-642-24971-6_2)  [![[PDF]](images/pdf.png)](http://bada.hb.se/bitstream/2320/9694/3/qi11squalar.pdf)
 -   P. Wittek, T. Jacquin, H. Déjean, J-P. Chanod, and S. Darányi. Xml processing in the cloud: Large-scale digital preservation in small institutions. In *Proceedings of DataCloud-11, 1st International Workshop on Data Intensive Computing in the Clouds in conjunction with the 25th IEEE International Parallel and Distributed Computing Symposium*, May 2011.
     [![[DOI]](images/doi.png)](http://dx.doi.org/10.1109/IPDPS.2011.253)  [![[Slides]](images/slideshare.jpg)](http://www.slideshare.net/peter_wittek/xml-processing-in-the-cloud-largescale-digital-preservation-in-small-institutions)  [![[PDF]](images/pdf.png)](http://bada.hb.se/bitstream/2320/9797/3/datacloud11xml.pdf)
 
