@@ -9,6 +9,8 @@ Order: 1
 -   L. Calderaro, A. L. Fetter, P. Massignan, and P. Wittek. [Vortex dynamics in coherently coupled Bose-Einstein condensates](https://arxiv.org/abs/1609.03966). *Physical Review A*, 95:023605, 2017.
     [![[DOI]](images/doi.png)](https://doi.org/10.1103/PhysRevA.95.023605)
     [![[GitHub]](images/github.png)](https://github.com/trotter-suzuki-mpi/notebooks/blob/master/Vortex_Dynamics.ipynb)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1609.03966)
+-   F. Baccari, D. Cavalcanti, P. Wittek, and A. Acín. [Efficient device-independent entanglement detection for multipartite systems](https://arxiv.org/abs/1612.08551). To appear in *Physical Review X*, 2017.
+    [![[GitHub]](images/github.png)](https://github.com/FlavioBaccari/Hierarchy-for-nonlocality-detection)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1612.08551)
 -   F. J. Curchod, M. Johansson, R. Augusiak, M. J. Hoban, P. Wittek, and A. Acín. [Unbounded randomness certification using sequences of measurements](https://arxiv.org/abs/1510.03394). *Physical Review A*, 95:020102, 2017.
     [![[DOI]](images/doi.png)](https://doi.org/10.1103/PhysRevA.95.020102)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1510.03394)
 -   A. Monràs, G. Sentís, and P. Wittek. [Inductive supervised quantum learning](https://arxiv.org/abs/1605.07541). *Physical Review Letters*, 118:190503, 2017.
@@ -26,8 +28,6 @@ Order: 1
 ----
 -   A. Acín, S. Pironio, T. Vértesi, and P. Wittek. [Optimal randomness certification from one entangled bit](https://arxiv.org/abs/1505.03837). *Physical Review A*, 93:040102, 2016.
     [![[DOI]](images/doi.png)](https://doi.org/10.1103/PhysRevA.93.040102)  [![[GitHub]](images/github.png)](https://github.com/peterwittek/ipython-notebooks/blob/master/Optimal%20randomness%20generation%20from%20entangled%20quantum%20states.ipynb)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1505.03837)
--   F. Baccari, D. Cavalcanti, P. Wittek, and A. Acín. [Efficient device-independent entanglement detection for multipartite systems](https://arxiv.org/abs/1612.08551). *arXiv:1612.08551*, 2016.
-    [![[GitHub]](images/github.png)](https://github.com/FlavioBaccari/Hierarchy-for-nonlocality-detection)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1612.08551)
 -   J. Biamonte, P. Wittek, N. Pancotti, P. Rebentrost, N. Wiebe, and S. Lloyd. [Quantum Machine Learning](https://arxiv.org/abs/1611.09347). *arXiv:1611.09347*, 2016.
     [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1611.09347)
 -   S. Darányi, P. Wittek, K. Konstantinidis, S. Papadopoulos, and E. Kontopoulos. [A Physical Metaphor to Study Semantic Drift](https://arxiv.org/abs/1608.01298). *Proceedings of SuCCESS-16, 1st International Workshop on Semantic Change & Evolving Semantics*, 1695, September 2016.

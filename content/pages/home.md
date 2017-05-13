@@ -8,27 +8,23 @@ Summary: Peter Wittek, research scientist in quantum machine learning, computati
 URL:
 save_as: index.html
 
-About
------
 <img style="float:left; border-right:10px solid white" src="images/photo.jpg" alt="photo"/>I am a research fellow working on quantum-enhanced machine learning and applications of high-performance learning algorithms in quantum physics. Trained as a mathematician and computer scientist, I received my PhD from the [National University of Singapore](http://www.comp.nus.edu.sg/). Currently I work in the [Quantum Information Theory group](http://www.icfo.eu/research/group_details.php?id=19) in ICFO-The Institute of Photonic Sciences and I am the Chief of Quantum Machine Learning in the [Creative Destruction Lab](http://creativedestructionlab.com/) in the University of Toronto. Previously I worked for the [University of Borås](http://www.hb.se/en/) and
 did longer research stints at several institutions, including the [Indian Institute of Science](http://csa.iisc.ernet.in/), [Barcelona Supercomputing Center](http://www.bsc.es/computer-applications), [Tsinghua University](http://www.riit.tsinghua.edu.cn/docinfo_out/board5/boardlist.jsp?columnId=002010307&parentColumnId=0020103), the [Centre for Quantum Technologies](http://quantumlah.org/) in the National University of Singapore, and the [Quantum Information Group](http://www.eve.phys.s.u-tokyo.ac.jp/indexe.htm) in the University of Tokyo. I serve in an advisory role for various startups, and I am a member of the [NUS Overseas Colleges Alumni](http://www.overseas.nus.edu.sg/).
 
 Current Interests
 ----------------
-[<img style="float:left; border-right:8px solid white" src="images/moment_matrix.png" alt="Moment matrix"/>](https://ncpol2sdpa.readthedocs.org/)
+<img style="float:left; border-right:8px solid white" src="images/qml.png" alt="Quantum-enhanced machine learning"/>
+**Quantum-enhanced machine learning**: Current and near-future quantum technologies have a potential of improving learning algorithms. Of particular interest are algorithms that have a high computational complexity or that require sampling. The latter type includes many probabilistic graphical models in which not only the training phase, but also the inference phase has been infeasible at scale, prompting a need for quantum-enhanced sampling. This in turn will enable deep architecture for probabilistic models, as well as scalable implementations of statistical relational learning, both of which go beyond the black-box model of neural networks and shift the focus towards explicable artificial intelligence. While speedup is the primary consideration, we also investigate the fundamental limits of statistical learning theory in the framework of quantum physics.
+
+<img style="float:left; border-right:8px solid white" src="images/moment_matrix.png" alt="Moment matrix"/>
 **Quantum many-body systems, optimization, and machine learning**: Identifying the ground state of a
 many-particle system whose interactions are described by a Hamiltonian
 is an important problem in quantum physics. During the last decade,
 different relaxations of the previous Hamiltonian minimization problem
-have been proposed. Interestingly, they provide lower bound the
-ground-state energy, complementing the upper bounds that are obtainable
-using variational methods. These algorithms can be understood as lower
+have been proposed. These algorithms include the lower
 levels of a general hierarchy of semidefinite programming (SDP)
-relaxations for non-commutative polynomial optimization. The main goal
-is to identify physically relevant situations in which SDP relaxations
-beat any of the existing numerical methods to establish lower bounds to
-the ground-state energy and, in particular, exact diagonalization of the
-Hamiltonian. The same methodology of SDP relaxations also applies to certain problems in quantum correlations. The set of quantum correlations is convex, but the boundary is hard to characterize. The hierarchy of SDP relaxations approximates this boundary from the outside and the approximation is often very accurate. The applications of this method include establishing the maximum quantum violation of Bell inequalities and calculating the maximum amount of randomness that can be extracted from certain multipartite quantum systems. Sponsored by the ERC grant [QITBOX](http://cordis.europa.eu/project/rcn/111554_en.html), by the [Spanish Supercomputing Network](https://www.bsc.es/marenostrum-support-services/res) (FI-2013-1-0008 and FI-2013-3-0004) and by the [Swedish National Infrastructure for Computing](http://www.snic.se/) (SNIC 2014/2-7 and 2015/1-162).
+relaxations for non-commutative polynomial optimization, which provide a lower bound on the
+ground-state energy, complementing the upper bounds that are obtainable using variational methods. The latest developments step away from optimization, and introduce machine learning as an ansatz for ground-state energy problems and for the study of quantum phase transitions. In fact, strong links between quantum many-body physics (and tensor networks in particular) and deep learning are being established. We are developing a set of theoretical and numerical tools to pursue these synergies. Sponsored by the ERC grant [QITBOX](http://cordis.europa.eu/project/rcn/111554_en.html), by the [Spanish Supercomputing Network](https://www.bsc.es/marenostrum-support-services/res) (FI-2013-1-0008 and FI-2013-3-0004) and by the [Swedish National Infrastructure for Computing](http://www.snic.se/) (SNIC 2014/2-7 and 2015/1-162) and a hardware donation by [Nvidia Corporation](https://nvidia.com/).
 
 Past Projects
 -------------
