@@ -16,7 +16,7 @@ did longer research stints at several institutions, including the [Indian Instit
 Current Interests
 ----------------
 [<img style="float:left; border-right:8px solid white" src="images/moment_matrix.png" alt="Moment matrix"/>](https://ncpol2sdpa.readthedocs.org/)
-[**Studying Many-Body Quantum Systems with Semidefinite Programming Relaxations**](https://ncpol2sdpa.readthedocs.org/): Identifying the ground state of a
+**Quantum many-body systems, optimization, and machine learning**: Identifying the ground state of a
 many-particle system whose interactions are described by a Hamiltonian
 is an important problem in quantum physics. During the last decade,
 different relaxations of the previous Hamiltonian minimization problem
