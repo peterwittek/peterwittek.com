@@ -65,7 +65,7 @@ Order: 1
 - I. S. Lim, P. Wittek, and J. Parkinson. [On the origin of risk sensitivity: the energy budget rule revisited](https://arxiv.org/abs/1504.04986). *Animal Behaviour*, 110:69--77, 2015.
   [![[DOI]](images/doi.png)](https://doi.org/10.1016/j.anbehav.2015.09.007)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1504.04986)
 - S. A. Najim, I. S. Lim, P. Wittek, and M. Jones. FSPE: Visualisation of hyperspectral imagery using faithful stochastic proximity embedding. *IEEE Geoscience and Remote Sensing Letters*, 12(1):18--22, 2015.
-  [![[DOI]](images/doi.png)](https://doi.org/10.1109/LGRS.2014.2324631)  [![[Link]](images/external.png)](https://sites.google.com/site/fspedr/)  [![[PDF]](images/pdf.png)](http://www.vmg.cs.bangor.ac.uk/Publications/FSPE.pdf)
+  [![[DOI]](images/doi.png)](https://doi.org/10.1109/LGRS.2014.2324631)  [![[Link]](images/external.png)](https://sites.google.com/site/fspedr/)  [![[PDF]](images/pdf.png)](https://www.researchgate.net/profile/Peter_Wittek/publication/263130429_FSPE_Visualisation_of_Hyperspectral_Imagery_Using_Faithful_Stochastic_Proximity_Embedding/links/541b69ae0cf25ebee98d4f10/FSPE-Visualisation-of-Hyperspectral-Imagery-Using-Faithful-Stochastic-Proximity-Embedding.pdf)
 - P. Wittek. [Algorithm 950: Ncpol2sdpa---Sparse semidefinite programming relaxations for polynomial optimization problems of noncommuting variables](https://arxiv.org/abs/1308.6029). *ACM Transactions on Mathematical Software*, 41(3):21, 2015.
   [![[DOI]](images/doi.png)](https://doi.org/10.1145/2699464)
   [![[GitHub]](images/github.png)](http://peterwittek.github.io/ncpol2sdpa/)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1308.6029)
