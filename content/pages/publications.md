@@ -14,7 +14,7 @@ Order: 1
 - F. J. Curchod, M. Johansson, R. Augusiak, M. J. Hoban, P. Wittek, and A. Acín. [Unbounded randomness certification using sequences of measurements](https://arxiv.org/abs/1510.03394). *Physical Review A*, 95:020102, 2017.
   [![[DOI]](images/doi.png)](https://doi.org/10.1103/PhysRevA.95.020102)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1510.03394)
 - A. Monràs, G. Sentís, and P. Wittek. [Inductive supervised quantum learning](https://arxiv.org/abs/1605.07541). *Physical Review Letters*, 118:190503, 2017.
-  [![[DOI]](images/doi.png)](https://doi.org/10.1103/PhysRevLett.118.190503)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1605.07541)
+  [![[DOI]](images/doi.png)](https://doi.org/10.1103/PhysRevLett.118.190503)  [![[Link]](images/external.png)](https://phys.org/news/2017-05-physicists-uncover-similarities-classical-quantum.html)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1605.07541)
 - P. Palittapongarnpim, P. Wittek, E. Zahedinejad, S. Vedaie, and B. C. Sanders. [Learning in Quantum Control: High-Dimensional Global Optimization for Noisy Quantum Dynamics](https://arxiv.org/abs/1607.03428). To appear in *Neurocomputing*, 2017.
   [![[GitHub]](images/github.png)](https://panpalitta.github.io/phase_estimation/)
   [![[GitHub]](images/github.png)](https://github.com/ezahedin/DE_high-dimensional)
