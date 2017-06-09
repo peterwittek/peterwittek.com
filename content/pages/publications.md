@@ -19,7 +19,10 @@ Order: 1
   [![[GitHub]](images/github.png)](https://panpalitta.github.io/phase_estimation/)
   [![[GitHub]](images/github.png)](https://github.com/ezahedin/DE_high-dimensional)
   [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1607.03428)
-- P. Wittek, S. C. Gao, I. S. Lim, and L. Zhao. [Somoclu: An efficient parallel library for self-organizing maps](https://arxiv.org/abs/1305.1422). To appear in *Journal of Statistical Software*, 2017.
+- A. Salavrakos, R. Augusiak, J. Tura, P. Wittek, A. Acín, and S. Pironio. [Bell inequalities for maximally entangled states](https://arxiv.org/abs/1607.04578). To appear in *Physical Review Letters*, 2017.
+  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1607.04578)
+- P. Wittek, S. C. Gao, I. S. Lim, and L. Zhao. [Somoclu: An efficient parallel library for self-organizing maps](https://arxiv.org/abs/1305.1422). *Journal of Statistical Software*, 78(9), 1-21, 2017.
+  [![[DOI]](images/doi.png)](https://doi.org/10.18637/jss.v078.i09)
   [![[Link]](images/external.png)](http://peterwittek.com/2013/12/training-emergent-self-organizing-maps-with-somoclu/)  [![[GitHub]](images/github.png)](http://peterwittek.github.io/somoclu/)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1305.1422)
 - P. Wittek and C. Gogolin. [Quantum Enhanced Inference in Markov Logic Networks](https://arxiv.org/abs/1611.08104). *Scientific Reports*, 7:45672, 2017.
   [![[DOI]](images/doi.png)](https://doi.org/10.1038/srep45672)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1611.08104)
@@ -50,8 +53,6 @@ Order: 1
 - P. Palittapongarnpim, P. Wittek, and B. C. Sanders. Controlling adaptive quantum phase estimation with scalable reinforcement learning. *In Proceedings of ESANN-16,  24th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning*, pages 327--332, April 2016.
   [![[GitHub]](images/github.png)](https://panpalitta.github.io/phase_estimation/)
   [![[PDF]](images/pdf.png)](http://www.elen.ucl.ac.be/Proceedings/esann/esannpdf/es2016-12.pdf)
-- A. Salavrakos, R. Augusiak, J. Tura, P. Wittek, A. Acín, and S. Pironio. [Bell inequalities for maximally entangled states](https://arxiv.org/abs/1607.04578). *arXiv:1607.04578*, 2016.
-  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1607.04578)
 - P. Wittek, S. Darányi, and G. Nelhans. [Ruling Out Static Latent Homophily in Citation Networks](https://arxiv.org/abs/1605.08185). *Scientometrics*, 2016.
   [![[DOI]](images/doi.png)](https://doi.org/10.1007/s11192-016-2194-9)  [![[GitHub]](images/github.png)](http://github.com/peterwittek/ipython-notebooks/blob/master/Citation_Network_SDP.ipynb)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1605.08185)
 - P. Wittek, Y. H. Liu, S. Darányi, T. Gedeon, and I. S. Lim. [Risk and Ambiguity in Information Seeking: Eye Gaze Patterns Reveal Contextual Behaviour in Dealing with Uncertainty](https://arxiv.org/abs/1606.08157). *Frontiers in Psychology*, 7, 1790, 2016.
