@@ -14,14 +14,16 @@ Order: 1
   [![[GitHub]](images/github.png)](https://github.com/trotter-suzuki-mpi/notebooks/blob/master/Vortex_Dynamics.ipynb)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1609.03966)
 - F. J. Curchod, M. Johansson, R. Augusiak, M. J. Hoban, P. Wittek, and A. Acín. [Unbounded randomness certification using sequences of measurements](https://arxiv.org/abs/1510.03394). *Physical Review A*, 95:020102, 2017.
   [![[DOI]](images/doi.png)](https://doi.org/10.1103/PhysRevA.95.020102)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1510.03394)
+- F. J. Curchod, M. Johansson, R. Augusiak, M. J. Hoban, P. Wittek, and A. Acín. A single entangled system is an unbounded source of nonlocal correlations and of certified random numbers. To appear in *Proceedings of TQC-17, Theory of Quantum Computation, Communication and Cryptography*, 2017.
 - A. Monràs, G. Sentís, and P. Wittek. [Inductive supervised quantum learning](https://arxiv.org/abs/1605.07541). *Physical Review Letters*, 118:190503, 2017.
   [![[DOI]](images/doi.png)](https://doi.org/10.1103/PhysRevLett.118.190503)  [![[Link]](images/external.png)](https://phys.org/news/2017-05-physicists-uncover-similarities-classical-quantum.html)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1605.07541)
 - P. Palittapongarnpim, P. Wittek, E. Zahedinejad, S. Vedaie, and B. C. Sanders. [Learning in Quantum Control: High-Dimensional Global Optimization for Noisy Quantum Dynamics](https://arxiv.org/abs/1607.03428). *Neurocomputing*, 2017.
   [![[DOI]](images/doi.png)](https://doi.org/10.1016/j.neucom.2016.12.087)  [![[GitHub]](images/github.png)](https://panpalitta.github.io/phase_estimation/)
   [![[GitHub]](images/github.png)](https://github.com/ezahedin/DE_high-dimensional)
   [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1607.03428)
-- A. Salavrakos, R. Augusiak, J. Tura, P. Wittek, A. Acín, and S. Pironio. [Bell inequalities for maximally entangled states](https://arxiv.org/abs/1607.04578). To appear in *Physical Review Letters*, 2017.
-  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1607.04578)
+- P. Palittapongarnpim, P. Wittek, and B. C. Sanders. Robustness of Learning-Assisted Adaptive Quantum-Enhanced Metrology in the Presence of Noise. To appear in *Proceedings of SMC-17, IEEE International Conference on Systems, Man, and Cybernetics, Special Session on Topics in Quantum Machine Learning*, 2017.
+- A. Salavrakos, R. Augusiak, J. Tura, P. Wittek, A. Acín, and S. Pironio. [Bell Inequalities Tailored to Maximally Entangled States](https://arxiv.org/abs/1607.04578). *Physical Review Letters*, 119: 040402, 2017.
+  [![[DOI]](images/doi.png)](https://doi.org/10.1103/PhysRevLett.119.040402)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1607.04578)
 - P. Wittek, S. C. Gao, I. S. Lim, and L. Zhao. [Somoclu: An efficient parallel library for self-organizing maps](https://arxiv.org/abs/1305.1422). *Journal of Statistical Software*, 78(9), 1-21, 2017.
   [![[DOI]](images/doi.png)](https://doi.org/10.18637/jss.v078.i09)
   [![[Link]](images/external.png)](http://peterwittek.com/2013/12/training-emergent-self-organizing-maps-with-somoclu/)  [![[GitHub]](images/github.png)](http://peterwittek.github.io/somoclu/)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1305.1422)
