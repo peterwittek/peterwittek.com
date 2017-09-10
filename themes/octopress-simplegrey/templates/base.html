@@ -35,11 +35,11 @@
             <a href="{{ SITEURL }}/{{ FEED_ALL_RSS }}" rel="alternate"><img src="/{{ THEME_STATIC_DIR }}/images/icons/feed-32px.png" alt="rss feed"/></a>
           {% endif %}
 	    </div>
-	    {% if PAGES %}
+	    {% if pages %}
 	      <nav class="pages">
           <a href="{{ SITEURL }}/index.html">Home</a>
           -
-	        {% for p in PAGES %}
+	        {% for p in pages %}
             <a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a>
             {% if not loop.last %}-{% endif %}
           {% endfor %}
