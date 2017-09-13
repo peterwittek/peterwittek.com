@@ -9,6 +9,8 @@ Order: 1
 - F. Baccari, D. Cavalcanti, P. Wittek, and A. Acín. [Efficient device-independent entanglement detection for multipartite systems](https://arxiv.org/abs/1612.08551). *Physical Review X*, 7:021042, 2017.
   [![[DOI]](images/doi.png)](https://doi.org/10.1103/PhysRevX.7.021042)
   [![[GitHub]](images/github.png)](https://github.com/FlavioBaccari/Hierarchy-for-nonlocality-detection)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1612.08551)
+- J. Biamonte, P. Wittek, N. Pancotti, P. Rebentrost, N. Wiebe, and S. Lloyd. [Quantum Machine Learning](https://arxiv.org/abs/1611.09347). *Nature*,     549, 195-202, 2017.
+  [![[DOI]](images/doi.png)](https://doi.org/10.1038/nature23474) [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1611.09347)
 - L. Calderaro, A. L. Fetter, P. Massignan, and P. Wittek. [Vortex dynamics in coherently coupled Bose-Einstein condensates](https://arxiv.org/abs/1609.03966). *Physical Review A*, 95:023605, 2017.
   [![[DOI]](images/doi.png)](https://doi.org/10.1103/PhysRevA.95.023605)
   [![[GitHub]](images/github.png)](https://github.com/trotter-suzuki-mpi/notebooks/blob/master/Vortex_Dynamics.ipynb)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1609.03966)
@@ -37,8 +39,6 @@ Order: 1
 ----
 - A. Acín, S. Pironio, T. Vértesi, and P. Wittek. [Optimal randomness certification from one entangled bit](https://arxiv.org/abs/1505.03837). *Physical Review A*, 93:040102, 2016.
   [![[DOI]](images/doi.png)](https://doi.org/10.1103/PhysRevA.93.040102)  [![[GitHub]](images/github.png)](https://github.com/peterwittek/ipython-notebooks/blob/master/Optimal%20randomness%20generation%20from%20entangled%20quantum%20states.ipynb)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1505.03837)
-- J. Biamonte, P. Wittek, N. Pancotti, P. Rebentrost, N. Wiebe, and S. Lloyd. [Quantum Machine Learning](https://arxiv.org/abs/1611.09347). *arXiv:1611.09347*, 2016.
-  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1611.09347)
 - S. Darányi, P. Wittek, K. Konstantinidis, S. Papadopoulos, and E. Kontopoulos. [A Physical Metaphor to Study Semantic Drift](https://arxiv.org/abs/1608.01298). *Proceedings of SuCCESS-16, 1st International Workshop on Semantic Change & Evolving Semantics*, 1695, September 2016.
   [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1608.01298)
 - S. C. Gao, P. Wittek, L. Zhao, and W. J. Jiang. Data-driven estimation of blood pressure using photoplethysmographic signals. *Proceedings of EMBC-16, 38th Annual International Conference of the IEEE Engineering in Medicine and Biology Society*, pages 766--769, August 2016.
