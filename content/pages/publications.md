@@ -26,7 +26,8 @@ Order: 1
   [![[DOI]](images/doi.png)](https://doi.org/10.1016/j.neucom.2016.12.087)  [![[GitHub]](images/github.png)](https://panpalitta.github.io/phase_estimation/)
   [![[GitHub]](images/github.png)](https://github.com/ezahedin/DE_high-dimensional)
   [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1607.03428)
-- P. Palittapongarnpim, P. Wittek, and B. C. Sanders. Robustness of Learning-Assisted Adaptive Quantum-Enhanced Metrology in the Presence of Noise. To appear in *Proceedings of SMC-17, IEEE International Conference on Systems, Man, and Cybernetics, Special Session on Topics in Quantum Machine Learning*, 2017.
+- P. Palittapongarnpim, P. Wittek, and B. C. Sanders. Robustness of Learning-Assisted Adaptive Quantum-Enhanced Metrology in the Presence of Noise. *Proceedings of SMC-17, IEEE International Conference on Systems, Man, and Cybernetics, Special Session on Topics in Quantum Machine Learning*, pages 295--299, 2017.
+  [![[PDF]](images/pdf.png)](http://www.smc2017.org/SMC2017_Papers/media/files/0849.pdf)
 - A. Salavrakos, R. Augusiak, J. Tura, P. Wittek, A. Acín, and S. Pironio. [Bell Inequalities Tailored to Maximally Entangled States](https://arxiv.org/abs/1607.04578). *Physical Review Letters*, 119: 040402, 2017.
   [![[DOI]](images/doi.png)](https://doi.org/10.1103/PhysRevLett.119.040402)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1607.04578)
 - P. Wittek, S. C. Gao, I. S. Lim, and L. Zhao. [Somoclu: An efficient parallel library for self-organizing maps](https://arxiv.org/abs/1305.1422). *Journal of Statistical Software*, 78(9), 1-21, 2017.
