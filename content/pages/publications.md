@@ -20,12 +20,12 @@ Order: 1
 - P. Huembeli, A. Dauphin, P. Wittek. [Adversarial Domain Adaptation for Identifying Phase Transitions](https://arxiv.org/abs/1710.08382). *arXiv:1710.08382*, 2017.
   [![[GitHub]](images/github.png)](https://github.com/PatrickHuembeli/Adversarial-Domain-Adaptation-for-Identifying-Phase-Transitions)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1710.08382)
 - D. Liu, S.J. Ran, P. Wittek, C. Peng, R. Blázquez García, G. Su, M. Lewenstein. [Machine Learning by Two-Dimensional Hierarchical Tensor Networks: A Quantum Information Theoretic Perspective on Deep Architectures](https://arxiv.org/abs/1710.04833). *arXiv:1710.04833*, 2017.
-  [![[GitHub]](images/github.png)](https://github.com/dingliu0305/Tree-Tensor-Networks-in-Machine-Learning)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1710.04833)  
+  [![[GitHub]](images/github.png)](https://github.com/dingliu0305/Tree-Tensor-Networks-in-Machine-Learning)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1710.04833)
 - A. Monràs, G. Sentís, and P. Wittek. [Inductive supervised quantum learning](https://arxiv.org/abs/1605.07541). *Physical Review Letters*, 118:190503, 2017.
   [![[DOI]](images/doi.png)](https://doi.org/10.1103/PhysRevLett.118.190503)  [![[Link]](images/external.png)](https://phys.org/news/2017-05-physicists-uncover-similarities-classical-quantum.html)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1605.07541)
-- M. Oszmaniec, L. Guerini, P. Wittek, and A. Acín. [Simulation of positive-operator-valued measures with projective measurements](https://arxiv.org/abs/1609.06139). To appear in *Physical Review Letters*, 2017.
-  [![[GitHub]](images/github.png)](https://github.com/peterwittek/ipython-notebooks/blob/master/Simulating_POVMs.ipynb)
-  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1609.06139)  
+- M. Oszmaniec, L. Guerini, P. Wittek, and A. Acín. [Simulation of positive-operator-valued measures with projective measurements](https://arxiv.org/abs/1609.06139). *Physical Review Letters*, 119:190501, 2017.
+  [![[DOI]](images/doi.png)](https://doi.org/10.1103/PhysRevLett.119.190501)  [![[GitHub]](images/github.png)](https://github.com/peterwittek/ipython-notebooks/blob/master/Simulating_POVMs.ipynb)
+  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1609.06139)
 - P. Palittapongarnpim, P. Wittek, E. Zahedinejad, S. Vedaie, and B. C. Sanders. [Learning in Quantum Control: High-Dimensional Global Optimization for Noisy Quantum Dynamics](https://arxiv.org/abs/1607.03428). *Neurocomputing*, 268, 116-126, 2017.
   [![[DOI]](images/doi.png)](https://doi.org/10.1016/j.neucom.2016.12.087)  [![[GitHub]](images/github.png)](https://panpalitta.github.io/phase_estimation/)
   [![[GitHub]](images/github.png)](https://github.com/ezahedin/DE_high-dimensional)
