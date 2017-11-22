@@ -122,4 +122,4 @@ AWS in Education Machine Learning Grant award.
 References
 ----------
 
-<a name="wittek2013somoclu"></a> Wittek, P. [Somoclu: An Efficient Distributed Library for Self-Organizing Maps](http://arxiv.org/abs/1305.1422). *arXiv:1305.1422*, 2013.
+<a name="wittek2013somoclu"></a> P. Wittek, S. C. Gao, I. S. Lim, and L. Zhao. [Somoclu: An efficient parallel library for self-organizing maps](https://arxiv.org/abs/1305.1422). *Journal of Statistical Software*, 78(9), 1-21, 2017. DOI:[10.18637/jss.v078.i09](https://doi.org/10.18637/jss.v078.i09)
