@@ -19,6 +19,8 @@ Order: 1
 - F. J. Curchod, M. Johansson, R. Augusiak, M. J. Hoban, P. Wittek, and A. Acín. A single entangled system is an unbounded source of nonlocal correlations and of certified random numbers. To appear in *Proceedings of TQC-17, Theory of Quantum Computation, Communication and Cryptography*, 2017.
 - P. Huembeli, A. Dauphin, P. Wittek. [Adversarial Domain Adaptation for Identifying Phase Transitions](https://arxiv.org/abs/1710.08382). *arXiv:1710.08382*, 2017.
   [![[GitHub]](images/github.png)](https://github.com/PatrickHuembeli/Adversarial-Domain-Adaptation-for-Identifying-Phase-Transitions)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1710.08382)
+- I.S. Lim, P. Wittek. [ Anchored Network Users: Stochastic Evolutionary Dynamics of Cognitive Radio Network Selection](https://arxiv.org/abs/1712.07552). *arXiv:1712.07552*, 2017.
+  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1712.07552)
 - D. Liu, S.J. Ran, P. Wittek, C. Peng, R. Blázquez García, G. Su, M. Lewenstein. [Machine Learning by Two-Dimensional Hierarchical Tensor Networks: A Quantum Information Theoretic Perspective on Deep Architectures](https://arxiv.org/abs/1710.04833). *arXiv:1710.04833*, 2017.
   [![[GitHub]](images/github.png)](https://github.com/dingliu0305/Tree-Tensor-Networks-in-Machine-Learning)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1710.04833)
 - A. Monràs, G. Sentís, and P. Wittek. [Inductive supervised quantum learning](https://arxiv.org/abs/1605.07541). *Physical Review Letters*, 118:190503, 2017.

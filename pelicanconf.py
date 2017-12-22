@@ -26,7 +26,7 @@ SOCIAL = (('ResearchGate', 'http://www.researchgate.net/profile/Peter_Wittek'),
           ('GitHub', 'https://github.com/peterwittek'),
           ('LinkedIn', 'https://sg.linkedin.com/in/peterwittek'),
 #          ('SlideShare','https://www.slideshare.net/peter_wittek'),
-          ('Email','http://scr.im/2uzg'),
+          ('Email','http://scr.im/3xuo'),
           )
 
 MARKUP = ('md', 'ipynb')
