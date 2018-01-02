@@ -63,7 +63,7 @@ Order: 1
 - P. Palittapongarnpim, P. Wittek, and B. C. Sanders. Controlling adaptive quantum phase estimation with scalable reinforcement learning. *In Proceedings of ESANN-16,  24th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning*, pages 327--332, April 2016.
   [![[GitHub]](images/github.png)](https://panpalitta.github.io/phase_estimation/)
   [![[PDF]](images/pdf.png)](http://www.elen.ucl.ac.be/Proceedings/esann/esannpdf/es2016-12.pdf)
-- P. Wittek, S. Darányi, and G. Nelhans. [Ruling Out Static Latent Homophily in Citation Networks](https://arxiv.org/abs/1605.08185). *Scientometrics*, 2016.
+- P. Wittek, S. Darányi, and G. Nelhans. [Ruling Out Static Latent Homophily in Citation Networks](https://arxiv.org/abs/1605.08185). *Scientometrics*, 110(2):765--777, 2016.
   [![[DOI]](images/doi.png)](https://doi.org/10.1007/s11192-016-2194-9)  [![[GitHub]](images/github.png)](http://github.com/peterwittek/ipython-notebooks/blob/master/Citation_Network_SDP.ipynb)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1605.08185)
 - P. Wittek, Y. H. Liu, S. Darányi, T. Gedeon, and I. S. Lim. [Risk and Ambiguity in Information Seeking: Eye Gaze Patterns Reveal Contextual Behaviour in Dealing with Uncertainty](https://arxiv.org/abs/1606.08157). *Frontiers in Psychology*, 7, 1790, 2016.
   [![[DOI]](images/doi.png)](https://doi.org/10.3389/fpsyg.2016.01790)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1606.08157)
