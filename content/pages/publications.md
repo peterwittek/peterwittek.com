@@ -16,7 +16,8 @@ Order: 1
   [![[GitHub]](images/github.png)](https://github.com/trotter-suzuki-mpi/notebooks/blob/master/Vortex_Dynamics.ipynb)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1609.03966)
 - F. J. Curchod, M. Johansson, R. Augusiak, M. J. Hoban, P. Wittek, and A. Acín. [Unbounded randomness certification using sequences of measurements](https://arxiv.org/abs/1510.03394). *Physical Review A*, 95:020102, 2017.
   [![[DOI]](images/doi.png)](https://doi.org/10.1103/PhysRevA.95.020102)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1510.03394)
-- F. J. Curchod, M. Johansson, R. Augusiak, M. J. Hoban, P. Wittek, and A. Acín. A single entangled system is an unbounded source of nonlocal correlations and of certified random numbers. To appear in *Proceedings of TQC-17, Theory of Quantum Computation, Communication and Cryptography*, 2017.
+- F. J. Curchod, M. Johansson, R. Augusiak, M. J. Hoban, P. Wittek, and A. Acín. [Entangled systems are unbounded sources of nonlocal correlations and of certified random numbers](https://arxiv.org/abs/1802.07962). To appear in *Proceedings of TQC-17, Theory of Quantum Computation, Communication and Cryptography*, 2017.
+  [![[GitHub]](images/github.png)](https://github.com/peterwittek/ipython-notebooks/blob/master/Unbounded_randomness.ipynb)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1802.07962)
 - P. Huembeli, A. Dauphin, P. Wittek. [Adversarial Domain Adaptation for Identifying Phase Transitions](https://arxiv.org/abs/1710.08382). *arXiv:1710.08382*, 2017.
   [![[GitHub]](images/github.png)](https://github.com/PatrickHuembeli/Adversarial-Domain-Adaptation-for-Identifying-Phase-Transitions)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1710.08382)
 - I.S. Lim, P. Wittek. [ Anchored Network Users: Stochastic Evolutionary Dynamics of Cognitive Radio Network Selection](https://arxiv.org/abs/1712.07552). *arXiv:1712.07552*, 2017.
