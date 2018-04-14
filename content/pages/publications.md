@@ -4,6 +4,13 @@ Author: Peter
 Slug: publications
 Order: 1
 
+2018
+----
+- P. Huembeli, A. Dauphin, P. Wittek. [
+Identifying Quantum Phase Transitions with Adversarial Neural Networks](https://arxiv.org/abs/1710.08382). *Physical Review B*, 97:134109, 2018.
+  [![[DOI]](images/doi.png)](https://doi.org/10.1103/PhysRevB.97.134109)
+  [![[GitHub]](images/github.png)](https://github.com/PatrickHuembeli/Adversarial-Domain-Adaptation-for-Identifying-Phase-Transitions)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1710.08382)
+
 2017
 ----
 - F. Baccari, D. Cavalcanti, P. Wittek, and A. Acín. [Efficient device-independent entanglement detection for multipartite systems](https://arxiv.org/abs/1612.08551). *Physical Review X*, 7:021042, 2017.
@@ -18,8 +25,6 @@ Order: 1
   [![[DOI]](images/doi.png)](https://doi.org/10.1103/PhysRevA.95.020102)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1510.03394)
 - F. J. Curchod, M. Johansson, R. Augusiak, M. J. Hoban, P. Wittek, and A. Acín. [Entangled systems are unbounded sources of nonlocal correlations and of certified random numbers](https://arxiv.org/abs/1802.07962). To appear in *Proceedings of TQC-17, Theory of Quantum Computation, Communication and Cryptography*, 2017.
   [![[GitHub]](images/github.png)](https://github.com/peterwittek/ipython-notebooks/blob/master/Unbounded_randomness.ipynb)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1802.07962)
-- P. Huembeli, A. Dauphin, P. Wittek. [Adversarial Domain Adaptation for Identifying Phase Transitions](https://arxiv.org/abs/1710.08382). *arXiv:1710.08382*, 2017.
-  [![[GitHub]](images/github.png)](https://github.com/PatrickHuembeli/Adversarial-Domain-Adaptation-for-Identifying-Phase-Transitions)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1710.08382)
 - I.S. Lim, P. Wittek. [ Anchored Network Users: Stochastic Evolutionary Dynamics of Cognitive Radio Network Selection](https://arxiv.org/abs/1712.07552). *arXiv:1712.07552*, 2017.
   [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1712.07552)
 - D. Liu, S.J. Ran, P. Wittek, C. Peng, R. Blázquez García, G. Su, M. Lewenstein. [Machine Learning by Two-Dimensional Hierarchical Tensor Networks: A Quantum Information Theoretic Perspective on Deep Architectures](https://arxiv.org/abs/1710.04833). *arXiv:1710.04833*, 2017.
