@@ -21,11 +21,12 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Social widget
-SOCIAL = (('ResearchGate', 'http://www.researchgate.net/profile/Peter_Wittek'),
-#          ('Google Scholar', 'http://scholar.google.com/citations?user=tEd_agoAAAAJ'),
+SOCIAL = (
+#         ('ResearchGate', 'http://www.researchgate.net/profile/Peter_Wittek'),
+#         ('Google Scholar', 'http://scholar.google.com/citations?user=tEd_agoAAAAJ'),
           ('GitHub', 'https://github.com/peterwittek'),
           ('LinkedIn', 'https://sg.linkedin.com/in/peterwittek'),
-#          ('SlideShare','https://www.slideshare.net/peter_wittek'),
+#         ('SlideShare','https://www.slideshare.net/peter_wittek'),
           ('Email','http://scr.im/3xuo'),
           )
 
