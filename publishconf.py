@@ -25,7 +25,7 @@ SOCIAL = (
 #         ('ResearchGate', 'http://www.researchgate.net/profile/Peter_Wittek'),
 #         ('Google Scholar', 'http://scholar.google.com/citations?user=tEd_agoAAAAJ'),
           ('GitHub', 'https://github.com/peterwittek'),
-          ('LinkedIn', 'https://sg.linkedin.com/in/peterwittek'),
+          ('LinkedIn', 'https://www.linkedin.com/in/peterwittek/'),
 #         ('SlideShare','https://www.slideshare.net/peter_wittek'),
           ('Email','http://scr.im/2uzg'),
           )
