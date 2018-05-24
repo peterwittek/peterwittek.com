@@ -1,0 +1,7 @@
+Title: Verifying continuous-variable Bell correlations
+Date: 2018-05-23 21:09
+Author: Peter
+Category: Quantum information theory
+Tags: Noncommutative polynomials, Semidefinite programming, Quantum information theory, Python
+Slug: verifying-cv-bell-correlations
+Summary: CV systems are hard to get started with, but the package Strawberry Fields provides a nice framework and a perhaps even nicer documentation for beginners. Here we study a simple variant of the CHSH inequality in the CV setting.
