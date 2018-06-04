@@ -10,6 +10,8 @@ Order: 1
 Identifying Quantum Phase Transitions with Adversarial Neural Networks](https://arxiv.org/abs/1710.08382). *Physical Review B*, 97:134109, 2018.
   [![[DOI]](images/doi.png)](https://doi.org/10.1103/PhysRevB.97.134109)
   [![[GitHub]](images/github.png)](https://github.com/PatrickHuembeli/Adversarial-Domain-Adaptation-for-Identifying-Phase-Transitions)  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1710.08382)
+- P. Huembeli, A. Dauphin, P. Wittek, C. Gogolin. [Automated discovery of characteristic features of phase transitions in many-body localization](https://arxiv.org/abs/1806.00419). *arXiv:1806.00419*, 2018.
+  [![[PDF]](images/pdf.png)](https://arxiv.org/pdf/1806.00419)
 
 2017
 ----
